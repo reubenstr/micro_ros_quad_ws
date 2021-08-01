@@ -1,0 +1,321 @@
+[0.243s] Invoking command in '/home/devpc/Desktop/quad_ws/src/build/quad_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/devpc/Desktop/quad_ws/install/teleop_twist_keyboard:/home/devpc/Desktop/quad_ws/install/quad:/home/devpc/Desktop/quad_ws/install/motion_servos_calibration:/opt/ros/foxy /usr/bin/cmake /home/devpc/Desktop/quad_ws/src/quad_interfaces -DCMAKE_INSTALL_PREFIX=/home/devpc/Desktop/quad_ws/src/install/quad_interfaces
+[0.741s] -- The C compiler identification is GNU 9.3.0
+[0.743s] -- The CXX compiler identification is GNU 9.3.0
+[0.743s] -- Check for working C compiler: /usr/bin/cc
+[0.743s] -- Check for working C compiler: /usr/bin/cc -- works
+[0.745s] -- Detecting C compiler ABI info
+[0.746s] -- Detecting C compiler ABI info - done
+[0.747s] -- Detecting C compile features
+[0.747s] -- Detecting C compile features - done
+[0.748s] -- Check for working CXX compiler: /usr/bin/c++
+[0.750s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[0.750s] -- Detecting CXX compiler ABI info
+[0.752s] -- Detecting CXX compiler ABI info - done
+[0.752s] -- Detecting CXX compile features
+[0.752s] -- Detecting CXX compile features - done
+[0.753s] -- Found ament_cmake: 0.9.8 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.755s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[0.755s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.917s] -- Found ament_lint_auto: 0.9.6 (/opt/ros/foxy/share/ament_lint_auto/cmake)
+[1.016s] -- Found rosidl_default_generators: 1.0.1 (/opt/ros/foxy/share/rosidl_default_generators/cmake)
+[1.025s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.038s] -- Found rosidl_adapter: 1.2.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[1.169s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  
+[1.199s] -- Found FastRTPS: /opt/ros/foxy/include  
+[1.298s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.355s] -- Found PythonInterp: /usr/bin/python3 (found version "3.8.10") 
+[1.451s] -- Found ament_cmake_ros: 0.9.2 (/opt/ros/foxy/share/ament_cmake_ros/cmake)
+[1.566s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.576s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.601s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3.5") 
+[1.603s] -- Found python_cmake_module: 0.8.1 (/opt/ros/foxy/share/python_cmake_module/cmake)
+[1.632s] -- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.8.so (found suitable version "3.8.10", minimum required is "3.5") 
+[1.632s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[1.632s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.8
+[1.632s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.8.so
+[1.652s] -- Found PythonExtra: .so  
+[1.699s] -- Added test 'copyright' to check source files copyright and LICENSE
+[1.702s] -- Added test 'lint_cmake' to check CMake code style
+[1.703s] -- Added test 'xmllint' to check XML markup files
+[1.712s] -- Configuring done
+[1.753s] -- Generating done
+[1.756s] -- Build files have been written to: /home/devpc/Desktop/quad_ws/src/build/quad_interfaces
+[1.763s] Invoked command in '/home/devpc/Desktop/quad_ws/src/build/quad_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/devpc/Desktop/quad_ws/install/teleop_twist_keyboard:/home/devpc/Desktop/quad_ws/install/quad:/home/devpc/Desktop/quad_ws/install/motion_servos_calibration:/opt/ros/foxy /usr/bin/cmake /home/devpc/Desktop/quad_ws/src/quad_interfaces -DCMAKE_INSTALL_PREFIX=/home/devpc/Desktop/quad_ws/src/install/quad_interfaces
+[1.766s] Invoking command in '/home/devpc/Desktop/quad_ws/src/build/quad_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/devpc/Desktop/quad_ws/install/teleop_twist_keyboard:/home/devpc/Desktop/quad_ws/install/quad:/home/devpc/Desktop/quad_ws/install/motion_servos_calibration:/opt/ros/foxy /usr/bin/cmake --build /home/devpc/Desktop/quad_ws/src/build/quad_interfaces -- -j8 -l8
+[1.806s] [  1%] [34m[1mGenerating C code for ROS interfaces[0m
+[1.806s] [35m[1mScanning dependencies of target quad_interfaces__cpp[0m
+[1.816s] [  3%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[2.300s] [35m[1mScanning dependencies of target quad_interfaces__rosidl_generator_c[0m
+[2.317s] [  7%] [32mBuilding C object CMakeFiles/quad_interfaces__rosidl_generator_c.dir/rosidl_generator_c/quad_interfaces/msg/detail/motion_servos__functions.c.o[0m
+[2.317s] [  7%] [32mBuilding C object CMakeFiles/quad_interfaces__rosidl_generator_c.dir/rosidl_generator_c/quad_interfaces/msg/detail/aux_servos__functions.c.o[0m
+[2.317s] [  9%] [32mBuilding C object CMakeFiles/quad_interfaces__rosidl_generator_c.dir/rosidl_generator_c/quad_interfaces/msg/detail/motion_servos_parameters__functions.c.o[0m
+[2.318s] [  7%] [32mBuilding C object CMakeFiles/quad_interfaces__rosidl_generator_c.dir/rosidl_generator_c/quad_interfaces/msg/detail/emergency_stop__functions.c.o[0m
+[2.319s] [ 11%] [32mBuilding C object CMakeFiles/quad_interfaces__rosidl_generator_c.dir/rosidl_generator_c/quad_interfaces/msg/detail/aux_servos_parameters__functions.c.o[0m
+[2.394s] [ 12%] [32m[1mLinking C shared library libquad_interfaces__rosidl_generator_c.so[0m
+[2.402s] [ 12%] Built target quad_interfaces__cpp
+[2.412s] [ 14%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[2.414s] [ 15%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[2.414s] [ 17%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[2.435s] [ 17%] Built target quad_interfaces__rosidl_generator_c
+[2.449s] [ 20%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[2.449s] [ 20%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[2.901s] [35m[1mScanning dependencies of target quad_interfaces__rosidl_typesupport_c[0m
+[2.918s] [ 22%] [32mBuilding CXX object CMakeFiles/quad_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/quad_interfaces/msg/motion_servos_parameters__type_support.cpp.o[0m
+[2.920s] [ 23%] [32mBuilding CXX object CMakeFiles/quad_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/quad_interfaces/msg/motion_servos__type_support.cpp.o[0m
+[2.929s] [ 25%] [32mBuilding CXX object CMakeFiles/quad_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/quad_interfaces/msg/emergency_stop__type_support.cpp.o[0m
+[2.955s] [ 26%] [32mBuilding CXX object CMakeFiles/quad_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/quad_interfaces/msg/aux_servos__type_support.cpp.o[0m
+[2.974s] [ 28%] [32mBuilding CXX object CMakeFiles/quad_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/quad_interfaces/msg/aux_servos_parameters__type_support.cpp.o[0m
+[3.015s] [35m[1mScanning dependencies of target quad_interfaces__rosidl_typesupport_cpp[0m
+[3.021s] [ 30%] [32m[1mLinking CXX shared library libquad_interfaces__rosidl_typesupport_c.so[0m
+[3.026s] [35m[1mScanning dependencies of target quad_interfaces__rosidl_typesupport_introspection_cpp[0m
+[3.031s] [ 33%] [32mBuilding CXX object CMakeFiles/quad_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/quad_interfaces/msg/motion_servos__type_support.cpp.o[0m
+[3.032s] [ 33%] [32mBuilding CXX object CMakeFiles/quad_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/quad_interfaces/msg/motion_servos_parameters__type_support.cpp.o[0m
+[3.037s] [ 34%] [32mBuilding CXX object CMakeFiles/quad_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/quad_interfaces/msg/emergency_stop__type_support.cpp.o[0m
+[3.042s] [ 36%] [32mBuilding CXX object CMakeFiles/quad_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/quad_interfaces/msg/aux_servos__type_support.cpp.o[0m
+[3.045s] [ 38%] [32mBuilding CXX object CMakeFiles/quad_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/quad_interfaces/msg/detail/motion_servos__type_support.cpp.o[0m
+[3.075s] [ 38%] Built target quad_interfaces__rosidl_typesupport_c
+[3.085s] [ 39%] [32mBuilding CXX object CMakeFiles/quad_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/quad_interfaces/msg/detail/motion_servos_parameters__type_support.cpp.o[0m
+[3.217s] [35m[1mScanning dependencies of target quad_interfaces__rosidl_typesupport_fastrtps_cpp[0m
+[3.263s] [ 41%] [32mBuilding CXX object CMakeFiles/quad_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/quad_interfaces/msg/detail/dds_fastrtps/motion_servos__type_support.cpp.o[0m
+[3.376s] [35m[1mScanning dependencies of target quad_interfaces__rosidl_typesupport_introspection_c[0m
+[3.431s] [ 42%] [32mBuilding C object CMakeFiles/quad_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/quad_interfaces/msg/detail/motion_servos__type_support.c.o[0m
+[3.539s] [ 44%] [32mBuilding C object CMakeFiles/quad_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/quad_interfaces/msg/detail/motion_servos_parameters__type_support.c.o[0m
+[3.552s] [ 46%] [32mBuilding CXX object CMakeFiles/quad_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/quad_interfaces/msg/aux_servos_parameters__type_support.cpp.o[0m
+[3.559s] [ 47%] [32mBuilding C object CMakeFiles/quad_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/quad_interfaces/msg/detail/emergency_stop__type_support.c.o[0m
+[3.570s] [ 49%] [32mBuilding C object CMakeFiles/quad_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/quad_interfaces/msg/detail/aux_servos__type_support.c.o[0m
+[3.581s] [ 50%] [32mBuilding CXX object CMakeFiles/quad_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/quad_interfaces/msg/detail/emergency_stop__type_support.cpp.o[0m
+[3.590s] [ 52%] [32mBuilding CXX object CMakeFiles/quad_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/quad_interfaces/msg/detail/aux_servos__type_support.cpp.o[0m
+[3.601s] [ 55%] [32mBuilding CXX object CMakeFiles/quad_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/quad_interfaces/msg/detail/aux_servos_parameters__type_support.cpp.o[0m
+[3.601s] [ 55%] [32mBuilding CXX object CMakeFiles/quad_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/quad_interfaces/msg/detail/dds_fastrtps/motion_servos_parameters__type_support.cpp.o[0m
+[3.630s] [ 57%] [32mBuilding CXX object CMakeFiles/quad_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/quad_interfaces/msg/detail/dds_fastrtps/emergency_stop__type_support.cpp.o[0m
+[3.634s] [ 58%] [32mBuilding C object CMakeFiles/quad_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/quad_interfaces/msg/detail/aux_servos_parameters__type_support.c.o[0m
+[3.787s] [ 60%] [32m[1mLinking C shared library libquad_interfaces__rosidl_typesupport_introspection_c.so[0m
+[3.928s] [ 60%] Built target quad_interfaces__rosidl_typesupport_introspection_c
+[3.979s] [ 61%] [32mBuilding CXX object CMakeFiles/quad_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/quad_interfaces/msg/detail/dds_fastrtps/aux_servos__type_support.cpp.o[0m
+[4.096s] [ 63%] [32mBuilding CXX object CMakeFiles/quad_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/quad_interfaces/msg/detail/dds_fastrtps/aux_servos_parameters__type_support.cpp.o[0m
+[4.131s] [ 65%] [32m[1mLinking CXX shared library libquad_interfaces__rosidl_typesupport_cpp.so[0m
+[4.193s] [ 65%] Built target quad_interfaces__rosidl_typesupport_cpp
+[4.236s] [ 66%] [32m[1mLinking CXX shared library libquad_interfaces__rosidl_typesupport_introspection_cpp.so[0m
+[4.356s] [ 66%] Built target quad_interfaces__rosidl_typesupport_introspection_cpp
+[4.764s] [ 68%] [32m[1mLinking CXX shared library libquad_interfaces__rosidl_typesupport_fastrtps_cpp.so[0m
+[4.863s] [ 68%] Built target quad_interfaces__rosidl_typesupport_fastrtps_cpp
+[4.874s] [ 69%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[5.323s] [35m[1mScanning dependencies of target quad_interfaces__rosidl_typesupport_fastrtps_c[0m
+[5.341s] [ 71%] [32mBuilding CXX object CMakeFiles/quad_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/quad_interfaces/msg/detail/aux_servos_parameters__type_support_c.cpp.o[0m
+[5.342s] [ 76%] [32mBuilding CXX object CMakeFiles/quad_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/quad_interfaces/msg/detail/aux_servos__type_support_c.cpp.o[0m
+[5.343s] [ 77%] [32mBuilding CXX object CMakeFiles/quad_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/quad_interfaces/msg/detail/motion_servos_parameters__type_support_c.cpp.o[0m
+[5.343s] [ 76%] [32mBuilding CXX object CMakeFiles/quad_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/quad_interfaces/msg/detail/motion_servos__type_support_c.cpp.o[0m
+[5.343s] [ 77%] [32mBuilding CXX object CMakeFiles/quad_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/quad_interfaces/msg/detail/emergency_stop__type_support_c.cpp.o[0m
+[5.995s] [ 79%] [32m[1mLinking CXX shared library libquad_interfaces__rosidl_typesupport_fastrtps_c.so[0m
+[6.094s] [ 79%] Built target quad_interfaces__rosidl_typesupport_fastrtps_c
+[6.104s] [35m[1mScanning dependencies of target quad_interfaces[0m
+[6.113s] [ 79%] Built target quad_interfaces
+[6.123s] [35m[1mScanning dependencies of target quad_interfaces__py[0m
+[6.132s] [ 80%] [34m[1mGenerating Python code for ROS interfaces[0m
+[7.015s] [ 80%] Built target quad_interfaces__py
+[7.025s] [35m[1mScanning dependencies of target quad_interfaces__python[0m
+[7.055s] [ 84%] [32mBuilding C object CMakeFiles/quad_interfaces__python.dir/rosidl_generator_py/quad_interfaces/msg/_aux_servos_parameters_s.c.o[0m
+[7.055s] [ 84%] [32mBuilding C object CMakeFiles/quad_interfaces__python.dir/rosidl_generator_py/quad_interfaces/msg/_emergency_stop_s.c.o[0m
+[7.055s] [ 87%] [32mBuilding C object CMakeFiles/quad_interfaces__python.dir/rosidl_generator_py/quad_interfaces/msg/_motion_servos_parameters_s.c.o[0m
+[7.055s] [ 87%] [32mBuilding C object CMakeFiles/quad_interfaces__python.dir/rosidl_generator_py/quad_interfaces/msg/_motion_servos_s.c.o[0m
+[7.056s] [ 88%] [32mBuilding C object CMakeFiles/quad_interfaces__python.dir/rosidl_generator_py/quad_interfaces/msg/_aux_servos_s.c.o[0m
+[7.212s] [ 90%] [32m[1mLinking C shared library rosidl_generator_py/quad_interfaces/libquad_interfaces__python.so[0m
+[7.249s] [ 90%] Built target quad_interfaces__python
+[7.258s] [35m[1mScanning dependencies of target quad_interfaces__rosidl_typesupport_c__pyext[0m
+[7.261s] [35m[1mScanning dependencies of target quad_interfaces__rosidl_typesupport_introspection_c__pyext[0m
+[7.261s] [35m[1mScanning dependencies of target quad_interfaces__rosidl_typesupport_fastrtps_c__pyext[0m
+[7.279s] [ 92%] [32mBuilding C object CMakeFiles/quad_interfaces__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/quad_interfaces/_quad_interfaces_s.ep.rosidl_typesupport_c.c.o[0m
+[7.284s] [ 95%] [32mBuilding C object CMakeFiles/quad_interfaces__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/quad_interfaces/_quad_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[7.284s] [ 95%] [32mBuilding C object CMakeFiles/quad_interfaces__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/quad_interfaces/_quad_interfaces_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[7.380s] [ 98%] [32m[1mLinking C shared library rosidl_generator_py/quad_interfaces/quad_interfaces_s__rosidl_typesupport_c.cpython-38-x86_64-linux-gnu.so[0m
+[7.380s] [ 98%] [32m[1mLinking CXX shared library rosidl_generator_py/quad_interfaces/quad_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-38-x86_64-linux-gnu.so[0m
+[7.410s] [ 98%] Built target quad_interfaces__rosidl_typesupport_c__pyext
+[7.435s] [100%] [32m[1mLinking C shared library rosidl_generator_py/quad_interfaces/quad_interfaces_s__rosidl_typesupport_introspection_c.cpython-38-x86_64-linux-gnu.so[0m
+[7.439s] [100%] Built target quad_interfaces__rosidl_typesupport_fastrtps_c__pyext
+[7.467s] [100%] Built target quad_interfaces__rosidl_typesupport_introspection_c__pyext
+[7.481s] Invoked command in '/home/devpc/Desktop/quad_ws/src/build/quad_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/devpc/Desktop/quad_ws/install/teleop_twist_keyboard:/home/devpc/Desktop/quad_ws/install/quad:/home/devpc/Desktop/quad_ws/install/motion_servos_calibration:/opt/ros/foxy /usr/bin/cmake --build /home/devpc/Desktop/quad_ws/src/build/quad_interfaces -- -j8 -l8
+[7.568s] Invoking command in '/home/devpc/Desktop/quad_ws/src/build/quad_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/devpc/Desktop/quad_ws/install/teleop_twist_keyboard:/home/devpc/Desktop/quad_ws/install/quad:/home/devpc/Desktop/quad_ws/install/motion_servos_calibration:/opt/ros/foxy /usr/bin/cmake --install /home/devpc/Desktop/quad_ws/src/build/quad_interfaces
+[7.577s] -- Install configuration: ""
+[7.577s] -- Installing: /home/devpc/Desktop/quad_ws/src/install/quad_interfaces/share/ament_index/resource_index/rosidl_interfaces/quad_interfaces
+[7.577s] -- Installing: /home/devpc/Desktop/quad_ws/src/install/quad_interfaces/include/quad_interfaces
+[7.577s] -- Installing: /home/devpc/Desktop/quad_ws/src/install/quad_interfaces/include/quad_interfaces/msg
+[7.578s] -- Installing: /home/devpc/Desktop/quad_ws/src/install/quad_interfaces/include/quad_interfaces/msg/aux_servos_parameters.h
+[7.578s] -- Installing: /home/devpc/Desktop/quad_ws/src/install/quad_interfaces/include/quad_interfaces/msg/emergency_stop.h
+[7.578s] -- Installing: /home/devpc/Desktop/quad_ws/src/install/quad_interfaces/include/quad_interfaces/msg/detail
+[7.578s] -- Installing: /home/devpc/Desktop/quad_ws/src/install/quad_interfaces/include/quad_interfaces/msg/detail/emergency_stop__functions.h
+[7.578s] -- Installing: /home/devpc/Desktop/quad_ws/src/install/quad_interfaces/include/quad_interfaces/msg/detail/motion_servos_parameters__type_support.h
+[7.578s] -- Installing: /home/devpc/Desktop/quad_ws/src/install/quad_interfaces/include/quad_interfaces/msg/detail/motion_servos__functions.h
+[7.578s] -- Installing: /home/devpc/Desktop/quad_ws/src/install/quad_interfaces/include/quad_interfaces/msg/detail/aux_servos_parameters__functions.c
+[7.578s] -- Installing: /home/devpc/Desktop/quad_ws/src/install/quad_interfaces/include/quad_interfaces/msg/detail/aux_servos__functions.c
+[7.578s] -- Installing: /home/devpc/Desktop/quad_ws/src/install/quad_interfaces/include/quad_interfaces/msg/detail/motion_servos__functions.c
+[7.579s] -- Installing: /home/devpc/Desktop/quad_ws/src/install/quad_interfaces/include/quad_interfaces/msg/detail/motion_servos_parameters__functions.h
+[7.579s] -- Installing: /home/devpc/Desktop/quad_ws/src/install/quad_interfaces/include/quad_interfaces/msg/detail/aux_servos_parameters__type_support.h
+[7.579s] -- Installing: /home/devpc/Desktop/quad_ws/src/install/quad_interfaces/include/quad_interfaces/msg/detail/aux_servos__functions.h
+[7.579s] -- Installing: /home/devpc/Desktop/quad_ws/src/install/quad_interfaces/include/quad_interfaces/msg/detail/emergency_stop__functions.c
+[7.579s] -- Installing: /home/devpc/Desktop/quad_ws/src/install/quad_interfaces/include/quad_interfaces/msg/detail/motion_servos__type_support.h
+[7.579s] -- Installing: /home/devpc/Desktop/quad_ws/src/install/quad_interfaces/include/quad_interfaces/msg/detail/aux_servos_parameters__functions.h
+[7.579s] -- Installing: /home/devpc/Desktop/quad_ws/src/install/quad_interfaces/include/quad_interfaces/msg/detail/aux_servos__struct.h
+[7.579s] -- Installing: /home/devpc/Desktop/quad_ws/src/install/quad_interfaces/include/quad_interfaces/msg/detail/aux_servos_parameters__struct.h
+[7.579s] -- Installing: /home/devpc/Desktop/quad_ws/src/install/quad_interfaces/include/quad_interfaces/msg/detail/motion_servos_parameters__functions.c
+[7.580s] -- Installing: /home/devpc/Desktop/quad_ws/src/install/quad_interfaces/include/quad_interfaces/msg/detail/motion_servos_parameters__struct.h
+[7.580s] -- Installing: /home/devpc/Desktop/quad_ws/src/install/quad_interfaces/include/quad_interfaces/msg/detail/motion_servos__struct.h
+[7.580s] -- Installing: /home/devpc/Desktop/quad_ws/src/install/quad_interfaces/include/quad_interfaces/msg/detail/emergency_stop__struct.h
+[7.580s] -- Installing: /home/devpc/Desktop/quad_ws/src/install/quad_interfaces/include/quad_interfaces/msg/detail/aux_servos__type_support.h
+[7.580s] -- Installing: /home/devpc/Desktop/quad_ws/src/install/quad_interfaces/include/quad_interfaces/msg/detail/emergency_stop__type_support.h
+[7.580s] -- Installing: /home/devpc/Desktop/quad_ws/src/install/quad_interfaces/include/quad_interfaces/msg/motion_servos.h
+[7.580s] -- Installing: /home/devpc/Desktop/quad_ws/src/install/quad_interfaces/include/quad_interfaces/msg/motion_servos_parameters.h
+[7.580s] -- Installing: /home/devpc/Desktop/quad_ws/src/install/quad_interfaces/include/quad_interfaces/msg/rosidl_generator_c__visibility_control.h
+[7.580s] -- Installing: /home/devpc/Desktop/quad_ws/src/install/quad_interfaces/include/quad_interfaces/msg/aux_servos.h
+[7.580s] -- Installing: /home/devpc/Desktop/quad_ws/src/install/quad_interfaces/share/quad_interfaces/environment/library_path.sh
+[7.581s] -- Installing: /home/devpc/Desktop/quad_ws/src/install/quad_interfaces/share/quad_interfaces/environment/library_path.dsv
+[7.581s] -- Installing: /home/devpc/Desktop/quad_ws/src/install/quad_interfaces/lib/libquad_interfaces__rosidl_generator_c.so
+[7.581s] -- Set runtime path of "/home/devpc/Desktop/quad_ws/src/install/quad_interfaces/lib/libquad_interfaces__rosidl_generator_c.so" to ""
+[7.581s] -- Up-to-date: /home/devpc/Desktop/quad_ws/src/install/quad_interfaces/include/quad_interfaces
+[7.581s] -- Up-to-date: /home/devpc/Desktop/quad_ws/src/install/quad_interfaces/include/quad_interfaces/msg
+[7.581s] -- Up-to-date: /home/devpc/Desktop/quad_ws/src/install/quad_interfaces/include/quad_interfaces/msg/detail
+[7.581s] -- Installing: /home/devpc/Desktop/quad_ws/src/install/quad_interfaces/include/quad_interfaces/msg/detail/aux_servos__rosidl_typesupport_fastrtps_c.h
+[7.581s] -- Installing: /home/devpc/Desktop/quad_ws/src/install/quad_interfaces/include/quad_interfaces/msg/detail/motion_servos__rosidl_typesupport_fastrtps_c.h
+[7.581s] -- Installing: /home/devpc/Desktop/quad_ws/src/install/quad_interfaces/include/quad_interfaces/msg/detail/motion_servos_parameters__rosidl_typesupport_fastrtps_c.h
+[7.582s] -- Installing: /home/devpc/Desktop/quad_ws/src/install/quad_interfaces/include/quad_interfaces/msg/detail/aux_servos_parameters__rosidl_typesupport_fastrtps_c.h
+[7.582s] -- Installing: /home/devpc/Desktop/quad_ws/src/install/quad_interfaces/include/quad_interfaces/msg/detail/emergency_stop__rosidl_typesupport_fastrtps_c.h
+[7.582s] -- Installing: /home/devpc/Desktop/quad_ws/src/install/quad_interfaces/include/quad_interfaces/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[7.582s] -- Installing: /home/devpc/Desktop/quad_ws/src/install/quad_interfaces/lib/libquad_interfaces__rosidl_typesupport_fastrtps_c.so
+[7.582s] -- Set runtime path of "/home/devpc/Desktop/quad_ws/src/install/quad_interfaces/lib/libquad_interfaces__rosidl_typesupport_fastrtps_c.so" to ""
+[7.582s] -- Up-to-date: /home/devpc/Desktop/quad_ws/src/install/quad_interfaces/include/quad_interfaces
+[7.582s] -- Up-to-date: /home/devpc/Desktop/quad_ws/src/install/quad_interfaces/include/quad_interfaces/msg
+[7.582s] -- Up-to-date: /home/devpc/Desktop/quad_ws/src/install/quad_interfaces/include/quad_interfaces/msg/detail
+[7.582s] -- Installing: /home/devpc/Desktop/quad_ws/src/install/quad_interfaces/include/quad_interfaces/msg/detail/aux_servos__rosidl_typesupport_fastrtps_cpp.hpp
+[7.582s] -- Installing: /home/devpc/Desktop/quad_ws/src/install/quad_interfaces/include/quad_interfaces/msg/detail/emergency_stop__rosidl_typesupport_fastrtps_cpp.hpp
+[7.583s] -- Installing: /home/devpc/Desktop/quad_ws/src/install/quad_interfaces/include/quad_interfaces/msg/detail/motion_servos_parameters__rosidl_typesupport_fastrtps_cpp.hpp
+[7.583s] -- Installing: /home/devpc/Desktop/quad_ws/src/install/quad_interfaces/include/quad_interfaces/msg/detail/aux_servos_parameters__rosidl_typesupport_fastrtps_cpp.hpp
+[7.583s] -- Installing: /home/devpc/Desktop/quad_ws/src/install/quad_interfaces/include/quad_interfaces/msg/detail/motion_servos__rosidl_typesupport_fastrtps_cpp.hpp
+[7.583s] -- Installing: /home/devpc/Desktop/quad_ws/src/install/quad_interfaces/include/quad_interfaces/msg/detail/dds_fastrtps
+[7.583s] -- Installing: /home/devpc/Desktop/quad_ws/src/install/quad_interfaces/include/quad_interfaces/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[7.583s] -- Installing: /home/devpc/Desktop/quad_ws/src/install/quad_interfaces/lib/libquad_interfaces__rosidl_typesupport_fastrtps_cpp.so
+[7.583s] -- Set runtime path of "/home/devpc/Desktop/quad_ws/src/install/quad_interfaces/lib/libquad_interfaces__rosidl_typesupport_fastrtps_cpp.so" to ""
+[7.583s] -- Up-to-date: /home/devpc/Desktop/quad_ws/src/install/quad_interfaces/include/quad_interfaces
+[7.584s] -- Up-to-date: /home/devpc/Desktop/quad_ws/src/install/quad_interfaces/include/quad_interfaces/msg
+[7.584s] -- Up-to-date: /home/devpc/Desktop/quad_ws/src/install/quad_interfaces/include/quad_interfaces/msg/detail
+[7.584s] -- Installing: /home/devpc/Desktop/quad_ws/src/install/quad_interfaces/include/quad_interfaces/msg/detail/emergency_stop__type_support.c
+[7.584s] -- Installing: /home/devpc/Desktop/quad_ws/src/install/quad_interfaces/include/quad_interfaces/msg/detail/aux_servos_parameters__rosidl_typesupport_introspection_c.h
+[7.584s] -- Installing: /home/devpc/Desktop/quad_ws/src/install/quad_interfaces/include/quad_interfaces/msg/detail/aux_servos__rosidl_typesupport_introspection_c.h
+[7.584s] -- Installing: /home/devpc/Desktop/quad_ws/src/install/quad_interfaces/include/quad_interfaces/msg/detail/motion_servos_parameters__rosidl_typesupport_introspection_c.h
+[7.584s] -- Installing: /home/devpc/Desktop/quad_ws/src/install/quad_interfaces/include/quad_interfaces/msg/detail/motion_servos__type_support.c
+[7.584s] -- Installing: /home/devpc/Desktop/quad_ws/src/install/quad_interfaces/include/quad_interfaces/msg/detail/aux_servos__type_support.c
+[7.585s] -- Installing: /home/devpc/Desktop/quad_ws/src/install/quad_interfaces/include/quad_interfaces/msg/detail/motion_servos__rosidl_typesupport_introspection_c.h
+[7.585s] -- Installing: /home/devpc/Desktop/quad_ws/src/install/quad_interfaces/include/quad_interfaces/msg/detail/emergency_stop__rosidl_typesupport_introspection_c.h
+[7.585s] -- Installing: /home/devpc/Desktop/quad_ws/src/install/quad_interfaces/include/quad_interfaces/msg/detail/aux_servos_parameters__type_support.c
+[7.585s] -- Installing: /home/devpc/Desktop/quad_ws/src/install/quad_interfaces/include/quad_interfaces/msg/detail/motion_servos_parameters__type_support.c
+[7.585s] -- Installing: /home/devpc/Desktop/quad_ws/src/install/quad_interfaces/include/quad_interfaces/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[7.585s] -- Installing: /home/devpc/Desktop/quad_ws/src/install/quad_interfaces/lib/libquad_interfaces__rosidl_typesupport_introspection_c.so
+[7.585s] -- Set runtime path of "/home/devpc/Desktop/quad_ws/src/install/quad_interfaces/lib/libquad_interfaces__rosidl_typesupport_introspection_c.so" to ""
+[7.585s] -- Installing: /home/devpc/Desktop/quad_ws/src/install/quad_interfaces/lib/libquad_interfaces__rosidl_typesupport_c.so
+[7.586s] -- Set runtime path of "/home/devpc/Desktop/quad_ws/src/install/quad_interfaces/lib/libquad_interfaces__rosidl_typesupport_c.so" to ""
+[7.586s] -- Up-to-date: /home/devpc/Desktop/quad_ws/src/install/quad_interfaces/include/quad_interfaces
+[7.586s] -- Up-to-date: /home/devpc/Desktop/quad_ws/src/install/quad_interfaces/include/quad_interfaces/msg
+[7.586s] -- Installing: /home/devpc/Desktop/quad_ws/src/install/quad_interfaces/include/quad_interfaces/msg/aux_servos_parameters.hpp
+[7.586s] -- Installing: /home/devpc/Desktop/quad_ws/src/install/quad_interfaces/include/quad_interfaces/msg/motion_servos_parameters.hpp
+[7.586s] -- Installing: /home/devpc/Desktop/quad_ws/src/install/quad_interfaces/include/quad_interfaces/msg/motion_servos.hpp
+[7.586s] -- Up-to-date: /home/devpc/Desktop/quad_ws/src/install/quad_interfaces/include/quad_interfaces/msg/detail
+[7.587s] -- Installing: /home/devpc/Desktop/quad_ws/src/install/quad_interfaces/include/quad_interfaces/msg/detail/motion_servos__struct.hpp
+[7.587s] -- Installing: /home/devpc/Desktop/quad_ws/src/install/quad_interfaces/include/quad_interfaces/msg/detail/motion_servos__builder.hpp
+[7.587s] -- Installing: /home/devpc/Desktop/quad_ws/src/install/quad_interfaces/include/quad_interfaces/msg/detail/emergency_stop__builder.hpp
+[7.587s] -- Installing: /home/devpc/Desktop/quad_ws/src/install/quad_interfaces/include/quad_interfaces/msg/detail/aux_servos__struct.hpp
+[7.587s] -- Installing: /home/devpc/Desktop/quad_ws/src/install/quad_interfaces/include/quad_interfaces/msg/detail/motion_servos_parameters__builder.hpp
+[7.587s] -- Installing: /home/devpc/Desktop/quad_ws/src/install/quad_interfaces/include/quad_interfaces/msg/detail/aux_servos_parameters__struct.hpp
+[7.587s] -- Installing: /home/devpc/Desktop/quad_ws/src/install/quad_interfaces/include/quad_interfaces/msg/detail/aux_servos_parameters__builder.hpp
+[7.587s] -- Installing: /home/devpc/Desktop/quad_ws/src/install/quad_interfaces/include/quad_interfaces/msg/detail/motion_servos__traits.hpp
+[7.588s] -- Installing: /home/devpc/Desktop/quad_ws/src/install/quad_interfaces/include/quad_interfaces/msg/detail/emergency_stop__struct.hpp
+[7.588s] -- Installing: /home/devpc/Desktop/quad_ws/src/install/quad_interfaces/include/quad_interfaces/msg/detail/motion_servos_parameters__traits.hpp
+[7.588s] -- Installing: /home/devpc/Desktop/quad_ws/src/install/quad_interfaces/include/quad_interfaces/msg/detail/aux_servos__builder.hpp
+[7.588s] -- Installing: /home/devpc/Desktop/quad_ws/src/install/quad_interfaces/include/quad_interfaces/msg/detail/aux_servos__traits.hpp
+[7.588s] -- Installing: /home/devpc/Desktop/quad_ws/src/install/quad_interfaces/include/quad_interfaces/msg/detail/aux_servos_parameters__traits.hpp
+[7.588s] -- Installing: /home/devpc/Desktop/quad_ws/src/install/quad_interfaces/include/quad_interfaces/msg/detail/emergency_stop__traits.hpp
+[7.588s] -- Installing: /home/devpc/Desktop/quad_ws/src/install/quad_interfaces/include/quad_interfaces/msg/detail/motion_servos_parameters__struct.hpp
+[7.588s] -- Installing: /home/devpc/Desktop/quad_ws/src/install/quad_interfaces/include/quad_interfaces/msg/emergency_stop.hpp
+[7.588s] -- Installing: /home/devpc/Desktop/quad_ws/src/install/quad_interfaces/include/quad_interfaces/msg/aux_servos.hpp
+[7.588s] -- Up-to-date: /home/devpc/Desktop/quad_ws/src/install/quad_interfaces/include/quad_interfaces
+[7.589s] -- Up-to-date: /home/devpc/Desktop/quad_ws/src/install/quad_interfaces/include/quad_interfaces/msg
+[7.589s] -- Up-to-date: /home/devpc/Desktop/quad_ws/src/install/quad_interfaces/include/quad_interfaces/msg/detail
+[7.589s] -- Installing: /home/devpc/Desktop/quad_ws/src/install/quad_interfaces/include/quad_interfaces/msg/detail/aux_servos_parameters__rosidl_typesupport_introspection_cpp.hpp
+[7.589s] -- Installing: /home/devpc/Desktop/quad_ws/src/install/quad_interfaces/include/quad_interfaces/msg/detail/motion_servos__rosidl_typesupport_introspection_cpp.hpp
+[7.589s] -- Installing: /home/devpc/Desktop/quad_ws/src/install/quad_interfaces/include/quad_interfaces/msg/detail/aux_servos__rosidl_typesupport_introspection_cpp.hpp
+[7.589s] -- Installing: /home/devpc/Desktop/quad_ws/src/install/quad_interfaces/include/quad_interfaces/msg/detail/motion_servos__type_support.cpp
+[7.589s] -- Installing: /home/devpc/Desktop/quad_ws/src/install/quad_interfaces/include/quad_interfaces/msg/detail/emergency_stop__type_support.cpp
+[7.589s] -- Installing: /home/devpc/Desktop/quad_ws/src/install/quad_interfaces/include/quad_interfaces/msg/detail/motion_servos_parameters__rosidl_typesupport_introspection_cpp.hpp
+[7.589s] -- Installing: /home/devpc/Desktop/quad_ws/src/install/quad_interfaces/include/quad_interfaces/msg/detail/motion_servos_parameters__type_support.cpp
+[7.589s] -- Installing: /home/devpc/Desktop/quad_ws/src/install/quad_interfaces/include/quad_interfaces/msg/detail/aux_servos_parameters__type_support.cpp
+[7.590s] -- Installing: /home/devpc/Desktop/quad_ws/src/install/quad_interfaces/include/quad_interfaces/msg/detail/aux_servos__type_support.cpp
+[7.590s] -- Installing: /home/devpc/Desktop/quad_ws/src/install/quad_interfaces/include/quad_interfaces/msg/detail/emergency_stop__rosidl_typesupport_introspection_cpp.hpp
+[7.590s] -- Installing: /home/devpc/Desktop/quad_ws/src/install/quad_interfaces/lib/libquad_interfaces__rosidl_typesupport_introspection_cpp.so
+[7.590s] -- Set runtime path of "/home/devpc/Desktop/quad_ws/src/install/quad_interfaces/lib/libquad_interfaces__rosidl_typesupport_introspection_cpp.so" to ""
+[7.590s] -- Installing: /home/devpc/Desktop/quad_ws/src/install/quad_interfaces/lib/libquad_interfaces__rosidl_typesupport_cpp.so
+[7.590s] -- Set runtime path of "/home/devpc/Desktop/quad_ws/src/install/quad_interfaces/lib/libquad_interfaces__rosidl_typesupport_cpp.so" to ""
+[7.590s] -- Installing: /home/devpc/Desktop/quad_ws/src/install/quad_interfaces/share/quad_interfaces/environment/pythonpath.sh
+[7.590s] -- Installing: /home/devpc/Desktop/quad_ws/src/install/quad_interfaces/share/quad_interfaces/environment/pythonpath.dsv
+[7.590s] -- Installing: /home/devpc/Desktop/quad_ws/src/install/quad_interfaces/lib/python3.8/site-packages/quad_interfaces/__init__.py
+[7.622s] Compiling '/home/devpc/Desktop/quad_ws/src/install/quad_interfaces/lib/python3.8/site-packages/quad_interfaces/__init__.py'...
+[7.626s] -- Installing: /home/devpc/Desktop/quad_ws/src/install/quad_interfaces/lib/python3.8/site-packages/quad_interfaces/msg
+[7.626s] -- Installing: /home/devpc/Desktop/quad_ws/src/install/quad_interfaces/lib/python3.8/site-packages/quad_interfaces/msg/_motion_servos_parameters_s.c
+[7.627s] -- Installing: /home/devpc/Desktop/quad_ws/src/install/quad_interfaces/lib/python3.8/site-packages/quad_interfaces/msg/_motion_servos_parameters.py
+[7.627s] -- Installing: /home/devpc/Desktop/quad_ws/src/install/quad_interfaces/lib/python3.8/site-packages/quad_interfaces/msg/_emergency_stop_s.c
+[7.627s] -- Installing: /home/devpc/Desktop/quad_ws/src/install/quad_interfaces/lib/python3.8/site-packages/quad_interfaces/msg/_aux_servos_parameters.py
+[7.627s] -- Installing: /home/devpc/Desktop/quad_ws/src/install/quad_interfaces/lib/python3.8/site-packages/quad_interfaces/msg/_motion_servos_s.c
+[7.627s] -- Installing: /home/devpc/Desktop/quad_ws/src/install/quad_interfaces/lib/python3.8/site-packages/quad_interfaces/msg/_aux_servos.py
+[7.627s] -- Installing: /home/devpc/Desktop/quad_ws/src/install/quad_interfaces/lib/python3.8/site-packages/quad_interfaces/msg/_motion_servos.py
+[7.628s] -- Installing: /home/devpc/Desktop/quad_ws/src/install/quad_interfaces/lib/python3.8/site-packages/quad_interfaces/msg/__init__.py
+[7.628s] -- Installing: /home/devpc/Desktop/quad_ws/src/install/quad_interfaces/lib/python3.8/site-packages/quad_interfaces/msg/_aux_servos_s.c
+[7.628s] -- Installing: /home/devpc/Desktop/quad_ws/src/install/quad_interfaces/lib/python3.8/site-packages/quad_interfaces/msg/_emergency_stop.py
+[7.628s] -- Installing: /home/devpc/Desktop/quad_ws/src/install/quad_interfaces/lib/python3.8/site-packages/quad_interfaces/msg/_aux_servos_parameters_s.c
+[7.628s] -- Installing: /home/devpc/Desktop/quad_ws/src/install/quad_interfaces/lib/python3.8/site-packages/quad_interfaces/quad_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-38-x86_64-linux-gnu.so
+[7.629s] -- Set runtime path of "/home/devpc/Desktop/quad_ws/src/install/quad_interfaces/lib/python3.8/site-packages/quad_interfaces/quad_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-38-x86_64-linux-gnu.so" to ""
+[7.629s] -- Installing: /home/devpc/Desktop/quad_ws/src/install/quad_interfaces/lib/python3.8/site-packages/quad_interfaces/quad_interfaces_s__rosidl_typesupport_introspection_c.cpython-38-x86_64-linux-gnu.so
+[7.630s] -- Set runtime path of "/home/devpc/Desktop/quad_ws/src/install/quad_interfaces/lib/python3.8/site-packages/quad_interfaces/quad_interfaces_s__rosidl_typesupport_introspection_c.cpython-38-x86_64-linux-gnu.so" to ""
+[7.630s] -- Installing: /home/devpc/Desktop/quad_ws/src/install/quad_interfaces/lib/python3.8/site-packages/quad_interfaces/quad_interfaces_s__rosidl_typesupport_c.cpython-38-x86_64-linux-gnu.so
+[7.630s] -- Set runtime path of "/home/devpc/Desktop/quad_ws/src/install/quad_interfaces/lib/python3.8/site-packages/quad_interfaces/quad_interfaces_s__rosidl_typesupport_c.cpython-38-x86_64-linux-gnu.so" to ""
+[7.631s] -- Installing: /home/devpc/Desktop/quad_ws/src/install/quad_interfaces/lib/libquad_interfaces__python.so
+[7.631s] -- Set runtime path of "/home/devpc/Desktop/quad_ws/src/install/quad_interfaces/lib/libquad_interfaces__python.so" to ""
+[7.631s] -- Installing: /home/devpc/Desktop/quad_ws/src/install/quad_interfaces/share/quad_interfaces/msg/MotionServos.idl
+[7.631s] -- Installing: /home/devpc/Desktop/quad_ws/src/install/quad_interfaces/share/quad_interfaces/msg/MotionServosParameters.idl
+[7.632s] -- Installing: /home/devpc/Desktop/quad_ws/src/install/quad_interfaces/share/quad_interfaces/msg/EmergencyStop.idl
+[7.632s] -- Installing: /home/devpc/Desktop/quad_ws/src/install/quad_interfaces/share/quad_interfaces/msg/AuxServos.idl
+[7.632s] -- Installing: /home/devpc/Desktop/quad_ws/src/install/quad_interfaces/share/quad_interfaces/msg/AuxServosParameters.idl
+[7.632s] -- Installing: /home/devpc/Desktop/quad_ws/src/install/quad_interfaces/share/quad_interfaces/msg/MotionServos.msg
+[7.632s] -- Installing: /home/devpc/Desktop/quad_ws/src/install/quad_interfaces/share/quad_interfaces/msg/MotionServosParameters.msg
+[7.633s] -- Installing: /home/devpc/Desktop/quad_ws/src/install/quad_interfaces/share/quad_interfaces/msg/EmergencyStop.msg
+[7.633s] -- Installing: /home/devpc/Desktop/quad_ws/src/install/quad_interfaces/share/quad_interfaces/msg/AuxServos.msg
+[7.633s] -- Installing: /home/devpc/Desktop/quad_ws/src/install/quad_interfaces/share/quad_interfaces/msg/AuxServosParameters.msg
+[7.633s] -- Installing: /home/devpc/Desktop/quad_ws/src/install/quad_interfaces/share/ament_index/resource_index/package_run_dependencies/quad_interfaces
+[7.633s] -- Installing: /home/devpc/Desktop/quad_ws/src/install/quad_interfaces/share/ament_index/resource_index/parent_prefix_path/quad_interfaces
+[7.634s] -- Installing: /home/devpc/Desktop/quad_ws/src/install/quad_interfaces/share/quad_interfaces/environment/ament_prefix_path.sh
+[7.634s] -- Installing: /home/devpc/Desktop/quad_ws/src/install/quad_interfaces/share/quad_interfaces/environment/ament_prefix_path.dsv
+[7.634s] -- Installing: /home/devpc/Desktop/quad_ws/src/install/quad_interfaces/share/quad_interfaces/environment/path.sh
+[7.634s] -- Installing: /home/devpc/Desktop/quad_ws/src/install/quad_interfaces/share/quad_interfaces/environment/path.dsv
+[7.634s] -- Installing: /home/devpc/Desktop/quad_ws/src/install/quad_interfaces/share/quad_interfaces/local_setup.bash
+[7.635s] -- Installing: /home/devpc/Desktop/quad_ws/src/install/quad_interfaces/share/quad_interfaces/local_setup.sh
+[7.635s] -- Installing: /home/devpc/Desktop/quad_ws/src/install/quad_interfaces/share/quad_interfaces/local_setup.zsh
+[7.635s] -- Installing: /home/devpc/Desktop/quad_ws/src/install/quad_interfaces/share/quad_interfaces/local_setup.dsv
+[7.635s] -- Installing: /home/devpc/Desktop/quad_ws/src/install/quad_interfaces/share/quad_interfaces/package.dsv
+[7.635s] -- Installing: /home/devpc/Desktop/quad_ws/src/install/quad_interfaces/share/ament_index/resource_index/packages/quad_interfaces
+[7.636s] -- Installing: /home/devpc/Desktop/quad_ws/src/install/quad_interfaces/share/quad_interfaces/cmake/quad_interfaces__rosidl_generator_cExport.cmake
+[7.636s] -- Installing: /home/devpc/Desktop/quad_ws/src/install/quad_interfaces/share/quad_interfaces/cmake/quad_interfaces__rosidl_generator_cExport-noconfig.cmake
+[7.636s] -- Installing: /home/devpc/Desktop/quad_ws/src/install/quad_interfaces/share/quad_interfaces/cmake/quad_interfaces__rosidl_typesupport_introspection_cExport.cmake
+[7.636s] -- Installing: /home/devpc/Desktop/quad_ws/src/install/quad_interfaces/share/quad_interfaces/cmake/quad_interfaces__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[7.637s] -- Installing: /home/devpc/Desktop/quad_ws/src/install/quad_interfaces/share/quad_interfaces/cmake/quad_interfaces__rosidl_typesupport_cExport.cmake
+[7.637s] -- Installing: /home/devpc/Desktop/quad_ws/src/install/quad_interfaces/share/quad_interfaces/cmake/quad_interfaces__rosidl_typesupport_cExport-noconfig.cmake
+[7.637s] -- Installing: /home/devpc/Desktop/quad_ws/src/install/quad_interfaces/share/quad_interfaces/cmake/quad_interfaces__rosidl_generator_cppExport.cmake
+[7.637s] -- Installing: /home/devpc/Desktop/quad_ws/src/install/quad_interfaces/share/quad_interfaces/cmake/quad_interfaces__rosidl_typesupport_introspection_cppExport.cmake
+[7.638s] -- Installing: /home/devpc/Desktop/quad_ws/src/install/quad_interfaces/share/quad_interfaces/cmake/quad_interfaces__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[7.638s] -- Installing: /home/devpc/Desktop/quad_ws/src/install/quad_interfaces/share/quad_interfaces/cmake/quad_interfaces__rosidl_typesupport_cppExport.cmake
+[7.638s] -- Installing: /home/devpc/Desktop/quad_ws/src/install/quad_interfaces/share/quad_interfaces/cmake/quad_interfaces__rosidl_typesupport_cppExport-noconfig.cmake
+[7.638s] -- Installing: /home/devpc/Desktop/quad_ws/src/install/quad_interfaces/share/quad_interfaces/cmake/rosidl_cmake-extras.cmake
+[7.638s] -- Installing: /home/devpc/Desktop/quad_ws/src/install/quad_interfaces/share/quad_interfaces/cmake/ament_cmake_export_dependencies-extras.cmake
+[7.639s] -- Installing: /home/devpc/Desktop/quad_ws/src/install/quad_interfaces/share/quad_interfaces/cmake/ament_cmake_export_libraries-extras.cmake
+[7.639s] -- Installing: /home/devpc/Desktop/quad_ws/src/install/quad_interfaces/share/quad_interfaces/cmake/ament_cmake_export_targets-extras.cmake
+[7.639s] -- Installing: /home/devpc/Desktop/quad_ws/src/install/quad_interfaces/share/quad_interfaces/cmake/ament_cmake_export_include_directories-extras.cmake
+[7.639s] -- Installing: /home/devpc/Desktop/quad_ws/src/install/quad_interfaces/share/quad_interfaces/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[7.639s] -- Installing: /home/devpc/Desktop/quad_ws/src/install/quad_interfaces/share/quad_interfaces/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[7.640s] -- Installing: /home/devpc/Desktop/quad_ws/src/install/quad_interfaces/share/quad_interfaces/cmake/quad_interfacesConfig.cmake
+[7.640s] -- Installing: /home/devpc/Desktop/quad_ws/src/install/quad_interfaces/share/quad_interfaces/cmake/quad_interfacesConfig-version.cmake
+[7.640s] -- Installing: /home/devpc/Desktop/quad_ws/src/install/quad_interfaces/share/quad_interfaces/package.xml
+[7.645s] Invoked command in '/home/devpc/Desktop/quad_ws/src/build/quad_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/devpc/Desktop/quad_ws/install/teleop_twist_keyboard:/home/devpc/Desktop/quad_ws/install/quad:/home/devpc/Desktop/quad_ws/install/motion_servos_calibration:/opt/ros/foxy /usr/bin/cmake --install /home/devpc/Desktop/quad_ws/src/build/quad_interfaces

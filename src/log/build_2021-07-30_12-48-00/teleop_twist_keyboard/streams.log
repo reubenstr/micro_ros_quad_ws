@@ -1,0 +1,32 @@
+[0.749s] Invoking command in '/home/devpc/Desktop/quad_ws/src/teleop_twist_keyboard-dashing': PYTHONPATH=/home/devpc/Desktop/quad_ws/src/install/teleop_twist_keyboard/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../build/teleop_twist_keyboard build --build-base /home/devpc/Desktop/quad_ws/src/build/teleop_twist_keyboard/build install --prefix /home/devpc/Desktop/quad_ws/src/install/teleop_twist_keyboard --record /home/devpc/Desktop/quad_ws/src/build/teleop_twist_keyboard/install.log --single-version-externally-managed
+[1.091s] running egg_info
+[1.091s] creating ../build/teleop_twist_keyboard/teleop_twist_keyboard.egg-info
+[1.092s] writing ../build/teleop_twist_keyboard/teleop_twist_keyboard.egg-info/PKG-INFO
+[1.092s] writing dependency_links to ../build/teleop_twist_keyboard/teleop_twist_keyboard.egg-info/dependency_links.txt
+[1.092s] writing entry points to ../build/teleop_twist_keyboard/teleop_twist_keyboard.egg-info/entry_points.txt
+[1.092s] writing requirements to ../build/teleop_twist_keyboard/teleop_twist_keyboard.egg-info/requires.txt
+[1.093s] writing top-level names to ../build/teleop_twist_keyboard/teleop_twist_keyboard.egg-info/top_level.txt
+[1.095s] writing manifest file '../build/teleop_twist_keyboard/teleop_twist_keyboard.egg-info/SOURCES.txt'
+[1.157s] reading manifest file '../build/teleop_twist_keyboard/teleop_twist_keyboard.egg-info/SOURCES.txt'
+[1.158s] writing manifest file '../build/teleop_twist_keyboard/teleop_twist_keyboard.egg-info/SOURCES.txt'
+[1.159s] running build
+[1.159s] running build_py
+[1.159s] creating /home/devpc/Desktop/quad_ws/src/build/teleop_twist_keyboard/build
+[1.159s] creating /home/devpc/Desktop/quad_ws/src/build/teleop_twist_keyboard/build/lib
+[1.159s] copying teleop_twist_keyboard.py -> /home/devpc/Desktop/quad_ws/src/build/teleop_twist_keyboard/build/lib
+[1.159s] running install
+[1.160s] running install_lib
+[1.161s] copying /home/devpc/Desktop/quad_ws/src/build/teleop_twist_keyboard/build/lib/teleop_twist_keyboard.py -> /home/devpc/Desktop/quad_ws/src/install/teleop_twist_keyboard/lib/python3.8/site-packages
+[1.162s] byte-compiling /home/devpc/Desktop/quad_ws/src/install/teleop_twist_keyboard/lib/python3.8/site-packages/teleop_twist_keyboard.py to teleop_twist_keyboard.cpython-38.pyc
+[1.165s] running install_data
+[1.166s] creating /home/devpc/Desktop/quad_ws/src/install/teleop_twist_keyboard/share/ament_index
+[1.166s] creating /home/devpc/Desktop/quad_ws/src/install/teleop_twist_keyboard/share/ament_index/resource_index
+[1.166s] creating /home/devpc/Desktop/quad_ws/src/install/teleop_twist_keyboard/share/ament_index/resource_index/packages
+[1.166s] copying resource/teleop_twist_keyboard -> /home/devpc/Desktop/quad_ws/src/install/teleop_twist_keyboard/share/ament_index/resource_index/packages
+[1.166s] copying package.xml -> /home/devpc/Desktop/quad_ws/src/install/teleop_twist_keyboard/share/teleop_twist_keyboard
+[1.166s] running install_egg_info
+[1.168s] Copying ../build/teleop_twist_keyboard/teleop_twist_keyboard.egg-info to /home/devpc/Desktop/quad_ws/src/install/teleop_twist_keyboard/lib/python3.8/site-packages/teleop_twist_keyboard-2.3.2-py3.8.egg-info
+[1.170s] running install_scripts
+[1.195s] Installing teleop_twist_keyboard script to /home/devpc/Desktop/quad_ws/src/install/teleop_twist_keyboard/lib/teleop_twist_keyboard
+[1.195s] writing list of installed files to '/home/devpc/Desktop/quad_ws/src/build/teleop_twist_keyboard/install.log'
+[1.228s] Invoked command in '/home/devpc/Desktop/quad_ws/src/teleop_twist_keyboard-dashing' returned '0': PYTHONPATH=/home/devpc/Desktop/quad_ws/src/install/teleop_twist_keyboard/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../build/teleop_twist_keyboard build --build-base /home/devpc/Desktop/quad_ws/src/build/teleop_twist_keyboard/build install --prefix /home/devpc/Desktop/quad_ws/src/install/teleop_twist_keyboard --record /home/devpc/Desktop/quad_ws/src/build/teleop_twist_keyboard/install.log --single-version-externally-managed

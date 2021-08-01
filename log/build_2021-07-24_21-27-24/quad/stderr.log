@@ -1,0 +1,5 @@
+  File "/home/devpc/Desktop/quad_ws/install/quad/lib/python3.8/site-packages/quad/quad.py", line 20
+    self.toggle = !self.toggle
+                  ^
+SyntaxError: invalid syntax
+

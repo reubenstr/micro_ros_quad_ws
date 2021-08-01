@@ -1,0 +1,26 @@
+[0.452s] Invoking command in '/home/devpc/Desktop/quad_ws/src/quad': PYTHONPATH=/home/devpc/Desktop/quad_ws/install/quad/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/quad build --build-base /home/devpc/Desktop/quad_ws/build/quad/build install --prefix /home/devpc/Desktop/quad_ws/install/quad --record /home/devpc/Desktop/quad_ws/build/quad/install.log --single-version-externally-managed
+[0.686s] running egg_info
+[0.687s] writing ../../build/quad/quad.egg-info/PKG-INFO
+[0.687s] writing dependency_links to ../../build/quad/quad.egg-info/dependency_links.txt
+[0.688s] writing entry points to ../../build/quad/quad.egg-info/entry_points.txt
+[0.688s] writing requirements to ../../build/quad/quad.egg-info/requires.txt
+[0.688s] writing top-level names to ../../build/quad/quad.egg-info/top_level.txt
+[0.728s] reading manifest file '../../build/quad/quad.egg-info/SOURCES.txt'
+[0.733s] writing manifest file '../../build/quad/quad.egg-info/SOURCES.txt'
+[0.733s] running build
+[0.733s] running build_py
+[0.733s] copying quad/motion_servos_calibration.py -> /home/devpc/Desktop/quad_ws/build/quad/build/lib/quad
+[0.733s] running install
+[0.734s] running install_lib
+[0.734s] copying /home/devpc/Desktop/quad_ws/build/quad/build/lib/quad/motion_servos_calibration.py -> /home/devpc/Desktop/quad_ws/install/quad/lib/python3.8/site-packages/quad
+[0.734s] byte-compiling /home/devpc/Desktop/quad_ws/install/quad/lib/python3.8/site-packages/quad/motion_servos_calibration.py to motion_servos_calibration.cpython-38.pyc
+[0.735s] Sorry: TabError: inconsistent use of tabs and spaces in indentation (motion_servos_calibration.py, line 20)
+[0.735s] running install_data
+[0.735s] running install_egg_info
+[0.736s] removing '/home/devpc/Desktop/quad_ws/install/quad/lib/python3.8/site-packages/quad-0.0.1-py3.8.egg-info' (and everything under it)
+[0.736s] Copying ../../build/quad/quad.egg-info to /home/devpc/Desktop/quad_ws/install/quad/lib/python3.8/site-packages/quad-0.0.1-py3.8.egg-info
+[0.737s] running install_scripts
+[0.767s] Installing motion_servos_calibration script to /home/devpc/Desktop/quad_ws/install/quad/lib/quad
+[0.767s] Installing quad script to /home/devpc/Desktop/quad_ws/install/quad/lib/quad
+[0.767s] writing list of installed files to '/home/devpc/Desktop/quad_ws/build/quad/install.log'
+[0.779s] Invoked command in '/home/devpc/Desktop/quad_ws/src/quad' returned '0': PYTHONPATH=/home/devpc/Desktop/quad_ws/install/quad/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/quad build --build-base /home/devpc/Desktop/quad_ws/build/quad/build install --prefix /home/devpc/Desktop/quad_ws/install/quad --record /home/devpc/Desktop/quad_ws/build/quad/install.log --single-version-externally-managed

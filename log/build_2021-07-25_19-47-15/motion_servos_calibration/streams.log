@@ -1,0 +1,21 @@
+[0.720s] Invoking command in '/home/devpc/Desktop/quad_ws/src/motion_servos_calibration': PYTHONPATH=/home/devpc/Desktop/quad_ws/install/motion_servos_calibration/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/motion_servos_calibration build --build-base /home/devpc/Desktop/quad_ws/build/motion_servos_calibration/build install --prefix /home/devpc/Desktop/quad_ws/install/motion_servos_calibration --record /home/devpc/Desktop/quad_ws/build/motion_servos_calibration/install.log --single-version-externally-managed
+[0.980s] running egg_info
+[0.981s] writing ../../build/motion_servos_calibration/motion_servos_calibration.egg-info/PKG-INFO
+[0.981s] writing dependency_links to ../../build/motion_servos_calibration/motion_servos_calibration.egg-info/dependency_links.txt
+[0.982s] writing entry points to ../../build/motion_servos_calibration/motion_servos_calibration.egg-info/entry_points.txt
+[0.982s] writing requirements to ../../build/motion_servos_calibration/motion_servos_calibration.egg-info/requires.txt
+[0.982s] writing top-level names to ../../build/motion_servos_calibration/motion_servos_calibration.egg-info/top_level.txt
+[1.031s] reading manifest file '../../build/motion_servos_calibration/motion_servos_calibration.egg-info/SOURCES.txt'
+[1.032s] writing manifest file '../../build/motion_servos_calibration/motion_servos_calibration.egg-info/SOURCES.txt'
+[1.032s] running build
+[1.033s] running build_py
+[1.033s] running install
+[1.034s] running install_lib
+[1.037s] running install_data
+[1.037s] running install_egg_info
+[1.038s] removing '/home/devpc/Desktop/quad_ws/install/motion_servos_calibration/lib/python3.8/site-packages/motion_servos_calibration-0.0.0-py3.8.egg-info' (and everything under it)
+[1.038s] Copying ../../build/motion_servos_calibration/motion_servos_calibration.egg-info to /home/devpc/Desktop/quad_ws/install/motion_servos_calibration/lib/python3.8/site-packages/motion_servos_calibration-0.0.0-py3.8.egg-info
+[1.039s] running install_scripts
+[1.058s] Installing motion_servos_calibration script to /home/devpc/Desktop/quad_ws/install/motion_servos_calibration/lib/motion_servos_calibration
+[1.060s] writing list of installed files to '/home/devpc/Desktop/quad_ws/build/motion_servos_calibration/install.log'
+[1.093s] Invoked command in '/home/devpc/Desktop/quad_ws/src/motion_servos_calibration' returned '0': PYTHONPATH=/home/devpc/Desktop/quad_ws/install/motion_servos_calibration/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/motion_servos_calibration build --build-base /home/devpc/Desktop/quad_ws/build/motion_servos_calibration/build install --prefix /home/devpc/Desktop/quad_ws/install/motion_servos_calibration --record /home/devpc/Desktop/quad_ws/build/motion_servos_calibration/install.log --single-version-externally-managed

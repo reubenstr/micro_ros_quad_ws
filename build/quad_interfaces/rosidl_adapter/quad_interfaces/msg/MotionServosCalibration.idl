@@ -1,0 +1,22 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from quad_interfaces/msg/MotionServosCalibration.msg
+// generated code does not contain a copyright notice
+
+
+module quad_interfaces {
+  module msg {
+    typedef int32 int32__12[12];
+    typedef float float__12[12];
+    struct MotionServosCalibration {
+      int32__12 pin;
+
+      float__12 min_angle;
+
+      float__12 max_angle;
+
+      float__12 calibration_angle_offset;
+
+      float__12 ms_per_degree;
+    };
+  };
+};

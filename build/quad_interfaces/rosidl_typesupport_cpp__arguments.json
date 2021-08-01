@@ -1,0 +1,25 @@
+{
+  "package_name": "quad_interfaces",
+  "output_dir": "/home/devpc/Desktop/quad_ws/build/quad_interfaces/rosidl_typesupport_cpp/quad_interfaces",
+  "template_dir": "/opt/ros/foxy/share/rosidl_typesupport_cpp/resource",
+  "idl_tuples": [
+    "/home/devpc/Desktop/quad_ws/build/quad_interfaces/rosidl_adapter/quad_interfaces:msg/MotionServos.idl",
+    "/home/devpc/Desktop/quad_ws/build/quad_interfaces/rosidl_adapter/quad_interfaces:msg/MotionServosParameters.idl",
+    "/home/devpc/Desktop/quad_ws/build/quad_interfaces/rosidl_adapter/quad_interfaces:msg/EmergencyStop.idl",
+    "/home/devpc/Desktop/quad_ws/build/quad_interfaces/rosidl_adapter/quad_interfaces:msg/AuxServos.idl",
+    "/home/devpc/Desktop/quad_ws/build/quad_interfaces/rosidl_adapter/quad_interfaces:msg/AuxServosParameters.idl"
+  ],
+  "target_dependencies": [
+    "/opt/ros/foxy/lib/rosidl_typesupport_cpp/rosidl_typesupport_cpp",
+    "/opt/ros/foxy/lib/python3.8/site-packages/rosidl_typesupport_cpp/__init__.py",
+    "/opt/ros/foxy/share/rosidl_typesupport_cpp/resource/action__type_support.cpp.em",
+    "/opt/ros/foxy/share/rosidl_typesupport_cpp/resource/idl__type_support.cpp.em",
+    "/opt/ros/foxy/share/rosidl_typesupport_cpp/resource/msg__type_support.cpp.em",
+    "/opt/ros/foxy/share/rosidl_typesupport_cpp/resource/srv__type_support.cpp.em",
+    "/home/devpc/Desktop/quad_ws/build/quad_interfaces/rosidl_adapter/quad_interfaces/msg/MotionServos.idl",
+    "/home/devpc/Desktop/quad_ws/build/quad_interfaces/rosidl_adapter/quad_interfaces/msg/MotionServosParameters.idl",
+    "/home/devpc/Desktop/quad_ws/build/quad_interfaces/rosidl_adapter/quad_interfaces/msg/EmergencyStop.idl",
+    "/home/devpc/Desktop/quad_ws/build/quad_interfaces/rosidl_adapter/quad_interfaces/msg/AuxServos.idl",
+    "/home/devpc/Desktop/quad_ws/build/quad_interfaces/rosidl_adapter/quad_interfaces/msg/AuxServosParameters.idl"
+  ]
+}

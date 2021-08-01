@@ -1,0 +1,31 @@
+[0.575s] Invoking command in '/home/devpc/Desktop/quad_ws/src/quad': PYTHONPATH=/home/devpc/Desktop/quad_ws/install/quad/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/quad build --build-base /home/devpc/Desktop/quad_ws/build/quad/build install --prefix /home/devpc/Desktop/quad_ws/install/quad --record /home/devpc/Desktop/quad_ws/build/quad/install.log --single-version-externally-managed
+[0.839s] running egg_info
+[0.840s] writing ../../build/quad/quad.egg-info/PKG-INFO
+[0.841s] writing dependency_links to ../../build/quad/quad.egg-info/dependency_links.txt
+[0.841s] writing entry points to ../../build/quad/quad.egg-info/entry_points.txt
+[0.842s] writing requirements to ../../build/quad/quad.egg-info/requires.txt
+[0.842s] writing top-level names to ../../build/quad/quad.egg-info/top_level.txt
+[0.885s] reading manifest file '../../build/quad/quad.egg-info/SOURCES.txt'
+[0.886s] writing manifest file '../../build/quad/quad.egg-info/SOURCES.txt'
+[0.886s] running build
+[0.886s] running build_py
+[0.887s] running install
+[0.888s] running install_lib
+[0.889s] running install_data
+[0.890s] creating /home/devpc/Desktop/quad_ws/install/quad/share/quad/stl
+[0.890s] copying quad/stl/frontpart.stl -> /home/devpc/Desktop/quad_ws/install/quad/share/quad/stl
+[0.891s] copying quad/stl/larm_cover.stl -> /home/devpc/Desktop/quad_ws/install/quad/share/quad/stl
+[0.892s] copying quad/stl/backpart.stl -> /home/devpc/Desktop/quad_ws/install/quad/share/quad/stl
+[0.892s] copying quad/stl/rfoot.stl -> /home/devpc/Desktop/quad_ws/install/quad/share/quad/stl
+[0.892s] copying quad/stl/mainbody.dae -> /home/devpc/Desktop/quad_ws/install/quad/share/quad/stl
+[0.893s] copying quad/stl/larm.stl -> /home/devpc/Desktop/quad_ws/install/quad/share/quad/stl
+[0.893s] copying quad/stl/rarm_cover.stl -> /home/devpc/Desktop/quad_ws/install/quad/share/quad/stl
+[0.894s] copying quad/stl/LICENSE.txt -> /home/devpc/Desktop/quad_ws/install/quad/share/quad/stl
+[0.894s] copying quad/stl/lshoulder.stl -> /home/devpc/Desktop/quad_ws/install/quad/share/quad/stl
+[0.894s] copying quad/stl/rear2.stl -> /home/devpc/Desktop/quad_ws/install/quad/share/quad/stl
+[0.895s] copying quad/stl/rear.stl -> /home/devpc/Desktop/quad_ws/install/quad/share/quad/stl
+[0.895s] copying quad/stl/lfoot.stl -> /home/devpc/Desktop/quad_ws/install/quad/share/quad/stl
+[0.896s] copying quad/stl/rarm.stl -> /home/devpc/Desktop/quad_ws/install/quad/share/quad/stl
+[0.896s] copying quad/stl/rplidar_main.stl -> /home/devpc/Desktop/quad_ws/install/quad/share/quad/stl
+[0.898s] error: can't copy 'quad/stl/OpenQuadruped': doesn't exist or not a regular file
+[0.924s] Invoked command in '/home/devpc/Desktop/quad_ws/src/quad' returned '1': PYTHONPATH=/home/devpc/Desktop/quad_ws/install/quad/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/quad build --build-base /home/devpc/Desktop/quad_ws/build/quad/build install --prefix /home/devpc/Desktop/quad_ws/install/quad --record /home/devpc/Desktop/quad_ws/build/quad/install.log --single-version-externally-managed

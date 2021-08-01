@@ -1,0 +1,393 @@
+[0.295s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[0.295s] DEBUG:colcon:Parsed command line arguments: Namespace(ament_cmake_args=None, base_paths=['.'], build_base='build', catkin_cmake_args=None, catkin_skip_building_tests=False, cmake_args=None, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, cmake_target=None, cmake_target_skip_unavailable=False, continue_on_error=False, event_handlers=None, executor='parallel', ignore_user_meta=False, install_base='install', log_base=None, log_level=None, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7f35b6b361c0>>, merge_install=False, metas=['./colcon.meta'], packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_end=None, packages_ignore=None, packages_ignore_regex=None, packages_select=None, packages_select_build_failed=False, packages_select_by_dep=None, packages_select_regex=None, packages_select_test_failures=False, packages_skip=None, packages_skip_build_finished=False, packages_skip_by_dep=None, packages_skip_regex=None, packages_skip_test_passed=False, packages_skip_up_to=None, packages_start=None, packages_up_to=None, packages_up_to_regex=None, parallel_workers=8, paths=None, symlink_install=False, test_result_base=None, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7f35b6b361c0>, verb_name='build', verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x7f35b6b36700>)
+[0.300s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.300s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.300s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.300s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.300s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.300s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.300s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/devpc/Desktop/quad_ws'
+[0.300s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.301s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.301s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.301s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.301s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.301s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.301s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.301s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.301s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.312s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.312s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.312s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.312s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.312s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.312s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.312s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.313s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.313s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.313s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.313s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.313s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.313s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.313s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.313s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.313s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[0.313s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[0.313s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[0.313s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[0.314s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[0.314s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[0.314s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[0.314s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[0.314s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[0.314s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[0.314s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[0.314s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[0.314s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[0.314s] Level 1:colcon.colcon_core.package_identification:_identify(src/build) by extensions ['ignore', 'ignore_ament_install']
+[0.314s] Level 1:colcon.colcon_core.package_identification:_identify(src/build) by extension 'ignore'
+[0.314s] Level 1:colcon.colcon_core.package_identification:_identify(src/build) ignored
+[0.314s] Level 1:colcon.colcon_core.package_identification:_identify(src/install) by extensions ['ignore', 'ignore_ament_install']
+[0.314s] Level 1:colcon.colcon_core.package_identification:_identify(src/install) by extension 'ignore'
+[0.314s] Level 1:colcon.colcon_core.package_identification:_identify(src/install) ignored
+[0.314s] Level 1:colcon.colcon_core.package_identification:_identify(src/joystick_ros2) by extensions ['ignore', 'ignore_ament_install']
+[0.315s] Level 1:colcon.colcon_core.package_identification:_identify(src/joystick_ros2) by extension 'ignore'
+[0.315s] Level 1:colcon.colcon_core.package_identification:_identify(src/joystick_ros2) by extension 'ignore_ament_install'
+[0.315s] Level 1:colcon.colcon_core.package_identification:_identify(src/joystick_ros2) by extensions ['colcon_pkg']
+[0.315s] Level 1:colcon.colcon_core.package_identification:_identify(src/joystick_ros2) by extension 'colcon_pkg'
+[0.315s] Level 1:colcon.colcon_core.package_identification:_identify(src/joystick_ros2) by extensions ['colcon_meta']
+[0.315s] Level 1:colcon.colcon_core.package_identification:_identify(src/joystick_ros2) by extension 'colcon_meta'
+[0.315s] Level 1:colcon.colcon_core.package_identification:_identify(src/joystick_ros2) by extensions ['ros']
+[0.315s] Level 1:colcon.colcon_core.package_identification:_identify(src/joystick_ros2) by extension 'ros'
+[0.317s] DEBUG:colcon.colcon_core.package_identification:Package 'src/joystick_ros2' with type 'ros.ament_python' and name 'joystick_ros2'
+[0.317s] Level 1:colcon.colcon_core.package_identification:_identify(src/log) by extensions ['ignore', 'ignore_ament_install']
+[0.317s] Level 1:colcon.colcon_core.package_identification:_identify(src/log) by extension 'ignore'
+[0.317s] Level 1:colcon.colcon_core.package_identification:_identify(src/log) ignored
+[0.317s] Level 1:colcon.colcon_core.package_identification:_identify(src/quad) by extensions ['ignore', 'ignore_ament_install']
+[0.318s] Level 1:colcon.colcon_core.package_identification:_identify(src/quad) by extension 'ignore'
+[0.318s] Level 1:colcon.colcon_core.package_identification:_identify(src/quad) by extension 'ignore_ament_install'
+[0.318s] Level 1:colcon.colcon_core.package_identification:_identify(src/quad) by extensions ['colcon_pkg']
+[0.318s] Level 1:colcon.colcon_core.package_identification:_identify(src/quad) by extension 'colcon_pkg'
+[0.318s] Level 1:colcon.colcon_core.package_identification:_identify(src/quad) by extensions ['colcon_meta']
+[0.318s] Level 1:colcon.colcon_core.package_identification:_identify(src/quad) by extension 'colcon_meta'
+[0.318s] Level 1:colcon.colcon_core.package_identification:_identify(src/quad) by extensions ['ros']
+[0.318s] Level 1:colcon.colcon_core.package_identification:_identify(src/quad) by extension 'ros'
+[0.319s] DEBUG:colcon.colcon_core.package_identification:Package 'src/quad' with type 'ros.ament_python' and name 'quad'
+[0.319s] Level 1:colcon.colcon_core.package_identification:_identify(src/quad_interfaces) by extensions ['ignore', 'ignore_ament_install']
+[0.319s] Level 1:colcon.colcon_core.package_identification:_identify(src/quad_interfaces) by extension 'ignore'
+[0.319s] Level 1:colcon.colcon_core.package_identification:_identify(src/quad_interfaces) by extension 'ignore_ament_install'
+[0.319s] Level 1:colcon.colcon_core.package_identification:_identify(src/quad_interfaces) by extensions ['colcon_pkg']
+[0.319s] Level 1:colcon.colcon_core.package_identification:_identify(src/quad_interfaces) by extension 'colcon_pkg'
+[0.319s] Level 1:colcon.colcon_core.package_identification:_identify(src/quad_interfaces) by extensions ['colcon_meta']
+[0.319s] Level 1:colcon.colcon_core.package_identification:_identify(src/quad_interfaces) by extension 'colcon_meta'
+[0.319s] Level 1:colcon.colcon_core.package_identification:_identify(src/quad_interfaces) by extensions ['ros']
+[0.319s] Level 1:colcon.colcon_core.package_identification:_identify(src/quad_interfaces) by extension 'ros'
+[0.320s] DEBUG:colcon.colcon_core.package_identification:Package 'src/quad_interfaces' with type 'ros.ament_cmake' and name 'quad_interfaces'
+[0.320s] Level 1:colcon.colcon_core.package_identification:_identify(src/teleop) by extensions ['ignore', 'ignore_ament_install']
+[0.320s] Level 1:colcon.colcon_core.package_identification:_identify(src/teleop) by extension 'ignore'
+[0.320s] Level 1:colcon.colcon_core.package_identification:_identify(src/teleop) by extension 'ignore_ament_install'
+[0.320s] Level 1:colcon.colcon_core.package_identification:_identify(src/teleop) by extensions ['colcon_pkg']
+[0.320s] Level 1:colcon.colcon_core.package_identification:_identify(src/teleop) by extension 'colcon_pkg'
+[0.320s] Level 1:colcon.colcon_core.package_identification:_identify(src/teleop) by extensions ['colcon_meta']
+[0.320s] Level 1:colcon.colcon_core.package_identification:_identify(src/teleop) by extension 'colcon_meta'
+[0.320s] Level 1:colcon.colcon_core.package_identification:_identify(src/teleop) by extensions ['ros']
+[0.320s] Level 1:colcon.colcon_core.package_identification:_identify(src/teleop) by extension 'ros'
+[0.321s] DEBUG:colcon.colcon_core.package_identification:Package 'src/teleop' with type 'ros.ament_python' and name 'teleop'
+[0.321s] Level 1:colcon.colcon_core.package_identification:_identify(src/xacro-ros2) by extensions ['ignore', 'ignore_ament_install']
+[0.321s] Level 1:colcon.colcon_core.package_identification:_identify(src/xacro-ros2) by extension 'ignore'
+[0.321s] Level 1:colcon.colcon_core.package_identification:_identify(src/xacro-ros2) by extension 'ignore_ament_install'
+[0.321s] Level 1:colcon.colcon_core.package_identification:_identify(src/xacro-ros2) by extensions ['colcon_pkg']
+[0.321s] Level 1:colcon.colcon_core.package_identification:_identify(src/xacro-ros2) by extension 'colcon_pkg'
+[0.321s] Level 1:colcon.colcon_core.package_identification:_identify(src/xacro-ros2) by extensions ['colcon_meta']
+[0.321s] Level 1:colcon.colcon_core.package_identification:_identify(src/xacro-ros2) by extension 'colcon_meta'
+[0.322s] Level 1:colcon.colcon_core.package_identification:_identify(src/xacro-ros2) by extensions ['ros']
+[0.322s] Level 1:colcon.colcon_core.package_identification:_identify(src/xacro-ros2) by extension 'ros'
+[0.322s] DEBUG:colcon.colcon_core.package_identification:Package 'src/xacro-ros2' with type 'ros.ament_cmake' and name 'xacro'
+[0.323s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.323s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.323s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.323s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.323s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.341s] INFO:colcon.colcon_metadata.metadata.colcon_pkg:Updating descriptor of package 'src/xacro-ros2' from colcon.pkg: {'hooks': ['share/xacro/environment/completion.bash']}
+[0.345s] Level 5:colcon.colcon_core.verb:set package 'joystick_ros2' build argument 'cmake_args' from command line to 'None'
+[0.345s] Level 5:colcon.colcon_core.verb:set package 'joystick_ros2' build argument 'cmake_target' from command line to 'None'
+[0.345s] Level 5:colcon.colcon_core.verb:set package 'joystick_ros2' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.345s] Level 5:colcon.colcon_core.verb:set package 'joystick_ros2' build argument 'cmake_clean_cache' from command line to 'False'
+[0.345s] Level 5:colcon.colcon_core.verb:set package 'joystick_ros2' build argument 'cmake_clean_first' from command line to 'False'
+[0.345s] Level 5:colcon.colcon_core.verb:set package 'joystick_ros2' build argument 'cmake_force_configure' from command line to 'False'
+[0.345s] Level 5:colcon.colcon_core.verb:set package 'joystick_ros2' build argument 'ament_cmake_args' from command line to 'None'
+[0.345s] Level 5:colcon.colcon_core.verb:set package 'joystick_ros2' build argument 'catkin_cmake_args' from command line to 'None'
+[0.345s] Level 5:colcon.colcon_core.verb:set package 'joystick_ros2' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.345s] DEBUG:colcon.colcon_core.verb:Building package 'joystick_ros2' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/devpc/Desktop/quad_ws/build/joystick_ros2', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/devpc/Desktop/quad_ws/install/joystick_ros2', 'merge_install': False, 'path': '/home/devpc/Desktop/quad_ws/src/joystick_ros2', 'symlink_install': False, 'test_result_base': None}
+[0.348s] Level 5:colcon.colcon_core.verb:set package 'quad' build argument 'cmake_args' from command line to 'None'
+[0.348s] Level 5:colcon.colcon_core.verb:set package 'quad' build argument 'cmake_target' from command line to 'None'
+[0.348s] Level 5:colcon.colcon_core.verb:set package 'quad' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.349s] Level 5:colcon.colcon_core.verb:set package 'quad' build argument 'cmake_clean_cache' from command line to 'False'
+[0.349s] Level 5:colcon.colcon_core.verb:set package 'quad' build argument 'cmake_clean_first' from command line to 'False'
+[0.349s] Level 5:colcon.colcon_core.verb:set package 'quad' build argument 'cmake_force_configure' from command line to 'False'
+[0.349s] Level 5:colcon.colcon_core.verb:set package 'quad' build argument 'ament_cmake_args' from command line to 'None'
+[0.349s] Level 5:colcon.colcon_core.verb:set package 'quad' build argument 'catkin_cmake_args' from command line to 'None'
+[0.349s] Level 5:colcon.colcon_core.verb:set package 'quad' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.349s] DEBUG:colcon.colcon_core.verb:Building package 'quad' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/devpc/Desktop/quad_ws/build/quad', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/devpc/Desktop/quad_ws/install/quad', 'merge_install': False, 'path': '/home/devpc/Desktop/quad_ws/src/quad', 'symlink_install': False, 'test_result_base': None}
+[0.352s] Level 5:colcon.colcon_core.verb:set package 'quad_interfaces' build argument 'cmake_args' from command line to 'None'
+[0.352s] Level 5:colcon.colcon_core.verb:set package 'quad_interfaces' build argument 'cmake_target' from command line to 'None'
+[0.352s] Level 5:colcon.colcon_core.verb:set package 'quad_interfaces' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.352s] Level 5:colcon.colcon_core.verb:set package 'quad_interfaces' build argument 'cmake_clean_cache' from command line to 'False'
+[0.352s] Level 5:colcon.colcon_core.verb:set package 'quad_interfaces' build argument 'cmake_clean_first' from command line to 'False'
+[0.352s] Level 5:colcon.colcon_core.verb:set package 'quad_interfaces' build argument 'cmake_force_configure' from command line to 'False'
+[0.352s] Level 5:colcon.colcon_core.verb:set package 'quad_interfaces' build argument 'ament_cmake_args' from command line to 'None'
+[0.352s] Level 5:colcon.colcon_core.verb:set package 'quad_interfaces' build argument 'catkin_cmake_args' from command line to 'None'
+[0.352s] Level 5:colcon.colcon_core.verb:set package 'quad_interfaces' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.352s] DEBUG:colcon.colcon_core.verb:Building package 'quad_interfaces' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/devpc/Desktop/quad_ws/build/quad_interfaces', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/devpc/Desktop/quad_ws/install/quad_interfaces', 'merge_install': False, 'path': '/home/devpc/Desktop/quad_ws/src/quad_interfaces', 'symlink_install': False, 'test_result_base': None}
+[0.355s] Level 5:colcon.colcon_core.verb:set package 'teleop' build argument 'cmake_args' from command line to 'None'
+[0.355s] Level 5:colcon.colcon_core.verb:set package 'teleop' build argument 'cmake_target' from command line to 'None'
+[0.355s] Level 5:colcon.colcon_core.verb:set package 'teleop' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.355s] Level 5:colcon.colcon_core.verb:set package 'teleop' build argument 'cmake_clean_cache' from command line to 'False'
+[0.355s] Level 5:colcon.colcon_core.verb:set package 'teleop' build argument 'cmake_clean_first' from command line to 'False'
+[0.355s] Level 5:colcon.colcon_core.verb:set package 'teleop' build argument 'cmake_force_configure' from command line to 'False'
+[0.355s] Level 5:colcon.colcon_core.verb:set package 'teleop' build argument 'ament_cmake_args' from command line to 'None'
+[0.355s] Level 5:colcon.colcon_core.verb:set package 'teleop' build argument 'catkin_cmake_args' from command line to 'None'
+[0.356s] Level 5:colcon.colcon_core.verb:set package 'teleop' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.356s] DEBUG:colcon.colcon_core.verb:Building package 'teleop' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/devpc/Desktop/quad_ws/build/teleop', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/devpc/Desktop/quad_ws/install/teleop', 'merge_install': False, 'path': '/home/devpc/Desktop/quad_ws/src/teleop', 'symlink_install': False, 'test_result_base': None}
+[0.359s] Level 5:colcon.colcon_core.verb:set package 'xacro' build argument 'cmake_args' from command line to 'None'
+[0.359s] Level 5:colcon.colcon_core.verb:set package 'xacro' build argument 'cmake_target' from command line to 'None'
+[0.359s] Level 5:colcon.colcon_core.verb:set package 'xacro' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.359s] Level 5:colcon.colcon_core.verb:set package 'xacro' build argument 'cmake_clean_cache' from command line to 'False'
+[0.359s] Level 5:colcon.colcon_core.verb:set package 'xacro' build argument 'cmake_clean_first' from command line to 'False'
+[0.359s] Level 5:colcon.colcon_core.verb:set package 'xacro' build argument 'cmake_force_configure' from command line to 'False'
+[0.359s] Level 5:colcon.colcon_core.verb:set package 'xacro' build argument 'ament_cmake_args' from command line to 'None'
+[0.359s] Level 5:colcon.colcon_core.verb:set package 'xacro' build argument 'catkin_cmake_args' from command line to 'None'
+[0.359s] Level 5:colcon.colcon_core.verb:set package 'xacro' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.359s] DEBUG:colcon.colcon_core.verb:Building package 'xacro' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/devpc/Desktop/quad_ws/build/xacro', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/devpc/Desktop/quad_ws/install/xacro', 'merge_install': False, 'path': '/home/devpc/Desktop/quad_ws/src/xacro-ros2', 'symlink_install': False, 'test_result_base': None}
+[0.359s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.361s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.362s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/devpc/Desktop/quad_ws/src/joystick_ros2' with build type 'ament_python'
+[0.362s] Level 1:colcon.colcon_core.shell:create_environment_hook('joystick_ros2', 'ament_prefix_path')
+[0.366s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.366s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/devpc/Desktop/quad_ws/install/joystick_ros2/share/joystick_ros2/hook/ament_prefix_path.ps1'
+[0.367s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/devpc/Desktop/quad_ws/install/joystick_ros2/share/joystick_ros2/hook/ament_prefix_path.dsv'
+[0.367s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/devpc/Desktop/quad_ws/install/joystick_ros2/share/joystick_ros2/hook/ament_prefix_path.sh'
+[0.368s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.368s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.371s] DEBUG:colcon.colcon_core.shell:Ignoring prefix path '/opt/ros/foxy'
+[0.374s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/devpc/Desktop/quad_ws/src/quad' with build type 'ament_python'
+[0.375s] Level 1:colcon.colcon_core.shell:create_environment_hook('quad', 'ament_prefix_path')
+[0.376s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/devpc/Desktop/quad_ws/install/quad/share/quad/hook/ament_prefix_path.ps1'
+[0.377s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/devpc/Desktop/quad_ws/install/quad/share/quad/hook/ament_prefix_path.dsv'
+[0.377s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/devpc/Desktop/quad_ws/install/quad/share/quad/hook/ament_prefix_path.sh'
+[0.379s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.379s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.382s] DEBUG:colcon.colcon_core.shell:Ignoring prefix path '/opt/ros/foxy'
+[0.384s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/devpc/Desktop/quad_ws/src/quad_interfaces' with build type 'ament_cmake'
+[0.384s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/devpc/Desktop/quad_ws/src/quad_interfaces'
+[0.386s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.386s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.388s] DEBUG:colcon.colcon_core.shell:Ignoring prefix path '/opt/ros/foxy'
+[0.391s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/devpc/Desktop/quad_ws/src/teleop' with build type 'ament_python'
+[0.391s] Level 1:colcon.colcon_core.shell:create_environment_hook('teleop', 'ament_prefix_path')
+[0.392s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/devpc/Desktop/quad_ws/install/teleop/share/teleop/hook/ament_prefix_path.ps1'
+[0.393s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/devpc/Desktop/quad_ws/install/teleop/share/teleop/hook/ament_prefix_path.dsv'
+[0.394s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/devpc/Desktop/quad_ws/install/teleop/share/teleop/hook/ament_prefix_path.sh'
+[0.395s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.395s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.397s] DEBUG:colcon.colcon_core.shell:Ignoring prefix path '/opt/ros/foxy'
+[0.400s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/devpc/Desktop/quad_ws/src/xacro-ros2' with build type 'ament_cmake'
+[0.400s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/devpc/Desktop/quad_ws/src/xacro-ros2'
+[0.401s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.401s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.404s] DEBUG:colcon.colcon_core.shell:Ignoring prefix path '/opt/ros/foxy'
+[0.646s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/devpc/Desktop/quad_ws/src/joystick_ros2'
+[0.647s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.647s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.650s] DEBUG:colcon.colcon_core.shell:Ignoring prefix path '/opt/ros/foxy'
+[0.890s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/devpc/Desktop/quad_ws/src/quad'
+[0.891s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.891s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.894s] DEBUG:colcon.colcon_core.shell:Ignoring prefix path '/opt/ros/foxy'
+[0.899s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/devpc/Desktop/quad_ws/build/quad_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/devpc/Desktop/quad_ws/install/teleop_twist_keyboard:/home/devpc/Desktop/quad_ws/install/teleop:/home/devpc/Desktop/quad_ws/install/quad:/home/devpc/Desktop/quad_ws/install/motion_servos_calibration:/home/devpc/Desktop/quad_ws/install/joystick_ros2:/opt/ros/foxy /usr/bin/cmake --build /home/devpc/Desktop/quad_ws/build/quad_interfaces -- -j8 -l8
+[1.155s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/devpc/Desktop/quad_ws/src/teleop'
+[1.156s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.156s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.158s] DEBUG:colcon.colcon_core.shell:Ignoring prefix path '/opt/ros/foxy'
+[1.165s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/devpc/Desktop/quad_ws/build/xacro': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/devpc/Desktop/quad_ws/install/teleop_twist_keyboard:/home/devpc/Desktop/quad_ws/install/teleop:/home/devpc/Desktop/quad_ws/install/quad:/home/devpc/Desktop/quad_ws/install/motion_servos_calibration:/home/devpc/Desktop/quad_ws/install/joystick_ros2:/opt/ros/foxy /usr/bin/cmake --build /home/devpc/Desktop/quad_ws/build/xacro -- -j8 -l8
+[1.175s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/devpc/Desktop/quad_ws/build/quad_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/devpc/Desktop/quad_ws/install/teleop_twist_keyboard:/home/devpc/Desktop/quad_ws/install/teleop:/home/devpc/Desktop/quad_ws/install/quad:/home/devpc/Desktop/quad_ws/install/motion_servos_calibration:/home/devpc/Desktop/quad_ws/install/joystick_ros2:/opt/ros/foxy /usr/bin/cmake --build /home/devpc/Desktop/quad_ws/build/quad_interfaces -- -j8 -l8
+[1.176s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/devpc/Desktop/quad_ws/src/joystick_ros2': PYTHONPATH=/home/devpc/Desktop/quad_ws/install/joystick_ros2/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/joystick_ros2 build --build-base /home/devpc/Desktop/quad_ws/build/joystick_ros2/build install --prefix /home/devpc/Desktop/quad_ws/install/joystick_ros2 --record /home/devpc/Desktop/quad_ws/build/joystick_ros2/install.log --single-version-externally-managed
+[1.182s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/devpc/Desktop/quad_ws/src/quad': PYTHONPATH=/home/devpc/Desktop/quad_ws/install/quad/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/quad build --build-base /home/devpc/Desktop/quad_ws/build/quad/build install --prefix /home/devpc/Desktop/quad_ws/install/quad --record /home/devpc/Desktop/quad_ws/build/quad/install.log --single-version-externally-managed
+[1.186s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/devpc/Desktop/quad_ws/src/teleop': PYTHONPATH=/home/devpc/Desktop/quad_ws/install/teleop/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/teleop build --build-base /home/devpc/Desktop/quad_ws/build/teleop/build install --prefix /home/devpc/Desktop/quad_ws/install/teleop --record /home/devpc/Desktop/quad_ws/build/teleop/install.log --single-version-externally-managed
+[1.204s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/devpc/Desktop/quad_ws/build/xacro' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/devpc/Desktop/quad_ws/install/teleop_twist_keyboard:/home/devpc/Desktop/quad_ws/install/teleop:/home/devpc/Desktop/quad_ws/install/quad:/home/devpc/Desktop/quad_ws/install/motion_servos_calibration:/home/devpc/Desktop/quad_ws/install/joystick_ros2:/opt/ros/foxy /usr/bin/cmake --build /home/devpc/Desktop/quad_ws/build/xacro -- -j8 -l8
+[1.238s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/devpc/Desktop/quad_ws/build/xacro': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/devpc/Desktop/quad_ws/install/teleop_twist_keyboard:/home/devpc/Desktop/quad_ws/install/teleop:/home/devpc/Desktop/quad_ws/install/quad:/home/devpc/Desktop/quad_ws/install/motion_servos_calibration:/home/devpc/Desktop/quad_ws/install/joystick_ros2:/opt/ros/foxy /usr/bin/cmake --install /home/devpc/Desktop/quad_ws/build/xacro
+[1.271s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/devpc/Desktop/quad_ws/build/quad_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/devpc/Desktop/quad_ws/install/teleop_twist_keyboard:/home/devpc/Desktop/quad_ws/install/teleop:/home/devpc/Desktop/quad_ws/install/quad:/home/devpc/Desktop/quad_ws/install/motion_servos_calibration:/home/devpc/Desktop/quad_ws/install/joystick_ros2:/opt/ros/foxy /usr/bin/cmake --install /home/devpc/Desktop/quad_ws/build/quad_interfaces
+[1.300s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(xacro)
+[1.306s] Level 1:colcon.colcon_core.environment:checking '/home/devpc/Desktop/quad_ws/install/xacro' for CMake module files
+[1.308s] Level 1:colcon.colcon_core.environment:checking '/home/devpc/Desktop/quad_ws/install/xacro' for CMake config files
+[1.309s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/devpc/Desktop/quad_ws/build/xacro' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/devpc/Desktop/quad_ws/install/teleop_twist_keyboard:/home/devpc/Desktop/quad_ws/install/teleop:/home/devpc/Desktop/quad_ws/install/quad:/home/devpc/Desktop/quad_ws/install/motion_servos_calibration:/home/devpc/Desktop/quad_ws/install/joystick_ros2:/opt/ros/foxy /usr/bin/cmake --install /home/devpc/Desktop/quad_ws/build/xacro
+[1.309s] Level 1:colcon.colcon_core.shell:create_environment_hook('xacro', 'cmake_prefix_path')
+[1.310s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/devpc/Desktop/quad_ws/install/xacro/share/xacro/hook/cmake_prefix_path.ps1'
+[1.311s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/devpc/Desktop/quad_ws/install/xacro/share/xacro/hook/cmake_prefix_path.dsv'
+[1.311s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/devpc/Desktop/quad_ws/install/xacro/share/xacro/hook/cmake_prefix_path.sh'
+[1.311s] Level 1:colcon.colcon_core.environment:checking '/home/devpc/Desktop/quad_ws/install/xacro/lib'
+[1.312s] Level 1:colcon.colcon_core.environment:checking '/home/devpc/Desktop/quad_ws/install/xacro/bin'
+[1.312s] Level 1:colcon.colcon_core.shell:create_environment_hook('xacro', 'path')
+[1.312s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/devpc/Desktop/quad_ws/install/xacro/share/xacro/hook/path.ps1'
+[1.313s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/devpc/Desktop/quad_ws/install/xacro/share/xacro/hook/path.dsv'
+[1.313s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/devpc/Desktop/quad_ws/install/xacro/share/xacro/hook/path.sh'
+[1.314s] Level 1:colcon.colcon_core.environment:checking '/home/devpc/Desktop/quad_ws/install/xacro/lib/pkgconfig/xacro.pc'
+[1.314s] Level 1:colcon.colcon_core.environment:checking '/home/devpc/Desktop/quad_ws/install/xacro/lib/python3.8/site-packages'
+[1.314s] Level 1:colcon.colcon_core.shell:create_environment_hook('xacro', 'pythonpath')
+[1.314s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/devpc/Desktop/quad_ws/install/xacro/share/xacro/hook/pythonpath.ps1'
+[1.315s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/devpc/Desktop/quad_ws/install/xacro/share/xacro/hook/pythonpath.dsv'
+[1.315s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/devpc/Desktop/quad_ws/install/xacro/share/xacro/hook/pythonpath.sh'
+[1.317s] INFO:colcon.colcon_core.shell:Creating package script '/home/devpc/Desktop/quad_ws/install/xacro/share/xacro/package.ps1'
+[1.318s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/devpc/Desktop/quad_ws/install/xacro/share/xacro/package.dsv'
+[1.319s] INFO:colcon.colcon_core.shell:Creating package script '/home/devpc/Desktop/quad_ws/install/xacro/share/xacro/package.sh'
+[1.321s] INFO:colcon.colcon_core.shell:Creating package script '/home/devpc/Desktop/quad_ws/install/xacro/share/xacro/package.bash'
+[1.322s] INFO:colcon.colcon_core.shell:Creating package script '/home/devpc/Desktop/quad_ws/install/xacro/share/xacro/package.zsh'
+[1.323s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/devpc/Desktop/quad_ws/install/xacro/share/colcon-core/packages/xacro)
+[1.350s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(xacro)
+[1.352s] Level 1:colcon.colcon_core.environment:checking '/home/devpc/Desktop/quad_ws/install/xacro' for CMake module files
+[1.354s] Level 1:colcon.colcon_core.environment:checking '/home/devpc/Desktop/quad_ws/install/xacro' for CMake config files
+[1.355s] Level 1:colcon.colcon_core.shell:create_environment_hook('xacro', 'cmake_prefix_path')
+[1.356s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/devpc/Desktop/quad_ws/install/xacro/share/xacro/hook/cmake_prefix_path.ps1'
+[1.357s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/devpc/Desktop/quad_ws/install/xacro/share/xacro/hook/cmake_prefix_path.dsv'
+[1.358s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/devpc/Desktop/quad_ws/install/xacro/share/xacro/hook/cmake_prefix_path.sh'
+[1.359s] Level 1:colcon.colcon_core.environment:checking '/home/devpc/Desktop/quad_ws/install/xacro/lib'
+[1.359s] Level 1:colcon.colcon_core.environment:checking '/home/devpc/Desktop/quad_ws/install/xacro/bin'
+[1.359s] Level 1:colcon.colcon_core.shell:create_environment_hook('xacro', 'path')
+[1.360s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/devpc/Desktop/quad_ws/install/xacro/share/xacro/hook/path.ps1'
+[1.361s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/devpc/Desktop/quad_ws/install/xacro/share/xacro/hook/path.dsv'
+[1.361s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/devpc/Desktop/quad_ws/install/xacro/share/xacro/hook/path.sh'
+[1.362s] Level 1:colcon.colcon_core.environment:checking '/home/devpc/Desktop/quad_ws/install/xacro/lib/pkgconfig/xacro.pc'
+[1.362s] Level 1:colcon.colcon_core.environment:checking '/home/devpc/Desktop/quad_ws/install/xacro/lib/python3.8/site-packages'
+[1.362s] Level 1:colcon.colcon_core.shell:create_environment_hook('xacro', 'pythonpath')
+[1.363s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/devpc/Desktop/quad_ws/install/xacro/share/xacro/hook/pythonpath.ps1'
+[1.364s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/devpc/Desktop/quad_ws/install/xacro/share/xacro/hook/pythonpath.dsv'
+[1.364s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/devpc/Desktop/quad_ws/install/xacro/share/xacro/hook/pythonpath.sh'
+[1.366s] INFO:colcon.colcon_core.shell:Creating package script '/home/devpc/Desktop/quad_ws/install/xacro/share/xacro/package.ps1'
+[1.367s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/devpc/Desktop/quad_ws/install/xacro/share/xacro/package.dsv'
+[1.368s] INFO:colcon.colcon_core.shell:Creating package script '/home/devpc/Desktop/quad_ws/install/xacro/share/xacro/package.sh'
+[1.369s] INFO:colcon.colcon_core.shell:Creating package script '/home/devpc/Desktop/quad_ws/install/xacro/share/xacro/package.bash'
+[1.369s] INFO:colcon.colcon_core.shell:Creating package script '/home/devpc/Desktop/quad_ws/install/xacro/share/xacro/package.zsh'
+[1.370s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/devpc/Desktop/quad_ws/install/xacro/share/colcon-core/packages/xacro)
+[1.371s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(quad_interfaces)
+[1.373s] Level 1:colcon.colcon_core.environment:checking '/home/devpc/Desktop/quad_ws/install/quad_interfaces' for CMake module files
+[1.374s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/devpc/Desktop/quad_ws/build/quad_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/devpc/Desktop/quad_ws/install/teleop_twist_keyboard:/home/devpc/Desktop/quad_ws/install/teleop:/home/devpc/Desktop/quad_ws/install/quad:/home/devpc/Desktop/quad_ws/install/motion_servos_calibration:/home/devpc/Desktop/quad_ws/install/joystick_ros2:/opt/ros/foxy /usr/bin/cmake --install /home/devpc/Desktop/quad_ws/build/quad_interfaces
+[1.375s] Level 1:colcon.colcon_core.environment:checking '/home/devpc/Desktop/quad_ws/install/quad_interfaces' for CMake config files
+[1.375s] Level 1:colcon.colcon_core.shell:create_environment_hook('quad_interfaces', 'cmake_prefix_path')
+[1.376s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/devpc/Desktop/quad_ws/install/quad_interfaces/share/quad_interfaces/hook/cmake_prefix_path.ps1'
+[1.377s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/devpc/Desktop/quad_ws/install/quad_interfaces/share/quad_interfaces/hook/cmake_prefix_path.dsv'
+[1.377s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/devpc/Desktop/quad_ws/install/quad_interfaces/share/quad_interfaces/hook/cmake_prefix_path.sh'
+[1.378s] Level 1:colcon.colcon_core.environment:checking '/home/devpc/Desktop/quad_ws/install/quad_interfaces/lib'
+[1.378s] Level 1:colcon.colcon_core.shell:create_environment_hook('quad_interfaces', 'ld_library_path_lib')
+[1.379s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/devpc/Desktop/quad_ws/install/quad_interfaces/share/quad_interfaces/hook/ld_library_path_lib.ps1'
+[1.379s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/devpc/Desktop/quad_ws/install/quad_interfaces/share/quad_interfaces/hook/ld_library_path_lib.dsv'
+[1.380s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/devpc/Desktop/quad_ws/install/quad_interfaces/share/quad_interfaces/hook/ld_library_path_lib.sh'
+[1.380s] Level 1:colcon.colcon_core.environment:checking '/home/devpc/Desktop/quad_ws/install/quad_interfaces/bin'
+[1.380s] Level 1:colcon.colcon_core.environment:checking '/home/devpc/Desktop/quad_ws/install/quad_interfaces/lib/pkgconfig/quad_interfaces.pc'
+[1.380s] Level 1:colcon.colcon_core.environment:checking '/home/devpc/Desktop/quad_ws/install/quad_interfaces/lib/python3.8/site-packages'
+[1.381s] Level 1:colcon.colcon_core.shell:create_environment_hook('quad_interfaces', 'pythonpath')
+[1.381s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/devpc/Desktop/quad_ws/install/quad_interfaces/share/quad_interfaces/hook/pythonpath.ps1'
+[1.382s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/devpc/Desktop/quad_ws/install/quad_interfaces/share/quad_interfaces/hook/pythonpath.dsv'
+[1.382s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/devpc/Desktop/quad_ws/install/quad_interfaces/share/quad_interfaces/hook/pythonpath.sh'
+[1.384s] INFO:colcon.colcon_core.shell:Creating package script '/home/devpc/Desktop/quad_ws/install/quad_interfaces/share/quad_interfaces/package.ps1'
+[1.385s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/devpc/Desktop/quad_ws/install/quad_interfaces/share/quad_interfaces/package.dsv'
+[1.385s] INFO:colcon.colcon_core.shell:Creating package script '/home/devpc/Desktop/quad_ws/install/quad_interfaces/share/quad_interfaces/package.sh'
+[1.386s] INFO:colcon.colcon_core.shell:Creating package script '/home/devpc/Desktop/quad_ws/install/quad_interfaces/share/quad_interfaces/package.bash'
+[1.387s] INFO:colcon.colcon_core.shell:Creating package script '/home/devpc/Desktop/quad_ws/install/quad_interfaces/share/quad_interfaces/package.zsh'
+[1.387s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/devpc/Desktop/quad_ws/install/quad_interfaces/share/colcon-core/packages/quad_interfaces)
+[1.488s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(quad_interfaces)
+[1.489s] Level 1:colcon.colcon_core.environment:checking '/home/devpc/Desktop/quad_ws/install/quad_interfaces' for CMake module files
+[1.491s] Level 1:colcon.colcon_core.environment:checking '/home/devpc/Desktop/quad_ws/install/quad_interfaces' for CMake config files
+[1.491s] Level 1:colcon.colcon_core.shell:create_environment_hook('quad_interfaces', 'cmake_prefix_path')
+[1.492s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/devpc/Desktop/quad_ws/install/quad_interfaces/share/quad_interfaces/hook/cmake_prefix_path.ps1'
+[1.493s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/devpc/Desktop/quad_ws/install/quad_interfaces/share/quad_interfaces/hook/cmake_prefix_path.dsv'
+[1.494s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/devpc/Desktop/quad_ws/install/quad_interfaces/share/quad_interfaces/hook/cmake_prefix_path.sh'
+[1.494s] Level 1:colcon.colcon_core.environment:checking '/home/devpc/Desktop/quad_ws/install/quad_interfaces/lib'
+[1.495s] Level 1:colcon.colcon_core.shell:create_environment_hook('quad_interfaces', 'ld_library_path_lib')
+[1.495s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/devpc/Desktop/quad_ws/install/quad_interfaces/share/quad_interfaces/hook/ld_library_path_lib.ps1'
+[1.496s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/devpc/Desktop/quad_ws/install/quad_interfaces/share/quad_interfaces/hook/ld_library_path_lib.dsv'
+[1.496s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/devpc/Desktop/quad_ws/install/quad_interfaces/share/quad_interfaces/hook/ld_library_path_lib.sh'
+[1.497s] Level 1:colcon.colcon_core.environment:checking '/home/devpc/Desktop/quad_ws/install/quad_interfaces/bin'
+[1.497s] Level 1:colcon.colcon_core.environment:checking '/home/devpc/Desktop/quad_ws/install/quad_interfaces/lib/pkgconfig/quad_interfaces.pc'
+[1.497s] Level 1:colcon.colcon_core.environment:checking '/home/devpc/Desktop/quad_ws/install/quad_interfaces/lib/python3.8/site-packages'
+[1.497s] Level 1:colcon.colcon_core.shell:create_environment_hook('quad_interfaces', 'pythonpath')
+[1.498s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/devpc/Desktop/quad_ws/install/quad_interfaces/share/quad_interfaces/hook/pythonpath.ps1'
+[1.499s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/devpc/Desktop/quad_ws/install/quad_interfaces/share/quad_interfaces/hook/pythonpath.dsv'
+[1.499s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/devpc/Desktop/quad_ws/install/quad_interfaces/share/quad_interfaces/hook/pythonpath.sh'
+[1.501s] INFO:colcon.colcon_core.shell:Creating package script '/home/devpc/Desktop/quad_ws/install/quad_interfaces/share/quad_interfaces/package.ps1'
+[1.502s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/devpc/Desktop/quad_ws/install/quad_interfaces/share/quad_interfaces/package.dsv'
+[1.503s] INFO:colcon.colcon_core.shell:Creating package script '/home/devpc/Desktop/quad_ws/install/quad_interfaces/share/quad_interfaces/package.sh'
+[1.504s] INFO:colcon.colcon_core.shell:Creating package script '/home/devpc/Desktop/quad_ws/install/quad_interfaces/share/quad_interfaces/package.bash'
+[1.504s] INFO:colcon.colcon_core.shell:Creating package script '/home/devpc/Desktop/quad_ws/install/quad_interfaces/share/quad_interfaces/package.zsh'
+[1.505s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/devpc/Desktop/quad_ws/install/quad_interfaces/share/colcon-core/packages/quad_interfaces)
+[1.583s] Level 1:colcon.colcon_core.environment:checking '/home/devpc/Desktop/quad_ws/install/quad' for CMake module files
+[1.584s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/devpc/Desktop/quad_ws/src/quad' returned '0': PYTHONPATH=/home/devpc/Desktop/quad_ws/install/quad/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/quad build --build-base /home/devpc/Desktop/quad_ws/build/quad/build install --prefix /home/devpc/Desktop/quad_ws/install/quad --record /home/devpc/Desktop/quad_ws/build/quad/install.log --single-version-externally-managed
+[1.585s] Level 1:colcon.colcon_core.environment:checking '/home/devpc/Desktop/quad_ws/install/quad' for CMake config files
+[1.586s] Level 1:colcon.colcon_core.environment:checking '/home/devpc/Desktop/quad_ws/install/quad/lib'
+[1.587s] Level 1:colcon.colcon_core.environment:checking '/home/devpc/Desktop/quad_ws/install/quad/bin'
+[1.587s] Level 1:colcon.colcon_core.environment:checking '/home/devpc/Desktop/quad_ws/install/quad/lib/pkgconfig/quad.pc'
+[1.587s] Level 1:colcon.colcon_core.environment:checking '/home/devpc/Desktop/quad_ws/install/quad/lib/python3.8/site-packages'
+[1.587s] Level 1:colcon.colcon_core.shell:create_environment_hook('quad', 'pythonpath')
+[1.588s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/devpc/Desktop/quad_ws/install/quad/share/quad/hook/pythonpath.ps1'
+[1.588s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/devpc/Desktop/quad_ws/install/quad/share/quad/hook/pythonpath.dsv'
+[1.589s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/devpc/Desktop/quad_ws/install/quad/share/quad/hook/pythonpath.sh'
+[1.589s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(quad)
+[1.591s] INFO:colcon.colcon_core.shell:Creating package script '/home/devpc/Desktop/quad_ws/install/quad/share/quad/package.ps1'
+[1.592s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/devpc/Desktop/quad_ws/install/quad/share/quad/package.dsv'
+[1.593s] INFO:colcon.colcon_core.shell:Creating package script '/home/devpc/Desktop/quad_ws/install/quad/share/quad/package.sh'
+[1.593s] INFO:colcon.colcon_core.shell:Creating package script '/home/devpc/Desktop/quad_ws/install/quad/share/quad/package.bash'
+[1.593s] INFO:colcon.colcon_core.shell:Creating package script '/home/devpc/Desktop/quad_ws/install/quad/share/quad/package.zsh'
+[1.594s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/devpc/Desktop/quad_ws/install/quad/share/colcon-core/packages/quad)
+[1.622s] Level 1:colcon.colcon_core.environment:checking '/home/devpc/Desktop/quad_ws/install/teleop' for CMake module files
+[1.623s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/devpc/Desktop/quad_ws/src/teleop' returned '0': PYTHONPATH=/home/devpc/Desktop/quad_ws/install/teleop/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/teleop build --build-base /home/devpc/Desktop/quad_ws/build/teleop/build install --prefix /home/devpc/Desktop/quad_ws/install/teleop --record /home/devpc/Desktop/quad_ws/build/teleop/install.log --single-version-externally-managed
+[1.624s] Level 1:colcon.colcon_core.environment:checking '/home/devpc/Desktop/quad_ws/install/teleop' for CMake config files
+[1.625s] Level 1:colcon.colcon_core.environment:checking '/home/devpc/Desktop/quad_ws/install/teleop/lib'
+[1.625s] Level 1:colcon.colcon_core.environment:checking '/home/devpc/Desktop/quad_ws/install/teleop/bin'
+[1.625s] Level 1:colcon.colcon_core.environment:checking '/home/devpc/Desktop/quad_ws/install/teleop/lib/pkgconfig/teleop.pc'
+[1.625s] Level 1:colcon.colcon_core.environment:checking '/home/devpc/Desktop/quad_ws/install/teleop/lib/python3.8/site-packages'
+[1.625s] Level 1:colcon.colcon_core.shell:create_environment_hook('teleop', 'pythonpath')
+[1.626s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/devpc/Desktop/quad_ws/install/teleop/share/teleop/hook/pythonpath.ps1'
+[1.627s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/devpc/Desktop/quad_ws/install/teleop/share/teleop/hook/pythonpath.dsv'
+[1.627s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/devpc/Desktop/quad_ws/install/teleop/share/teleop/hook/pythonpath.sh'
+[1.628s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(teleop)
+[1.629s] INFO:colcon.colcon_core.shell:Creating package script '/home/devpc/Desktop/quad_ws/install/teleop/share/teleop/package.ps1'
+[1.630s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/devpc/Desktop/quad_ws/install/teleop/share/teleop/package.dsv'
+[1.631s] INFO:colcon.colcon_core.shell:Creating package script '/home/devpc/Desktop/quad_ws/install/teleop/share/teleop/package.sh'
+[1.632s] INFO:colcon.colcon_core.shell:Creating package script '/home/devpc/Desktop/quad_ws/install/teleop/share/teleop/package.bash'
+[1.633s] INFO:colcon.colcon_core.shell:Creating package script '/home/devpc/Desktop/quad_ws/install/teleop/share/teleop/package.zsh'
+[1.633s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/devpc/Desktop/quad_ws/install/teleop/share/colcon-core/packages/teleop)
+[1.649s] Level 1:colcon.colcon_core.environment:checking '/home/devpc/Desktop/quad_ws/install/joystick_ros2' for CMake module files
+[1.650s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/devpc/Desktop/quad_ws/src/joystick_ros2' returned '0': PYTHONPATH=/home/devpc/Desktop/quad_ws/install/joystick_ros2/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/joystick_ros2 build --build-base /home/devpc/Desktop/quad_ws/build/joystick_ros2/build install --prefix /home/devpc/Desktop/quad_ws/install/joystick_ros2 --record /home/devpc/Desktop/quad_ws/build/joystick_ros2/install.log --single-version-externally-managed
+[1.650s] Level 1:colcon.colcon_core.environment:checking '/home/devpc/Desktop/quad_ws/install/joystick_ros2' for CMake config files
+[1.651s] Level 1:colcon.colcon_core.environment:checking '/home/devpc/Desktop/quad_ws/install/joystick_ros2/lib'
+[1.651s] Level 1:colcon.colcon_core.environment:checking '/home/devpc/Desktop/quad_ws/install/joystick_ros2/bin'
+[1.651s] Level 1:colcon.colcon_core.environment:checking '/home/devpc/Desktop/quad_ws/install/joystick_ros2/lib/pkgconfig/joystick_ros2.pc'
+[1.651s] Level 1:colcon.colcon_core.environment:checking '/home/devpc/Desktop/quad_ws/install/joystick_ros2/lib/python3.8/site-packages'
+[1.651s] Level 1:colcon.colcon_core.shell:create_environment_hook('joystick_ros2', 'pythonpath')
+[1.652s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/devpc/Desktop/quad_ws/install/joystick_ros2/share/joystick_ros2/hook/pythonpath.ps1'
+[1.653s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/devpc/Desktop/quad_ws/install/joystick_ros2/share/joystick_ros2/hook/pythonpath.dsv'
+[1.653s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/devpc/Desktop/quad_ws/install/joystick_ros2/share/joystick_ros2/hook/pythonpath.sh'
+[1.653s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(joystick_ros2)
+[1.654s] INFO:colcon.colcon_core.shell:Creating package script '/home/devpc/Desktop/quad_ws/install/joystick_ros2/share/joystick_ros2/package.ps1'
+[1.655s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/devpc/Desktop/quad_ws/install/joystick_ros2/share/joystick_ros2/package.dsv'
+[1.655s] INFO:colcon.colcon_core.shell:Creating package script '/home/devpc/Desktop/quad_ws/install/joystick_ros2/share/joystick_ros2/package.sh'
+[1.656s] INFO:colcon.colcon_core.shell:Creating package script '/home/devpc/Desktop/quad_ws/install/joystick_ros2/share/joystick_ros2/package.bash'
+[1.656s] INFO:colcon.colcon_core.shell:Creating package script '/home/devpc/Desktop/quad_ws/install/joystick_ros2/share/joystick_ros2/package.zsh'
+[1.656s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/devpc/Desktop/quad_ws/install/joystick_ros2/share/colcon-core/packages/joystick_ros2)
+[1.657s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[1.657s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[1.657s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[1.657s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[1.667s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[1.667s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[1.667s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[1.684s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[1.685s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/devpc/Desktop/quad_ws/install/local_setup.ps1'
+[1.687s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/devpc/Desktop/quad_ws/install/_local_setup_util_ps1.py'
+[1.689s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/devpc/Desktop/quad_ws/install/setup.ps1'
+[1.694s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/devpc/Desktop/quad_ws/install/local_setup.sh'
+[1.696s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/devpc/Desktop/quad_ws/install/_local_setup_util_sh.py'
+[1.697s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/devpc/Desktop/quad_ws/install/setup.sh'
+[1.702s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/devpc/Desktop/quad_ws/install/local_setup.bash'
+[1.702s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/devpc/Desktop/quad_ws/install/setup.bash'
+[1.707s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/devpc/Desktop/quad_ws/install/local_setup.zsh'
+[1.708s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/devpc/Desktop/quad_ws/install/setup.zsh'

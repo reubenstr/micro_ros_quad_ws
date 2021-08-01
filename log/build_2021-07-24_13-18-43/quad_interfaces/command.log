@@ -1,0 +1,6 @@
+Invoking command in '/home/devpc/Desktop/quad_ws/build/quad_interfaces': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/devpc/Desktop/quad_ws/src/quad_interfaces -DCMAKE_INSTALL_PREFIX=/home/devpc/Desktop/quad_ws/install/quad_interfaces
+Invoked command in '/home/devpc/Desktop/quad_ws/build/quad_interfaces' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/devpc/Desktop/quad_ws/src/quad_interfaces -DCMAKE_INSTALL_PREFIX=/home/devpc/Desktop/quad_ws/install/quad_interfaces
+Invoking command in '/home/devpc/Desktop/quad_ws/build/quad_interfaces': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/devpc/Desktop/quad_ws/build/quad_interfaces -- -j8 -l8
+Invoked command in '/home/devpc/Desktop/quad_ws/build/quad_interfaces' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/devpc/Desktop/quad_ws/build/quad_interfaces -- -j8 -l8
+Invoking command in '/home/devpc/Desktop/quad_ws/build/quad_interfaces': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/devpc/Desktop/quad_ws/build/quad_interfaces
+Invoked command in '/home/devpc/Desktop/quad_ws/build/quad_interfaces' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/devpc/Desktop/quad_ws/build/quad_interfaces

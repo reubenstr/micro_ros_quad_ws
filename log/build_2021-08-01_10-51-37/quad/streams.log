@@ -1,0 +1,22 @@
+[0.795s] Invoking command in '/home/devpc/Desktop/quad_ws/src/quad': PYTHONPATH=/home/devpc/Desktop/quad_ws/install/quad/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/quad build --build-base /home/devpc/Desktop/quad_ws/build/quad/build install --prefix /home/devpc/Desktop/quad_ws/install/quad --record /home/devpc/Desktop/quad_ws/build/quad/install.log --single-version-externally-managed
+[1.086s] running egg_info
+[1.086s] writing ../../build/quad/quad.egg-info/PKG-INFO
+[1.087s] writing dependency_links to ../../build/quad/quad.egg-info/dependency_links.txt
+[1.087s] writing entry points to ../../build/quad/quad.egg-info/entry_points.txt
+[1.087s] writing requirements to ../../build/quad/quad.egg-info/requires.txt
+[1.087s] writing top-level names to ../../build/quad/quad.egg-info/top_level.txt
+[1.128s] reading manifest file '../../build/quad/quad.egg-info/SOURCES.txt'
+[1.130s] writing manifest file '../../build/quad/quad.egg-info/SOURCES.txt'
+[1.130s] running build
+[1.130s] running build_py
+[1.130s] running install
+[1.131s] running install_lib
+[1.133s] running install_data
+[1.134s] running install_egg_info
+[1.135s] removing '/home/devpc/Desktop/quad_ws/install/quad/lib/python3.8/site-packages/quad-0.0.1-py3.8.egg-info' (and everything under it)
+[1.136s] Copying ../../build/quad/quad.egg-info to /home/devpc/Desktop/quad_ws/install/quad/lib/python3.8/site-packages/quad-0.0.1-py3.8.egg-info
+[1.137s] running install_scripts
+[1.160s] Installing motion_servos_calibration script to /home/devpc/Desktop/quad_ws/install/quad/lib/quad
+[1.161s] Installing quad script to /home/devpc/Desktop/quad_ws/install/quad/lib/quad
+[1.161s] writing list of installed files to '/home/devpc/Desktop/quad_ws/build/quad/install.log'
+[1.192s] Invoked command in '/home/devpc/Desktop/quad_ws/src/quad' returned '0': PYTHONPATH=/home/devpc/Desktop/quad_ws/install/quad/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/quad build --build-base /home/devpc/Desktop/quad_ws/build/quad/build install --prefix /home/devpc/Desktop/quad_ws/install/quad --record /home/devpc/Desktop/quad_ws/build/quad/install.log --single-version-externally-managed

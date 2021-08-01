@@ -1,0 +1,21 @@
+[0.221s] Invoking command in '/home/devpc/Desktop/quad_ws/build/quad_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/devpc/Desktop/quad_ws/install/quad:/opt/ros/foxy /usr/bin/cmake --build /home/devpc/Desktop/quad_ws/build/quad_interfaces -- -j8 -l8
+[0.249s] -- Found ament_cmake: 0.9.8 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.269s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[0.269s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.447s] -- Found ament_lint_auto: 0.9.6 (/opt/ros/foxy/share/ament_lint_auto/cmake)
+[0.506s] -- Found rosidl_default_generators: 1.0.1 (/opt/ros/foxy/share/rosidl_default_generators/cmake)
+[0.510s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.515s] -- Found rosidl_adapter: 1.2.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[0.649s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.675s] CMake Error at /opt/ros/foxy/share/rosidl_cmake/cmake/rosidl_generate_interfaces.cmake:93 (message):
+[0.675s]   rosidl_generate_interfaces() the passed file 'msg/AuxServosParametersmsg'
+[0.675s]   doesn't exist relative to the CMAKE_CURRENT_SOURCE_DIR
+[0.676s]   '/home/devpc/Desktop/quad_ws/src/quad_interfaces'
+[0.676s] Call Stack (most recent call first):
+[0.676s]   CMakeLists.txt:37 (rosidl_generate_interfaces)
+[0.676s] 
+[0.676s] 
+[0.676s] -- Configuring incomplete, errors occurred!
+[0.676s] See also "/home/devpc/Desktop/quad_ws/build/quad_interfaces/CMakeFiles/CMakeOutput.log".
+[0.682s] make: *** [Makefile:1708: cmake_check_build_system] Error 1
+[0.683s] Invoked command in '/home/devpc/Desktop/quad_ws/build/quad_interfaces' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/devpc/Desktop/quad_ws/install/quad:/opt/ros/foxy /usr/bin/cmake --build /home/devpc/Desktop/quad_ws/build/quad_interfaces -- -j8 -l8

@@ -1,0 +1,4 @@
+source;share/xacro/local_setup.bash
+source;share/xacro/local_setup.dsv
+source;share/xacro/local_setup.sh
+source;share/xacro/local_setup.zsh

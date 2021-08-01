@@ -1,0 +1,4 @@
+[console_scripts]
+motion_servos_calibration = quad.motion_servos_calibration:main
+quad = quad.quad:main
+

@@ -1,0 +1,16 @@
+[0.564s] Invoking command in '/home/devpc/Desktop/quad_ws/src/quad': PYTHONPATH=/home/devpc/Desktop/quad_ws/install/quad/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/quad build --build-base /home/devpc/Desktop/quad_ws/build/quad/build install --prefix /home/devpc/Desktop/quad_ws/install/quad --record /home/devpc/Desktop/quad_ws/build/quad/install.log --single-version-externally-managed
+[0.841s] running egg_info
+[0.842s] writing ../../build/quad/quad.egg-info/PKG-INFO
+[0.842s] writing dependency_links to ../../build/quad/quad.egg-info/dependency_links.txt
+[0.842s] writing entry points to ../../build/quad/quad.egg-info/entry_points.txt
+[0.843s] writing requirements to ../../build/quad/quad.egg-info/requires.txt
+[0.843s] writing top-level names to ../../build/quad/quad.egg-info/top_level.txt
+[0.885s] reading manifest file '../../build/quad/quad.egg-info/SOURCES.txt'
+[0.888s] writing manifest file '../../build/quad/quad.egg-info/SOURCES.txt'
+[0.888s] running build
+[0.888s] running build_py
+[0.888s] running install
+[0.890s] running install_lib
+[0.892s] running install_data
+[0.893s] error: can't copy 'quad/stl/OpenQuadruped': doesn't exist or not a regular file
+[0.920s] Invoked command in '/home/devpc/Desktop/quad_ws/src/quad' returned '1': PYTHONPATH=/home/devpc/Desktop/quad_ws/install/quad/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/quad build --build-base /home/devpc/Desktop/quad_ws/build/quad/build install --prefix /home/devpc/Desktop/quad_ws/install/quad --record /home/devpc/Desktop/quad_ws/build/quad/install.log --single-version-externally-managed

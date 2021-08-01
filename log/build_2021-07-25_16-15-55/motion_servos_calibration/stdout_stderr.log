@@ -1,0 +1,19 @@
+running egg_info
+writing ../../build/motion_servos_calibration/motion_servos_calibration.egg-info/PKG-INFO
+writing dependency_links to ../../build/motion_servos_calibration/motion_servos_calibration.egg-info/dependency_links.txt
+writing entry points to ../../build/motion_servos_calibration/motion_servos_calibration.egg-info/entry_points.txt
+writing requirements to ../../build/motion_servos_calibration/motion_servos_calibration.egg-info/requires.txt
+writing top-level names to ../../build/motion_servos_calibration/motion_servos_calibration.egg-info/top_level.txt
+reading manifest file '../../build/motion_servos_calibration/motion_servos_calibration.egg-info/SOURCES.txt'
+writing manifest file '../../build/motion_servos_calibration/motion_servos_calibration.egg-info/SOURCES.txt'
+running build
+running build_py
+running install
+running install_lib
+running install_data
+running install_egg_info
+removing '/home/devpc/Desktop/quad_ws/install/motion_servos_calibration/lib/python3.8/site-packages/motion_servos_calibration-0.0.0-py3.8.egg-info' (and everything under it)
+Copying ../../build/motion_servos_calibration/motion_servos_calibration.egg-info to /home/devpc/Desktop/quad_ws/install/motion_servos_calibration/lib/python3.8/site-packages/motion_servos_calibration-0.0.0-py3.8.egg-info
+running install_scripts
+Installing motion_servos_calibration script to /home/devpc/Desktop/quad_ws/install/motion_servos_calibration/lib/motion_servos_calibration
+writing list of installed files to '/home/devpc/Desktop/quad_ws/build/motion_servos_calibration/install.log'

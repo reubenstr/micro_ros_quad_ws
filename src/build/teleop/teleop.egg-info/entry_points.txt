@@ -1,0 +1,3 @@
+[console_scripts]
+teleop = teleop.teleop:main
+

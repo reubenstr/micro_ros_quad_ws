@@ -1,0 +1,29 @@
+[0.583s] Invoking command in '/home/devpc/Desktop/quad_ws/src/quad': PYTHONPATH=/home/devpc/Desktop/quad_ws/install/quad/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/quad build --build-base /home/devpc/Desktop/quad_ws/build/quad/build install --prefix /home/devpc/Desktop/quad_ws/install/quad --record /home/devpc/Desktop/quad_ws/build/quad/install.log --single-version-externally-managed
+[0.895s] running egg_info
+[0.895s] writing ../../build/quad/quad.egg-info/PKG-INFO
+[0.895s] writing dependency_links to ../../build/quad/quad.egg-info/dependency_links.txt
+[0.896s] writing entry points to ../../build/quad/quad.egg-info/entry_points.txt
+[0.896s] writing requirements to ../../build/quad/quad.egg-info/requires.txt
+[0.896s] writing top-level names to ../../build/quad/quad.egg-info/top_level.txt
+[0.932s] reading manifest file '../../build/quad/quad.egg-info/SOURCES.txt'
+[0.933s] writing manifest file '../../build/quad/quad.egg-info/SOURCES.txt'
+[0.933s] running build
+[0.933s] running build_py
+[0.934s] running install
+[0.934s] running install_lib
+[0.935s] running install_data
+[0.936s] copying quad/urdf/spot.urdf -> /home/devpc/Desktop/quad_ws/install/quad/share/quad/urdf
+[0.936s] copying quad/urdf/quad.urdf.xacro -> /home/devpc/Desktop/quad_ws/install/quad/share/quad/urdf
+[0.936s] copying quad/urdf/transmissions.xacro -> /home/devpc/Desktop/quad_ws/install/quad/share/quad/urdf
+[0.936s] copying quad/urdf/spot_accessories.urdf -> /home/devpc/Desktop/quad_ws/install/quad/share/quad/urdf
+[0.937s] copying quad/urdf/spot_macro.xacro -> /home/devpc/Desktop/quad_ws/install/quad/share/quad/urdf
+[0.937s] copying quad/urdf/spot.urdf.xacro -> /home/devpc/Desktop/quad_ws/install/quad/share/quad/urdf
+[0.937s] copying quad/urdf/accessories.urdf.xacro -> /home/devpc/Desktop/quad_ws/install/quad/share/quad/urdf
+[0.937s] running install_egg_info
+[0.938s] removing '/home/devpc/Desktop/quad_ws/install/quad/lib/python3.8/site-packages/quad-0.0.1-py3.8.egg-info' (and everything under it)
+[0.939s] Copying ../../build/quad/quad.egg-info to /home/devpc/Desktop/quad_ws/install/quad/lib/python3.8/site-packages/quad-0.0.1-py3.8.egg-info
+[0.940s] running install_scripts
+[0.956s] Installing motion_servos_calibration script to /home/devpc/Desktop/quad_ws/install/quad/lib/quad
+[0.956s] Installing quad script to /home/devpc/Desktop/quad_ws/install/quad/lib/quad
+[0.956s] writing list of installed files to '/home/devpc/Desktop/quad_ws/build/quad/install.log'
+[0.981s] Invoked command in '/home/devpc/Desktop/quad_ws/src/quad' returned '0': PYTHONPATH=/home/devpc/Desktop/quad_ws/install/quad/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/quad build --build-base /home/devpc/Desktop/quad_ws/build/quad/build install --prefix /home/devpc/Desktop/quad_ws/install/quad --record /home/devpc/Desktop/quad_ws/build/quad/install.log --single-version-externally-managed

@@ -1,0 +1,42 @@
+[0.552s] Invoking command in '/home/devpc/Desktop/quad_ws/src/quad': PYTHONPATH=/home/devpc/Desktop/quad_ws/install/quad/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/quad build --build-base /home/devpc/Desktop/quad_ws/build/quad/build install --prefix /home/devpc/Desktop/quad_ws/install/quad --record /home/devpc/Desktop/quad_ws/build/quad/install.log --single-version-externally-managed
+[0.806s] running egg_info
+[0.807s] writing ../../build/quad/quad.egg-info/PKG-INFO
+[0.807s] writing dependency_links to ../../build/quad/quad.egg-info/dependency_links.txt
+[0.808s] writing entry points to ../../build/quad/quad.egg-info/entry_points.txt
+[0.808s] writing requirements to ../../build/quad/quad.egg-info/requires.txt
+[0.808s] writing top-level names to ../../build/quad/quad.egg-info/top_level.txt
+[0.857s] reading manifest file '../../build/quad/quad.egg-info/SOURCES.txt'
+[0.859s] writing manifest file '../../build/quad/quad.egg-info/SOURCES.txt'
+[0.859s] running build
+[0.859s] running build_py
+[0.859s] running install
+[0.860s] running install_lib
+[0.862s] running install_data
+[0.862s] copying quad/stl/BATTERY.stl -> /home/devpc/Desktop/quad_ws/install/quad/share/quad/stl
+[0.863s] copying quad/stl/Front_Bracket.stl -> /home/devpc/Desktop/quad_ws/install/quad/share/quad/stl
+[0.863s] copying quad/stl/RIGHT_FOOT.stl -> /home/devpc/Desktop/quad_ws/install/quad/share/quad/stl
+[0.864s] copying quad/stl/Back_Bracket.stl -> /home/devpc/Desktop/quad_ws/install/quad/share/quad/stl
+[0.865s] copying quad/stl/Battery.stl -> /home/devpc/Desktop/quad_ws/install/quad/share/quad/stl
+[0.865s] copying quad/stl/Back.stl -> /home/devpc/Desktop/quad_ws/install/quad/share/quad/stl
+[0.865s] copying quad/stl/BACK.stl -> /home/devpc/Desktop/quad_ws/install/quad/share/quad/stl
+[0.868s] copying quad/stl/LEFT_HIP.stl -> /home/devpc/Desktop/quad_ws/install/quad/share/quad/stl
+[0.868s] copying quad/stl/LEFT_UPPER_LEG.stl -> /home/devpc/Desktop/quad_ws/install/quad/share/quad/stl
+[0.870s] copying quad/stl/Front.stl -> /home/devpc/Desktop/quad_ws/install/quad/share/quad/stl
+[0.870s] copying quad/stl/RIGHT_UPPER_LEG.stl -> /home/devpc/Desktop/quad_ws/install/quad/share/quad/stl
+[0.871s] copying quad/stl/RIGHT_LOWER_LEG.stl -> /home/devpc/Desktop/quad_ws/install/quad/share/quad/stl
+[0.871s] copying quad/stl/FRONT.stl -> /home/devpc/Desktop/quad_ws/install/quad/share/quad/stl
+[0.874s] copying quad/stl/Chassis_Left_Side.stl -> /home/devpc/Desktop/quad_ws/install/quad/share/quad/stl
+[0.874s] copying quad/stl/RIGHT_HIP.stl -> /home/devpc/Desktop/quad_ws/install/quad/share/quad/stl
+[0.875s] copying quad/stl/MAINBODY.stl -> /home/devpc/Desktop/quad_ws/install/quad/share/quad/stl
+[0.883s] copying quad/stl/SERVO_WITH_COVER.stl -> /home/devpc/Desktop/quad_ws/install/quad/share/quad/stl
+[0.884s] copying quad/stl/LEFT_LOWER_LEG.stl -> /home/devpc/Desktop/quad_ws/install/quad/share/quad/stl
+[0.885s] copying quad/stl/Chassis_Right_Side.stl -> /home/devpc/Desktop/quad_ws/install/quad/share/quad/stl
+[0.885s] copying quad/stl/LEFT_FOOT.stl -> /home/devpc/Desktop/quad_ws/install/quad/share/quad/stl
+[0.886s] running install_egg_info
+[0.888s] removing '/home/devpc/Desktop/quad_ws/install/quad/lib/python3.8/site-packages/quad-0.0.1-py3.8.egg-info' (and everything under it)
+[0.888s] Copying ../../build/quad/quad.egg-info to /home/devpc/Desktop/quad_ws/install/quad/lib/python3.8/site-packages/quad-0.0.1-py3.8.egg-info
+[0.889s] running install_scripts
+[0.905s] Installing motion_servos_calibration script to /home/devpc/Desktop/quad_ws/install/quad/lib/quad
+[0.906s] Installing quad script to /home/devpc/Desktop/quad_ws/install/quad/lib/quad
+[0.906s] writing list of installed files to '/home/devpc/Desktop/quad_ws/build/quad/install.log'
+[0.928s] Invoked command in '/home/devpc/Desktop/quad_ws/src/quad' returned '0': PYTHONPATH=/home/devpc/Desktop/quad_ws/install/quad/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/quad build --build-base /home/devpc/Desktop/quad_ws/build/quad/build install --prefix /home/devpc/Desktop/quad_ws/install/quad --record /home/devpc/Desktop/quad_ws/build/quad/install.log --single-version-externally-managed

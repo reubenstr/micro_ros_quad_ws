@@ -1,0 +1,20 @@
+[0.560s] Invoking command in '/home/devpc/Desktop/quad_ws/src/teleop': PYTHONPATH=/home/devpc/Desktop/quad_ws/install/teleop/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/teleop build --build-base /home/devpc/Desktop/quad_ws/build/teleop/build install --prefix /home/devpc/Desktop/quad_ws/install/teleop --record /home/devpc/Desktop/quad_ws/build/teleop/install.log --single-version-externally-managed
+[0.823s] running egg_info
+[0.824s] writing ../../build/teleop/teleop.egg-info/PKG-INFO
+[0.824s] writing dependency_links to ../../build/teleop/teleop.egg-info/dependency_links.txt
+[0.824s] writing entry points to ../../build/teleop/teleop.egg-info/entry_points.txt
+[0.825s] writing requirements to ../../build/teleop/teleop.egg-info/requires.txt
+[0.825s] writing top-level names to ../../build/teleop/teleop.egg-info/top_level.txt
+[0.871s] reading manifest file '../../build/teleop/teleop.egg-info/SOURCES.txt'
+[0.872s] writing manifest file '../../build/teleop/teleop.egg-info/SOURCES.txt'
+[0.872s] running build
+[0.873s] running build_py
+[0.873s] running install
+[0.874s] running install_lib
+[0.876s] running install_data
+[0.876s] running install_egg_info
+[0.878s] removing '/home/devpc/Desktop/quad_ws/install/teleop/lib/python3.8/site-packages/teleop-0.0.0-py3.8.egg-info' (and everything under it)
+[0.878s] Copying ../../build/teleop/teleop.egg-info to /home/devpc/Desktop/quad_ws/install/teleop/lib/python3.8/site-packages/teleop-0.0.0-py3.8.egg-info
+[0.879s] running install_scripts
+[0.903s] Installing teleop script to /home/devpc/Desktop/quad_ws/install/teleop/lib/teleop
+[0.903s] writing list of installed files to '/home/devpc/Desktop/quad_ws/build/teleop/install.log'

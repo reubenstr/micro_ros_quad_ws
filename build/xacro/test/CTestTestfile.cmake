@@ -1,0 +1,10 @@
+# CMake generated Testfile for 
+# Source directory: /home/devpc/Desktop/quad_ws/src/xacro-ros2/test
+# Build directory: /home/devpc/Desktop/quad_ws/build/xacro/test
+# 
+# This file includes the relevant testing commands required for 
+# testing this directory and lists subdirectories to be tested as well.
+add_test(pytest "/usr/bin/python3" "-u" "/opt/ros/foxy/share/ament_cmake_test/cmake/run_test.py" "/home/devpc/Desktop/quad_ws/build/xacro/test_results/xacro/pytest.xunit.xml" "--package-name" "xacro" "--output-file" "/home/devpc/Desktop/quad_ws/build/xacro/ament_cmake_pytest/pytest.txt" "--env" "AMENT_PREFIX_PATH=/home/devpc/Desktop/quad_ws/build/xacro/test/test_ament_index:/home/devpc/Desktop/quad_ws/install/teleop_twist_keyboard:/home/devpc/Desktop/quad_ws/install/teleop:/home/devpc/Desktop/quad_ws/install/quad_interfaces:/home/devpc/Desktop/quad_ws/install/quad:/home/devpc/Desktop/quad_ws/install/motion_servos_calibration:/opt/ros/foxy" "--command" "/usr/bin/python3" "-u" "-m" "pytest" "/home/devpc/Desktop/quad_ws/src/xacro-ros2/test/." "-o" "cache_dir=/home/devpc/Desktop/quad_ws/build/xacro/test/ament_cmake_pytest/pytest/.cache" "--junit-xml=/home/devpc/Desktop/quad_ws/build/xacro/test_results/xacro/pytest.xunit.xml" "--junit-prefix=xacro")
+set_tests_properties(pytest PROPERTIES  LABELS "pytest" TIMEOUT "60" WORKING_DIRECTORY "/home/devpc/Desktop/quad_ws/src/xacro-ros2/test" _BACKTRACE_TRIPLES "/opt/ros/foxy/share/ament_cmake_test/cmake/ament_add_test.cmake;118;add_test;/opt/ros/foxy/share/ament_cmake_pytest/cmake/ament_add_pytest_test.cmake;165;ament_add_test;/home/devpc/Desktop/quad_ws/src/xacro-ros2/test/CMakeLists.txt;10;ament_add_pytest_test;/home/devpc/Desktop/quad_ws/src/xacro-ros2/test/CMakeLists.txt;0;")
+add_test(xacro_cmake "/home/devpc/Desktop/quad_ws/src/xacro-ros2/test/test-cmake.sh" "/home/devpc/Desktop/quad_ws/src/xacro-ros2/test/test-xacro-cmake")
+set_tests_properties(xacro_cmake PROPERTIES  _BACKTRACE_TRIPLES "/home/devpc/Desktop/quad_ws/src/xacro-ros2/test/CMakeLists.txt;15;add_test;/home/devpc/Desktop/quad_ws/src/xacro-ros2/test/CMakeLists.txt;0;")

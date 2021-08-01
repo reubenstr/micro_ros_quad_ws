@@ -1,0 +1,95 @@
+[0.000000] (-) TimerEvent: {}
+[0.000248] (quad) JobQueued: {'identifier': 'quad', 'dependencies': OrderedDict()}
+[0.000381] (quad_interfaces) JobQueued: {'identifier': 'quad_interfaces', 'dependencies': OrderedDict()}
+[0.000460] (quad) JobStarted: {'identifier': 'quad'}
+[0.013316] (quad_interfaces) JobStarted: {'identifier': 'quad_interfaces'}
+[0.099010] (-) TimerEvent: {}
+[0.199443] (-) TimerEvent: {}
+[0.232711] (quad_interfaces) JobProgress: {'identifier': 'quad_interfaces', 'progress': 'cmake'}
+[0.233461] (quad_interfaces) JobProgress: {'identifier': 'quad_interfaces', 'progress': 'build'}
+[0.234190] (quad_interfaces) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/devpc/Desktop/quad_ws/build/quad_interfaces', '--', '-j8', '-l8'], 'cwd': '/home/devpc/Desktop/quad_ws/build/quad_interfaces', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'devpc'), ('SSH_AGENT_PID', '1126'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/devpc/Desktop/quad_ws/install/quad_interfaces/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/home/devpc'), ('OLDPWD', '/home/devpc'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '865'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/devpc/Desktop/quad_ws/install'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'devpc'), ('JOURNAL_STREAM', '8:36474'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'devpc'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/devpc:@/tmp/.ICE-unix/1170,unix/devpc:/tmp/.ICE-unix/1170'), ('INVOCATION_ID', '49dcb89bd6764ca9b48d317803e23a45'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/2f96b186_0ea0_43f5_98ca_7251c2908bf9'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.1850'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/devpc/Desktop/quad_ws/install/quad_interfaces:/home/devpc/Desktop/quad_ws/install/quad:/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/devpc/Desktop/quad_ws/build/quad_interfaces'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/devpc/Desktop/quad_ws/install/quad_interfaces/lib/python3.8/site-packages:/home/devpc/Desktop/quad_ws/install/quad/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/home/devpc/Desktop/quad_ws/install/quad_interfaces:/home/devpc/Desktop/quad_ws/install/quad:/opt/ros/foxy')]), 'shell': False}
+[0.240770] (quad) Command: {'cmd': ['/usr/bin/python3', 'setup.py', 'egg_info', '--egg-base', '../../build/quad', 'build', '--build-base', '/home/devpc/Desktop/quad_ws/build/quad/build', 'install', '--prefix', '/home/devpc/Desktop/quad_ws/install/quad', '--record', '/home/devpc/Desktop/quad_ws/build/quad/install.log', '--single-version-externally-managed'], 'cwd': '/home/devpc/Desktop/quad_ws/src/quad', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'devpc', 'SSH_AGENT_PID': '1126', 'XDG_SESSION_TYPE': 'x11', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/devpc/Desktop/quad_ws/install/quad_interfaces/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib', 'HOME': '/home/devpc', 'OLDPWD': '/home/devpc', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'MANAGERPID': '865', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'IM_CONFIG_PHASE': '1', 'COLCON_PREFIX_PATH': '/home/devpc/Desktop/quad_ws/install', 'ROS_DISTRO': 'foxy', 'LOGNAME': 'devpc', 'JOURNAL_STREAM': '8:36474', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'devpc', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'ROS_LOCALHOST_ONLY': '0', 'WINDOWPATH': '2', 'PATH': '/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'SESSION_MANAGER': 'local/devpc:@/tmp/.ICE-unix/1170,unix/devpc:/tmp/.ICE-unix/1170', 'INVOCATION_ID': '49dcb89bd6764ca9b48d317803e23a45', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/2f96b186_0ea0_43f5_98ca_7251c2908bf9', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/gdm/Xauthority', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'GNOME_TERMINAL_SERVICE': ':1.1850', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/devpc/Desktop/quad_ws/install/quad_interfaces:/home/devpc/Desktop/quad_ws/install/quad:/opt/ros/foxy', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'GPG_AGENT_INFO': '/run/user/1000/gnupg/S.gpg-agent:0:1', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/devpc/Desktop/quad_ws/build/quad', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/devpc/Desktop/quad_ws/install/quad/lib/python3.8/site-packages:/home/devpc/Desktop/quad_ws/install/quad_interfaces/lib/python3.8/site-packages:/home/devpc/Desktop/quad_ws/install/quad/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages', 'COLCON': '1', 'VTE_VERSION': '6003', 'CMAKE_PREFIX_PATH': '/home/devpc/Desktop/quad_ws/install/quad_interfaces'}, 'shell': False}
+[0.260810] (quad_interfaces) StdoutLine: {'line': b'-- Found ament_cmake: 0.9.8 (/opt/ros/foxy/share/ament_cmake/cmake)\n'}
+[0.279791] (quad_interfaces) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") \n'}
+[0.280055] (quad_interfaces) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[0.299543] (-) TimerEvent: {}
+[0.399893] (-) TimerEvent: {}
+[0.437508] (quad) StdoutLine: {'line': b'running egg_info\n'}
+[0.438036] (quad) StdoutLine: {'line': b'writing ../../build/quad/quad.egg-info/PKG-INFO\n'}
+[0.438315] (quad) StdoutLine: {'line': b'writing dependency_links to ../../build/quad/quad.egg-info/dependency_links.txt\n'}
+[0.438484] (quad) StdoutLine: {'line': b'writing entry points to ../../build/quad/quad.egg-info/entry_points.txt\n'}
+[0.438651] (quad) StdoutLine: {'line': b'writing requirements to ../../build/quad/quad.egg-info/requires.txt\n'}
+[0.438800] (quad) StdoutLine: {'line': b'writing top-level names to ../../build/quad/quad.egg-info/top_level.txt\n'}
+[0.450014] (quad_interfaces) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.9.6 (/opt/ros/foxy/share/ament_lint_auto/cmake)\n'}
+[0.475025] (quad) StdoutLine: {'line': b"reading manifest file '../../build/quad/quad.egg-info/SOURCES.txt'\n"}
+[0.475676] (quad) StdoutLine: {'line': b"writing manifest file '../../build/quad/quad.egg-info/SOURCES.txt'\n"}
+[0.475871] (quad) StdoutLine: {'line': b'running build\n'}
+[0.476023] (quad) StdoutLine: {'line': b'running build_py\n'}
+[0.476199] (quad) StdoutLine: {'line': b'running install\n'}
+[0.476750] (quad) StdoutLine: {'line': b'running install_lib\n'}
+[0.477934] (quad) StdoutLine: {'line': b'running install_data\n'}
+[0.478338] (quad) StdoutLine: {'line': b'running install_egg_info\n'}
+[0.479837] (quad) StdoutLine: {'line': b"removing '/home/devpc/Desktop/quad_ws/install/quad/lib/python3.8/site-packages/quad-0.0.0-py3.8.egg-info' (and everything under it)\n"}
+[0.480109] (quad) StdoutLine: {'line': b'Copying ../../build/quad/quad.egg-info to /home/devpc/Desktop/quad_ws/install/quad/lib/python3.8/site-packages/quad-0.0.0-py3.8.egg-info\n'}
+[0.480904] (quad) StdoutLine: {'line': b'running install_scripts\n'}
+[0.495943] (quad) StdoutLine: {'line': b'Installing quad script to /home/devpc/Desktop/quad_ws/install/quad/lib/quad\n'}
+[0.496269] (quad) StdoutLine: {'line': b"writing list of installed files to '/home/devpc/Desktop/quad_ws/build/quad/install.log'\n"}
+[0.500002] (-) TimerEvent: {}
+[0.505745] (quad_interfaces) StdoutLine: {'line': b'-- Found rosidl_default_generators: 1.0.1 (/opt/ros/foxy/share/rosidl_default_generators/cmake)\n'}
+[0.508052] (quad_interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.511995] (quad_interfaces) StdoutLine: {'line': b'-- Found rosidl_adapter: 1.2.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)\n'}
+[0.515242] (quad) CommandEnded: {'returncode': 0}
+[0.526871] (quad) JobEnded: {'identifier': 'quad', 'rc': 0}
+[0.600108] (-) TimerEvent: {}
+[0.636754] (quad_interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.681992] (quad_interfaces) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found version "3.8.10") \n'}
+[0.700202] (-) TimerEvent: {}
+[0.800505] (-) TimerEvent: {}
+[0.853961] (quad_interfaces) StderrLine: {'line': b'CMake Error at /opt/ros/foxy/share/rosidl_adapter/cmake/rosidl_adapt_interfaces.cmake:60 (message):\n'}
+[0.854307] (quad_interfaces) StderrLine: {'line': b'  execute_process(/usr/bin/python3 -m rosidl_adapter --package-name\n'}
+[0.854403] (quad_interfaces) StderrLine: {'line': b'  quad_interfaces --arguments-file\n'}
+[0.854493] (quad_interfaces) StderrLine: {'line': b'  /home/devpc/Desktop/quad_ws/build/quad_interfaces/rosidl_adapter__arguments__quad_interfaces.json\n'}
+[0.854577] (quad_interfaces) StderrLine: {'line': b'  --output-dir\n'}
+[0.854669] (quad_interfaces) StderrLine: {'line': b'  /home/devpc/Desktop/quad_ws/build/quad_interfaces/rosidl_adapter/quad_interfaces\n'}
+[0.854763] (quad_interfaces) StderrLine: {'line': b'  --output-file\n'}
+[0.854844] (quad_interfaces) StderrLine: {'line': b'  /home/devpc/Desktop/quad_ws/build/quad_interfaces/rosidl_adapter/quad_interfaces.idls)\n'}
+[0.854944] (quad_interfaces) StderrLine: {'line': b'  returned error code 1:\n'}
+[0.855026] (quad_interfaces) StderrLine: {'line': b'\n'}
+[0.855107] (quad_interfaces) StderrLine: {'line': b"  Error processing 'float32[12] maxAngle' of\n"}
+[0.855186] (quad_interfaces) StderrLine: {'line': b"  'quad_interfaces/MotionServosCalibration': ''maxAngle' is an invalid field\n"}
+[0.855272] (quad_interfaces) StderrLine: {'line': b"  name.  It should have the pattern '^(?!.*__)(?!.*_$)[a-z][a-z0-9_]*$''\n"}
+[0.855429] (quad_interfaces) StderrLine: {'line': b'\n'}
+[0.855537] (quad_interfaces) StderrLine: {'line': b'  Traceback (most recent call last):\n'}
+[0.855623] (quad_interfaces) StderrLine: {'line': b'\n'}
+[0.855705] (quad_interfaces) StderrLine: {'line': b'    File "/usr/lib/python3.8/runpy.py", line 194, in _run_module_as_main\n'}
+[0.855787] (quad_interfaces) StderrLine: {'line': b'      return _run_code(code, main_globals, None,\n'}
+[0.855879] (quad_interfaces) StderrLine: {'line': b'    File "/usr/lib/python3.8/runpy.py", line 87, in _run_code\n'}
+[0.855961] (quad_interfaces) StderrLine: {'line': b'      exec(code, run_globals)\n'}
+[0.856041] (quad_interfaces) StderrLine: {'line': b'    File "/opt/ros/foxy/lib/python3.8/site-packages/rosidl_adapter/__main__.py", line 19, in <module>\n'}
+[0.856120] (quad_interfaces) StderrLine: {'line': b'      sys.exit(main())\n'}
+[0.856200] (quad_interfaces) StderrLine: {'line': b'    File "/opt/ros/foxy/lib/python3.8/site-packages/rosidl_adapter/main.py", line 53, in main\n'}
+[0.856280] (quad_interfaces) StderrLine: {'line': b'      abs_idl_file = convert_to_idl(\n'}
+[0.856366] (quad_interfaces) StderrLine: {'line': b'    File "/opt/ros/foxy/lib/python3.8/site-packages/rosidl_adapter/__init__.py", line 19, in convert_to_idl\n'}
+[0.856463] (quad_interfaces) StderrLine: {'line': b'      return convert_msg_to_idl(\n'}
+[0.856577] (quad_interfaces) StderrLine: {'line': b'    File "/opt/ros/foxy/lib/python3.8/site-packages/rosidl_adapter/msg/__init__.py", line 28, in convert_msg_to_idl\n'}
+[0.856694] (quad_interfaces) StderrLine: {'line': b'      msg = parse_message_string(package_name, input_file.stem, content)\n'}
+[0.856824] (quad_interfaces) StderrLine: {'line': b'    File "/opt/ros/foxy/lib/python3.8/site-packages/rosidl_adapter/parser.py", line 515, in parse_message_string\n'}
+[0.856955] (quad_interfaces) StderrLine: {'line': b'      fields.append(Field(\n'}
+[0.857082] (quad_interfaces) StderrLine: {'line': b'    File "/opt/ros/foxy/lib/python3.8/site-packages/rosidl_adapter/parser.py", line 353, in __init__\n'}
+[0.857191] (quad_interfaces) StderrLine: {'line': b'      raise NameError(\n'}
+[0.857319] (quad_interfaces) StderrLine: {'line': b'\n'}
+[0.857462] (quad_interfaces) StderrLine: {'line': b"  NameError: 'maxAngle' is an invalid field name.  It should have the pattern\n"}
+[0.857609] (quad_interfaces) StderrLine: {'line': b"  '^(?!.*__)(?!.*_$)[a-z][a-z0-9_]*$'\n"}
+[0.857757] (quad_interfaces) StderrLine: {'line': b'\n'}
+[0.857904] (quad_interfaces) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[0.858012] (quad_interfaces) StderrLine: {'line': b'  /opt/ros/foxy/share/rosidl_cmake/cmake/rosidl_generate_interfaces.cmake:130 (rosidl_adapt_interfaces)\n'}
+[0.858149] (quad_interfaces) StderrLine: {'line': b'  CMakeLists.txt:37 (rosidl_generate_interfaces)\n'}
+[0.858293] (quad_interfaces) StderrLine: {'line': b'\n'}
+[0.858380] (quad_interfaces) StderrLine: {'line': b'\n'}
+[0.858462] (quad_interfaces) StdoutLine: {'line': b'-- Configuring incomplete, errors occurred!\n'}
+[0.858549] (quad_interfaces) StdoutLine: {'line': b'See also "/home/devpc/Desktop/quad_ws/build/quad_interfaces/CMakeFiles/CMakeOutput.log".\n'}
+[0.860844] (quad_interfaces) StderrLine: {'line': b'make: *** [Makefile:748: cmake_check_build_system] Error 1\n'}
+[0.862180] (quad_interfaces) CommandEnded: {'returncode': 2}
+[0.901030] (-) TimerEvent: {}
+[0.912701] (quad_interfaces) JobEnded: {'identifier': 'quad_interfaces', 'rc': 2}
+[0.923298] (-) EventReactorShutdown: {}

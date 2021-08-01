@@ -1,0 +1,5 @@
+/home/devpc/Desktop/quad_ws/src/build/quad_interfaces/rosidl_adapter/quad_interfaces:msg/MotionServos.idl
+/home/devpc/Desktop/quad_ws/src/build/quad_interfaces/rosidl_adapter/quad_interfaces:msg/MotionServosParameters.idl
+/home/devpc/Desktop/quad_ws/src/build/quad_interfaces/rosidl_adapter/quad_interfaces:msg/EmergencyStop.idl
+/home/devpc/Desktop/quad_ws/src/build/quad_interfaces/rosidl_adapter/quad_interfaces:msg/AuxServos.idl
+/home/devpc/Desktop/quad_ws/src/build/quad_interfaces/rosidl_adapter/quad_interfaces:msg/AuxServosParameters.idl

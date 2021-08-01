@@ -1,0 +1,40 @@
+running egg_info
+writing ../../build/quad/quad.egg-info/PKG-INFO
+writing dependency_links to ../../build/quad/quad.egg-info/dependency_links.txt
+writing entry points to ../../build/quad/quad.egg-info/entry_points.txt
+writing requirements to ../../build/quad/quad.egg-info/requires.txt
+writing top-level names to ../../build/quad/quad.egg-info/top_level.txt
+reading manifest file '../../build/quad/quad.egg-info/SOURCES.txt'
+writing manifest file '../../build/quad/quad.egg-info/SOURCES.txt'
+running build
+running build_py
+running install
+running install_lib
+running install_data
+copying quad/stl/BATTERY.stl -> /home/devpc/Desktop/quad_ws/install/quad/share/quad/stl
+copying quad/stl/Front_Bracket.stl -> /home/devpc/Desktop/quad_ws/install/quad/share/quad/stl
+copying quad/stl/RIGHT_FOOT.stl -> /home/devpc/Desktop/quad_ws/install/quad/share/quad/stl
+copying quad/stl/Back_Bracket.stl -> /home/devpc/Desktop/quad_ws/install/quad/share/quad/stl
+copying quad/stl/Battery.stl -> /home/devpc/Desktop/quad_ws/install/quad/share/quad/stl
+copying quad/stl/Back.stl -> /home/devpc/Desktop/quad_ws/install/quad/share/quad/stl
+copying quad/stl/BACK.stl -> /home/devpc/Desktop/quad_ws/install/quad/share/quad/stl
+copying quad/stl/LEFT_HIP.stl -> /home/devpc/Desktop/quad_ws/install/quad/share/quad/stl
+copying quad/stl/LEFT_UPPER_LEG.stl -> /home/devpc/Desktop/quad_ws/install/quad/share/quad/stl
+copying quad/stl/Front.stl -> /home/devpc/Desktop/quad_ws/install/quad/share/quad/stl
+copying quad/stl/RIGHT_UPPER_LEG.stl -> /home/devpc/Desktop/quad_ws/install/quad/share/quad/stl
+copying quad/stl/RIGHT_LOWER_LEG.stl -> /home/devpc/Desktop/quad_ws/install/quad/share/quad/stl
+copying quad/stl/FRONT.stl -> /home/devpc/Desktop/quad_ws/install/quad/share/quad/stl
+copying quad/stl/Chassis_Left_Side.stl -> /home/devpc/Desktop/quad_ws/install/quad/share/quad/stl
+copying quad/stl/RIGHT_HIP.stl -> /home/devpc/Desktop/quad_ws/install/quad/share/quad/stl
+copying quad/stl/MAINBODY.stl -> /home/devpc/Desktop/quad_ws/install/quad/share/quad/stl
+copying quad/stl/SERVO_WITH_COVER.stl -> /home/devpc/Desktop/quad_ws/install/quad/share/quad/stl
+copying quad/stl/LEFT_LOWER_LEG.stl -> /home/devpc/Desktop/quad_ws/install/quad/share/quad/stl
+copying quad/stl/Chassis_Right_Side.stl -> /home/devpc/Desktop/quad_ws/install/quad/share/quad/stl
+copying quad/stl/LEFT_FOOT.stl -> /home/devpc/Desktop/quad_ws/install/quad/share/quad/stl
+running install_egg_info
+removing '/home/devpc/Desktop/quad_ws/install/quad/lib/python3.8/site-packages/quad-0.0.1-py3.8.egg-info' (and everything under it)
+Copying ../../build/quad/quad.egg-info to /home/devpc/Desktop/quad_ws/install/quad/lib/python3.8/site-packages/quad-0.0.1-py3.8.egg-info
+running install_scripts
+Installing motion_servos_calibration script to /home/devpc/Desktop/quad_ws/install/quad/lib/quad
+Installing quad script to /home/devpc/Desktop/quad_ws/install/quad/lib/quad
+writing list of installed files to '/home/devpc/Desktop/quad_ws/build/quad/install.log'

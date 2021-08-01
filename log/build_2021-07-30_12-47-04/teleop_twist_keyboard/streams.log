@@ -1,0 +1,21 @@
+[0.798s] Invoking command in '/home/devpc/Desktop/quad_ws/src/teleop_twist_keyboard-dashing': PYTHONPATH=/home/devpc/Desktop/quad_ws/install/teleop_twist_keyboard/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/teleop_twist_keyboard build --build-base /home/devpc/Desktop/quad_ws/build/teleop_twist_keyboard/build install --prefix /home/devpc/Desktop/quad_ws/install/teleop_twist_keyboard --record /home/devpc/Desktop/quad_ws/build/teleop_twist_keyboard/install.log --single-version-externally-managed
+[1.098s] running egg_info
+[1.100s] writing ../../build/teleop_twist_keyboard/teleop_twist_keyboard.egg-info/PKG-INFO
+[1.101s] writing dependency_links to ../../build/teleop_twist_keyboard/teleop_twist_keyboard.egg-info/dependency_links.txt
+[1.101s] writing entry points to ../../build/teleop_twist_keyboard/teleop_twist_keyboard.egg-info/entry_points.txt
+[1.101s] writing requirements to ../../build/teleop_twist_keyboard/teleop_twist_keyboard.egg-info/requires.txt
+[1.101s] writing top-level names to ../../build/teleop_twist_keyboard/teleop_twist_keyboard.egg-info/top_level.txt
+[1.156s] reading manifest file '../../build/teleop_twist_keyboard/teleop_twist_keyboard.egg-info/SOURCES.txt'
+[1.158s] writing manifest file '../../build/teleop_twist_keyboard/teleop_twist_keyboard.egg-info/SOURCES.txt'
+[1.158s] running build
+[1.159s] running build_py
+[1.159s] running install
+[1.160s] running install_lib
+[1.162s] running install_data
+[1.162s] running install_egg_info
+[1.165s] removing '/home/devpc/Desktop/quad_ws/install/teleop_twist_keyboard/lib/python3.8/site-packages/teleop_twist_keyboard-2.3.2-py3.8.egg-info' (and everything under it)
+[1.165s] Copying ../../build/teleop_twist_keyboard/teleop_twist_keyboard.egg-info to /home/devpc/Desktop/quad_ws/install/teleop_twist_keyboard/lib/python3.8/site-packages/teleop_twist_keyboard-2.3.2-py3.8.egg-info
+[1.167s] running install_scripts
+[1.183s] Installing teleop_twist_keyboard script to /home/devpc/Desktop/quad_ws/install/teleop_twist_keyboard/lib/teleop_twist_keyboard
+[1.184s] writing list of installed files to '/home/devpc/Desktop/quad_ws/build/teleop_twist_keyboard/install.log'
+[1.204s] Invoked command in '/home/devpc/Desktop/quad_ws/src/teleop_twist_keyboard-dashing' returned '0': PYTHONPATH=/home/devpc/Desktop/quad_ws/install/teleop_twist_keyboard/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/teleop_twist_keyboard build --build-base /home/devpc/Desktop/quad_ws/build/teleop_twist_keyboard/build install --prefix /home/devpc/Desktop/quad_ws/install/teleop_twist_keyboard --record /home/devpc/Desktop/quad_ws/build/teleop_twist_keyboard/install.log --single-version-externally-managed

@@ -1,0 +1,3 @@
+[console_scripts]
+motion_servos_calibration = motion_servos_calibration.motion_servos_calibration:main
+

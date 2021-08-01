@@ -1,0 +1,24 @@
+file(REMOVE_RECURSE
+  "CMakeFiles/quad_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/quad_interfaces/msg/detail/dds_fastrtps/aux_servos__type_support.cpp.o"
+  "CMakeFiles/quad_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/quad_interfaces/msg/detail/dds_fastrtps/aux_servos_parameters__type_support.cpp.o"
+  "CMakeFiles/quad_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/quad_interfaces/msg/detail/dds_fastrtps/emergency_stop__type_support.cpp.o"
+  "CMakeFiles/quad_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/quad_interfaces/msg/detail/dds_fastrtps/motion_servos__type_support.cpp.o"
+  "CMakeFiles/quad_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/quad_interfaces/msg/detail/dds_fastrtps/motion_servos_parameters__type_support.cpp.o"
+  "libquad_interfaces__rosidl_typesupport_fastrtps_cpp.pdb"
+  "libquad_interfaces__rosidl_typesupport_fastrtps_cpp.so"
+  "rosidl_typesupport_fastrtps_cpp/quad_interfaces/msg/detail/aux_servos__rosidl_typesupport_fastrtps_cpp.hpp"
+  "rosidl_typesupport_fastrtps_cpp/quad_interfaces/msg/detail/aux_servos_parameters__rosidl_typesupport_fastrtps_cpp.hpp"
+  "rosidl_typesupport_fastrtps_cpp/quad_interfaces/msg/detail/dds_fastrtps/aux_servos__type_support.cpp"
+  "rosidl_typesupport_fastrtps_cpp/quad_interfaces/msg/detail/dds_fastrtps/aux_servos_parameters__type_support.cpp"
+  "rosidl_typesupport_fastrtps_cpp/quad_interfaces/msg/detail/dds_fastrtps/emergency_stop__type_support.cpp"
+  "rosidl_typesupport_fastrtps_cpp/quad_interfaces/msg/detail/dds_fastrtps/motion_servos__type_support.cpp"
+  "rosidl_typesupport_fastrtps_cpp/quad_interfaces/msg/detail/dds_fastrtps/motion_servos_parameters__type_support.cpp"
+  "rosidl_typesupport_fastrtps_cpp/quad_interfaces/msg/detail/emergency_stop__rosidl_typesupport_fastrtps_cpp.hpp"
+  "rosidl_typesupport_fastrtps_cpp/quad_interfaces/msg/detail/motion_servos__rosidl_typesupport_fastrtps_cpp.hpp"
+  "rosidl_typesupport_fastrtps_cpp/quad_interfaces/msg/detail/motion_servos_parameters__rosidl_typesupport_fastrtps_cpp.hpp"
+)
+
+# Per-language clean rules from dependency scanning.
+foreach(lang CXX)
+  include(CMakeFiles/quad_interfaces__rosidl_typesupport_fastrtps_cpp.dir/cmake_clean_${lang}.cmake OPTIONAL)
+endforeach()

@@ -1,0 +1,529 @@
+[0.000000] (-) TimerEvent: {}
+[0.000126] (quad) JobQueued: {'identifier': 'quad', 'dependencies': OrderedDict()}
+[0.000536] (quad_interfaces) JobQueued: {'identifier': 'quad_interfaces', 'dependencies': OrderedDict()}
+[0.000782] (teleop) JobQueued: {'identifier': 'teleop', 'dependencies': OrderedDict()}
+[0.001043] (teleop_twist_keyboard) JobQueued: {'identifier': 'teleop_twist_keyboard', 'dependencies': OrderedDict()}
+[0.001612] (quad) JobStarted: {'identifier': 'quad'}
+[0.011081] (quad_interfaces) JobStarted: {'identifier': 'quad_interfaces'}
+[0.017670] (teleop) JobStarted: {'identifier': 'teleop'}
+[0.024125] (teleop_twist_keyboard) JobStarted: {'identifier': 'teleop_twist_keyboard'}
+[0.099784] (-) TimerEvent: {}
+[0.200170] (-) TimerEvent: {}
+[0.253377] (quad_interfaces) JobProgress: {'identifier': 'quad_interfaces', 'progress': 'cmake'}
+[0.253870] (quad_interfaces) Command: {'cmd': ['/usr/bin/cmake', '/home/devpc/Desktop/quad_ws/src/quad_interfaces', '-DCMAKE_INSTALL_PREFIX=/home/devpc/Desktop/quad_ws/src/install/quad_interfaces'], 'cwd': '/home/devpc/Desktop/quad_ws/src/build/quad_interfaces', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'devpc'), ('SSH_AGENT_PID', '1125'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/devpc/Desktop/quad_ws/install/quad_interfaces/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/home/devpc'), ('OLDPWD', '/home/devpc/Desktop/quad_ws'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '858'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/devpc/Desktop/quad_ws/install'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'devpc'), ('JOURNAL_STREAM', '8:37808'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'devpc'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/devpc:@/tmp/.ICE-unix/1168,unix/devpc:/tmp/.ICE-unix/1168'), ('INVOCATION_ID', '97ae8c7808bf4030b7985e7ec6be4c5c'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/830f7494_14b8_47f2_a1c9_867d750ff713'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.1521'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/devpc/Desktop/quad_ws/install/teleop_twist_keyboard:/home/devpc/Desktop/quad_ws/install/quad_interfaces:/home/devpc/Desktop/quad_ws/install/quad:/home/devpc/Desktop/quad_ws/install/motion_servos_calibration:/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/devpc/Desktop/quad_ws/src/build/quad_interfaces'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/devpc/Desktop/quad_ws/install/teleop_twist_keyboard/lib/python3.8/site-packages:/home/devpc/Desktop/quad_ws/install/quad_interfaces/lib/python3.8/site-packages:/home/devpc/Desktop/quad_ws/install/quad/lib/python3.8/site-packages:/home/devpc/Desktop/quad_ws/install/motion_servos_calibration/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/home/devpc/Desktop/quad_ws/install/quad_interfaces:/home/devpc/Desktop/quad_ws/install/teleop_twist_keyboard:/home/devpc/Desktop/quad_ws/install/quad:/home/devpc/Desktop/quad_ws/install/motion_servos_calibration:/opt/ros/foxy')]), 'shell': False}
+[0.300348] (-) TimerEvent: {}
+[0.400728] (-) TimerEvent: {}
+[0.501076] (-) TimerEvent: {}
+[0.601537] (-) TimerEvent: {}
+[0.701922] (-) TimerEvent: {}
+[0.752145] (quad_interfaces) StdoutLine: {'line': b'-- The C compiler identification is GNU 9.3.0\n'}
+[0.752984] (quad_interfaces) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 9.3.0\n'}
+[0.754109] (quad_interfaces) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc\n'}
+[0.754588] (quad_interfaces) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc -- works\n'}
+[0.754820] (quad_interfaces) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.756689] (quad_interfaces) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.757249] (quad_interfaces) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.758233] (quad_interfaces) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.758684] (quad_interfaces) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++\n'}
+[0.759203] (quad_interfaces) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ -- works\n'}
+[0.761032] (quad_interfaces) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.761209] (quad_interfaces) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.763060] (quad_interfaces) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.763486] (quad_interfaces) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.763805] (quad_interfaces) StdoutLine: {'line': b'-- Found ament_cmake: 0.9.8 (/opt/ros/foxy/share/ament_cmake/cmake)\n'}
+[0.764032] (quad_interfaces) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") \n'}
+[0.766520] (quad_interfaces) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[0.766769] (quad) Command: {'cmd': ['/usr/bin/python3', 'setup.py', 'egg_info', '--egg-base', '../build/quad', 'build', '--build-base', '/home/devpc/Desktop/quad_ws/src/build/quad/build', 'install', '--prefix', '/home/devpc/Desktop/quad_ws/src/install/quad', '--record', '/home/devpc/Desktop/quad_ws/src/build/quad/install.log', '--single-version-externally-managed'], 'cwd': '/home/devpc/Desktop/quad_ws/src/quad', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'devpc', 'SSH_AGENT_PID': '1125', 'XDG_SESSION_TYPE': 'x11', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/devpc/Desktop/quad_ws/install/quad_interfaces/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib', 'HOME': '/home/devpc', 'OLDPWD': '/home/devpc/Desktop/quad_ws', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'MANAGERPID': '858', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'IM_CONFIG_PHASE': '1', 'COLCON_PREFIX_PATH': '/home/devpc/Desktop/quad_ws/install', 'ROS_DISTRO': 'foxy', 'LOGNAME': 'devpc', 'JOURNAL_STREAM': '8:37808', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'devpc', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'ROS_LOCALHOST_ONLY': '0', 'WINDOWPATH': '2', 'PATH': '/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'SESSION_MANAGER': 'local/devpc:@/tmp/.ICE-unix/1168,unix/devpc:/tmp/.ICE-unix/1168', 'INVOCATION_ID': '97ae8c7808bf4030b7985e7ec6be4c5c', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/830f7494_14b8_47f2_a1c9_867d750ff713', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/gdm/Xauthority', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'GNOME_TERMINAL_SERVICE': ':1.1521', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/devpc/Desktop/quad_ws/install/teleop_twist_keyboard:/home/devpc/Desktop/quad_ws/install/quad_interfaces:/home/devpc/Desktop/quad_ws/install/quad:/home/devpc/Desktop/quad_ws/install/motion_servos_calibration:/opt/ros/foxy', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'GPG_AGENT_INFO': '/run/user/1000/gnupg/S.gpg-agent:0:1', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/devpc/Desktop/quad_ws/src/build/quad', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/devpc/Desktop/quad_ws/src/install/quad/lib/python3.8/site-packages:/home/devpc/Desktop/quad_ws/install/teleop_twist_keyboard/lib/python3.8/site-packages:/home/devpc/Desktop/quad_ws/install/quad_interfaces/lib/python3.8/site-packages:/home/devpc/Desktop/quad_ws/install/quad/lib/python3.8/site-packages:/home/devpc/Desktop/quad_ws/install/motion_servos_calibration/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages', 'COLCON': '1', 'VTE_VERSION': '6003', 'CMAKE_PREFIX_PATH': '/home/devpc/Desktop/quad_ws/install/quad_interfaces'}, 'shell': False}
+[0.771103] (teleop) Command: {'cmd': ['/usr/bin/python3', 'setup.py', 'egg_info', '--egg-base', '../build/teleop', 'build', '--build-base', '/home/devpc/Desktop/quad_ws/src/build/teleop/build', 'install', '--prefix', '/home/devpc/Desktop/quad_ws/src/install/teleop', '--record', '/home/devpc/Desktop/quad_ws/src/build/teleop/install.log', '--single-version-externally-managed'], 'cwd': '/home/devpc/Desktop/quad_ws/src/teleop', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'devpc', 'SSH_AGENT_PID': '1125', 'XDG_SESSION_TYPE': 'x11', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/devpc/Desktop/quad_ws/install/quad_interfaces/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib', 'HOME': '/home/devpc', 'OLDPWD': '/home/devpc/Desktop/quad_ws', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'MANAGERPID': '858', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'IM_CONFIG_PHASE': '1', 'COLCON_PREFIX_PATH': '/home/devpc/Desktop/quad_ws/install', 'ROS_DISTRO': 'foxy', 'LOGNAME': 'devpc', 'JOURNAL_STREAM': '8:37808', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'devpc', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'ROS_LOCALHOST_ONLY': '0', 'WINDOWPATH': '2', 'PATH': '/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'SESSION_MANAGER': 'local/devpc:@/tmp/.ICE-unix/1168,unix/devpc:/tmp/.ICE-unix/1168', 'INVOCATION_ID': '97ae8c7808bf4030b7985e7ec6be4c5c', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/830f7494_14b8_47f2_a1c9_867d750ff713', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/gdm/Xauthority', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'GNOME_TERMINAL_SERVICE': ':1.1521', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/devpc/Desktop/quad_ws/install/teleop_twist_keyboard:/home/devpc/Desktop/quad_ws/install/quad_interfaces:/home/devpc/Desktop/quad_ws/install/quad:/home/devpc/Desktop/quad_ws/install/motion_servos_calibration:/opt/ros/foxy', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'GPG_AGENT_INFO': '/run/user/1000/gnupg/S.gpg-agent:0:1', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/devpc/Desktop/quad_ws/src/build/teleop', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/devpc/Desktop/quad_ws/src/install/teleop/lib/python3.8/site-packages:/home/devpc/Desktop/quad_ws/install/teleop_twist_keyboard/lib/python3.8/site-packages:/home/devpc/Desktop/quad_ws/install/quad_interfaces/lib/python3.8/site-packages:/home/devpc/Desktop/quad_ws/install/quad/lib/python3.8/site-packages:/home/devpc/Desktop/quad_ws/install/motion_servos_calibration/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages', 'COLCON': '1', 'VTE_VERSION': '6003', 'CMAKE_PREFIX_PATH': '/home/devpc/Desktop/quad_ws/install/quad_interfaces'}, 'shell': False}
+[0.772179] (teleop_twist_keyboard) Command: {'cmd': ['/usr/bin/python3', 'setup.py', 'egg_info', '--egg-base', '../build/teleop_twist_keyboard', 'build', '--build-base', '/home/devpc/Desktop/quad_ws/src/build/teleop_twist_keyboard/build', 'install', '--prefix', '/home/devpc/Desktop/quad_ws/src/install/teleop_twist_keyboard', '--record', '/home/devpc/Desktop/quad_ws/src/build/teleop_twist_keyboard/install.log', '--single-version-externally-managed'], 'cwd': '/home/devpc/Desktop/quad_ws/src/teleop_twist_keyboard-dashing', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'devpc', 'SSH_AGENT_PID': '1125', 'XDG_SESSION_TYPE': 'x11', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/devpc/Desktop/quad_ws/install/quad_interfaces/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib', 'HOME': '/home/devpc', 'OLDPWD': '/home/devpc/Desktop/quad_ws', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'MANAGERPID': '858', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'IM_CONFIG_PHASE': '1', 'COLCON_PREFIX_PATH': '/home/devpc/Desktop/quad_ws/install', 'ROS_DISTRO': 'foxy', 'LOGNAME': 'devpc', 'JOURNAL_STREAM': '8:37808', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'devpc', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'ROS_LOCALHOST_ONLY': '0', 'WINDOWPATH': '2', 'PATH': '/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'SESSION_MANAGER': 'local/devpc:@/tmp/.ICE-unix/1168,unix/devpc:/tmp/.ICE-unix/1168', 'INVOCATION_ID': '97ae8c7808bf4030b7985e7ec6be4c5c', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/830f7494_14b8_47f2_a1c9_867d750ff713', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/gdm/Xauthority', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'GNOME_TERMINAL_SERVICE': ':1.1521', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/devpc/Desktop/quad_ws/install/teleop_twist_keyboard:/home/devpc/Desktop/quad_ws/install/quad_interfaces:/home/devpc/Desktop/quad_ws/install/quad:/home/devpc/Desktop/quad_ws/install/motion_servos_calibration:/opt/ros/foxy', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'GPG_AGENT_INFO': '/run/user/1000/gnupg/S.gpg-agent:0:1', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/devpc/Desktop/quad_ws/src/build/teleop_twist_keyboard', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/devpc/Desktop/quad_ws/src/install/teleop_twist_keyboard/lib/python3.8/site-packages:/home/devpc/Desktop/quad_ws/install/teleop_twist_keyboard/lib/python3.8/site-packages:/home/devpc/Desktop/quad_ws/install/quad_interfaces/lib/python3.8/site-packages:/home/devpc/Desktop/quad_ws/install/quad/lib/python3.8/site-packages:/home/devpc/Desktop/quad_ws/install/motion_servos_calibration/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages', 'COLCON': '1', 'VTE_VERSION': '6003', 'CMAKE_PREFIX_PATH': '/home/devpc/Desktop/quad_ws/install/quad_interfaces'}, 'shell': False}
+[0.802054] (-) TimerEvent: {}
+[0.902469] (-) TimerEvent: {}
+[0.927872] (quad_interfaces) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.9.6 (/opt/ros/foxy/share/ament_lint_auto/cmake)\n'}
+[1.002565] (-) TimerEvent: {}
+[1.015453] (teleop) StdoutLine: {'line': b'running egg_info\n'}
+[1.016199] (teleop) StdoutLine: {'line': b'creating ../build/teleop/teleop.egg-info\n'}
+[1.016441] (teleop) StdoutLine: {'line': b'writing ../build/teleop/teleop.egg-info/PKG-INFO\n'}
+[1.016752] (teleop) StdoutLine: {'line': b'writing dependency_links to ../build/teleop/teleop.egg-info/dependency_links.txt\n'}
+[1.016926] (teleop) StdoutLine: {'line': b'writing entry points to ../build/teleop/teleop.egg-info/entry_points.txt\n'}
+[1.017091] (teleop) StdoutLine: {'line': b'writing requirements to ../build/teleop/teleop.egg-info/requires.txt\n'}
+[1.017259] (teleop) StdoutLine: {'line': b'writing top-level names to ../build/teleop/teleop.egg-info/top_level.txt\n'}
+[1.019015] (teleop) StdoutLine: {'line': b"writing manifest file '../build/teleop/teleop.egg-info/SOURCES.txt'\n"}
+[1.027252] (quad_interfaces) StdoutLine: {'line': b'-- Found rosidl_default_generators: 1.0.1 (/opt/ros/foxy/share/rosidl_default_generators/cmake)\n'}
+[1.035673] (quad_interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[1.049306] (quad_interfaces) StdoutLine: {'line': b'-- Found rosidl_adapter: 1.2.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)\n'}
+[1.069069] (teleop) StdoutLine: {'line': b"reading manifest file '../build/teleop/teleop.egg-info/SOURCES.txt'\n"}
+[1.069970] (teleop) StdoutLine: {'line': b"writing manifest file '../build/teleop/teleop.egg-info/SOURCES.txt'\n"}
+[1.070199] (teleop) StdoutLine: {'line': b'running build\n'}
+[1.070360] (teleop) StdoutLine: {'line': b'running build_py\n'}
+[1.070517] (teleop) StdoutLine: {'line': b'creating /home/devpc/Desktop/quad_ws/src/build/teleop/build\n'}
+[1.070654] (teleop) StdoutLine: {'line': b'creating /home/devpc/Desktop/quad_ws/src/build/teleop/build/lib\n'}
+[1.070760] (teleop) StdoutLine: {'line': b'creating /home/devpc/Desktop/quad_ws/src/build/teleop/build/lib/teleop\n'}
+[1.070942] (teleop) StdoutLine: {'line': b'copying teleop/__init__.py -> /home/devpc/Desktop/quad_ws/src/build/teleop/build/lib/teleop\n'}
+[1.071048] (teleop) StdoutLine: {'line': b'copying teleop/teleop.py -> /home/devpc/Desktop/quad_ws/src/build/teleop/build/lib/teleop\n'}
+[1.071152] (teleop) StdoutLine: {'line': b'running install\n'}
+[1.071741] (teleop) StdoutLine: {'line': b'running install_lib\n'}
+[1.072670] (teleop) StdoutLine: {'line': b'creating /home/devpc/Desktop/quad_ws/src/install/teleop/lib/python3.8/site-packages/teleop\n'}
+[1.072917] (teleop) StdoutLine: {'line': b'copying /home/devpc/Desktop/quad_ws/src/build/teleop/build/lib/teleop/__init__.py -> /home/devpc/Desktop/quad_ws/src/install/teleop/lib/python3.8/site-packages/teleop\n'}
+[1.073135] (teleop) StdoutLine: {'line': b'copying /home/devpc/Desktop/quad_ws/src/build/teleop/build/lib/teleop/teleop.py -> /home/devpc/Desktop/quad_ws/src/install/teleop/lib/python3.8/site-packages/teleop\n'}
+[1.073408] (teleop) StdoutLine: {'line': b'byte-compiling /home/devpc/Desktop/quad_ws/src/install/teleop/lib/python3.8/site-packages/teleop/__init__.py to __init__.cpython-38.pyc\n'}
+[1.074506] (teleop) StdoutLine: {'line': b'byte-compiling /home/devpc/Desktop/quad_ws/src/install/teleop/lib/python3.8/site-packages/teleop/teleop.py to teleop.cpython-38.pyc\n'}
+[1.074751] (teleop) StdoutLine: {'line': b'running install_data\n'}
+[1.075196] (teleop) StdoutLine: {'line': b'creating /home/devpc/Desktop/quad_ws/src/install/teleop/share/ament_index\n'}
+[1.075424] (teleop) StdoutLine: {'line': b'creating /home/devpc/Desktop/quad_ws/src/install/teleop/share/ament_index/resource_index\n'}
+[1.075619] (teleop) StdoutLine: {'line': b'creating /home/devpc/Desktop/quad_ws/src/install/teleop/share/ament_index/resource_index/packages\n'}
+[1.075758] (teleop) StdoutLine: {'line': b'copying resource/teleop -> /home/devpc/Desktop/quad_ws/src/install/teleop/share/ament_index/resource_index/packages\n'}
+[1.075909] (teleop) StdoutLine: {'line': b'copying package.xml -> /home/devpc/Desktop/quad_ws/src/install/teleop/share/teleop\n'}
+[1.076047] (teleop) StdoutLine: {'line': b'running install_egg_info\n'}
+[1.077187] (teleop) StdoutLine: {'line': b'Copying ../build/teleop/teleop.egg-info to /home/devpc/Desktop/quad_ws/src/install/teleop/lib/python3.8/site-packages/teleop-0.0.0-py3.8.egg-info\n'}
+[1.078021] (teleop) StdoutLine: {'line': b'running install_scripts\n'}
+[1.094990] (quad) StdoutLine: {'line': b'running egg_info\n'}
+[1.095263] (teleop) StdoutLine: {'line': b'Installing teleop script to /home/devpc/Desktop/quad_ws/src/install/teleop/lib/teleop\n'}
+[1.095446] (teleop) StdoutLine: {'line': b"writing list of installed files to '/home/devpc/Desktop/quad_ws/src/build/teleop/install.log'\n"}
+[1.095754] (quad) StdoutLine: {'line': b'creating ../build/quad/quad.egg-info\n'}
+[1.096021] (quad) StdoutLine: {'line': b'writing ../build/quad/quad.egg-info/PKG-INFO\n'}
+[1.096368] (quad) StdoutLine: {'line': b'writing dependency_links to ../build/quad/quad.egg-info/dependency_links.txt\n'}
+[1.096566] (quad) StdoutLine: {'line': b'writing entry points to ../build/quad/quad.egg-info/entry_points.txt\n'}
+[1.096751] (quad) StdoutLine: {'line': b'writing requirements to ../build/quad/quad.egg-info/requires.txt\n'}
+[1.096937] (quad) StdoutLine: {'line': b'writing top-level names to ../build/quad/quad.egg-info/top_level.txt\n'}
+[1.099168] (quad) StdoutLine: {'line': b"writing manifest file '../build/quad/quad.egg-info/SOURCES.txt'\n"}
+[1.102684] (-) TimerEvent: {}
+[1.114763] (teleop_twist_keyboard) StdoutLine: {'line': b'running egg_info\n'}
+[1.115685] (teleop_twist_keyboard) StdoutLine: {'line': b'creating ../build/teleop_twist_keyboard/teleop_twist_keyboard.egg-info\n'}
+[1.115950] (teleop_twist_keyboard) StdoutLine: {'line': b'writing ../build/teleop_twist_keyboard/teleop_twist_keyboard.egg-info/PKG-INFO\n'}
+[1.116350] (teleop_twist_keyboard) StdoutLine: {'line': b'writing dependency_links to ../build/teleop_twist_keyboard/teleop_twist_keyboard.egg-info/dependency_links.txt\n'}
+[1.116550] (teleop_twist_keyboard) StdoutLine: {'line': b'writing entry points to ../build/teleop_twist_keyboard/teleop_twist_keyboard.egg-info/entry_points.txt\n'}
+[1.116743] (teleop_twist_keyboard) StdoutLine: {'line': b'writing requirements to ../build/teleop_twist_keyboard/teleop_twist_keyboard.egg-info/requires.txt\n'}
+[1.116878] (teleop_twist_keyboard) StdoutLine: {'line': b'writing top-level names to ../build/teleop_twist_keyboard/teleop_twist_keyboard.egg-info/top_level.txt\n'}
+[1.119025] (teleop_twist_keyboard) StdoutLine: {'line': b"writing manifest file '../build/teleop_twist_keyboard/teleop_twist_keyboard.egg-info/SOURCES.txt'\n"}
+[1.124436] (teleop) CommandEnded: {'returncode': 0}
+[1.144217] (teleop) JobEnded: {'identifier': 'teleop', 'rc': 0}
+[1.161756] (quad) StdoutLine: {'line': b"reading manifest file '../build/quad/quad.egg-info/SOURCES.txt'\n"}
+[1.162977] (quad) StdoutLine: {'line': b"writing manifest file '../build/quad/quad.egg-info/SOURCES.txt'\n"}
+[1.163160] (quad) StdoutLine: {'line': b'running build\n'}
+[1.163251] (quad) StdoutLine: {'line': b'running build_py\n'}
+[1.163368] (quad) StdoutLine: {'line': b'creating /home/devpc/Desktop/quad_ws/src/build/quad/build\n'}
+[1.163494] (quad) StdoutLine: {'line': b'creating /home/devpc/Desktop/quad_ws/src/build/quad/build/lib\n'}
+[1.163611] (quad) StdoutLine: {'line': b'creating /home/devpc/Desktop/quad_ws/src/build/quad/build/lib/quad\n'}
+[1.163710] (quad) StdoutLine: {'line': b'copying quad/__init__.py -> /home/devpc/Desktop/quad_ws/src/build/quad/build/lib/quad\n'}
+[1.163815] (quad) StdoutLine: {'line': b'copying quad/motion_servos_calibration.py -> /home/devpc/Desktop/quad_ws/src/build/quad/build/lib/quad\n'}
+[1.163979] (quad) StdoutLine: {'line': b'copying quad/quad.py -> /home/devpc/Desktop/quad_ws/src/build/quad/build/lib/quad\n'}
+[1.164197] (quad) StdoutLine: {'line': b'running install\n'}
+[1.165482] (quad) StdoutLine: {'line': b'running install_lib\n'}
+[1.166799] (quad) StdoutLine: {'line': b'creating /home/devpc/Desktop/quad_ws/src/install/quad/lib/python3.8/site-packages/quad\n'}
+[1.167078] (quad) StdoutLine: {'line': b'copying /home/devpc/Desktop/quad_ws/src/build/quad/build/lib/quad/__init__.py -> /home/devpc/Desktop/quad_ws/src/install/quad/lib/python3.8/site-packages/quad\n'}
+[1.167236] (quad) StdoutLine: {'line': b'copying /home/devpc/Desktop/quad_ws/src/build/quad/build/lib/quad/motion_servos_calibration.py -> /home/devpc/Desktop/quad_ws/src/install/quad/lib/python3.8/site-packages/quad\n'}
+[1.167333] (quad) StdoutLine: {'line': b'copying /home/devpc/Desktop/quad_ws/src/build/quad/build/lib/quad/quad.py -> /home/devpc/Desktop/quad_ws/src/install/quad/lib/python3.8/site-packages/quad\n'}
+[1.167987] (quad) StdoutLine: {'line': b'byte-compiling /home/devpc/Desktop/quad_ws/src/install/quad/lib/python3.8/site-packages/quad/__init__.py to __init__.cpython-38.pyc\n'}
+[1.169789] (quad) StdoutLine: {'line': b'byte-compiling /home/devpc/Desktop/quad_ws/src/install/quad/lib/python3.8/site-packages/quad/motion_servos_calibration.py to motion_servos_calibration.cpython-38.pyc\n'}
+[1.170414] (quad) StdoutLine: {'line': b'byte-compiling /home/devpc/Desktop/quad_ws/src/install/quad/lib/python3.8/site-packages/quad/quad.py to quad.cpython-38.pyc\n'}
+[1.171003] (quad) StdoutLine: {'line': b'running install_data\n'}
+[1.172145] (quad) StdoutLine: {'line': b'creating /home/devpc/Desktop/quad_ws/src/install/quad/share/ament_index\n'}
+[1.172379] (quad) StdoutLine: {'line': b'creating /home/devpc/Desktop/quad_ws/src/install/quad/share/ament_index/resource_index\n'}
+[1.172550] (quad) StdoutLine: {'line': b'creating /home/devpc/Desktop/quad_ws/src/install/quad/share/ament_index/resource_index/packages\n'}
+[1.172734] (quad) StdoutLine: {'line': b'copying resource/quad -> /home/devpc/Desktop/quad_ws/src/install/quad/share/ament_index/resource_index/packages\n'}
+[1.172881] (quad) StdoutLine: {'line': b'copying package.xml -> /home/devpc/Desktop/quad_ws/src/install/quad/share/quad\n'}
+[1.173048] (quad) StdoutLine: {'line': b'copying launch/quad.launch.py -> /home/devpc/Desktop/quad_ws/src/install/quad/share/quad\n'}
+[1.173200] (quad) StdoutLine: {'line': b'copying launch/motion_servos_calibration.launch.py -> /home/devpc/Desktop/quad_ws/src/install/quad/share/quad\n'}
+[1.173341] (quad) StdoutLine: {'line': b'creating /home/devpc/Desktop/quad_ws/src/install/quad/share/quad/config\n'}
+[1.173482] (quad) StdoutLine: {'line': b'copying config/quad_params.yaml -> /home/devpc/Desktop/quad_ws/src/install/quad/share/quad/config\n'}
+[1.173622] (quad) StdoutLine: {'line': b'running install_egg_info\n'}
+[1.175179] (quad) StdoutLine: {'line': b'Copying ../build/quad/quad.egg-info to /home/devpc/Desktop/quad_ws/src/install/quad/lib/python3.8/site-packages/quad-0.0.1-py3.8.egg-info\n'}
+[1.176451] (quad) StdoutLine: {'line': b'running install_scripts\n'}
+[1.180173] (quad_interfaces) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  \n'}
+[1.181374] (teleop_twist_keyboard) StdoutLine: {'line': b"reading manifest file '../build/teleop_twist_keyboard/teleop_twist_keyboard.egg-info/SOURCES.txt'\n"}
+[1.182613] (teleop_twist_keyboard) StdoutLine: {'line': b"writing manifest file '../build/teleop_twist_keyboard/teleop_twist_keyboard.egg-info/SOURCES.txt'\n"}
+[1.182848] (teleop_twist_keyboard) StdoutLine: {'line': b'running build\n'}
+[1.183070] (teleop_twist_keyboard) StdoutLine: {'line': b'running build_py\n'}
+[1.183244] (teleop_twist_keyboard) StdoutLine: {'line': b'creating /home/devpc/Desktop/quad_ws/src/build/teleop_twist_keyboard/build\n'}
+[1.183389] (teleop_twist_keyboard) StdoutLine: {'line': b'creating /home/devpc/Desktop/quad_ws/src/build/teleop_twist_keyboard/build/lib\n'}
+[1.183525] (teleop_twist_keyboard) StdoutLine: {'line': b'copying teleop_twist_keyboard.py -> /home/devpc/Desktop/quad_ws/src/build/teleop_twist_keyboard/build/lib\n'}
+[1.183662] (teleop_twist_keyboard) StdoutLine: {'line': b'running install\n'}
+[1.184338] (teleop_twist_keyboard) StdoutLine: {'line': b'running install_lib\n'}
+[1.185590] (teleop_twist_keyboard) StdoutLine: {'line': b'copying /home/devpc/Desktop/quad_ws/src/build/teleop_twist_keyboard/build/lib/teleop_twist_keyboard.py -> /home/devpc/Desktop/quad_ws/src/install/teleop_twist_keyboard/lib/python3.8/site-packages\n'}
+[1.186322] (teleop_twist_keyboard) StdoutLine: {'line': b'byte-compiling /home/devpc/Desktop/quad_ws/src/install/teleop_twist_keyboard/lib/python3.8/site-packages/teleop_twist_keyboard.py to teleop_twist_keyboard.cpython-38.pyc\n'}
+[1.189108] (teleop_twist_keyboard) StdoutLine: {'line': b'running install_data\n'}
+[1.189811] (teleop_twist_keyboard) StdoutLine: {'line': b'creating /home/devpc/Desktop/quad_ws/src/install/teleop_twist_keyboard/share/ament_index\n'}
+[1.190006] (teleop_twist_keyboard) StdoutLine: {'line': b'creating /home/devpc/Desktop/quad_ws/src/install/teleop_twist_keyboard/share/ament_index/resource_index\n'}
+[1.190172] (teleop_twist_keyboard) StdoutLine: {'line': b'creating /home/devpc/Desktop/quad_ws/src/install/teleop_twist_keyboard/share/ament_index/resource_index/packages\n'}
+[1.190353] (teleop_twist_keyboard) StdoutLine: {'line': b'copying resource/teleop_twist_keyboard -> /home/devpc/Desktop/quad_ws/src/install/teleop_twist_keyboard/share/ament_index/resource_index/packages\n'}
+[1.190509] (teleop_twist_keyboard) StdoutLine: {'line': b'copying package.xml -> /home/devpc/Desktop/quad_ws/src/install/teleop_twist_keyboard/share/teleop_twist_keyboard\n'}
+[1.190645] (teleop_twist_keyboard) StdoutLine: {'line': b'running install_egg_info\n'}
+[1.192491] (teleop_twist_keyboard) StdoutLine: {'line': b'Copying ../build/teleop_twist_keyboard/teleop_twist_keyboard.egg-info to /home/devpc/Desktop/quad_ws/src/install/teleop_twist_keyboard/lib/python3.8/site-packages/teleop_twist_keyboard-2.3.2-py3.8.egg-info\n'}
+[1.193755] (teleop_twist_keyboard) StdoutLine: {'line': b'running install_scripts\n'}
+[1.201506] (quad) StdoutLine: {'line': b'Installing motion_servos_calibration script to /home/devpc/Desktop/quad_ws/src/install/quad/lib/quad\n'}
+[1.201789] (quad) StdoutLine: {'line': b'Installing quad script to /home/devpc/Desktop/quad_ws/src/install/quad/lib/quad\n'}
+[1.202093] (quad) StdoutLine: {'line': b"writing list of installed files to '/home/devpc/Desktop/quad_ws/src/build/quad/install.log'\n"}
+[1.202757] (-) TimerEvent: {}
+[1.209900] (quad_interfaces) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/foxy/include  \n'}
+[1.218871] (teleop_twist_keyboard) StdoutLine: {'line': b'Installing teleop_twist_keyboard script to /home/devpc/Desktop/quad_ws/src/install/teleop_twist_keyboard/lib/teleop_twist_keyboard\n'}
+[1.219157] (teleop_twist_keyboard) StdoutLine: {'line': b"writing list of installed files to '/home/devpc/Desktop/quad_ws/src/build/teleop_twist_keyboard/install.log'\n"}
+[1.236207] (quad) CommandEnded: {'returncode': 0}
+[1.243548] (quad) JobEnded: {'identifier': 'quad', 'rc': 0}
+[1.251389] (teleop_twist_keyboard) CommandEnded: {'returncode': 0}
+[1.260239] (teleop_twist_keyboard) JobEnded: {'identifier': 'teleop_twist_keyboard', 'rc': 0}
+[1.302870] (-) TimerEvent: {}
+[1.308852] (quad_interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[1.366225] (quad_interfaces) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found version "3.8.10") \n'}
+[1.403000] (-) TimerEvent: {}
+[1.461741] (quad_interfaces) StdoutLine: {'line': b'-- Found ament_cmake_ros: 0.9.2 (/opt/ros/foxy/share/ament_cmake_ros/cmake)\n'}
+[1.503112] (-) TimerEvent: {}
+[1.576760] (quad_interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[1.587543] (quad_interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[1.603199] (-) TimerEvent: {}
+[1.612630] (quad_interfaces) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3.5") \n'}
+[1.614290] (quad_interfaces) StdoutLine: {'line': b'-- Found python_cmake_module: 0.8.1 (/opt/ros/foxy/share/python_cmake_module/cmake)\n'}
+[1.642930] (quad_interfaces) StdoutLine: {'line': b'-- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.8.so (found suitable version "3.8.10", minimum required is "3.5") \n'}
+[1.643165] (quad_interfaces) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[1.643274] (quad_interfaces) StdoutLine: {'line': b'-- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.8\n'}
+[1.643378] (quad_interfaces) StdoutLine: {'line': b'-- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.8.so\n'}
+[1.662747] (quad_interfaces) StdoutLine: {'line': b'-- Found PythonExtra: .so  \n'}
+[1.703304] (-) TimerEvent: {}
+[1.710319] (quad_interfaces) StdoutLine: {'line': b"-- Added test 'copyright' to check source files copyright and LICENSE\n"}
+[1.712843] (quad_interfaces) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[1.714409] (quad_interfaces) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[1.722856] (quad_interfaces) StdoutLine: {'line': b'-- Configuring done\n'}
+[1.764208] (quad_interfaces) StdoutLine: {'line': b'-- Generating done\n'}
+[1.767122] (quad_interfaces) StdoutLine: {'line': b'-- Build files have been written to: /home/devpc/Desktop/quad_ws/src/build/quad_interfaces\n'}
+[1.773756] (quad_interfaces) CommandEnded: {'returncode': 0}
+[1.776500] (quad_interfaces) JobProgress: {'identifier': 'quad_interfaces', 'progress': 'build'}
+[1.776659] (quad_interfaces) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/devpc/Desktop/quad_ws/src/build/quad_interfaces', '--', '-j8', '-l8'], 'cwd': '/home/devpc/Desktop/quad_ws/src/build/quad_interfaces', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'devpc'), ('SSH_AGENT_PID', '1125'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/devpc/Desktop/quad_ws/install/quad_interfaces/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/home/devpc'), ('OLDPWD', '/home/devpc/Desktop/quad_ws'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '858'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/devpc/Desktop/quad_ws/install'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'devpc'), ('JOURNAL_STREAM', '8:37808'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'devpc'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/devpc:@/tmp/.ICE-unix/1168,unix/devpc:/tmp/.ICE-unix/1168'), ('INVOCATION_ID', '97ae8c7808bf4030b7985e7ec6be4c5c'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/830f7494_14b8_47f2_a1c9_867d750ff713'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.1521'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/devpc/Desktop/quad_ws/install/teleop_twist_keyboard:/home/devpc/Desktop/quad_ws/install/quad_interfaces:/home/devpc/Desktop/quad_ws/install/quad:/home/devpc/Desktop/quad_ws/install/motion_servos_calibration:/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/devpc/Desktop/quad_ws/src/build/quad_interfaces'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/devpc/Desktop/quad_ws/install/teleop_twist_keyboard/lib/python3.8/site-packages:/home/devpc/Desktop/quad_ws/install/quad_interfaces/lib/python3.8/site-packages:/home/devpc/Desktop/quad_ws/install/quad/lib/python3.8/site-packages:/home/devpc/Desktop/quad_ws/install/motion_servos_calibration/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/home/devpc/Desktop/quad_ws/install/quad_interfaces:/home/devpc/Desktop/quad_ws/install/teleop_twist_keyboard:/home/devpc/Desktop/quad_ws/install/quad:/home/devpc/Desktop/quad_ws/install/motion_servos_calibration:/opt/ros/foxy')]), 'shell': False}
+[1.803432] (-) TimerEvent: {}
+[1.816671] (quad_interfaces) StdoutLine: {'line': b'[  1%] \x1b[34m\x1b[1mGenerating C code for ROS interfaces\x1b[0m\n'}
+[1.816972] (quad_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target quad_interfaces__cpp\x1b[0m\n'}
+[1.826761] (quad_interfaces) StdoutLine: {'line': b'[  3%] \x1b[34m\x1b[1mGenerating C++ code for ROS interfaces\x1b[0m\n'}
+[1.903519] (-) TimerEvent: {}
+[2.003767] (-) TimerEvent: {}
+[2.104056] (-) TimerEvent: {}
+[2.204339] (-) TimerEvent: {}
+[2.304668] (-) TimerEvent: {}
+[2.311143] (quad_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target quad_interfaces__rosidl_generator_c\x1b[0m\n'}
+[2.327630] (quad_interfaces) StdoutLine: {'line': b'[  7%] \x1b[32mBuilding C object CMakeFiles/quad_interfaces__rosidl_generator_c.dir/rosidl_generator_c/quad_interfaces/msg/detail/motion_servos__functions.c.o\x1b[0m\n'}
+[2.327924] (quad_interfaces) StdoutLine: {'line': b'[  7%] \x1b[32mBuilding C object CMakeFiles/quad_interfaces__rosidl_generator_c.dir/rosidl_generator_c/quad_interfaces/msg/detail/aux_servos__functions.c.o\x1b[0m\n'}
+[2.328127] (quad_interfaces) StdoutLine: {'line': b'[  9%] \x1b[32mBuilding C object CMakeFiles/quad_interfaces__rosidl_generator_c.dir/rosidl_generator_c/quad_interfaces/msg/detail/motion_servos_parameters__functions.c.o\x1b[0m\n'}
+[2.329435] (quad_interfaces) StdoutLine: {'line': b'[  7%] \x1b[32mBuilding C object CMakeFiles/quad_interfaces__rosidl_generator_c.dir/rosidl_generator_c/quad_interfaces/msg/detail/emergency_stop__functions.c.o\x1b[0m\n'}
+[2.329721] (quad_interfaces) StdoutLine: {'line': b'[ 11%] \x1b[32mBuilding C object CMakeFiles/quad_interfaces__rosidl_generator_c.dir/rosidl_generator_c/quad_interfaces/msg/detail/aux_servos_parameters__functions.c.o\x1b[0m\n'}
+[2.404792] (-) TimerEvent: {}
+[2.405117] (quad_interfaces) StdoutLine: {'line': b'[ 12%] \x1b[32m\x1b[1mLinking C shared library libquad_interfaces__rosidl_generator_c.so\x1b[0m\n'}
+[2.413092] (quad_interfaces) StdoutLine: {'line': b'[ 12%] Built target quad_interfaces__cpp\n'}
+[2.423393] (quad_interfaces) StdoutLine: {'line': b'[ 14%] \x1b[34m\x1b[1mGenerating C++ type support for eProsima Fast-RTPS\x1b[0m\n'}
+[2.425043] (quad_interfaces) StdoutLine: {'line': b'[ 15%] \x1b[34m\x1b[1mGenerating C++ introspection for ROS interfaces\x1b[0m\n'}
+[2.425412] (quad_interfaces) StdoutLine: {'line': b'[ 17%] \x1b[34m\x1b[1mGenerating C++ type support dispatch for ROS interfaces\x1b[0m\n'}
+[2.446161] (quad_interfaces) StdoutLine: {'line': b'[ 17%] Built target quad_interfaces__rosidl_generator_c\n'}
+[2.459787] (quad_interfaces) StdoutLine: {'line': b'[ 20%] \x1b[34m\x1b[1mGenerating C type support dispatch for ROS interfaces\x1b[0m\n'}
+[2.460058] (quad_interfaces) StdoutLine: {'line': b'[ 20%] \x1b[34m\x1b[1mGenerating C introspection for ROS interfaces\x1b[0m\n'}
+[2.504887] (-) TimerEvent: {}
+[2.605185] (-) TimerEvent: {}
+[2.705476] (-) TimerEvent: {}
+[2.805812] (-) TimerEvent: {}
+[2.906123] (-) TimerEvent: {}
+[2.911963] (quad_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target quad_interfaces__rosidl_typesupport_c\x1b[0m\n'}
+[2.928743] (quad_interfaces) StdoutLine: {'line': b'[ 22%] \x1b[32mBuilding CXX object CMakeFiles/quad_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/quad_interfaces/msg/motion_servos_parameters__type_support.cpp.o\x1b[0m\n'}
+[2.931073] (quad_interfaces) StdoutLine: {'line': b'[ 23%] \x1b[32mBuilding CXX object CMakeFiles/quad_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/quad_interfaces/msg/motion_servos__type_support.cpp.o\x1b[0m\n'}
+[2.940330] (quad_interfaces) StdoutLine: {'line': b'[ 25%] \x1b[32mBuilding CXX object CMakeFiles/quad_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/quad_interfaces/msg/emergency_stop__type_support.cpp.o\x1b[0m\n'}
+[2.966332] (quad_interfaces) StdoutLine: {'line': b'[ 26%] \x1b[32mBuilding CXX object CMakeFiles/quad_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/quad_interfaces/msg/aux_servos__type_support.cpp.o\x1b[0m\n'}
+[2.985097] (quad_interfaces) StdoutLine: {'line': b'[ 28%] \x1b[32mBuilding CXX object CMakeFiles/quad_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/quad_interfaces/msg/aux_servos_parameters__type_support.cpp.o\x1b[0m\n'}
+[3.006226] (-) TimerEvent: {}
+[3.025940] (quad_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target quad_interfaces__rosidl_typesupport_cpp\x1b[0m\n'}
+[3.031949] (quad_interfaces) StdoutLine: {'line': b'[ 30%] \x1b[32m\x1b[1mLinking CXX shared library libquad_interfaces__rosidl_typesupport_c.so\x1b[0m\n'}
+[3.037249] (quad_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target quad_interfaces__rosidl_typesupport_introspection_cpp\x1b[0m\n'}
+[3.042545] (quad_interfaces) StdoutLine: {'line': b'[ 33%] \x1b[32mBuilding CXX object CMakeFiles/quad_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/quad_interfaces/msg/motion_servos__type_support.cpp.o\x1b[0m\n'}
+[3.042817] (quad_interfaces) StdoutLine: {'line': b'[ 33%] \x1b[32mBuilding CXX object CMakeFiles/quad_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/quad_interfaces/msg/motion_servos_parameters__type_support.cpp.o\x1b[0m\n'}
+[3.047912] (quad_interfaces) StdoutLine: {'line': b'[ 34%] \x1b[32mBuilding CXX object CMakeFiles/quad_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/quad_interfaces/msg/emergency_stop__type_support.cpp.o\x1b[0m\n'}
+[3.053205] (quad_interfaces) StdoutLine: {'line': b'[ 36%] \x1b[32mBuilding CXX object CMakeFiles/quad_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/quad_interfaces/msg/aux_servos__type_support.cpp.o\x1b[0m\n'}
+[3.056216] (quad_interfaces) StdoutLine: {'line': b'[ 38%] \x1b[32mBuilding CXX object CMakeFiles/quad_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/quad_interfaces/msg/detail/motion_servos__type_support.cpp.o\x1b[0m\n'}
+[3.086520] (quad_interfaces) StdoutLine: {'line': b'[ 38%] Built target quad_interfaces__rosidl_typesupport_c\n'}
+[3.096434] (quad_interfaces) StdoutLine: {'line': b'[ 39%] \x1b[32mBuilding CXX object CMakeFiles/quad_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/quad_interfaces/msg/detail/motion_servos_parameters__type_support.cpp.o\x1b[0m\n'}
+[3.106340] (-) TimerEvent: {}
+[3.206781] (-) TimerEvent: {}
+[3.228199] (quad_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target quad_interfaces__rosidl_typesupport_fastrtps_cpp\x1b[0m\n'}
+[3.274339] (quad_interfaces) StdoutLine: {'line': b'[ 41%] \x1b[32mBuilding CXX object CMakeFiles/quad_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/quad_interfaces/msg/detail/dds_fastrtps/motion_servos__type_support.cpp.o\x1b[0m\n'}
+[3.306903] (-) TimerEvent: {}
+[3.386865] (quad_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target quad_interfaces__rosidl_typesupport_introspection_c\x1b[0m\n'}
+[3.407014] (-) TimerEvent: {}
+[3.442185] (quad_interfaces) StdoutLine: {'line': b'[ 42%] \x1b[32mBuilding C object CMakeFiles/quad_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/quad_interfaces/msg/detail/motion_servos__type_support.c.o\x1b[0m\n'}
+[3.507119] (-) TimerEvent: {}
+[3.550433] (quad_interfaces) StdoutLine: {'line': b'[ 44%] \x1b[32mBuilding C object CMakeFiles/quad_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/quad_interfaces/msg/detail/motion_servos_parameters__type_support.c.o\x1b[0m\n'}
+[3.562856] (quad_interfaces) StdoutLine: {'line': b'[ 46%] \x1b[32mBuilding CXX object CMakeFiles/quad_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/quad_interfaces/msg/aux_servos_parameters__type_support.cpp.o\x1b[0m\n'}
+[3.569990] (quad_interfaces) StdoutLine: {'line': b'[ 47%] \x1b[32mBuilding C object CMakeFiles/quad_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/quad_interfaces/msg/detail/emergency_stop__type_support.c.o\x1b[0m\n'}
+[3.580766] (quad_interfaces) StdoutLine: {'line': b'[ 49%] \x1b[32mBuilding C object CMakeFiles/quad_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/quad_interfaces/msg/detail/aux_servos__type_support.c.o\x1b[0m\n'}
+[3.592102] (quad_interfaces) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/quad_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/quad_interfaces/msg/detail/emergency_stop__type_support.cpp.o\x1b[0m\n'}
+[3.601502] (quad_interfaces) StdoutLine: {'line': b'[ 52%] \x1b[32mBuilding CXX object CMakeFiles/quad_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/quad_interfaces/msg/detail/aux_servos__type_support.cpp.o\x1b[0m\n'}
+[3.607231] (-) TimerEvent: {}
+[3.611654] (quad_interfaces) StdoutLine: {'line': b'[ 55%] \x1b[32mBuilding CXX object CMakeFiles/quad_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/quad_interfaces/msg/detail/aux_servos_parameters__type_support.cpp.o\x1b[0m\n'}
+[3.611938] (quad_interfaces) StdoutLine: {'line': b'[ 55%] \x1b[32mBuilding CXX object CMakeFiles/quad_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/quad_interfaces/msg/detail/dds_fastrtps/motion_servos_parameters__type_support.cpp.o\x1b[0m\n'}
+[3.640603] (quad_interfaces) StdoutLine: {'line': b'[ 57%] \x1b[32mBuilding CXX object CMakeFiles/quad_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/quad_interfaces/msg/detail/dds_fastrtps/emergency_stop__type_support.cpp.o\x1b[0m\n'}
+[3.645071] (quad_interfaces) StdoutLine: {'line': b'[ 58%] \x1b[32mBuilding C object CMakeFiles/quad_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/quad_interfaces/msg/detail/aux_servos_parameters__type_support.c.o\x1b[0m\n'}
+[3.707340] (-) TimerEvent: {}
+[3.798431] (quad_interfaces) StdoutLine: {'line': b'[ 60%] \x1b[32m\x1b[1mLinking C shared library libquad_interfaces__rosidl_typesupport_introspection_c.so\x1b[0m\n'}
+[3.807462] (-) TimerEvent: {}
+[3.907932] (-) TimerEvent: {}
+[3.938869] (quad_interfaces) StdoutLine: {'line': b'[ 60%] Built target quad_interfaces__rosidl_typesupport_introspection_c\n'}
+[3.989914] (quad_interfaces) StdoutLine: {'line': b'[ 61%] \x1b[32mBuilding CXX object CMakeFiles/quad_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/quad_interfaces/msg/detail/dds_fastrtps/aux_servos__type_support.cpp.o\x1b[0m\n'}
+[4.008045] (-) TimerEvent: {}
+[4.106687] (quad_interfaces) StdoutLine: {'line': b'[ 63%] \x1b[32mBuilding CXX object CMakeFiles/quad_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/quad_interfaces/msg/detail/dds_fastrtps/aux_servos_parameters__type_support.cpp.o\x1b[0m\n'}
+[4.108132] (-) TimerEvent: {}
+[4.142568] (quad_interfaces) StdoutLine: {'line': b'[ 65%] \x1b[32m\x1b[1mLinking CXX shared library libquad_interfaces__rosidl_typesupport_cpp.so\x1b[0m\n'}
+[4.204384] (quad_interfaces) StdoutLine: {'line': b'[ 65%] Built target quad_interfaces__rosidl_typesupport_cpp\n'}
+[4.208232] (-) TimerEvent: {}
+[4.247220] (quad_interfaces) StdoutLine: {'line': b'[ 66%] \x1b[32m\x1b[1mLinking CXX shared library libquad_interfaces__rosidl_typesupport_introspection_cpp.so\x1b[0m\n'}
+[4.308345] (-) TimerEvent: {}
+[4.367342] (quad_interfaces) StdoutLine: {'line': b'[ 66%] Built target quad_interfaces__rosidl_typesupport_introspection_cpp\n'}
+[4.408442] (-) TimerEvent: {}
+[4.508756] (-) TimerEvent: {}
+[4.609071] (-) TimerEvent: {}
+[4.709402] (-) TimerEvent: {}
+[4.774786] (quad_interfaces) StdoutLine: {'line': b'[ 68%] \x1b[32m\x1b[1mLinking CXX shared library libquad_interfaces__rosidl_typesupport_fastrtps_cpp.so\x1b[0m\n'}
+[4.809513] (-) TimerEvent: {}
+[4.874389] (quad_interfaces) StdoutLine: {'line': b'[ 68%] Built target quad_interfaces__rosidl_typesupport_fastrtps_cpp\n'}
+[4.884767] (quad_interfaces) StdoutLine: {'line': b'[ 69%] \x1b[34m\x1b[1mGenerating C type support for eProsima Fast-RTPS\x1b[0m\n'}
+[4.909617] (-) TimerEvent: {}
+[5.009953] (-) TimerEvent: {}
+[5.110326] (-) TimerEvent: {}
+[5.210672] (-) TimerEvent: {}
+[5.311021] (-) TimerEvent: {}
+[5.334457] (quad_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target quad_interfaces__rosidl_typesupport_fastrtps_c\x1b[0m\n'}
+[5.352478] (quad_interfaces) StdoutLine: {'line': b'[ 71%] \x1b[32mBuilding CXX object CMakeFiles/quad_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/quad_interfaces/msg/detail/aux_servos_parameters__type_support_c.cpp.o\x1b[0m\n'}
+[5.353448] (quad_interfaces) StdoutLine: {'line': b'[ 76%] \x1b[32mBuilding CXX object CMakeFiles/quad_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/quad_interfaces/msg/detail/aux_servos__type_support_c.cpp.o\x1b[0m\n'}
+[5.353729] (quad_interfaces) StdoutLine: {'line': b'[ 77%] \x1b[32mBuilding CXX object CMakeFiles/quad_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/quad_interfaces/msg/detail/motion_servos_parameters__type_support_c.cpp.o\x1b[0m\n'}
+[5.353874] (quad_interfaces) StdoutLine: {'line': b'[ 76%] \x1b[32mBuilding CXX object CMakeFiles/quad_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/quad_interfaces/msg/detail/motion_servos__type_support_c.cpp.o\x1b[0m\n'}
+[5.354015] (quad_interfaces) StdoutLine: {'line': b'[ 77%] \x1b[32mBuilding CXX object CMakeFiles/quad_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/quad_interfaces/msg/detail/emergency_stop__type_support_c.cpp.o\x1b[0m\n'}
+[5.411137] (-) TimerEvent: {}
+[5.511511] (-) TimerEvent: {}
+[5.611984] (-) TimerEvent: {}
+[5.712358] (-) TimerEvent: {}
+[5.812700] (-) TimerEvent: {}
+[5.913008] (-) TimerEvent: {}
+[6.006419] (quad_interfaces) StdoutLine: {'line': b'[ 79%] \x1b[32m\x1b[1mLinking CXX shared library libquad_interfaces__rosidl_typesupport_fastrtps_c.so\x1b[0m\n'}
+[6.013109] (-) TimerEvent: {}
+[6.105287] (quad_interfaces) StdoutLine: {'line': b'[ 79%] Built target quad_interfaces__rosidl_typesupport_fastrtps_c\n'}
+[6.113215] (-) TimerEvent: {}
+[6.114690] (quad_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target quad_interfaces\x1b[0m\n'}
+[6.124272] (quad_interfaces) StdoutLine: {'line': b'[ 79%] Built target quad_interfaces\n'}
+[6.133818] (quad_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target quad_interfaces__py\x1b[0m\n'}
+[6.143345] (quad_interfaces) StdoutLine: {'line': b'[ 80%] \x1b[34m\x1b[1mGenerating Python code for ROS interfaces\x1b[0m\n'}
+[6.213322] (-) TimerEvent: {}
+[6.313636] (-) TimerEvent: {}
+[6.413956] (-) TimerEvent: {}
+[6.514281] (-) TimerEvent: {}
+[6.614555] (-) TimerEvent: {}
+[6.714849] (-) TimerEvent: {}
+[6.815093] (-) TimerEvent: {}
+[6.915410] (-) TimerEvent: {}
+[7.015691] (-) TimerEvent: {}
+[7.026247] (quad_interfaces) StdoutLine: {'line': b'[ 80%] Built target quad_interfaces__py\n'}
+[7.035990] (quad_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target quad_interfaces__python\x1b[0m\n'}
+[7.065929] (quad_interfaces) StdoutLine: {'line': b'[ 84%] \x1b[32mBuilding C object CMakeFiles/quad_interfaces__python.dir/rosidl_generator_py/quad_interfaces/msg/_aux_servos_parameters_s.c.o\x1b[0m\n'}
+[7.066209] (quad_interfaces) StdoutLine: {'line': b'[ 84%] \x1b[32mBuilding C object CMakeFiles/quad_interfaces__python.dir/rosidl_generator_py/quad_interfaces/msg/_emergency_stop_s.c.o\x1b[0m\n'}
+[7.066402] (quad_interfaces) StdoutLine: {'line': b'[ 87%] \x1b[32mBuilding C object CMakeFiles/quad_interfaces__python.dir/rosidl_generator_py/quad_interfaces/msg/_motion_servos_parameters_s.c.o\x1b[0m\n'}
+[7.066621] (quad_interfaces) StdoutLine: {'line': b'[ 87%] \x1b[32mBuilding C object CMakeFiles/quad_interfaces__python.dir/rosidl_generator_py/quad_interfaces/msg/_motion_servos_s.c.o\x1b[0m\n'}
+[7.066790] (quad_interfaces) StdoutLine: {'line': b'[ 88%] \x1b[32mBuilding C object CMakeFiles/quad_interfaces__python.dir/rosidl_generator_py/quad_interfaces/msg/_aux_servos_s.c.o\x1b[0m\n'}
+[7.115808] (-) TimerEvent: {}
+[7.216164] (-) TimerEvent: {}
+[7.223190] (quad_interfaces) StdoutLine: {'line': b'[ 90%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/quad_interfaces/libquad_interfaces__python.so\x1b[0m\n'}
+[7.259946] (quad_interfaces) StdoutLine: {'line': b'[ 90%] Built target quad_interfaces__python\n'}
+[7.269507] (quad_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target quad_interfaces__rosidl_typesupport_c__pyext\x1b[0m\n'}
+[7.271964] (quad_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target quad_interfaces__rosidl_typesupport_introspection_c__pyext\x1b[0m\n'}
+[7.272434] (quad_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target quad_interfaces__rosidl_typesupport_fastrtps_c__pyext\x1b[0m\n'}
+[7.290297] (quad_interfaces) StdoutLine: {'line': b'[ 92%] \x1b[32mBuilding C object CMakeFiles/quad_interfaces__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/quad_interfaces/_quad_interfaces_s.ep.rosidl_typesupport_c.c.o\x1b[0m\n'}
+[7.295142] (quad_interfaces) StdoutLine: {'line': b'[ 95%] \x1b[32mBuilding C object CMakeFiles/quad_interfaces__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/quad_interfaces/_quad_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c.o\x1b[0m\n'}
+[7.295408] (quad_interfaces) StdoutLine: {'line': b'[ 95%] \x1b[32mBuilding C object CMakeFiles/quad_interfaces__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/quad_interfaces/_quad_interfaces_s.ep.rosidl_typesupport_introspection_c.c.o\x1b[0m\n'}
+[7.316278] (-) TimerEvent: {}
+[7.391259] (quad_interfaces) StdoutLine: {'line': b'[ 98%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/quad_interfaces/quad_interfaces_s__rosidl_typesupport_c.cpython-38-x86_64-linux-gnu.so\x1b[0m\n'}
+[7.391468] (quad_interfaces) StdoutLine: {'line': b'[ 98%] \x1b[32m\x1b[1mLinking CXX shared library rosidl_generator_py/quad_interfaces/quad_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-38-x86_64-linux-gnu.so\x1b[0m\n'}
+[7.416384] (-) TimerEvent: {}
+[7.421587] (quad_interfaces) StdoutLine: {'line': b'[ 98%] Built target quad_interfaces__rosidl_typesupport_c__pyext\n'}
+[7.445744] (quad_interfaces) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/quad_interfaces/quad_interfaces_s__rosidl_typesupport_introspection_c.cpython-38-x86_64-linux-gnu.so\x1b[0m\n'}
+[7.449804] (quad_interfaces) StdoutLine: {'line': b'[100%] Built target quad_interfaces__rosidl_typesupport_fastrtps_c__pyext\n'}
+[7.477988] (quad_interfaces) StdoutLine: {'line': b'[100%] Built target quad_interfaces__rosidl_typesupport_introspection_c__pyext\n'}
+[7.490034] (quad_interfaces) CommandEnded: {'returncode': 0}
+[7.516584] (-) TimerEvent: {}
+[7.566811] (quad_interfaces) JobProgress: {'identifier': 'quad_interfaces', 'progress': 'install'}
+[7.577257] (quad_interfaces) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/devpc/Desktop/quad_ws/src/build/quad_interfaces'], 'cwd': '/home/devpc/Desktop/quad_ws/src/build/quad_interfaces', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'devpc'), ('SSH_AGENT_PID', '1125'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/devpc/Desktop/quad_ws/install/quad_interfaces/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/home/devpc'), ('OLDPWD', '/home/devpc/Desktop/quad_ws'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '858'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/devpc/Desktop/quad_ws/install'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'devpc'), ('JOURNAL_STREAM', '8:37808'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'devpc'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/devpc:@/tmp/.ICE-unix/1168,unix/devpc:/tmp/.ICE-unix/1168'), ('INVOCATION_ID', '97ae8c7808bf4030b7985e7ec6be4c5c'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/830f7494_14b8_47f2_a1c9_867d750ff713'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.1521'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/devpc/Desktop/quad_ws/install/teleop_twist_keyboard:/home/devpc/Desktop/quad_ws/install/quad_interfaces:/home/devpc/Desktop/quad_ws/install/quad:/home/devpc/Desktop/quad_ws/install/motion_servos_calibration:/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/devpc/Desktop/quad_ws/src/build/quad_interfaces'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/devpc/Desktop/quad_ws/install/teleop_twist_keyboard/lib/python3.8/site-packages:/home/devpc/Desktop/quad_ws/install/quad_interfaces/lib/python3.8/site-packages:/home/devpc/Desktop/quad_ws/install/quad/lib/python3.8/site-packages:/home/devpc/Desktop/quad_ws/install/motion_servos_calibration/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/home/devpc/Desktop/quad_ws/install/quad_interfaces:/home/devpc/Desktop/quad_ws/install/teleop_twist_keyboard:/home/devpc/Desktop/quad_ws/install/quad:/home/devpc/Desktop/quad_ws/install/motion_servos_calibration:/opt/ros/foxy')]), 'shell': False}
+[7.587997] (quad_interfaces) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[7.588309] (quad_interfaces) StdoutLine: {'line': b'-- Installing: /home/devpc/Desktop/quad_ws/src/install/quad_interfaces/share/ament_index/resource_index/rosidl_interfaces/quad_interfaces\n'}
+[7.588485] (quad_interfaces) StdoutLine: {'line': b'-- Installing: /home/devpc/Desktop/quad_ws/src/install/quad_interfaces/include/quad_interfaces\n'}
+[7.588683] (quad_interfaces) StdoutLine: {'line': b'-- Installing: /home/devpc/Desktop/quad_ws/src/install/quad_interfaces/include/quad_interfaces/msg\n'}
+[7.588801] (quad_interfaces) StdoutLine: {'line': b'-- Installing: /home/devpc/Desktop/quad_ws/src/install/quad_interfaces/include/quad_interfaces/msg/aux_servos_parameters.h\n'}
+[7.588925] (quad_interfaces) StdoutLine: {'line': b'-- Installing: /home/devpc/Desktop/quad_ws/src/install/quad_interfaces/include/quad_interfaces/msg/emergency_stop.h\n'}
+[7.589036] (quad_interfaces) StdoutLine: {'line': b'-- Installing: /home/devpc/Desktop/quad_ws/src/install/quad_interfaces/include/quad_interfaces/msg/detail\n'}
+[7.589143] (quad_interfaces) StdoutLine: {'line': b'-- Installing: /home/devpc/Desktop/quad_ws/src/install/quad_interfaces/include/quad_interfaces/msg/detail/emergency_stop__functions.h\n'}
+[7.589251] (quad_interfaces) StdoutLine: {'line': b'-- Installing: /home/devpc/Desktop/quad_ws/src/install/quad_interfaces/include/quad_interfaces/msg/detail/motion_servos_parameters__type_support.h\n'}
+[7.589372] (quad_interfaces) StdoutLine: {'line': b'-- Installing: /home/devpc/Desktop/quad_ws/src/install/quad_interfaces/include/quad_interfaces/msg/detail/motion_servos__functions.h\n'}
+[7.589478] (quad_interfaces) StdoutLine: {'line': b'-- Installing: /home/devpc/Desktop/quad_ws/src/install/quad_interfaces/include/quad_interfaces/msg/detail/aux_servos_parameters__functions.c\n'}
+[7.589595] (quad_interfaces) StdoutLine: {'line': b'-- Installing: /home/devpc/Desktop/quad_ws/src/install/quad_interfaces/include/quad_interfaces/msg/detail/aux_servos__functions.c\n'}
+[7.589699] (quad_interfaces) StdoutLine: {'line': b'-- Installing: /home/devpc/Desktop/quad_ws/src/install/quad_interfaces/include/quad_interfaces/msg/detail/motion_servos__functions.c\n'}
+[7.589804] (quad_interfaces) StdoutLine: {'line': b'-- Installing: /home/devpc/Desktop/quad_ws/src/install/quad_interfaces/include/quad_interfaces/msg/detail/motion_servos_parameters__functions.h\n'}
+[7.589908] (quad_interfaces) StdoutLine: {'line': b'-- Installing: /home/devpc/Desktop/quad_ws/src/install/quad_interfaces/include/quad_interfaces/msg/detail/aux_servos_parameters__type_support.h\n'}
+[7.590027] (quad_interfaces) StdoutLine: {'line': b'-- Installing: /home/devpc/Desktop/quad_ws/src/install/quad_interfaces/include/quad_interfaces/msg/detail/aux_servos__functions.h\n'}
+[7.590134] (quad_interfaces) StdoutLine: {'line': b'-- Installing: /home/devpc/Desktop/quad_ws/src/install/quad_interfaces/include/quad_interfaces/msg/detail/emergency_stop__functions.c\n'}
+[7.590238] (quad_interfaces) StdoutLine: {'line': b'-- Installing: /home/devpc/Desktop/quad_ws/src/install/quad_interfaces/include/quad_interfaces/msg/detail/motion_servos__type_support.h\n'}
+[7.590363] (quad_interfaces) StdoutLine: {'line': b'-- Installing: /home/devpc/Desktop/quad_ws/src/install/quad_interfaces/include/quad_interfaces/msg/detail/aux_servos_parameters__functions.h\n'}
+[7.590469] (quad_interfaces) StdoutLine: {'line': b'-- Installing: /home/devpc/Desktop/quad_ws/src/install/quad_interfaces/include/quad_interfaces/msg/detail/aux_servos__struct.h\n'}
+[7.590571] (quad_interfaces) StdoutLine: {'line': b'-- Installing: /home/devpc/Desktop/quad_ws/src/install/quad_interfaces/include/quad_interfaces/msg/detail/aux_servos_parameters__struct.h\n'}
+[7.590676] (quad_interfaces) StdoutLine: {'line': b'-- Installing: /home/devpc/Desktop/quad_ws/src/install/quad_interfaces/include/quad_interfaces/msg/detail/motion_servos_parameters__functions.c\n'}
+[7.590770] (quad_interfaces) StdoutLine: {'line': b'-- Installing: /home/devpc/Desktop/quad_ws/src/install/quad_interfaces/include/quad_interfaces/msg/detail/motion_servos_parameters__struct.h\n'}
+[7.590874] (quad_interfaces) StdoutLine: {'line': b'-- Installing: /home/devpc/Desktop/quad_ws/src/install/quad_interfaces/include/quad_interfaces/msg/detail/motion_servos__struct.h\n'}
+[7.590986] (quad_interfaces) StdoutLine: {'line': b'-- Installing: /home/devpc/Desktop/quad_ws/src/install/quad_interfaces/include/quad_interfaces/msg/detail/emergency_stop__struct.h\n'}
+[7.591075] (quad_interfaces) StdoutLine: {'line': b'-- Installing: /home/devpc/Desktop/quad_ws/src/install/quad_interfaces/include/quad_interfaces/msg/detail/aux_servos__type_support.h\n'}
+[7.591181] (quad_interfaces) StdoutLine: {'line': b'-- Installing: /home/devpc/Desktop/quad_ws/src/install/quad_interfaces/include/quad_interfaces/msg/detail/emergency_stop__type_support.h\n'}
+[7.591269] (quad_interfaces) StdoutLine: {'line': b'-- Installing: /home/devpc/Desktop/quad_ws/src/install/quad_interfaces/include/quad_interfaces/msg/motion_servos.h\n'}
+[7.591358] (quad_interfaces) StdoutLine: {'line': b'-- Installing: /home/devpc/Desktop/quad_ws/src/install/quad_interfaces/include/quad_interfaces/msg/motion_servos_parameters.h\n'}
+[7.591446] (quad_interfaces) StdoutLine: {'line': b'-- Installing: /home/devpc/Desktop/quad_ws/src/install/quad_interfaces/include/quad_interfaces/msg/rosidl_generator_c__visibility_control.h\n'}
+[7.591565] (quad_interfaces) StdoutLine: {'line': b'-- Installing: /home/devpc/Desktop/quad_ws/src/install/quad_interfaces/include/quad_interfaces/msg/aux_servos.h\n'}
+[7.591692] (quad_interfaces) StdoutLine: {'line': b'-- Installing: /home/devpc/Desktop/quad_ws/src/install/quad_interfaces/share/quad_interfaces/environment/library_path.sh\n'}
+[7.591798] (quad_interfaces) StdoutLine: {'line': b'-- Installing: /home/devpc/Desktop/quad_ws/src/install/quad_interfaces/share/quad_interfaces/environment/library_path.dsv\n'}
+[7.591952] (quad_interfaces) StdoutLine: {'line': b'-- Installing: /home/devpc/Desktop/quad_ws/src/install/quad_interfaces/lib/libquad_interfaces__rosidl_generator_c.so\n'}
+[7.592057] (quad_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/devpc/Desktop/quad_ws/src/install/quad_interfaces/lib/libquad_interfaces__rosidl_generator_c.so" to ""\n'}
+[7.592164] (quad_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/devpc/Desktop/quad_ws/src/install/quad_interfaces/include/quad_interfaces\n'}
+[7.592253] (quad_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/devpc/Desktop/quad_ws/src/install/quad_interfaces/include/quad_interfaces/msg\n'}
+[7.592359] (quad_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/devpc/Desktop/quad_ws/src/install/quad_interfaces/include/quad_interfaces/msg/detail\n'}
+[7.592447] (quad_interfaces) StdoutLine: {'line': b'-- Installing: /home/devpc/Desktop/quad_ws/src/install/quad_interfaces/include/quad_interfaces/msg/detail/aux_servos__rosidl_typesupport_fastrtps_c.h\n'}
+[7.592535] (quad_interfaces) StdoutLine: {'line': b'-- Installing: /home/devpc/Desktop/quad_ws/src/install/quad_interfaces/include/quad_interfaces/msg/detail/motion_servos__rosidl_typesupport_fastrtps_c.h\n'}
+[7.592623] (quad_interfaces) StdoutLine: {'line': b'-- Installing: /home/devpc/Desktop/quad_ws/src/install/quad_interfaces/include/quad_interfaces/msg/detail/motion_servos_parameters__rosidl_typesupport_fastrtps_c.h\n'}
+[7.592743] (quad_interfaces) StdoutLine: {'line': b'-- Installing: /home/devpc/Desktop/quad_ws/src/install/quad_interfaces/include/quad_interfaces/msg/detail/aux_servos_parameters__rosidl_typesupport_fastrtps_c.h\n'}
+[7.592871] (quad_interfaces) StdoutLine: {'line': b'-- Installing: /home/devpc/Desktop/quad_ws/src/install/quad_interfaces/include/quad_interfaces/msg/detail/emergency_stop__rosidl_typesupport_fastrtps_c.h\n'}
+[7.592976] (quad_interfaces) StdoutLine: {'line': b'-- Installing: /home/devpc/Desktop/quad_ws/src/install/quad_interfaces/include/quad_interfaces/msg/rosidl_typesupport_fastrtps_c__visibility_control.h\n'}
+[7.593078] (quad_interfaces) StdoutLine: {'line': b'-- Installing: /home/devpc/Desktop/quad_ws/src/install/quad_interfaces/lib/libquad_interfaces__rosidl_typesupport_fastrtps_c.so\n'}
+[7.593198] (quad_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/devpc/Desktop/quad_ws/src/install/quad_interfaces/lib/libquad_interfaces__rosidl_typesupport_fastrtps_c.so" to ""\n'}
+[7.593304] (quad_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/devpc/Desktop/quad_ws/src/install/quad_interfaces/include/quad_interfaces\n'}
+[7.593409] (quad_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/devpc/Desktop/quad_ws/src/install/quad_interfaces/include/quad_interfaces/msg\n'}
+[7.593498] (quad_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/devpc/Desktop/quad_ws/src/install/quad_interfaces/include/quad_interfaces/msg/detail\n'}
+[7.593608] (quad_interfaces) StdoutLine: {'line': b'-- Installing: /home/devpc/Desktop/quad_ws/src/install/quad_interfaces/include/quad_interfaces/msg/detail/aux_servos__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[7.593696] (quad_interfaces) StdoutLine: {'line': b'-- Installing: /home/devpc/Desktop/quad_ws/src/install/quad_interfaces/include/quad_interfaces/msg/detail/emergency_stop__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[7.593783] (quad_interfaces) StdoutLine: {'line': b'-- Installing: /home/devpc/Desktop/quad_ws/src/install/quad_interfaces/include/quad_interfaces/msg/detail/motion_servos_parameters__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[7.593876] (quad_interfaces) StdoutLine: {'line': b'-- Installing: /home/devpc/Desktop/quad_ws/src/install/quad_interfaces/include/quad_interfaces/msg/detail/aux_servos_parameters__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[7.593993] (quad_interfaces) StdoutLine: {'line': b'-- Installing: /home/devpc/Desktop/quad_ws/src/install/quad_interfaces/include/quad_interfaces/msg/detail/motion_servos__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[7.594120] (quad_interfaces) StdoutLine: {'line': b'-- Installing: /home/devpc/Desktop/quad_ws/src/install/quad_interfaces/include/quad_interfaces/msg/detail/dds_fastrtps\n'}
+[7.594225] (quad_interfaces) StdoutLine: {'line': b'-- Installing: /home/devpc/Desktop/quad_ws/src/install/quad_interfaces/include/quad_interfaces/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h\n'}
+[7.594343] (quad_interfaces) StdoutLine: {'line': b'-- Installing: /home/devpc/Desktop/quad_ws/src/install/quad_interfaces/lib/libquad_interfaces__rosidl_typesupport_fastrtps_cpp.so\n'}
+[7.594508] (quad_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/devpc/Desktop/quad_ws/src/install/quad_interfaces/lib/libquad_interfaces__rosidl_typesupport_fastrtps_cpp.so" to ""\n'}
+[7.594666] (quad_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/devpc/Desktop/quad_ws/src/install/quad_interfaces/include/quad_interfaces\n'}
+[7.594821] (quad_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/devpc/Desktop/quad_ws/src/install/quad_interfaces/include/quad_interfaces/msg\n'}
+[7.594959] (quad_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/devpc/Desktop/quad_ws/src/install/quad_interfaces/include/quad_interfaces/msg/detail\n'}
+[7.595088] (quad_interfaces) StdoutLine: {'line': b'-- Installing: /home/devpc/Desktop/quad_ws/src/install/quad_interfaces/include/quad_interfaces/msg/detail/emergency_stop__type_support.c\n'}
+[7.595214] (quad_interfaces) StdoutLine: {'line': b'-- Installing: /home/devpc/Desktop/quad_ws/src/install/quad_interfaces/include/quad_interfaces/msg/detail/aux_servos_parameters__rosidl_typesupport_introspection_c.h\n'}
+[7.595320] (quad_interfaces) StdoutLine: {'line': b'-- Installing: /home/devpc/Desktop/quad_ws/src/install/quad_interfaces/include/quad_interfaces/msg/detail/aux_servos__rosidl_typesupport_introspection_c.h\n'}
+[7.595422] (quad_interfaces) StdoutLine: {'line': b'-- Installing: /home/devpc/Desktop/quad_ws/src/install/quad_interfaces/include/quad_interfaces/msg/detail/motion_servos_parameters__rosidl_typesupport_introspection_c.h\n'}
+[7.595527] (quad_interfaces) StdoutLine: {'line': b'-- Installing: /home/devpc/Desktop/quad_ws/src/install/quad_interfaces/include/quad_interfaces/msg/detail/motion_servos__type_support.c\n'}
+[7.595645] (quad_interfaces) StdoutLine: {'line': b'-- Installing: /home/devpc/Desktop/quad_ws/src/install/quad_interfaces/include/quad_interfaces/msg/detail/aux_servos__type_support.c\n'}
+[7.595760] (quad_interfaces) StdoutLine: {'line': b'-- Installing: /home/devpc/Desktop/quad_ws/src/install/quad_interfaces/include/quad_interfaces/msg/detail/motion_servos__rosidl_typesupport_introspection_c.h\n'}
+[7.595858] (quad_interfaces) StdoutLine: {'line': b'-- Installing: /home/devpc/Desktop/quad_ws/src/install/quad_interfaces/include/quad_interfaces/msg/detail/emergency_stop__rosidl_typesupport_introspection_c.h\n'}
+[7.595950] (quad_interfaces) StdoutLine: {'line': b'-- Installing: /home/devpc/Desktop/quad_ws/src/install/quad_interfaces/include/quad_interfaces/msg/detail/aux_servos_parameters__type_support.c\n'}
+[7.596108] (quad_interfaces) StdoutLine: {'line': b'-- Installing: /home/devpc/Desktop/quad_ws/src/install/quad_interfaces/include/quad_interfaces/msg/detail/motion_servos_parameters__type_support.c\n'}
+[7.596246] (quad_interfaces) StdoutLine: {'line': b'-- Installing: /home/devpc/Desktop/quad_ws/src/install/quad_interfaces/include/quad_interfaces/msg/rosidl_typesupport_introspection_c__visibility_control.h\n'}
+[7.596372] (quad_interfaces) StdoutLine: {'line': b'-- Installing: /home/devpc/Desktop/quad_ws/src/install/quad_interfaces/lib/libquad_interfaces__rosidl_typesupport_introspection_c.so\n'}
+[7.596519] (quad_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/devpc/Desktop/quad_ws/src/install/quad_interfaces/lib/libquad_interfaces__rosidl_typesupport_introspection_c.so" to ""\n'}
+[7.596634] (quad_interfaces) StdoutLine: {'line': b'-- Installing: /home/devpc/Desktop/quad_ws/src/install/quad_interfaces/lib/libquad_interfaces__rosidl_typesupport_c.so\n'}
+[7.596771] (quad_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/devpc/Desktop/quad_ws/src/install/quad_interfaces/lib/libquad_interfaces__rosidl_typesupport_c.so" to ""\n'}
+[7.596884] (quad_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/devpc/Desktop/quad_ws/src/install/quad_interfaces/include/quad_interfaces\n'}
+[7.597005] (quad_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/devpc/Desktop/quad_ws/src/install/quad_interfaces/include/quad_interfaces/msg\n'}
+[7.597142] (quad_interfaces) StdoutLine: {'line': b'-- Installing: /home/devpc/Desktop/quad_ws/src/install/quad_interfaces/include/quad_interfaces/msg/aux_servos_parameters.hpp\n'}
+[7.597273] (quad_interfaces) StdoutLine: {'line': b'-- Installing: /home/devpc/Desktop/quad_ws/src/install/quad_interfaces/include/quad_interfaces/msg/motion_servos_parameters.hpp\n'}
+[7.597417] (quad_interfaces) StdoutLine: {'line': b'-- Installing: /home/devpc/Desktop/quad_ws/src/install/quad_interfaces/include/quad_interfaces/msg/motion_servos.hpp\n'}
+[7.597565] (quad_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/devpc/Desktop/quad_ws/src/install/quad_interfaces/include/quad_interfaces/msg/detail\n'}
+[7.597688] (quad_interfaces) StdoutLine: {'line': b'-- Installing: /home/devpc/Desktop/quad_ws/src/install/quad_interfaces/include/quad_interfaces/msg/detail/motion_servos__struct.hpp\n'}
+[7.597827] (quad_interfaces) StdoutLine: {'line': b'-- Installing: /home/devpc/Desktop/quad_ws/src/install/quad_interfaces/include/quad_interfaces/msg/detail/motion_servos__builder.hpp\n'}
+[7.597919] (quad_interfaces) StdoutLine: {'line': b'-- Installing: /home/devpc/Desktop/quad_ws/src/install/quad_interfaces/include/quad_interfaces/msg/detail/emergency_stop__builder.hpp\n'}
+[7.598086] (quad_interfaces) StdoutLine: {'line': b'-- Installing: /home/devpc/Desktop/quad_ws/src/install/quad_interfaces/include/quad_interfaces/msg/detail/aux_servos__struct.hpp\n'}
+[7.598227] (quad_interfaces) StdoutLine: {'line': b'-- Installing: /home/devpc/Desktop/quad_ws/src/install/quad_interfaces/include/quad_interfaces/msg/detail/motion_servos_parameters__builder.hpp\n'}
+[7.598342] (quad_interfaces) StdoutLine: {'line': b'-- Installing: /home/devpc/Desktop/quad_ws/src/install/quad_interfaces/include/quad_interfaces/msg/detail/aux_servos_parameters__struct.hpp\n'}
+[7.598464] (quad_interfaces) StdoutLine: {'line': b'-- Installing: /home/devpc/Desktop/quad_ws/src/install/quad_interfaces/include/quad_interfaces/msg/detail/aux_servos_parameters__builder.hpp\n'}
+[7.598605] (quad_interfaces) StdoutLine: {'line': b'-- Installing: /home/devpc/Desktop/quad_ws/src/install/quad_interfaces/include/quad_interfaces/msg/detail/motion_servos__traits.hpp\n'}
+[7.598728] (quad_interfaces) StdoutLine: {'line': b'-- Installing: /home/devpc/Desktop/quad_ws/src/install/quad_interfaces/include/quad_interfaces/msg/detail/emergency_stop__struct.hpp\n'}
+[7.598867] (quad_interfaces) StdoutLine: {'line': b'-- Installing: /home/devpc/Desktop/quad_ws/src/install/quad_interfaces/include/quad_interfaces/msg/detail/motion_servos_parameters__traits.hpp\n'}
+[7.598957] (quad_interfaces) StdoutLine: {'line': b'-- Installing: /home/devpc/Desktop/quad_ws/src/install/quad_interfaces/include/quad_interfaces/msg/detail/aux_servos__builder.hpp\n'}
+[7.599075] (quad_interfaces) StdoutLine: {'line': b'-- Installing: /home/devpc/Desktop/quad_ws/src/install/quad_interfaces/include/quad_interfaces/msg/detail/aux_servos__traits.hpp\n'}
+[7.599163] (quad_interfaces) StdoutLine: {'line': b'-- Installing: /home/devpc/Desktop/quad_ws/src/install/quad_interfaces/include/quad_interfaces/msg/detail/aux_servos_parameters__traits.hpp\n'}
+[7.599250] (quad_interfaces) StdoutLine: {'line': b'-- Installing: /home/devpc/Desktop/quad_ws/src/install/quad_interfaces/include/quad_interfaces/msg/detail/emergency_stop__traits.hpp\n'}
+[7.599338] (quad_interfaces) StdoutLine: {'line': b'-- Installing: /home/devpc/Desktop/quad_ws/src/install/quad_interfaces/include/quad_interfaces/msg/detail/motion_servos_parameters__struct.hpp\n'}
+[7.599428] (quad_interfaces) StdoutLine: {'line': b'-- Installing: /home/devpc/Desktop/quad_ws/src/install/quad_interfaces/include/quad_interfaces/msg/emergency_stop.hpp\n'}
+[7.599543] (quad_interfaces) StdoutLine: {'line': b'-- Installing: /home/devpc/Desktop/quad_ws/src/install/quad_interfaces/include/quad_interfaces/msg/aux_servos.hpp\n'}
+[7.599654] (quad_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/devpc/Desktop/quad_ws/src/install/quad_interfaces/include/quad_interfaces\n'}
+[7.599741] (quad_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/devpc/Desktop/quad_ws/src/install/quad_interfaces/include/quad_interfaces/msg\n'}
+[7.599828] (quad_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/devpc/Desktop/quad_ws/src/install/quad_interfaces/include/quad_interfaces/msg/detail\n'}
+[7.599986] (quad_interfaces) StdoutLine: {'line': b'-- Installing: /home/devpc/Desktop/quad_ws/src/install/quad_interfaces/include/quad_interfaces/msg/detail/aux_servos_parameters__rosidl_typesupport_introspection_cpp.hpp\n'}
+[7.600081] (quad_interfaces) StdoutLine: {'line': b'-- Installing: /home/devpc/Desktop/quad_ws/src/install/quad_interfaces/include/quad_interfaces/msg/detail/motion_servos__rosidl_typesupport_introspection_cpp.hpp\n'}
+[7.600193] (quad_interfaces) StdoutLine: {'line': b'-- Installing: /home/devpc/Desktop/quad_ws/src/install/quad_interfaces/include/quad_interfaces/msg/detail/aux_servos__rosidl_typesupport_introspection_cpp.hpp\n'}
+[7.600306] (quad_interfaces) StdoutLine: {'line': b'-- Installing: /home/devpc/Desktop/quad_ws/src/install/quad_interfaces/include/quad_interfaces/msg/detail/motion_servos__type_support.cpp\n'}
+[7.600396] (quad_interfaces) StdoutLine: {'line': b'-- Installing: /home/devpc/Desktop/quad_ws/src/install/quad_interfaces/include/quad_interfaces/msg/detail/emergency_stop__type_support.cpp\n'}
+[7.600484] (quad_interfaces) StdoutLine: {'line': b'-- Installing: /home/devpc/Desktop/quad_ws/src/install/quad_interfaces/include/quad_interfaces/msg/detail/motion_servos_parameters__rosidl_typesupport_introspection_cpp.hpp\n'}
+[7.600578] (quad_interfaces) StdoutLine: {'line': b'-- Installing: /home/devpc/Desktop/quad_ws/src/install/quad_interfaces/include/quad_interfaces/msg/detail/motion_servos_parameters__type_support.cpp\n'}
+[7.600681] (quad_interfaces) StdoutLine: {'line': b'-- Installing: /home/devpc/Desktop/quad_ws/src/install/quad_interfaces/include/quad_interfaces/msg/detail/aux_servos_parameters__type_support.cpp\n'}
+[7.600786] (quad_interfaces) StdoutLine: {'line': b'-- Installing: /home/devpc/Desktop/quad_ws/src/install/quad_interfaces/include/quad_interfaces/msg/detail/aux_servos__type_support.cpp\n'}
+[7.600885] (quad_interfaces) StdoutLine: {'line': b'-- Installing: /home/devpc/Desktop/quad_ws/src/install/quad_interfaces/include/quad_interfaces/msg/detail/emergency_stop__rosidl_typesupport_introspection_cpp.hpp\n'}
+[7.600985] (quad_interfaces) StdoutLine: {'line': b'-- Installing: /home/devpc/Desktop/quad_ws/src/install/quad_interfaces/lib/libquad_interfaces__rosidl_typesupport_introspection_cpp.so\n'}
+[7.601097] (quad_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/devpc/Desktop/quad_ws/src/install/quad_interfaces/lib/libquad_interfaces__rosidl_typesupport_introspection_cpp.so" to ""\n'}
+[7.601220] (quad_interfaces) StdoutLine: {'line': b'-- Installing: /home/devpc/Desktop/quad_ws/src/install/quad_interfaces/lib/libquad_interfaces__rosidl_typesupport_cpp.so\n'}
+[7.601331] (quad_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/devpc/Desktop/quad_ws/src/install/quad_interfaces/lib/libquad_interfaces__rosidl_typesupport_cpp.so" to ""\n'}
+[7.601444] (quad_interfaces) StdoutLine: {'line': b'-- Installing: /home/devpc/Desktop/quad_ws/src/install/quad_interfaces/share/quad_interfaces/environment/pythonpath.sh\n'}
+[7.601555] (quad_interfaces) StdoutLine: {'line': b'-- Installing: /home/devpc/Desktop/quad_ws/src/install/quad_interfaces/share/quad_interfaces/environment/pythonpath.dsv\n'}
+[7.601667] (quad_interfaces) StdoutLine: {'line': b'-- Installing: /home/devpc/Desktop/quad_ws/src/install/quad_interfaces/lib/python3.8/site-packages/quad_interfaces/__init__.py\n'}
+[7.616677] (-) TimerEvent: {}
+[7.632650] (quad_interfaces) StdoutLine: {'line': b"Compiling '/home/devpc/Desktop/quad_ws/src/install/quad_interfaces/lib/python3.8/site-packages/quad_interfaces/__init__.py'...\n"}
+[7.637205] (quad_interfaces) StdoutLine: {'line': b'-- Installing: /home/devpc/Desktop/quad_ws/src/install/quad_interfaces/lib/python3.8/site-packages/quad_interfaces/msg\n'}
+[7.637550] (quad_interfaces) StdoutLine: {'line': b'-- Installing: /home/devpc/Desktop/quad_ws/src/install/quad_interfaces/lib/python3.8/site-packages/quad_interfaces/msg/_motion_servos_parameters_s.c\n'}
+[7.637769] (quad_interfaces) StdoutLine: {'line': b'-- Installing: /home/devpc/Desktop/quad_ws/src/install/quad_interfaces/lib/python3.8/site-packages/quad_interfaces/msg/_motion_servos_parameters.py\n'}
+[7.637945] (quad_interfaces) StdoutLine: {'line': b'-- Installing: /home/devpc/Desktop/quad_ws/src/install/quad_interfaces/lib/python3.8/site-packages/quad_interfaces/msg/_emergency_stop_s.c\n'}
+[7.638132] (quad_interfaces) StdoutLine: {'line': b'-- Installing: /home/devpc/Desktop/quad_ws/src/install/quad_interfaces/lib/python3.8/site-packages/quad_interfaces/msg/_aux_servos_parameters.py\n'}
+[7.638320] (quad_interfaces) StdoutLine: {'line': b'-- Installing: /home/devpc/Desktop/quad_ws/src/install/quad_interfaces/lib/python3.8/site-packages/quad_interfaces/msg/_motion_servos_s.c\n'}
+[7.638495] (quad_interfaces) StdoutLine: {'line': b'-- Installing: /home/devpc/Desktop/quad_ws/src/install/quad_interfaces/lib/python3.8/site-packages/quad_interfaces/msg/_aux_servos.py\n'}
+[7.638663] (quad_interfaces) StdoutLine: {'line': b'-- Installing: /home/devpc/Desktop/quad_ws/src/install/quad_interfaces/lib/python3.8/site-packages/quad_interfaces/msg/_motion_servos.py\n'}
+[7.638833] (quad_interfaces) StdoutLine: {'line': b'-- Installing: /home/devpc/Desktop/quad_ws/src/install/quad_interfaces/lib/python3.8/site-packages/quad_interfaces/msg/__init__.py\n'}
+[7.638962] (quad_interfaces) StdoutLine: {'line': b'-- Installing: /home/devpc/Desktop/quad_ws/src/install/quad_interfaces/lib/python3.8/site-packages/quad_interfaces/msg/_aux_servos_s.c\n'}
+[7.639103] (quad_interfaces) StdoutLine: {'line': b'-- Installing: /home/devpc/Desktop/quad_ws/src/install/quad_interfaces/lib/python3.8/site-packages/quad_interfaces/msg/_emergency_stop.py\n'}
+[7.639272] (quad_interfaces) StdoutLine: {'line': b'-- Installing: /home/devpc/Desktop/quad_ws/src/install/quad_interfaces/lib/python3.8/site-packages/quad_interfaces/msg/_aux_servos_parameters_s.c\n'}
+[7.639401] (quad_interfaces) StdoutLine: {'line': b'-- Installing: /home/devpc/Desktop/quad_ws/src/install/quad_interfaces/lib/python3.8/site-packages/quad_interfaces/quad_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-38-x86_64-linux-gnu.so\n'}
+[7.639814] (quad_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/devpc/Desktop/quad_ws/src/install/quad_interfaces/lib/python3.8/site-packages/quad_interfaces/quad_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-38-x86_64-linux-gnu.so" to ""\n'}
+[7.640132] (quad_interfaces) StdoutLine: {'line': b'-- Installing: /home/devpc/Desktop/quad_ws/src/install/quad_interfaces/lib/python3.8/site-packages/quad_interfaces/quad_interfaces_s__rosidl_typesupport_introspection_c.cpython-38-x86_64-linux-gnu.so\n'}
+[7.640759] (quad_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/devpc/Desktop/quad_ws/src/install/quad_interfaces/lib/python3.8/site-packages/quad_interfaces/quad_interfaces_s__rosidl_typesupport_introspection_c.cpython-38-x86_64-linux-gnu.so" to ""\n'}
+[7.641013] (quad_interfaces) StdoutLine: {'line': b'-- Installing: /home/devpc/Desktop/quad_ws/src/install/quad_interfaces/lib/python3.8/site-packages/quad_interfaces/quad_interfaces_s__rosidl_typesupport_c.cpython-38-x86_64-linux-gnu.so\n'}
+[7.641593] (quad_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/devpc/Desktop/quad_ws/src/install/quad_interfaces/lib/python3.8/site-packages/quad_interfaces/quad_interfaces_s__rosidl_typesupport_c.cpython-38-x86_64-linux-gnu.so" to ""\n'}
+[7.641831] (quad_interfaces) StdoutLine: {'line': b'-- Installing: /home/devpc/Desktop/quad_ws/src/install/quad_interfaces/lib/libquad_interfaces__python.so\n'}
+[7.642207] (quad_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/devpc/Desktop/quad_ws/src/install/quad_interfaces/lib/libquad_interfaces__python.so" to ""\n'}
+[7.642406] (quad_interfaces) StdoutLine: {'line': b'-- Installing: /home/devpc/Desktop/quad_ws/src/install/quad_interfaces/share/quad_interfaces/msg/MotionServos.idl\n'}
+[7.642578] (quad_interfaces) StdoutLine: {'line': b'-- Installing: /home/devpc/Desktop/quad_ws/src/install/quad_interfaces/share/quad_interfaces/msg/MotionServosParameters.idl\n'}
+[7.642790] (quad_interfaces) StdoutLine: {'line': b'-- Installing: /home/devpc/Desktop/quad_ws/src/install/quad_interfaces/share/quad_interfaces/msg/EmergencyStop.idl\n'}
+[7.642993] (quad_interfaces) StdoutLine: {'line': b'-- Installing: /home/devpc/Desktop/quad_ws/src/install/quad_interfaces/share/quad_interfaces/msg/AuxServos.idl\n'}
+[7.643196] (quad_interfaces) StdoutLine: {'line': b'-- Installing: /home/devpc/Desktop/quad_ws/src/install/quad_interfaces/share/quad_interfaces/msg/AuxServosParameters.idl\n'}
+[7.643379] (quad_interfaces) StdoutLine: {'line': b'-- Installing: /home/devpc/Desktop/quad_ws/src/install/quad_interfaces/share/quad_interfaces/msg/MotionServos.msg\n'}
+[7.643556] (quad_interfaces) StdoutLine: {'line': b'-- Installing: /home/devpc/Desktop/quad_ws/src/install/quad_interfaces/share/quad_interfaces/msg/MotionServosParameters.msg\n'}
+[7.643760] (quad_interfaces) StdoutLine: {'line': b'-- Installing: /home/devpc/Desktop/quad_ws/src/install/quad_interfaces/share/quad_interfaces/msg/EmergencyStop.msg\n'}
+[7.643974] (quad_interfaces) StdoutLine: {'line': b'-- Installing: /home/devpc/Desktop/quad_ws/src/install/quad_interfaces/share/quad_interfaces/msg/AuxServos.msg\n'}
+[7.644178] (quad_interfaces) StdoutLine: {'line': b'-- Installing: /home/devpc/Desktop/quad_ws/src/install/quad_interfaces/share/quad_interfaces/msg/AuxServosParameters.msg\n'}
+[7.644418] (quad_interfaces) StdoutLine: {'line': b'-- Installing: /home/devpc/Desktop/quad_ws/src/install/quad_interfaces/share/ament_index/resource_index/package_run_dependencies/quad_interfaces\n'}
+[7.644662] (quad_interfaces) StdoutLine: {'line': b'-- Installing: /home/devpc/Desktop/quad_ws/src/install/quad_interfaces/share/ament_index/resource_index/parent_prefix_path/quad_interfaces\n'}
+[7.644862] (quad_interfaces) StdoutLine: {'line': b'-- Installing: /home/devpc/Desktop/quad_ws/src/install/quad_interfaces/share/quad_interfaces/environment/ament_prefix_path.sh\n'}
+[7.645056] (quad_interfaces) StdoutLine: {'line': b'-- Installing: /home/devpc/Desktop/quad_ws/src/install/quad_interfaces/share/quad_interfaces/environment/ament_prefix_path.dsv\n'}
+[7.645238] (quad_interfaces) StdoutLine: {'line': b'-- Installing: /home/devpc/Desktop/quad_ws/src/install/quad_interfaces/share/quad_interfaces/environment/path.sh\n'}
+[7.645439] (quad_interfaces) StdoutLine: {'line': b'-- Installing: /home/devpc/Desktop/quad_ws/src/install/quad_interfaces/share/quad_interfaces/environment/path.dsv\n'}
+[7.645639] (quad_interfaces) StdoutLine: {'line': b'-- Installing: /home/devpc/Desktop/quad_ws/src/install/quad_interfaces/share/quad_interfaces/local_setup.bash\n'}
+[7.645847] (quad_interfaces) StdoutLine: {'line': b'-- Installing: /home/devpc/Desktop/quad_ws/src/install/quad_interfaces/share/quad_interfaces/local_setup.sh\n'}
+[7.646030] (quad_interfaces) StdoutLine: {'line': b'-- Installing: /home/devpc/Desktop/quad_ws/src/install/quad_interfaces/share/quad_interfaces/local_setup.zsh\n'}
+[7.646211] (quad_interfaces) StdoutLine: {'line': b'-- Installing: /home/devpc/Desktop/quad_ws/src/install/quad_interfaces/share/quad_interfaces/local_setup.dsv\n'}
+[7.646407] (quad_interfaces) StdoutLine: {'line': b'-- Installing: /home/devpc/Desktop/quad_ws/src/install/quad_interfaces/share/quad_interfaces/package.dsv\n'}
+[7.646638] (quad_interfaces) StdoutLine: {'line': b'-- Installing: /home/devpc/Desktop/quad_ws/src/install/quad_interfaces/share/ament_index/resource_index/packages/quad_interfaces\n'}
+[7.646910] (quad_interfaces) StdoutLine: {'line': b'-- Installing: /home/devpc/Desktop/quad_ws/src/install/quad_interfaces/share/quad_interfaces/cmake/quad_interfaces__rosidl_generator_cExport.cmake\n'}
+[7.647104] (quad_interfaces) StdoutLine: {'line': b'-- Installing: /home/devpc/Desktop/quad_ws/src/install/quad_interfaces/share/quad_interfaces/cmake/quad_interfaces__rosidl_generator_cExport-noconfig.cmake\n'}
+[7.647359] (quad_interfaces) StdoutLine: {'line': b'-- Installing: /home/devpc/Desktop/quad_ws/src/install/quad_interfaces/share/quad_interfaces/cmake/quad_interfaces__rosidl_typesupport_introspection_cExport.cmake\n'}
+[7.647559] (quad_interfaces) StdoutLine: {'line': b'-- Installing: /home/devpc/Desktop/quad_ws/src/install/quad_interfaces/share/quad_interfaces/cmake/quad_interfaces__rosidl_typesupport_introspection_cExport-noconfig.cmake\n'}
+[7.647807] (quad_interfaces) StdoutLine: {'line': b'-- Installing: /home/devpc/Desktop/quad_ws/src/install/quad_interfaces/share/quad_interfaces/cmake/quad_interfaces__rosidl_typesupport_cExport.cmake\n'}
+[7.648019] (quad_interfaces) StdoutLine: {'line': b'-- Installing: /home/devpc/Desktop/quad_ws/src/install/quad_interfaces/share/quad_interfaces/cmake/quad_interfaces__rosidl_typesupport_cExport-noconfig.cmake\n'}
+[7.648261] (quad_interfaces) StdoutLine: {'line': b'-- Installing: /home/devpc/Desktop/quad_ws/src/install/quad_interfaces/share/quad_interfaces/cmake/quad_interfaces__rosidl_generator_cppExport.cmake\n'}
+[7.648513] (quad_interfaces) StdoutLine: {'line': b'-- Installing: /home/devpc/Desktop/quad_ws/src/install/quad_interfaces/share/quad_interfaces/cmake/quad_interfaces__rosidl_typesupport_introspection_cppExport.cmake\n'}
+[7.648728] (quad_interfaces) StdoutLine: {'line': b'-- Installing: /home/devpc/Desktop/quad_ws/src/install/quad_interfaces/share/quad_interfaces/cmake/quad_interfaces__rosidl_typesupport_introspection_cppExport-noconfig.cmake\n'}
+[7.648966] (quad_interfaces) StdoutLine: {'line': b'-- Installing: /home/devpc/Desktop/quad_ws/src/install/quad_interfaces/share/quad_interfaces/cmake/quad_interfaces__rosidl_typesupport_cppExport.cmake\n'}
+[7.649166] (quad_interfaces) StdoutLine: {'line': b'-- Installing: /home/devpc/Desktop/quad_ws/src/install/quad_interfaces/share/quad_interfaces/cmake/quad_interfaces__rosidl_typesupport_cppExport-noconfig.cmake\n'}
+[7.649369] (quad_interfaces) StdoutLine: {'line': b'-- Installing: /home/devpc/Desktop/quad_ws/src/install/quad_interfaces/share/quad_interfaces/cmake/rosidl_cmake-extras.cmake\n'}
+[7.649563] (quad_interfaces) StdoutLine: {'line': b'-- Installing: /home/devpc/Desktop/quad_ws/src/install/quad_interfaces/share/quad_interfaces/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[7.649753] (quad_interfaces) StdoutLine: {'line': b'-- Installing: /home/devpc/Desktop/quad_ws/src/install/quad_interfaces/share/quad_interfaces/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[7.649969] (quad_interfaces) StdoutLine: {'line': b'-- Installing: /home/devpc/Desktop/quad_ws/src/install/quad_interfaces/share/quad_interfaces/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[7.650171] (quad_interfaces) StdoutLine: {'line': b'-- Installing: /home/devpc/Desktop/quad_ws/src/install/quad_interfaces/share/quad_interfaces/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[7.650370] (quad_interfaces) StdoutLine: {'line': b'-- Installing: /home/devpc/Desktop/quad_ws/src/install/quad_interfaces/share/quad_interfaces/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake\n'}
+[7.650569] (quad_interfaces) StdoutLine: {'line': b'-- Installing: /home/devpc/Desktop/quad_ws/src/install/quad_interfaces/share/quad_interfaces/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake\n'}
+[7.650766] (quad_interfaces) StdoutLine: {'line': b'-- Installing: /home/devpc/Desktop/quad_ws/src/install/quad_interfaces/share/quad_interfaces/cmake/quad_interfacesConfig.cmake\n'}
+[7.650947] (quad_interfaces) StdoutLine: {'line': b'-- Installing: /home/devpc/Desktop/quad_ws/src/install/quad_interfaces/share/quad_interfaces/cmake/quad_interfacesConfig-version.cmake\n'}
+[7.651123] (quad_interfaces) StdoutLine: {'line': b'-- Installing: /home/devpc/Desktop/quad_ws/src/install/quad_interfaces/share/quad_interfaces/package.xml\n'}
+[7.653404] (quad_interfaces) CommandEnded: {'returncode': 0}
+[7.716822] (-) TimerEvent: {}
+[7.769093] (quad_interfaces) JobEnded: {'identifier': 'quad_interfaces', 'rc': 0}
+[7.770187] (-) EventReactorShutdown: {}
