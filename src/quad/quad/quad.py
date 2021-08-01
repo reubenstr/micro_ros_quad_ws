@@ -1,26 +1,50 @@
+
+
+from .quad_commander import QuadCommander
+
+
+from time import sleep
 import rclpy
 from rclpy.node import Node
+import numpy as np
 
-from std_msgs.msg import String
-
+from sensor_msgs.msg import Joy
 from quad_interfaces.msg import MotionServos
 
+from rclpy.executors import SingleThreadedExecutor
 
+
+class MinimalSubscriber(Node):
+
+    def __init__(self):
+        super().__init__('joy_subscriber_node')
+        self.subscription = self.create_subscription(
+            Joy,
+            'joy',
+            self.listener_callback,
+            10)
+        # self.subscription  # prevent unused variable warning
+
+    def listener_callback(self, msg):
+        self.get_logger().info('I heard: "%s"' % msg.buttons)
 
 
 class MinimalPublisher(Node):
 
     def __init__(self):
-        super().__init__('quad_node')
-        self.publisher_ = self.create_publisher(MotionServos, 'motion_servos', 10)
+        super().__init__('quad_publisher_node')
+        self.publisher_ = self.create_publisher(
+            MotionServos, 'motion_servos', 10)
         timer_period = 1  # seconds
         self.timer = self.create_timer(timer_period, self.timer_callback)
-        self.i = 0 
-        self.toggle = False;
-        
+        self.i = 0
+        self.toggle = False
+
+        self.joint_angles = np.zeros((4, 3))
+
         self.declare_parameters(
             namespace='',
-                parameters=[
+            parameters=[
                 ('bool_value', None),
                 ('int_number', None),
                 ('float_number', None),
@@ -34,46 +58,53 @@ class MinimalPublisher(Node):
                 ('nested_param.another_int', None)
             ])
 
+    def set_joint_angles(self, joint_angles):
+        self.joint_angles = joint_angles
+
     def timer_callback(self):
-    
+
         print(self.get_parameter('str_text').get_parameter_value().string_value)
         print(self.get_parameter('str_text2').get_parameter_value().string_value)
-    
-        msg = MotionServos()
-        self.toggle = not self.toggle 
-        if self.i > 10:
-            msg.enable[0] = True
-        else:
-            msg.enable[0] = False
 
-        
-        msg.angle[0] = self.i 
-        self.publisher_.publish(msg)
-        # self.get_logger().info('Publishing: "%s"' % msg.data)
-        self.i += 1
-        if self.i > 45:
-            self.i = 0
+        msg = MotionServos()     
 
+        self.joint_angles_flat = self.joint_angles.flatten()
 
+        for i in range(12):
+            msg.angle[i] = self.joint_angles_flat[i]  
+
+        self.publisher_.publish(msg)     
 
 
 def main(args=None):
-    print('Hi from quad publisher 2.')
+    print('QUAD STARTED')
 
     rclpy.init(args=args)
 
-    minimal_publisher = MinimalPublisher()    
+    quad_commander = QuadCommander()
 
-    rclpy.spin(minimal_publisher)
+    minimal_publisher = MinimalPublisher()
+    minimal_subscriber = MinimalSubscriber()
 
-    # Destroy the node explicitly
-    # (optional - otherwise it will be done automatically
-    # when the garbage collector destroys the node object)
-    minimal_publisher.destroy_node()
+    executor = SingleThreadedExecutor()
+
+    executor.add_node(minimal_publisher)
+    executor.add_node(minimal_subscriber)
+
+    while rclpy.ok():
+        joint_angles = quad_commander.tick()
+        minimal_publisher.set_joint_angles(joint_angles)
+        executor.spin_once()
+
+    try:
+        executor.spin()
+    finally:
+        executor.shutdown()
+        minimal_publisher.destroy_node()
+        minimal_subscriber.destroy_node()
+
     rclpy.shutdown()
 
 
 if __name__ == '__main__':
     main()
-
-

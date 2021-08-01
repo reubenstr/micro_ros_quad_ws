@@ -1,0 +1,17 @@
+[0.779s] Invoking command in '/home/devpc/Desktop/quad_ws/src/quad': PYTHONPATH=/home/devpc/Desktop/quad_ws/install/quad/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/quad build --build-base /home/devpc/Desktop/quad_ws/build/quad/build install --prefix /home/devpc/Desktop/quad_ws/install/quad --record /home/devpc/Desktop/quad_ws/build/quad/install.log --single-version-externally-managed
+[1.050s] running egg_info
+[1.051s] writing ../../build/quad/quad.egg-info/PKG-INFO
+[1.051s] writing dependency_links to ../../build/quad/quad.egg-info/dependency_links.txt
+[1.051s] writing entry points to ../../build/quad/quad.egg-info/entry_points.txt
+[1.051s] writing requirements to ../../build/quad/quad.egg-info/requires.txt
+[1.051s] writing top-level names to ../../build/quad/quad.egg-info/top_level.txt
+[1.091s] reading manifest file '../../build/quad/quad.egg-info/SOURCES.txt'
+[1.092s] writing manifest file '../../build/quad/quad.egg-info/SOURCES.txt'
+[1.092s] running build
+[1.092s] running build_py
+[1.093s] running install
+[1.094s] running install_lib
+[1.095s] running install_data
+[1.096s] copying quad/src/urdf/quad.urdf -> /home/devpc/Desktop/quad_ws/install/quad/share/quad/urdf
+[1.096s] error: can't copy 'quad/src/__pycache__': doesn't exist or not a regular file
+[1.118s] Invoked command in '/home/devpc/Desktop/quad_ws/src/quad' returned '1': PYTHONPATH=/home/devpc/Desktop/quad_ws/install/quad/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/quad build --build-base /home/devpc/Desktop/quad_ws/build/quad/build install --prefix /home/devpc/Desktop/quad_ws/install/quad --record /home/devpc/Desktop/quad_ws/build/quad/install.log --single-version-externally-managed

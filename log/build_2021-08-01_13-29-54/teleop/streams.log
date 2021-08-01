@@ -1,0 +1,21 @@
+[0.266s] Invoking command in '/home/devpc/Desktop/quad_ws/src/teleop': PYTHONPATH=/home/devpc/Desktop/quad_ws/install/teleop/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/teleop build --build-base /home/devpc/Desktop/quad_ws/build/teleop/build install --prefix /home/devpc/Desktop/quad_ws/install/teleop --record /home/devpc/Desktop/quad_ws/build/teleop/install.log --single-version-externally-managed
+[0.488s] running egg_info
+[0.488s] writing ../../build/teleop/teleop.egg-info/PKG-INFO
+[0.488s] writing dependency_links to ../../build/teleop/teleop.egg-info/dependency_links.txt
+[0.489s] writing entry points to ../../build/teleop/teleop.egg-info/entry_points.txt
+[0.489s] writing requirements to ../../build/teleop/teleop.egg-info/requires.txt
+[0.489s] writing top-level names to ../../build/teleop/teleop.egg-info/top_level.txt
+[0.525s] reading manifest file '../../build/teleop/teleop.egg-info/SOURCES.txt'
+[0.525s] writing manifest file '../../build/teleop/teleop.egg-info/SOURCES.txt'
+[0.526s] running build
+[0.526s] running build_py
+[0.526s] running install
+[0.527s] running install_lib
+[0.528s] running install_data
+[0.528s] running install_egg_info
+[0.529s] removing '/home/devpc/Desktop/quad_ws/install/teleop/lib/python3.8/site-packages/teleop-0.0.0-py3.8.egg-info' (and everything under it)
+[0.530s] Copying ../../build/teleop/teleop.egg-info to /home/devpc/Desktop/quad_ws/install/teleop/lib/python3.8/site-packages/teleop-0.0.0-py3.8.egg-info
+[0.530s] running install_scripts
+[0.545s] Installing teleop script to /home/devpc/Desktop/quad_ws/install/teleop/lib/teleop
+[0.546s] writing list of installed files to '/home/devpc/Desktop/quad_ws/build/teleop/install.log'
+[0.564s] Invoked command in '/home/devpc/Desktop/quad_ws/src/teleop' returned '0': PYTHONPATH=/home/devpc/Desktop/quad_ws/install/teleop/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/teleop build --build-base /home/devpc/Desktop/quad_ws/build/teleop/build install --prefix /home/devpc/Desktop/quad_ws/install/teleop --record /home/devpc/Desktop/quad_ws/build/teleop/install.log --single-version-externally-managed
