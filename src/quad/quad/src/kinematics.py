@@ -57,7 +57,7 @@ class Kinematics:
         # Transform of Hip relative to world frame
         # With Body Centroid also in world frame
         Rwb = np.eye(3)
-        self.WorldToHip = OrderedDict()
+        self.WorldToHip = OrderedDict()       
 
         self.ph_FL = np.array([self.hip_x / 2.0, self.hip_y / 2.0, 0])
         self.WorldToHip["FL"] = RpToTrans(Rwb, self.ph_FL)
@@ -216,4 +216,6 @@ class Kinematics:
             # Step 3, compute joint angles from T_hf for each leg
             joint_angles[i, :] = self._solve_joint_angles(p_hf, key)
 
+        # leg order: FL, FR, BL, BR
+        # joint order: shoulder_angle, elbow_angle, wrist_angle
         return joint_angles

@@ -28,6 +28,7 @@ quad/src/heightfield.py
 quad/src/kinematics.py
 quad/src/matrix_transforms.py
 quad/src/model.py
+quad/src/motion_parameters.py
 quad/src/motor_model.py
 quad/src/readme.txt
 quad/src/stl/Back.stl

@@ -1,5 +1,6 @@
 
 
+from src import motion_parameters
 from .quad_commander import QuadCommander
 
 
@@ -13,6 +14,8 @@ from quad_interfaces.msg import MotionServos
 
 from rclpy.executors import SingleThreadedExecutor
 
+from src.motion_parameters import MotionParameters 
+
 
 class MinimalSubscriber(Node):
 
@@ -24,9 +27,22 @@ class MinimalSubscriber(Node):
             self.listener_callback,
             10)
         # self.subscription  # prevent unused variable warning
+        self.motion_parameters = MotionParameters()
+
+    def map(self, n, in_min, in_max, out_min, out_max):
+        return (n - in_min) * (out_max - out_min) / (in_max - in_min) + out_min
 
     def listener_callback(self, msg):
-        self.get_logger().info('I heard: "%s"' % msg.buttons)
+
+        # self.get_logger().info('I heard: "%s"' % msg.buttons)
+
+
+        self.motion_parameters.step_length = self.map(msg.axes[1], -1, 1, -0.1, 0.1)
+
+    def get_motion_parameters(self):        
+        return self.motion_parameters
+
+   
 
 
 class MinimalPublisher(Node):
@@ -51,9 +67,6 @@ class MinimalPublisher(Node):
                 ('str_text', "default"),
                 ('str_text2', None),
                 ('bool_array', None),
-                ('int_array', None),
-                ('float_array', None),
-                ('str_array', None),
                 ('bytes_array', None),
                 ('nested_param.another_int', None)
             ])
@@ -63,26 +76,17 @@ class MinimalPublisher(Node):
 
     def timer_callback(self):
 
-        print(self.get_parameter('str_text').get_parameter_value().string_value)
-        print(self.get_parameter('str_text2').get_parameter_value().string_value)
+        # print(self.get_parameter('str_text').get_parameter_value().string_value)
+        # print(self.get_parameter('str_text2').get_parameter_value().string_value)
 
         msg = MotionServos()     
 
         self.joint_angles_flat = self.joint_angles.flatten()
 
-        print(self.joint_angles_flat) 
-
         for i in range(12):
-            msg.angle[i] = self.joint_angles_flat[i] 
+            msg.angle[i] = self.joint_angles_flat[i]  
 
-       
-           
-
-
-        print(msg.angle ) 
-
-        self.publisher_.publish(msg)
-     
+        self.publisher_.publish(msg)     
 
 
 def main(args=None):
@@ -100,10 +104,16 @@ def main(args=None):
     executor.add_node(minimal_publisher)
     executor.add_node(minimal_subscriber)
 
-    while rclpy.ok():
-        joint_angles = quad_commander.tick()
-        minimal_publisher.set_joint_angles(joint_angles)
+    
 
+   
+
+    while rclpy.ok():
+
+       
+        motion_parameters = minimal_subscriber.get_motion_parameters()
+        joint_angles = quad_commander.tick(motion_parameters)
+        minimal_publisher.set_joint_angles(joint_angles)
         executor.spin_once()
 
     try:

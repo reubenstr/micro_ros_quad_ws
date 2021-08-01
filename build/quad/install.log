@@ -35,6 +35,7 @@
 /home/devpc/Desktop/quad_ws/install/quad/lib/quad/src/gym_env.py
 /home/devpc/Desktop/quad_ws/install/quad/lib/quad/src/env_randomizer.py
 /home/devpc/Desktop/quad_ws/install/quad/lib/quad/src/__init__.py
+/home/devpc/Desktop/quad_ws/install/quad/lib/quad/src/motion_parameters.py
 /home/devpc/Desktop/quad_ws/install/quad/lib/quad/src/model.py
 /home/devpc/Desktop/quad_ws/install/quad/lib/quad/src/beizer_stepper.py
 /home/devpc/Desktop/quad_ws/install/quad/lib/quad/src/env_tester.py
