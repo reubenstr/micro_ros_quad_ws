@@ -15,6 +15,7 @@ quad/__init__.py
 quad/motion_servos_calibration.py
 quad/quad.py
 quad/quad_commander.py
+quad/quad_simulation.py
 quad/teleop.py
 quad/src/__init__.py
 quad/src/beizer_stepper.py

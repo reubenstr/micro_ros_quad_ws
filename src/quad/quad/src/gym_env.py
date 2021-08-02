@@ -19,13 +19,23 @@ import pybullet_data
 from gym import spaces
 from gym.utils import seeding
 from pkg_resources import parse_version
-import model
+
+# from .model import Model
+
 import pybullet_utils.bullet_client as bullet_client
 from gym.envs.registration import register
-from heightfield import HeightField
+from src.heightfield import HeightField
 # from spotmicro.open_loop_controller import BezierStepper
-import matrix_transforms as LA
-from env_randomizer import EnvRandomizer
+import src.matrix_transforms as LA
+from src.env_randomizer import EnvRandomizer
+
+import sys
+sys.path.append("/home/devpc/Desktop/quad_ws/src/quad/quad/src")
+sys.path.append("/home/devpc/Desktop/quad_ws/install/quad/lib/quad/")
+import urdf
+import model 
+
+
 
 NUM_SUBSTEPS = 5
 NUM_MOTORS = 12

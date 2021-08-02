@@ -9,6 +9,15 @@ from src.beizer_stepper import BezierStepper
 import copy
 import time
 
+from src.gym_env import GymEnv
+from src.gui_param_control import GuiParamControl
+from src.env_randomizer import EnvRandomizer
+
+
+#import sys
+#sys.path.append("/home/devpc/Desktop/quad_ws/src/quad/quad/src/urdf")
+#sys.path.append("/home/devpc/Desktop/quad_ws/install/quad/lib/quad/urdf")
+
 TIME_STEP = 0.100
 
 
@@ -25,13 +34,28 @@ class QuadCommander():
 
         self.temp = 0
 
+
+        # env
+        print ("*********** ENV ********************")
+        self.env = GymEnv(render=True,
+                        on_rack=False,
+                        height_field=False,
+                        draw_foot_path=False,
+                        env_randomizer=None)
+        self.gui_param_controller = GuiParamControl(self.env.spot.quadruped)
+        self.action = self.env.action_space.sample()
+
+
+
+
+
     def tick(self, motion_parameters):
 
         self.motion_parameters = MotionParameters()
         self.motion_parameters = motion_parameters
 
         # NOT SURE WHERE TO SLEEP....
-        # time.sleep(0.010)
+        time.sleep(0.010)
 
         # get motion parameters from the bezier stepper
         # pos, orn, StepLength, LateralFraction, YawRate, StepVelocity, ClearanceHeight, PenetrationDepth = self.bezier_stepper.StateMachine()
@@ -46,6 +70,10 @@ class QuadCommander():
         PenetrationDepth = self.motion_parameters.penetration_depth
         contacts = self.motion_parameters.contacts
         contacts = [0,0,0,0]
+
+        # override joy with gui params        
+        pos, orn, StepLength, LateralFraction, YawRate, StepVelocity, ClearanceHeight, PenetrationDepth, SwingPeriod = self.gui_param_controller.UserInput()
+        self.bezier_gait.Tswing = self.motion_parameters.swing_period
         
         self.temp += 1
         if self.temp == 25:
@@ -59,7 +87,7 @@ class QuadCommander():
         print (YawRate)
         print (StepVelocity)  """    
 
-        self.bezier_gait.Tswing = self.motion_parameters.swing_period
+       
       
 
         self.T_bf = self.bezier_gait.GenerateTrajectory(StepLength, LateralFraction, YawRate,
@@ -68,4 +96,10 @@ class QuadCommander():
 
         joint_angles = self.kinematics.InverseKinimatics(orn, pos, self.T_bf)
 
+
+        # env
+        self.env.pass_joint_angles(joint_angles.reshape(-1))
+        state, reward, done, _ = self.env.step(self.action)
+
         return joint_angles
+

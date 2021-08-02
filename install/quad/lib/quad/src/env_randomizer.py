@@ -11,7 +11,7 @@ Example: minitaur_env_randomizer.py
 https://github.com/bulletphysics/bullet3/blob/master/examples/pybullet/gym/pybullet_envs/minitaur/envs/env_randomizers/minitaur_env_randomizer.py
 """
 import numpy as np
-import env_randomizer_base
+import src.env_randomizer_base
 
 # Relative range.
 spot_BASE_MASS_ERROR_RANGE = (-0.2, 0.2)  # 0.2 means 20%
@@ -22,7 +22,7 @@ MOTOR_VISCOUS_DAMPING_RANGE = (0, 0.01)  # Unit: N*m*s/rad (torque/angular vel)
 spot_LEG_FRICTION = (0.8, 1.5)  # Unit: dimensionless
 
 
-class EnvRandomizer(env_randomizer_base.EnvRandomizerBase):
+class EnvRandomizer(src.env_randomizer_base.EnvRandomizerBase):
     """A randomizer that change the spot_gym_env during every reset."""
     def __init__(self,
                  spot_base_mass_err_range=spot_BASE_MASS_ERROR_RANGE,

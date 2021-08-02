@@ -17,6 +17,11 @@ setup(
          (os.path.join('share', package_name, 'urdf'), glob('quad/src/urdf/*.urdf')),
        (os.path.join('share', package_name, 'stl'), glob('quad/src/stl/*.stl')),
        (os.path.join('lib', package_name, 'src'), glob('quad/src/*.py')), 
+       
+       
+        (os.path.join('lib', package_name, 'stl'), glob('quad/src/stl/*.stl')),
+        (os.path.join('lib', package_name, 'urdf'), glob('quad/src/urdf/*.urdf')),
+         (os.path.join('lib', package_name, 'urdf'), glob('quad/src/urdf/*.*')),
     
     ],
     install_requires=['setuptools'],
