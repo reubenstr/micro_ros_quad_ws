@@ -1,5 +1,3 @@
-#!/usr/bin/env python
-
 import pybullet as pb
 import time
 import numpy as np
@@ -43,10 +41,12 @@ class GuiParamControl:
     def UserInput(self):
 
         quadruped_pos, _ = pb.getBasePositionAndOrientation(self.quadruped)
+        
         pb.resetDebugVisualizerCamera(cameraDistance=self.cdist,
                                       cameraYaw=self.cyaw,
                                       cameraPitch=self.cpitch,
                                       cameraTargetPosition=quadruped_pos)
+        
         keys = pb.getKeyboardEvents()
         # Keys to change camera
         if keys.get(100):  # D
@@ -84,4 +84,4 @@ class GuiParamControl:
         PenetrationDepth = pb.readUserDebugParameter(self.PenetrationDepthId)
         SwingPeriod = pb.readUserDebugParameter(self.SwingPeriodId)
 
-        return pos, orn, StepLength, LateralFraction, YawRate, StepVelocity, ClearanceHeight, PenetrationDepth, SwingPeriod
+        return pos, orn, StepLength, LateralFraction, YawRate, StepVelocity, ClearanceHeight, PenetrationDepth, SwingPeriod     

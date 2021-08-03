@@ -13,7 +13,7 @@ def generate_launch_description():
         
     node=Node(
         package = 'quad',
-        name = 'quad_node',
+        # name = 'quad_node',
         executable = 'quad',
         output='screen',  
         parameters = [config]

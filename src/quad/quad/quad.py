@@ -1,23 +1,18 @@
 # from .quad_commander import QuadCommander
 from .quad_simulation import QuadCommander
 
-
-from src import motion_parameters
-
-
 from time import sleep
 import rclpy
 from rclpy.node import Node
 import numpy as np
-
+import copy
 from sensor_msgs.msg import Joy
-from quad_interfaces.msg import MotionServos
 
 from rclpy.executors import SingleThreadedExecutor
-
 from src.motion_parameters import MotionParameters
-
-from rclpy.logging import LoggingSeverity
+# from rclpy.logging import LoggingSeverity
+from quad_interfaces.msg import MotionServos
+from .joystick_interpreter import JoystickInterpreter
 
 
 class MinimalSubscriber(Node):
@@ -25,43 +20,17 @@ class MinimalSubscriber(Node):
     def __init__(self):
         super().__init__('joy_subscriber_node')
         self.subscription = self.create_subscription(
-            Joy,
-            'joy',
-            self.listener_callback,
-            10)
-        # self.subscription  # prevent unused variable warning
-        self.motion_parameters = MotionParameters()
-
-    def map(self, n, in_min, in_max, out_min, out_max):
-        return (n - in_min) * (out_max - out_min) / (in_max - in_min) + out_min
+            Joy, 'joy', self.listener_callback, 10)
+        self.joystick_interpreter = JoystickInterpreter()
+        self.motion_parameters = MotionParameters()   
 
     def listener_callback(self, msg):
-
-        # self.get_logger().info('I heard: "%s"' % msg.buttons)
-
-        self.motion_parameters.step_velocity = 0.005
-
-        #:orn: Roll, Pitch, Yaw angles
-        # pos: X, Y, Z coordinates
-
-        """  # left analog stick left/right
-        self.motion_parameters.step_length = self.map(
-            msg.axes[0], -1, 1, -0.1, 0.1)
-
-        # left analog stick up/down
-        self.motion_parameters.yaw_rate = self.map(
-            msg.axes[1], -1, 1, -0.1, 0.1)
-
-        # right analog stick left/right
-        self.motion_parameters.orn[1] = self.map(
-            msg.axes[2], -1, 1, -np.pi / 4, np.pi / 4)
-
-        # right analog stick up/down
-        self.motion_parameters.orn[0] = self.map(
-            msg.axes[5], -1, 1, -np.pi / 4, np.pi / 4) """
+        axes = msg.axes
+        buttons = msg.buttons
+        self.motion_parameters =self.joystick_interpreter.get_motion_parameters(axes, buttons)
 
     def get_motion_parameters(self):
-        return self.motion_parameters
+        return copy.deepcopy(self.motion_parameters)
 
 
 class MinimalPublisher(Node):

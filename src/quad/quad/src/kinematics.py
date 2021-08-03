@@ -1,9 +1,7 @@
+
 import numpy as np
 from .matrix_transforms import RpToTrans, TransToRp, TransInv, RPY, TransformVector
 from collections import OrderedDict
-
-# TODO: model data should come from a single param source (perhaps from the urdf)
-
 
 class Kinematics:
     def __init__(self,
@@ -57,7 +55,7 @@ class Kinematics:
         # Transform of Hip relative to world frame
         # With Body Centroid also in world frame
         Rwb = np.eye(3)
-        self.WorldToHip = OrderedDict()       
+        self.WorldToHip = OrderedDict()
 
         self.ph_FL = np.array([self.hip_x / 2.0, self.hip_y / 2.0, 0])
         self.WorldToHip["FL"] = RpToTrans(Rwb, self.ph_FL)
@@ -91,6 +89,61 @@ class Kinematics:
             [-self.foot_x / 2.0, -self.foot_y / 2.0, -self.height])
         self.WorldToFoot["BR"] = RpToTrans(Rwb, self.pf_BR)
 
+    
+    
+    def HipToFoot(self, orn, pos, T_bf):
+        """
+        Converts a desired position and orientation wrt Spot's
+        home position, with a desired body-to-foot Transform
+        into a body-to-hip Transform, which is used to extract
+        and return the Hip To Foot Vector.
+
+        :param orn: A 3x1 np.array([]) with Spot's Roll, Pitch, Yaw angles
+        :param pos: A 3x1 np.array([]) with Spot's X, Y, Z coordinates
+        :param T_bf: Dictionary of desired body-to-foot Transforms.
+        :return: Hip To Foot Vector for each of Spot's Legs.
+        """
+
+        # Following steps in attached document: SpotBodyIK.
+        # TODO: LINK DOC
+
+        # Only get Rot component
+        Rb, _ = TransToRp(RPY(orn[0], orn[1], orn[2]))
+        pb = pos
+        T_wb = RpToTrans(Rb, pb)
+
+        # Dictionary to store vectors
+        HipToFoot_List = OrderedDict()
+
+        for i, (key, T_wh) in enumerate(self.WorldToHip.items()):
+            # ORDER: FL, FR, FR, BL, BR
+
+            # Extract vector component
+            _, p_bf = TransToRp(T_bf[key])
+
+            # Step 1, get T_bh for each leg
+            T_bh = np.dot(TransInv(T_wb), T_wh)
+
+            # Step 2, get T_hf for each leg
+
+            # VECTOR ADDITION METHOD
+            _, p_bh = TransToRp(T_bh)
+            p_hf0 = p_bf - p_bh
+
+            # TRANSFORM METHOD
+            T_hf = np.dot(TransInv(T_bh), T_bf[key])
+            _, p_hf1 = TransToRp(T_hf)
+
+            # They should yield the same result
+            if p_hf1.all() != p_hf0.all():
+                print("NOT EQUAL")
+
+            p_hf = p_hf1
+
+            HipToFoot_List[key] = p_hf
+
+        return HipToFoot_List
+
     def _get_domain(self, x, y, z):
         """
         Calculates the leg's Domain and caps it in case of a breach
@@ -101,12 +154,14 @@ class Kinematics:
         D = (y**2 + (-z)**2 - self.shoulder_length**2 +
              (-x)**2 - self.elbow_length**2 - self.wrist_length**2) / (
                  2 * self.wrist_length * self.elbow_length)
-        if D > 1 or D < -1:            
+        if D > 1 or D < -1:
+            # DOMAIN BREACHED
             # print("---------DOMAIN BREACH---------")
             D = np.clip(D, -1.0, 1.0)
             return D
         else:
             return D
+
 
     def _solve_joint_angles(self, xyz_coord, legType):
         """
@@ -143,79 +198,36 @@ class Kinematics:
 
         return joint_angles
 
-    def _hip_to_foot(self, orn, pos, T_bf):
-        """
-        Converts a desired position and orientation wrt Spot's
-        home position, with a desired body-to-foot Transform
-        into a body-to-hip Transform, which is used to extract
-        and return the Hip To Foot Vector.
-
-        :param orn: A 3x1 np.array([]) with Roll, Pitch, Yaw angles
-        :param pos: A 3x1 np.array([]) with X, Y, Z coordinates
-        :param T_bf: Dictionary of desired body-to-foot Transforms.
-        :return: Hip To Foot Vector for each leg.
-        """
-
-        # Only get Rot component
-        Rb, _ = TransToRp(RPY(orn[0], orn[1], orn[2]))
-        pb = pos
-        T_wb = RpToTrans(Rb, pb)
-
-        # Dictionary to store vectors
-        HipToFoot_List = OrderedDict()
-
-        for i, (key, T_wh) in enumerate(self.WorldToHip.items()):
-
-            # Extract vector component
-            _, p_bf = TransToRp(T_bf[key])
-
-            # Step 1, get T_bh for each leg
-            T_bh = np.dot(TransInv(T_wb), T_wh)
-
-            # Step 2, get T_hf for each leg
-
-            # VECTOR ADDITION METHOD
-            _, p_bh = TransToRp(T_bh)
-            p_hf0 = p_bf - p_bh
-
-            # TRANSFORM METHOD
-            T_hf = np.dot(TransInv(T_bh), T_bf[key])
-            _, p_hf1 = TransToRp(T_hf)
-
-            # They should yield the same result
-            if p_hf1.all() != p_hf0.all():
-                print("NOT EQUAL")
-
-            HipToFoot_List[key] = p_hf0
-
-        return HipToFoot_List
-
-    def InverseKinimatics(self, orn, pos, T_bf):
+    def InverseKinematics(self, orn, pos, T_bf):
         """
         Uses HipToFoot() to convert a desired position
         and orientation wrt Spot's home position into a
-        Hip To Foot Vector, which is fed into the leg inverse
-        kinematics solver.        
+        Hip To Foot Vector, which is fed into the LegIK solver.
 
-        :param orn: A 3x1 np.array([]) with Roll, Pitch, Yaw angles
-        :param pos: A 3x1 np.array([]) with X, Y, Z coordinates
+        Finally, the resultant joint angles are returned
+        from the LegIK solver for each leg.
+
+        :param orn: A 3x1 np.array([]) with Spot's Roll, Pitch, Yaw angles
+        :param pos: A 3x1 np.array([]) with Spot's X, Y, Z coordinates
         :param T_bf: Dictionary of desired body-to-foot Transforms.
-        :return: Joint angles for each joint.
+        :return: Joint angles for each of Spot's joints.
         """
-
+     
         # Modify x by com offset
         pos[0] += self.com_offset
 
         # 4 legs, 3 joints per leg
         joint_angles = np.zeros((4, 3))
 
-        # Steps 1 and 2 of pipeline here
-        HipToFoot = self._hip_to_foot(orn, pos, T_bf)
+        # print("T_bf: {}".format(T_bf))
 
+        # Steps 1 and 2 of pipeline here
+        HipToFoot = self.HipToFoot(orn, pos, T_bf)            
+            
         for i, (key, p_hf) in enumerate(HipToFoot.items()):
-            # Step 3, compute joint angles from T_hf for each leg
+        # Step 3, compute joint angles from T_hf for each leg
             joint_angles[i, :] = self._solve_joint_angles(p_hf, key)
 
-        # leg order: FL, FR, BL, BR
-        # joint order: shoulder_angle, elbow_angle, wrist_angle
+        # print("-----------------------------")
+
         return joint_angles

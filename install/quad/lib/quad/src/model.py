@@ -23,6 +23,7 @@ from src.kinematics import Kinematics
 import sys
 sys.path.append("/home/devpc/Desktop/quad_ws/src/quad/quad/src/urdf")
 sys.path.append("/home/devpc/Desktop/quad_ws/install/quad/lib/quad/urdf")
+
 import urdf
 
 

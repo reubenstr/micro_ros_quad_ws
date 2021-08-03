@@ -1,3 +1,0 @@
-[console_scripts]
-joystick_ros2 = joystick_ros2:main
-

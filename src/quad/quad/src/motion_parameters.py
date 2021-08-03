@@ -1,8 +1,17 @@
+""" 
+Data class containing motion parameters to control 
+the quadruped's movement and states.
+"""
 
 import numpy as np
-
-
+import copy
 from dataclasses import dataclass
+from enum import Enum
+
+
+class MotionState(Enum):
+    POSE = 1
+    MOTION = 2
 
 
 @dataclass
@@ -17,16 +26,12 @@ class MotionParameters:
     clearance_height: float = 0.045
     penetration_depth: float = 0.003
     contacts = [0, 0, 0, 0]
+    
+    motion_state = MotionState.POSE
 
 
-""" 
-class MotionParameters():
-    def __init__(self,
-                pos=np.array([0.0, 0.0, 0.0]),
-                orn=np.array([0.0, 0.0, 0.0]),
-                StepLength=0.04,
-                LateralFraction=0.0,
-                YawRate=0.0,
-                StepVelocity=0.001,
-                ClearanceHeight=0.045,
-                PenetrationDepth=0.003):  """
+    yaw_rate_min: float = -np.pi / 4
+    yaw_rate_max: float = np.pi / 4
+
+    step_length_min: float = -0.1
+    step_length_max: float = 0.1

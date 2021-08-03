@@ -12,6 +12,7 @@ config/quad_params.yaml
 launch/motion_servos_calibration.launch.py
 launch/quad.launch.py
 quad/__init__.py
+quad/joystick_interpreter.py
 quad/motion_servos_calibration.py
 quad/quad.py
 quad/quad_commander.py
@@ -31,7 +32,6 @@ quad/src/matrix_transforms.py
 quad/src/model.py
 quad/src/motion_parameters.py
 quad/src/motor_model.py
-quad/src/readme.txt
 quad/src/stl/Back.stl
 quad/src/stl/Back_Bracket.stl
 quad/src/stl/Battery.stl
