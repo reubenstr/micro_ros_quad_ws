@@ -1,0 +1,64 @@
+Not searching for unused variables given on the command line.
+-- The CXX compiler identification is GNU 9.3.0
+-- Check for working CXX compiler: /usr/bin/c++
+-- Check for working CXX compiler: /usr/bin/c++ -- works
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found ament_cmake: 0.9.8 (/opt/ros/foxy/share/ament_cmake/cmake)
+-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+-- Using PYTHON_EXECUTABLE: /usr/bin/python3
+-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  
+-- Looking for C++ include pthread.h
+-- Looking for C++ include pthread.h - found
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed
+-- Looking for pthread_create in pthreads
+-- Looking for pthread_create in pthreads - not found
+-- Looking for pthread_create in pthread
+-- Looking for pthread_create in pthread - found
+-- Found Threads: TRUE  
+-- Found rosidl_cmake: 1.2.1 (/opt/ros/foxy/share/rosidl_cmake/cmake)
+-- Found rosidl_adapter: 1.2.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+-- Found fastrtps_cmake_module: 1.0.3 (/opt/ros/foxy/share/fastrtps_cmake_module/cmake)
+-- Found rmw_dds_common: 1.0.3 (/opt/ros/foxy/share/rmw_dds_common/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Found FastRTPS: /opt/ros/foxy/include  
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found rmw_fastrtps_shared_cpp: 1.2.5 (/opt/ros/foxy/share/rmw_fastrtps_shared_cpp/cmake)
+-- Found ament_lint_auto: 0.9.6 (/opt/ros/foxy/share/ament_lint_auto/cmake)
+-- Found ament_cmake_gtest: 0.9.8 (/opt/ros/foxy/share/ament_cmake_gtest/cmake)
+-- Found micro_ros_msgs: 0.0.1 (/home/devpc/Desktop/microros_ws/install/micro_ros_msgs/share/micro_ros_msgs/cmake)
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/devpc/Desktop/microros_ws/build/micro_ros_agent
+[35m[1mScanning dependencies of target micro_ros_agent[0m
+[ 33%] [32mBuilding CXX object CMakeFiles/micro_ros_agent.dir/src/main.cpp.o[0m
+[ 33%] [32mBuilding CXX object CMakeFiles/micro_ros_agent.dir/src/agent/utils/demangle.cpp.o[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/micro_ros_agent.dir/src/agent/graph_manager/graph_manager.cpp.o[0m
+[ 66%] [32mBuilding CXX object CMakeFiles/micro_ros_agent.dir/src/agent/Agent.cpp.o[0m
+[ 83%] [32mBuilding CXX object CMakeFiles/micro_ros_agent.dir/src/agent/graph_manager/graph_typesupport.cpp.o[0m
+[100%] [32m[1mLinking CXX executable micro_ros_agent[0m
+[100%] Built target micro_ros_agent
+-- Install configuration: ""
+-- Installing: /home/devpc/Desktop/microros_ws/install/micro_ros_agent/share/ament_index/resource_index/package_run_dependencies/micro_ros_agent
+-- Installing: /home/devpc/Desktop/microros_ws/install/micro_ros_agent/share/ament_index/resource_index/parent_prefix_path/micro_ros_agent
+-- Installing: /home/devpc/Desktop/microros_ws/install/micro_ros_agent/share/micro_ros_agent/environment/ament_prefix_path.sh
+-- Installing: /home/devpc/Desktop/microros_ws/install/micro_ros_agent/share/micro_ros_agent/environment/ament_prefix_path.dsv
+-- Installing: /home/devpc/Desktop/microros_ws/install/micro_ros_agent/share/micro_ros_agent/environment/path.sh
+-- Installing: /home/devpc/Desktop/microros_ws/install/micro_ros_agent/share/micro_ros_agent/environment/path.dsv
+-- Installing: /home/devpc/Desktop/microros_ws/install/micro_ros_agent/share/micro_ros_agent/local_setup.bash
+-- Installing: /home/devpc/Desktop/microros_ws/install/micro_ros_agent/share/micro_ros_agent/local_setup.sh
+-- Installing: /home/devpc/Desktop/microros_ws/install/micro_ros_agent/share/micro_ros_agent/local_setup.zsh
+-- Installing: /home/devpc/Desktop/microros_ws/install/micro_ros_agent/share/micro_ros_agent/local_setup.dsv
+-- Installing: /home/devpc/Desktop/microros_ws/install/micro_ros_agent/share/micro_ros_agent/package.dsv
+-- Installing: /home/devpc/Desktop/microros_ws/install/micro_ros_agent/share/ament_index/resource_index/packages/micro_ros_agent
+-- Installing: /home/devpc/Desktop/microros_ws/install/micro_ros_agent/share/micro_ros_agent/cmake/ament_cmake_export_dependencies-extras.cmake
+-- Installing: /home/devpc/Desktop/microros_ws/install/micro_ros_agent/share/micro_ros_agent/cmake/micro_ros_agentConfig.cmake
+-- Installing: /home/devpc/Desktop/microros_ws/install/micro_ros_agent/share/micro_ros_agent/cmake/micro_ros_agentConfig-version.cmake
+-- Installing: /home/devpc/Desktop/microros_ws/install/micro_ros_agent/share/micro_ros_agent/package.xml
+-- Installing: /home/devpc/Desktop/microros_ws/install/micro_ros_agent/lib/micro_ros_agent/micro_ros_agent
+-- Set runtime path of "/home/devpc/Desktop/microros_ws/install/micro_ros_agent/lib/micro_ros_agent/micro_ros_agent" to ""
+-- Installing: /home/devpc/Desktop/microros_ws/install/micro_ros_agent/share/micro_ros_agent/launch
+-- Installing: /home/devpc/Desktop/microros_ws/install/micro_ros_agent/share/micro_ros_agent/launch/micro_ros_agent_launch.py

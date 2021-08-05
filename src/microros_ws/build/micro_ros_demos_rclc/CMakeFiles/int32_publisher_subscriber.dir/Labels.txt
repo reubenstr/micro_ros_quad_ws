@@ -1,0 +1,13 @@
+# Target labels
+ int32_publisher_subscriber
+# Source files and their labels
+/home/devpc/Desktop/microros_ws/build/micro_ros_demos_rclc/CMakeFiles/int32_publisher_subscriber
+/home/devpc/Desktop/microros_ws/build/micro_ros_demos_rclc/CMakeFiles/int32_publisher_subscriber.rule
+/home/devpc/Desktop/microros_ws/build/micro_ros_demos_rclc/CMakeFiles/int32_publisher_subscriber-complete.rule
+/home/devpc/Desktop/microros_ws/build/micro_ros_demos_rclc/int32_publisher_subscriber/src/int32_publisher_subscriber-stamp/int32_publisher_subscriber-install.rule
+/home/devpc/Desktop/microros_ws/build/micro_ros_demos_rclc/int32_publisher_subscriber/src/int32_publisher_subscriber-stamp/int32_publisher_subscriber-mkdir.rule
+/home/devpc/Desktop/microros_ws/build/micro_ros_demos_rclc/int32_publisher_subscriber/src/int32_publisher_subscriber-stamp/int32_publisher_subscriber-download.rule
+/home/devpc/Desktop/microros_ws/build/micro_ros_demos_rclc/int32_publisher_subscriber/src/int32_publisher_subscriber-stamp/int32_publisher_subscriber-update.rule
+/home/devpc/Desktop/microros_ws/build/micro_ros_demos_rclc/int32_publisher_subscriber/src/int32_publisher_subscriber-stamp/int32_publisher_subscriber-patch.rule
+/home/devpc/Desktop/microros_ws/build/micro_ros_demos_rclc/int32_publisher_subscriber/src/int32_publisher_subscriber-stamp/int32_publisher_subscriber-configure.rule
+/home/devpc/Desktop/microros_ws/build/micro_ros_demos_rclc/int32_publisher_subscriber/src/int32_publisher_subscriber-stamp/int32_publisher_subscriber-build.rule

@@ -1,0 +1,21 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from rosidl_typesupport_microxrcedds_test_msg/msg/NotEnoughtMemoryTest.msg
+// generated code does not contain a copyright notice
+
+
+module rosidl_typesupport_microxrcedds_test_msg {
+  module msg {
+    typedef int16 int16__10[10];
+    struct NotEnoughtMemoryTest {
+      int8 initial_byte;
+
+      string string;
+
+      sequence<int64> int64_sequence;
+
+      int16__10 int16_array;
+
+      int8 end_byte;
+    };
+  };
+};

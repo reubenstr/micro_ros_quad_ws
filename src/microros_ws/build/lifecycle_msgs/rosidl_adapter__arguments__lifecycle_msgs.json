@@ -1,0 +1,13 @@
+{
+  "package_name": "lifecycle_msgs",
+  "non_idl_tuples": [
+    "/home/devpc/Desktop/microros_ws/src/ros2/rcl_interfaces/lifecycle_msgs:msg/State.msg",
+    "/home/devpc/Desktop/microros_ws/src/ros2/rcl_interfaces/lifecycle_msgs:msg/Transition.msg",
+    "/home/devpc/Desktop/microros_ws/src/ros2/rcl_interfaces/lifecycle_msgs:msg/TransitionDescription.msg",
+    "/home/devpc/Desktop/microros_ws/src/ros2/rcl_interfaces/lifecycle_msgs:msg/TransitionEvent.msg",
+    "/home/devpc/Desktop/microros_ws/src/ros2/rcl_interfaces/lifecycle_msgs:srv/ChangeState.srv",
+    "/home/devpc/Desktop/microros_ws/src/ros2/rcl_interfaces/lifecycle_msgs:srv/GetAvailableStates.srv",
+    "/home/devpc/Desktop/microros_ws/src/ros2/rcl_interfaces/lifecycle_msgs:srv/GetAvailableTransitions.srv",
+    "/home/devpc/Desktop/microros_ws/src/ros2/rcl_interfaces/lifecycle_msgs:srv/GetState.srv"
+  ]
+}

@@ -1,0 +1,396 @@
+-- The C compiler identification is GNU 9.3.0
+-- The CXX compiler identification is GNU 9.3.0
+-- Check for working C compiler: /usr/bin/cc
+-- Check for working C compiler: /usr/bin/cc -- works
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Check for working CXX compiler: /usr/bin/c++
+-- Check for working CXX compiler: /usr/bin/c++ -- works
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found ament_cmake: 0.9.8 (/opt/ros/foxy/share/ament_cmake/cmake)
+-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+-- Using PYTHON_EXECUTABLE: /usr/bin/python3
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/devpc/Desktop/microros_ws/build/micro_ros_demos_rclcpp
+[35m[1mScanning dependencies of target complex_msg_publisher[0m
+[  1%] [34m[1mCreating directories for 'complex_msg_publisher'[0m
+[  3%] [34m[1mNo download step for 'complex_msg_publisher'[0m
+[  5%] [34m[1mNo patch step for 'complex_msg_publisher'[0m
+[  7%] [34m[1mNo update step for 'complex_msg_publisher'[0m
+[  8%] [34m[1mPerforming configure step for 'complex_msg_publisher'[0m
+loading initial cache file /home/devpc/Desktop/microros_ws/build/micro_ros_demos_rclcpp/complex_msg_publisher/tmp/complex_msg_publisher-cache-.cmake
+-- The CXX compiler identification is GNU 9.3.0
+-- Check for working CXX compiler: /usr/bin/c++
+-- Check for working CXX compiler: /usr/bin/c++ -- works
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found ament_cmake: 0.9.8 (/opt/ros/foxy/share/ament_cmake/cmake)
+-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+-- Using PYTHON_EXECUTABLE: /usr/bin/python3
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_microxrcedds_c;rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Found rosidl_adapter: 1.2.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  
+-- Found FastRTPS: /opt/ros/foxy/include  
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_microxrcedds_cpp;rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found rmw_implementation_cmake: 1.0.3 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+-- Using RMW implementation 'rmw_fastrtps_cpp' as default
+-- Looking for C++ include pthread.h
+-- Looking for C++ include pthread.h - found
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed
+-- Looking for pthread_create in pthreads
+-- Looking for pthread_create in pthreads - not found
+-- Looking for pthread_create in pthread
+-- Looking for pthread_create in pthread - found
+-- Found Threads: TRUE  
+-- Found complex_msgs: 1.0.0 (/home/devpc/Desktop/microros_ws/install/complex_msgs/share/complex_msgs/cmake)
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/devpc/Desktop/microros_ws/build/micro_ros_demos_rclcpp/complex_msg_publisher/src/complex_msg_publisher-build
+[ 10%] [34m[1mPerforming build step for 'complex_msg_publisher'[0m
+[35m[1mScanning dependencies of target complex_msg_publisher[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/complex_msg_publisher.dir/main.cpp.o[0m
+[100%] [32m[1mLinking CXX executable complex_msg_publisher[0m
+[100%] Built target complex_msg_publisher
+[ 12%] [34m[1mPerforming install step for 'complex_msg_publisher'[0m
+[100%] Built target complex_msg_publisher
+[36mInstall the project...[0m
+-- Install configuration: ""
+-- Installing: /home/devpc/Desktop/microros_ws/build/micro_ros_demos_rclcpp/temp_install/complex_msg_publisher/complex_msg_publisher
+-- Set runtime path of "/home/devpc/Desktop/microros_ws/build/micro_ros_demos_rclcpp/temp_install/complex_msg_publisher/complex_msg_publisher" to ""
+[ 14%] [34m[1mCompleted 'complex_msg_publisher'[0m
+[ 14%] Built target complex_msg_publisher
+[35m[1mScanning dependencies of target string_publisher[0m
+[ 16%] [34m[1mCreating directories for 'string_publisher'[0m
+[ 17%] [34m[1mNo download step for 'string_publisher'[0m
+[ 19%] [34m[1mNo patch step for 'string_publisher'[0m
+[ 21%] [34m[1mNo update step for 'string_publisher'[0m
+[ 23%] [34m[1mPerforming configure step for 'string_publisher'[0m
+loading initial cache file /home/devpc/Desktop/microros_ws/build/micro_ros_demos_rclcpp/string_publisher/tmp/string_publisher-cache-.cmake
+-- The CXX compiler identification is GNU 9.3.0
+-- Check for working CXX compiler: /usr/bin/c++
+-- Check for working CXX compiler: /usr/bin/c++ -- works
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found ament_cmake: 0.9.8 (/opt/ros/foxy/share/ament_cmake/cmake)
+-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+-- Using PYTHON_EXECUTABLE: /usr/bin/python3
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_microxrcedds_c;rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Found rosidl_adapter: 1.2.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  
+-- Found FastRTPS: /opt/ros/foxy/include  
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_microxrcedds_cpp;rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found rmw_implementation_cmake: 1.0.3 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+-- Using RMW implementation 'rmw_fastrtps_cpp' as default
+-- Looking for C++ include pthread.h
+-- Looking for C++ include pthread.h - found
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed
+-- Looking for pthread_create in pthreads
+-- Looking for pthread_create in pthreads - not found
+-- Looking for pthread_create in pthread
+-- Looking for pthread_create in pthread - found
+-- Found Threads: TRUE  
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/devpc/Desktop/microros_ws/build/micro_ros_demos_rclcpp/string_publisher/src/string_publisher-build
+[ 25%] [34m[1mPerforming build step for 'string_publisher'[0m
+[35m[1mScanning dependencies of target string_publisher[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/string_publisher.dir/main.cpp.o[0m
+[100%] [32m[1mLinking CXX executable string_publisher[0m
+[100%] Built target string_publisher
+[ 26%] [34m[1mPerforming install step for 'string_publisher'[0m
+[100%] Built target string_publisher
+[36mInstall the project...[0m
+-- Install configuration: ""
+-- Installing: /home/devpc/Desktop/microros_ws/build/micro_ros_demos_rclcpp/temp_install/string_publisher/string_publisher
+-- Set runtime path of "/home/devpc/Desktop/microros_ws/build/micro_ros_demos_rclcpp/temp_install/string_publisher/string_publisher" to ""
+[ 28%] [34m[1mCompleted 'string_publisher'[0m
+[ 28%] Built target string_publisher
+[35m[1mScanning dependencies of target string_subscriber[0m
+[ 30%] [34m[1mCreating directories for 'string_subscriber'[0m
+[ 32%] [34m[1mNo download step for 'string_subscriber'[0m
+[ 33%] [34m[1mNo patch step for 'string_subscriber'[0m
+[ 35%] [34m[1mNo update step for 'string_subscriber'[0m
+[ 37%] [34m[1mPerforming configure step for 'string_subscriber'[0m
+loading initial cache file /home/devpc/Desktop/microros_ws/build/micro_ros_demos_rclcpp/string_subscriber/tmp/string_subscriber-cache-.cmake
+-- The CXX compiler identification is GNU 9.3.0
+-- Check for working CXX compiler: /usr/bin/c++
+-- Check for working CXX compiler: /usr/bin/c++ -- works
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found ament_cmake: 0.9.8 (/opt/ros/foxy/share/ament_cmake/cmake)
+-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+-- Using PYTHON_EXECUTABLE: /usr/bin/python3
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_microxrcedds_c;rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Found rosidl_adapter: 1.2.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  
+-- Found FastRTPS: /opt/ros/foxy/include  
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_microxrcedds_cpp;rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found rmw_implementation_cmake: 1.0.3 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+-- Using RMW implementation 'rmw_fastrtps_cpp' as default
+-- Looking for C++ include pthread.h
+-- Looking for C++ include pthread.h - found
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed
+-- Looking for pthread_create in pthreads
+-- Looking for pthread_create in pthreads - not found
+-- Looking for pthread_create in pthread
+-- Looking for pthread_create in pthread - found
+-- Found Threads: TRUE  
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/devpc/Desktop/microros_ws/build/micro_ros_demos_rclcpp/string_subscriber/src/string_subscriber-build
+[ 39%] [34m[1mPerforming build step for 'string_subscriber'[0m
+[35m[1mScanning dependencies of target string_subscriber[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/string_subscriber.dir/main.cpp.o[0m
+[100%] [32m[1mLinking CXX executable string_subscriber[0m
+[100%] Built target string_subscriber
+[ 41%] [34m[1mPerforming install step for 'string_subscriber'[0m
+[100%] Built target string_subscriber
+[36mInstall the project...[0m
+-- Install configuration: ""
+-- Installing: /home/devpc/Desktop/microros_ws/build/micro_ros_demos_rclcpp/temp_install/string_subscriber/string_subscriber
+-- Set runtime path of "/home/devpc/Desktop/microros_ws/build/micro_ros_demos_rclcpp/temp_install/string_subscriber/string_subscriber" to ""
+[ 42%] [34m[1mCompleted 'string_subscriber'[0m
+[ 42%] Built target string_subscriber
+[35m[1mScanning dependencies of target int32_publisher[0m
+[35m[1mScanning dependencies of target RAD0_control[0m
+[ 44%] [34m[1mCreating directories for 'int32_publisher'[0m
+[ 46%] [34m[1mCreating directories for 'RAD0_control'[0m
+[ 48%] [34m[1mNo download step for 'int32_publisher'[0m
+[ 50%] [34m[1mNo patch step for 'int32_publisher'[0m
+[ 51%] [34m[1mNo update step for 'int32_publisher'[0m
+[ 53%] [34m[1mNo download step for 'RAD0_control'[0m
+[ 55%] [34m[1mPerforming configure step for 'int32_publisher'[0m
+[ 57%] [34m[1mNo patch step for 'RAD0_control'[0m
+[ 58%] [34m[1mNo update step for 'RAD0_control'[0m
+loading initial cache file /home/devpc/Desktop/microros_ws/build/micro_ros_demos_rclcpp/int32_publisher/tmp/int32_publisher-cache-.cmake
+[ 60%] [34m[1mPerforming configure step for 'RAD0_control'[0m
+loading initial cache file /home/devpc/Desktop/microros_ws/build/micro_ros_demos_rclcpp/RAD0_control/tmp/RAD0_control-cache-.cmake
+-- The CXX compiler identification is GNU 9.3.0
+-- Check for working CXX compiler: /usr/bin/c++
+-- The CXX compiler identification is GNU 9.3.0
+-- Check for working CXX compiler: /usr/bin/c++
+-- Check for working CXX compiler: /usr/bin/c++ -- works
+-- Detecting CXX compiler ABI info
+-- Check for working CXX compiler: /usr/bin/c++ -- works
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found ament_cmake: 0.9.8 (/opt/ros/foxy/share/ament_cmake/cmake)
+-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+-- Using PYTHON_EXECUTABLE: /usr/bin/python3
+-- Detecting CXX compiler ABI info - done
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found ament_cmake: 0.9.8 (/opt/ros/foxy/share/ament_cmake/cmake)
+-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+-- Using PYTHON_EXECUTABLE: /usr/bin/python3
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_microxrcedds_c;rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Found rosidl_adapter: 1.2.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  
+-- Found FastRTPS: /opt/ros/foxy/include  
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_microxrcedds_c;rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Found rosidl_adapter: 1.2.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_microxrcedds_cpp;rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  
+-- Found rmw_implementation_cmake: 1.0.3 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+-- Using RMW implementation 'rmw_fastrtps_cpp' as default
+-- Looking for C++ include pthread.h
+-- Found FastRTPS: /opt/ros/foxy/include  
+-- Looking for C++ include pthread.h - found
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_microxrcedds_cpp;rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed
+-- Looking for pthread_create in pthreads
+-- Looking for pthread_create in pthreads - not found
+-- Looking for pthread_create in pthread
+-- Found rmw_implementation_cmake: 1.0.3 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+-- Using RMW implementation 'rmw_fastrtps_cpp' as default
+-- Looking for C++ include pthread.h
+-- Looking for pthread_create in pthread - found
+-- Found Threads: TRUE  
+-- Looking for C++ include pthread.h - found
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed
+-- Looking for pthread_create in pthreads
+-- Looking for pthread_create in pthreads - not found
+-- Looking for pthread_create in pthread
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/devpc/Desktop/microros_ws/build/micro_ros_demos_rclcpp/int32_publisher/src/int32_publisher-build
+[ 62%] [34m[1mPerforming build step for 'int32_publisher'[0m
+-- Looking for pthread_create in pthread - found
+-- Found Threads: TRUE  
+[35m[1mScanning dependencies of target int32_publisher[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/int32_publisher.dir/main.cpp.o[0m
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/devpc/Desktop/microros_ws/build/micro_ros_demos_rclcpp/RAD0_control/src/RAD0_control-build
+[ 64%] [34m[1mPerforming build step for 'RAD0_control'[0m
+[35m[1mScanning dependencies of target rad0_control[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/rad0_control.dir/main.cpp.o[0m
+[100%] [32m[1mLinking CXX executable int32_publisher[0m
+[100%] Built target int32_publisher
+[ 66%] [34m[1mPerforming install step for 'int32_publisher'[0m
+[100%] Built target int32_publisher
+[36mInstall the project...[0m
+-- Install configuration: ""
+-- Installing: /home/devpc/Desktop/microros_ws/build/micro_ros_demos_rclcpp/temp_install/int32_publisher/int32_publisher
+-- Set runtime path of "/home/devpc/Desktop/microros_ws/build/micro_ros_demos_rclcpp/temp_install/int32_publisher/int32_publisher" to ""
+[ 67%] [34m[1mCompleted 'int32_publisher'[0m
+[ 67%] Built target int32_publisher
+[100%] [32m[1mLinking CXX executable rad0_control[0m
+[100%] Built target rad0_control
+[ 69%] [34m[1mPerforming install step for 'RAD0_control'[0m
+[100%] Built target rad0_control
+[36mInstall the project...[0m
+-- Install configuration: ""
+-- Installing: /home/devpc/Desktop/microros_ws/build/micro_ros_demos_rclcpp/temp_install/rad0_control/rad0_control
+-- Set runtime path of "/home/devpc/Desktop/microros_ws/build/micro_ros_demos_rclcpp/temp_install/rad0_control/rad0_control" to ""
+[ 71%] [34m[1mCompleted 'RAD0_control'[0m
+[ 71%] Built target RAD0_control
+[35m[1mScanning dependencies of target int32_subscriber[0m
+[ 73%] [34m[1mCreating directories for 'int32_subscriber'[0m
+[ 75%] [34m[1mNo download step for 'int32_subscriber'[0m
+[ 76%] [34m[1mNo patch step for 'int32_subscriber'[0m
+[ 78%] [34m[1mNo update step for 'int32_subscriber'[0m
+[ 80%] [34m[1mPerforming configure step for 'int32_subscriber'[0m
+loading initial cache file /home/devpc/Desktop/microros_ws/build/micro_ros_demos_rclcpp/int32_subscriber/tmp/int32_subscriber-cache-.cmake
+-- The CXX compiler identification is GNU 9.3.0
+-- Check for working CXX compiler: /usr/bin/c++
+-- Check for working CXX compiler: /usr/bin/c++ -- works
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found ament_cmake: 0.9.8 (/opt/ros/foxy/share/ament_cmake/cmake)
+-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+-- Using PYTHON_EXECUTABLE: /usr/bin/python3
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_microxrcedds_c;rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Found rosidl_adapter: 1.2.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  
+-- Found FastRTPS: /opt/ros/foxy/include  
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_microxrcedds_cpp;rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found rmw_implementation_cmake: 1.0.3 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+-- Using RMW implementation 'rmw_fastrtps_cpp' as default
+-- Looking for C++ include pthread.h
+-- Looking for C++ include pthread.h - found
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed
+-- Looking for pthread_create in pthreads
+-- Looking for pthread_create in pthreads - not found
+-- Looking for pthread_create in pthread
+-- Looking for pthread_create in pthread - found
+-- Found Threads: TRUE  
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/devpc/Desktop/microros_ws/build/micro_ros_demos_rclcpp/int32_subscriber/src/int32_subscriber-build
+[ 82%] [34m[1mPerforming build step for 'int32_subscriber'[0m
+[35m[1mScanning dependencies of target int32_subscriber[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/int32_subscriber.dir/main.cpp.o[0m
+[100%] [32m[1mLinking CXX executable int32_subscriber[0m
+[100%] Built target int32_subscriber
+[ 83%] [34m[1mPerforming install step for 'int32_subscriber'[0m
+[100%] Built target int32_subscriber
+[36mInstall the project...[0m
+-- Install configuration: ""
+-- Installing: /home/devpc/Desktop/microros_ws/build/micro_ros_demos_rclcpp/temp_install/int32_subscriber/int32_subscriber
+-- Set runtime path of "/home/devpc/Desktop/microros_ws/build/micro_ros_demos_rclcpp/temp_install/int32_subscriber/int32_subscriber" to ""
+[ 85%] [34m[1mCompleted 'int32_subscriber'[0m
+[ 85%] Built target int32_subscriber
+[35m[1mScanning dependencies of target complex_msg_subscriber[0m
+[ 87%] [34m[1mCreating directories for 'complex_msg_subscriber'[0m
+[ 89%] [34m[1mNo download step for 'complex_msg_subscriber'[0m
+[ 92%] [34m[1mNo patch step for 'complex_msg_subscriber'[0m
+[ 92%] [34m[1mNo update step for 'complex_msg_subscriber'[0m
+[ 94%] [34m[1mPerforming configure step for 'complex_msg_subscriber'[0m
+loading initial cache file /home/devpc/Desktop/microros_ws/build/micro_ros_demos_rclcpp/complex_msg_subscriber/tmp/complex_msg_subscriber-cache-.cmake
+-- The CXX compiler identification is GNU 9.3.0
+-- Check for working CXX compiler: /usr/bin/c++
+-- Check for working CXX compiler: /usr/bin/c++ -- works
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found ament_cmake: 0.9.8 (/opt/ros/foxy/share/ament_cmake/cmake)
+-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+-- Using PYTHON_EXECUTABLE: /usr/bin/python3
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_microxrcedds_c;rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Found rosidl_adapter: 1.2.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  
+-- Found FastRTPS: /opt/ros/foxy/include  
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_microxrcedds_cpp;rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found rmw_implementation_cmake: 1.0.3 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+-- Using RMW implementation 'rmw_fastrtps_cpp' as default
+-- Looking for C++ include pthread.h
+-- Looking for C++ include pthread.h - found
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed
+-- Looking for pthread_create in pthreads
+-- Looking for pthread_create in pthreads - not found
+-- Looking for pthread_create in pthread
+-- Looking for pthread_create in pthread - found
+-- Found Threads: TRUE  
+-- Found complex_msgs: 1.0.0 (/home/devpc/Desktop/microros_ws/install/complex_msgs/share/complex_msgs/cmake)
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/devpc/Desktop/microros_ws/build/micro_ros_demos_rclcpp/complex_msg_subscriber/src/complex_msg_subscriber-build
+[ 96%] [34m[1mPerforming build step for 'complex_msg_subscriber'[0m
+[35m[1mScanning dependencies of target complex_msg_subscriber[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/complex_msg_subscriber.dir/main.cpp.o[0m
+[100%] [32m[1mLinking CXX executable complex_msg_subscriber[0m
+[100%] Built target complex_msg_subscriber
+[ 98%] [34m[1mPerforming install step for 'complex_msg_subscriber'[0m
+[100%] Built target complex_msg_subscriber
+[36mInstall the project...[0m
+-- Install configuration: ""
+-- Installing: /home/devpc/Desktop/microros_ws/build/micro_ros_demos_rclcpp/temp_install/complex_msg_subscriber/complex_msg_subscriber
+-- Set runtime path of "/home/devpc/Desktop/microros_ws/build/micro_ros_demos_rclcpp/temp_install/complex_msg_subscriber/complex_msg_subscriber" to ""
+[100%] [34m[1mCompleted 'complex_msg_subscriber'[0m
+[100%] Built target complex_msg_subscriber
+-- Install configuration: ""
+-- Installing: /home/devpc/Desktop/microros_ws/install/micro_ros_demos_rclcpp/lib/micro_ros_demos_rclcpp
+-- Installing: /home/devpc/Desktop/microros_ws/install/micro_ros_demos_rclcpp/lib/micro_ros_demos_rclcpp/int32_subscriber
+-- Installing: /home/devpc/Desktop/microros_ws/install/micro_ros_demos_rclcpp/lib/micro_ros_demos_rclcpp/int32_subscriber/int32_subscriber
+-- Installing: /home/devpc/Desktop/microros_ws/install/micro_ros_demos_rclcpp/lib/micro_ros_demos_rclcpp/complex_msg_publisher
+-- Installing: /home/devpc/Desktop/microros_ws/install/micro_ros_demos_rclcpp/lib/micro_ros_demos_rclcpp/complex_msg_publisher/complex_msg_publisher
+-- Installing: /home/devpc/Desktop/microros_ws/install/micro_ros_demos_rclcpp/lib/micro_ros_demos_rclcpp/string_subscriber
+-- Installing: /home/devpc/Desktop/microros_ws/install/micro_ros_demos_rclcpp/lib/micro_ros_demos_rclcpp/string_subscriber/string_subscriber
+-- Installing: /home/devpc/Desktop/microros_ws/install/micro_ros_demos_rclcpp/lib/micro_ros_demos_rclcpp/rad0_control
+-- Installing: /home/devpc/Desktop/microros_ws/install/micro_ros_demos_rclcpp/lib/micro_ros_demos_rclcpp/rad0_control/rad0_control
+-- Installing: /home/devpc/Desktop/microros_ws/install/micro_ros_demos_rclcpp/lib/micro_ros_demos_rclcpp/string_publisher
+-- Installing: /home/devpc/Desktop/microros_ws/install/micro_ros_demos_rclcpp/lib/micro_ros_demos_rclcpp/string_publisher/string_publisher
+-- Installing: /home/devpc/Desktop/microros_ws/install/micro_ros_demos_rclcpp/lib/micro_ros_demos_rclcpp/int32_publisher
+-- Installing: /home/devpc/Desktop/microros_ws/install/micro_ros_demos_rclcpp/lib/micro_ros_demos_rclcpp/int32_publisher/int32_publisher
+-- Installing: /home/devpc/Desktop/microros_ws/install/micro_ros_demos_rclcpp/lib/micro_ros_demos_rclcpp/complex_msg_subscriber
+-- Installing: /home/devpc/Desktop/microros_ws/install/micro_ros_demos_rclcpp/lib/micro_ros_demos_rclcpp/complex_msg_subscriber/complex_msg_subscriber
+-- Installing: /home/devpc/Desktop/microros_ws/install/micro_ros_demos_rclcpp/share/ament_index/resource_index/package_run_dependencies/micro_ros_demos_rclcpp
+-- Installing: /home/devpc/Desktop/microros_ws/install/micro_ros_demos_rclcpp/share/ament_index/resource_index/parent_prefix_path/micro_ros_demos_rclcpp
+-- Installing: /home/devpc/Desktop/microros_ws/install/micro_ros_demos_rclcpp/share/micro_ros_demos_rclcpp/environment/ament_prefix_path.sh
+-- Installing: /home/devpc/Desktop/microros_ws/install/micro_ros_demos_rclcpp/share/micro_ros_demos_rclcpp/environment/ament_prefix_path.dsv
+-- Installing: /home/devpc/Desktop/microros_ws/install/micro_ros_demos_rclcpp/share/micro_ros_demos_rclcpp/environment/path.sh
+-- Installing: /home/devpc/Desktop/microros_ws/install/micro_ros_demos_rclcpp/share/micro_ros_demos_rclcpp/environment/path.dsv
+-- Installing: /home/devpc/Desktop/microros_ws/install/micro_ros_demos_rclcpp/share/micro_ros_demos_rclcpp/local_setup.bash
+-- Installing: /home/devpc/Desktop/microros_ws/install/micro_ros_demos_rclcpp/share/micro_ros_demos_rclcpp/local_setup.sh
+-- Installing: /home/devpc/Desktop/microros_ws/install/micro_ros_demos_rclcpp/share/micro_ros_demos_rclcpp/local_setup.zsh
+-- Installing: /home/devpc/Desktop/microros_ws/install/micro_ros_demos_rclcpp/share/micro_ros_demos_rclcpp/local_setup.dsv
+-- Installing: /home/devpc/Desktop/microros_ws/install/micro_ros_demos_rclcpp/share/micro_ros_demos_rclcpp/package.dsv
+-- Installing: /home/devpc/Desktop/microros_ws/install/micro_ros_demos_rclcpp/share/ament_index/resource_index/packages/micro_ros_demos_rclcpp
+-- Installing: /home/devpc/Desktop/microros_ws/install/micro_ros_demos_rclcpp/share/micro_ros_demos_rclcpp/cmake/micro_ros_demos_rclcppConfig.cmake
+-- Installing: /home/devpc/Desktop/microros_ws/install/micro_ros_demos_rclcpp/share/micro_ros_demos_rclcpp/cmake/micro_ros_demos_rclcppConfig-version.cmake
+-- Installing: /home/devpc/Desktop/microros_ws/install/micro_ros_demos_rclcpp/share/micro_ros_demos_rclcpp/package.xml

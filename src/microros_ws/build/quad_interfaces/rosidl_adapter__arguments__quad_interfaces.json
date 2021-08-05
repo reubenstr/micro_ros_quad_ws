@@ -1,0 +1,6 @@
+{
+  "package_name": "quad_interfaces",
+  "non_idl_tuples": [
+    "/home/devpc/Desktop/microros_ws/src/quad_interfaces:msg/MotionServos.msg"
+  ]
+}

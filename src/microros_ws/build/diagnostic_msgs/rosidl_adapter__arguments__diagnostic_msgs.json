@@ -1,0 +1,10 @@
+{
+  "package_name": "diagnostic_msgs",
+  "non_idl_tuples": [
+    "/home/devpc/Desktop/microros_ws/src/ros2/common_interfaces/diagnostic_msgs:msg/DiagnosticArray.msg",
+    "/home/devpc/Desktop/microros_ws/src/ros2/common_interfaces/diagnostic_msgs:msg/DiagnosticStatus.msg",
+    "/home/devpc/Desktop/microros_ws/src/ros2/common_interfaces/diagnostic_msgs:msg/KeyValue.msg",
+    "/home/devpc/Desktop/microros_ws/src/ros2/common_interfaces/diagnostic_msgs:srv/AddDiagnostics.srv",
+    "/home/devpc/Desktop/microros_ws/src/ros2/common_interfaces/diagnostic_msgs:srv/SelfTest.srv"
+  ]
+}

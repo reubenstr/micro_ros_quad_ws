@@ -1,0 +1,926 @@
+/home/devpc/Desktop/microros_ws/src/uros/micro-ROS-demos/rclcpp/complex_msg_publisher/main.cpp:15:1: warning: #includes are not sorted properly [llvm-include-order]
+#include <rclcpp/rclcpp.hpp>
+^        ~~~~~~~~~~~~~~~~~~~
+         <complex_msgs/msg/nested_msg_test.hpp>
+/home/devpc/Desktop/microros_ws/src/uros/micro-ROS-demos/rclcpp/complex_msg_publisher/main.cpp:18:1: warning: #includes are not sorted properly [llvm-include-order]
+#include <memory>
+^        ~~~~~~~~
+         <chrono>
+/home/devpc/Desktop/microros_ws/src/uros/micro-ROS-demos/rclcpp/complex_msg_publisher/main.cpp:27:3: warning: calling a function that uses a default argument is disallowed [fuchsia-default-arguments-calls]
+  complex_msg_publisher_cpp_node()
+  ^
+/home/devpc/Desktop/microros_ws/install/complex_msgs/include/complex_msgs/msg/detail/nested_msg_test__struct.hpp:39:27: note: default parameter was declared here
+  explicit NestedMsgTest_(rosidl_runtime_cpp::MessageInitialization _init = rosidl_runtime_cpp::MessageInitialization::ALL)
+                          ^
+/home/devpc/Desktop/microros_ws/src/uros/micro-ROS-demos/rclcpp/complex_msg_publisher/main.cpp:28:5: warning: calling a function that uses a default argument is disallowed [fuchsia-default-arguments-calls]
+  : Node("complex_msg_publisher_cpp")
+    ^
+/opt/ros/foxy/include/rclcpp/node.hpp:88:5: note: default parameter was declared here
+    const NodeOptions & options = NodeOptions());
+    ^
+/home/devpc/Desktop/microros_ws/src/uros/micro-ROS-demos/rclcpp/complex_msg_publisher/main.cpp:28:10: warning: calling a function that uses a default argument is disallowed [fuchsia-default-arguments-calls]
+  : Node("complex_msg_publisher_cpp")
+         ^
+/usr/lib/gcc/x86_64-linux-gnu/9/../../../../include/c++/9/bits/basic_string.h:525:39: note: default parameter was declared here
+      basic_string(const _CharT* __s, const _Alloc& __a = _Alloc())
+                                      ^
+/home/devpc/Desktop/microros_ws/src/uros/micro-ROS-demos/rclcpp/complex_msg_publisher/main.cpp:30:18: warning: calling a function that uses a default argument is disallowed [fuchsia-default-arguments-calls]
+    publisher_ = this->create_publisher<complex_msgs::msg::NestedMsgTest>(
+                 ^
+/opt/ros/foxy/include/rclcpp/node_impl.hpp:74:3: note: default parameter was declared here
+  const PublisherOptionsWithAllocator<AllocatorT> & options)
+  ^
+/home/devpc/Desktop/microros_ws/src/uros/micro-ROS-demos/rclcpp/complex_msg_publisher/main.cpp:31:7: warning: calling a function that uses a default argument is disallowed [fuchsia-default-arguments-calls]
+      "complex_msgs_msg_NestedMsgTest", rclcpp::SystemDefaultsQoS());
+      ^
+/usr/lib/gcc/x86_64-linux-gnu/9/../../../../include/c++/9/bits/basic_string.h:525:39: note: default parameter was declared here
+      basic_string(const _CharT* __s, const _Alloc& __a = _Alloc())
+                                      ^
+/home/devpc/Desktop/microros_ws/src/uros/micro-ROS-demos/rclcpp/complex_msg_publisher/main.cpp:31:41: warning: calling a function that uses a default argument is disallowed [fuchsia-default-arguments-calls]
+      "complex_msgs_msg_NestedMsgTest", rclcpp::SystemDefaultsQoS());
+                                        ^
+/opt/ros/foxy/include/rclcpp/qos.hpp:270:5: note: default parameter was declared here
+    const QoSInitialization & qos_initialization = (
+    ^
+/home/devpc/Desktop/microros_ws/src/uros/micro-ROS-demos/rclcpp/complex_msg_publisher/main.cpp:32:14: warning: calling a function that uses a default argument is disallowed [fuchsia-default-arguments-calls]
+    timer_ = this->create_wall_timer(
+             ^
+/opt/ros/foxy/include/rclcpp/node_impl.hpp:112:3: note: default parameter was declared here
+  rclcpp::CallbackGroup::SharedPtr group)
+  ^
+/home/devpc/Desktop/microros_ws/src/uros/micro-ROS-demos/rclcpp/complex_msg_publisher/main.cpp:33:14: warning: prefer a lambda to std::bind [modernize-avoid-bind]
+      500ms, std::bind(&complex_msg_publisher_cpp_node::timer_callback, this));
+             ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+             [this] { timer_callback(); }
+/home/devpc/Desktop/microros_ws/src/uros/micro-ROS-demos/rclcpp/complex_msg_publisher/main.cpp:39:35: warning: use of a signed integer operand with a binary bitwise operator [hicpp-signed-bitwise]
+    msg.data1 = static_cast<bool>(num & 0x01);
+                                  ^
+/home/devpc/Desktop/microros_ws/src/uros/micro-ROS-demos/rclcpp/complex_msg_publisher/main.cpp:61:47: warning: implicit conversion bool -> 'int' [readability-implicit-bool-conversion]
+    std::cout << "\tBool: " << std::to_string(msg.data1) << std::endl;
+                                              ^
+                                              static_cast<int>( )
+/home/devpc/Desktop/microros_ws/src/uros/micro-ROS-demos/rclcpp/complex_msg_publisher/main.cpp:89:5: warning: use a trailing return type for this function [modernize-use-trailing-return-type]
+int main(int argc, char * argv[])
+~~~ ^
+auto                              -> int
+/home/devpc/Desktop/microros_ws/src/uros/micro-ROS-demos/rclcpp/complex_msg_publisher/main.cpp:91:3: warning: calling a function that uses a default argument is disallowed [fuchsia-default-arguments-calls]
+  rclcpp::init(argc, argv);
+  ^
+/opt/ros/foxy/include/rclcpp/utilities.hpp:56:43: note: default parameter was declared here
+init(int argc, char const * const argv[], const InitOptions & init_options = InitOptions());
+                                          ^
+/home/devpc/Desktop/microros_ws/src/uros/micro-ROS-demos/rclcpp/complex_msg_publisher/main.cpp:93:3: warning: calling a function that uses a default argument is disallowed [fuchsia-default-arguments-calls]
+  rclcpp::shutdown();
+  ^
+/opt/ros/foxy/include/rclcpp/utilities.hpp:178:3: note: default parameter was declared here
+  rclcpp::Context::SharedPtr context = nullptr,
+  ^
+/opt/ros/foxy/include/rclcpp/experimental/intra_process_manager.hpp:400:53: warning: Moved-from object 'message' is moved [clang-analyzer-cplusplus.Move]
+        subscription->provide_intra_process_message(std::move(message));
+                                                    ^
+/home/devpc/Desktop/microros_ws/src/uros/micro-ROS-demos/rclcpp/complex_msg_publisher/main.cpp:58:5: note: Calling 'Publisher::publish'
+    publisher_->publish(msg);
+    ^
+/opt/ros/foxy/include/rclcpp/publisher.hpp:212:9: note: Assuming field 'intra_process_is_enabled_' is true
+    if (!intra_process_is_enabled_) {
+        ^
+/opt/ros/foxy/include/rclcpp/publisher.hpp:212:5: note: Taking false branch
+    if (!intra_process_is_enabled_) {
+    ^
+/opt/ros/foxy/include/rclcpp/publisher.hpp:222:5: note: Calling 'Publisher::publish'
+    this->publish(std::move(unique_msg));
+    ^
+/opt/ros/foxy/include/rclcpp/publisher.hpp:187:10: note: Field 'intra_process_is_enabled_' is true
+    if (!intra_process_is_enabled_) {
+         ^
+/opt/ros/foxy/include/rclcpp/publisher.hpp:187:5: note: Taking false branch
+    if (!intra_process_is_enabled_) {
+    ^
+/opt/ros/foxy/include/rclcpp/publisher.hpp:198:7: note: Assuming the condition is false
+      get_subscription_count() > get_intra_process_subscription_count();
+      ^
+/opt/ros/foxy/include/rclcpp/publisher.hpp:200:9: note: 'inter_process_publish_needed' is false
+    if (inter_process_publish_needed) {
+        ^
+/opt/ros/foxy/include/rclcpp/publisher.hpp:200:5: note: Taking false branch
+    if (inter_process_publish_needed) {
+    ^
+/opt/ros/foxy/include/rclcpp/publisher.hpp:204:7: note: Calling 'Publisher::do_intra_process_publish'
+      this->do_intra_process_publish(std::move(msg));
+      ^
+/opt/ros/foxy/include/rclcpp/publisher.hpp:336:5: note: Taking false branch
+    if (!ipm) {
+    ^
+/opt/ros/foxy/include/rclcpp/publisher.hpp:340:5: note: Taking false branch
+    if (!msg) {
+    ^
+/opt/ros/foxy/include/rclcpp/publisher.hpp:344:5: note: Calling 'IntraProcessManager::do_intra_process_publish'
+    ipm->template do_intra_process_publish<MessageT, AllocatorT>(
+    ^
+/opt/ros/foxy/include/rclcpp/experimental/intra_process_manager.hpp:192:5: note: Taking false branch
+    if (publisher_it == pub_to_subs_.end()) {
+    ^
+/opt/ros/foxy/include/rclcpp/experimental/intra_process_manager.hpp:201:9: note: Assuming the condition is false
+    if (sub_ids.take_ownership_subscriptions.empty()) {
+        ^
+/opt/ros/foxy/include/rclcpp/experimental/intra_process_manager.hpp:201:5: note: Taking false branch
+    if (sub_ids.take_ownership_subscriptions.empty()) {
+    ^
+/opt/ros/foxy/include/rclcpp/experimental/intra_process_manager.hpp:404:27: warning: Method called on moved-from object 'message' [clang-analyzer-cplusplus.Move]
+        Deleter deleter = message.get_deleter();
+                          ^
+/home/devpc/Desktop/microros_ws/src/uros/micro-ROS-demos/rclcpp/complex_msg_publisher/main.cpp:58:5: note: Calling 'Publisher::publish'
+    publisher_->publish(msg);
+    ^
+/opt/ros/foxy/include/rclcpp/publisher.hpp:212:9: note: Assuming field 'intra_process_is_enabled_' is true
+    if (!intra_process_is_enabled_) {
+        ^
+/opt/ros/foxy/include/rclcpp/publisher.hpp:212:5: note: Taking false branch
+    if (!intra_process_is_enabled_) {
+    ^
+/opt/ros/foxy/include/rclcpp/publisher.hpp:222:5: note: Calling 'Publisher::publish'
+    this->publish(std::move(unique_msg));
+    ^
+/opt/ros/foxy/include/rclcpp/publisher.hpp:187:10: note: Field 'intra_process_is_enabled_' is true
+    if (!intra_process_is_enabled_) {
+         ^
+/opt/ros/foxy/include/rclcpp/publisher.hpp:187:5: note: Taking false branch
+    if (!intra_process_is_enabled_) {
+    ^
+/opt/ros/foxy/include/rclcpp/publisher.hpp:198:7: note: Assuming the condition is false
+      get_subscription_count() > get_intra_process_subscription_count();
+      ^
+/opt/ros/foxy/include/rclcpp/publisher.hpp:200:9: note: 'inter_process_publish_needed' is false
+    if (inter_process_publish_needed) {
+        ^
+/opt/ros/foxy/include/rclcpp/publisher.hpp:200:5: note: Taking false branch
+    if (inter_process_publish_needed) {
+    ^
+/opt/ros/foxy/include/rclcpp/publisher.hpp:204:7: note: Calling 'Publisher::do_intra_process_publish'
+      this->do_intra_process_publish(std::move(msg));
+      ^
+/opt/ros/foxy/include/rclcpp/publisher.hpp:336:5: note: Taking false branch
+    if (!ipm) {
+    ^
+/opt/ros/foxy/include/rclcpp/publisher.hpp:340:5: note: Taking false branch
+    if (!msg) {
+    ^
+/opt/ros/foxy/include/rclcpp/publisher.hpp:344:5: note: Calling 'IntraProcessManager::do_intra_process_publish'
+    ipm->template do_intra_process_publish<MessageT, AllocatorT>(
+    ^
+/opt/ros/foxy/include/rclcpp/experimental/intra_process_manager.hpp:192:5: note: Taking false branch
+    if (publisher_it == pub_to_subs_.end()) {
+    ^
+/opt/ros/foxy/include/rclcpp/experimental/intra_process_manager.hpp:201:9: note: Assuming the condition is false
+    if (sub_ids.take_ownership_subscriptions.empty()) {
+        ^
+/opt/ros/foxy/include/rclcpp/experimental/intra_process_manager.hpp:201:5: note: Taking false branch
+    if (sub_ids.take_ownership_subscriptions.empty()) {
+    ^
+/home/devpc/Desktop/microros_ws/src/uros/micro-ROS-demos/rclcpp/string_publisher/main.cpp:15:1: warning: #includes are not sorted properly [llvm-include-order]
+#include <std_msgs/msg/string.hpp>
+^        ~~~~~~~~~~~~~~~~~~~~~~~~~
+         <rclcpp/rclcpp.hpp>
+/home/devpc/Desktop/microros_ws/src/uros/micro-ROS-demos/rclcpp/string_publisher/main.cpp:18:1: warning: #includes are not sorted properly [llvm-include-order]
+#include <memory>
+^        ~~~~~~~~
+         <chrono>
+/home/devpc/Desktop/microros_ws/src/uros/micro-ROS-demos/rclcpp/string_publisher/main.cpp:27:3: warning: calling a function that uses a default argument is disallowed [fuchsia-default-arguments-calls]
+  string_publisher_cpp_node()
+  ^
+/opt/ros/foxy/include/std_msgs/msg/detail/string__struct.hpp:35:20: note: default parameter was declared here
+  explicit String_(rosidl_runtime_cpp::MessageInitialization _init = rosidl_runtime_cpp::MessageInitialization::ALL)
+                   ^
+/home/devpc/Desktop/microros_ws/src/uros/micro-ROS-demos/rclcpp/string_publisher/main.cpp:28:5: warning: calling a function that uses a default argument is disallowed [fuchsia-default-arguments-calls]
+  : Node("string_publisher_cpp")
+    ^
+/opt/ros/foxy/include/rclcpp/node.hpp:88:5: note: default parameter was declared here
+    const NodeOptions & options = NodeOptions());
+    ^
+/home/devpc/Desktop/microros_ws/src/uros/micro-ROS-demos/rclcpp/string_publisher/main.cpp:28:10: warning: calling a function that uses a default argument is disallowed [fuchsia-default-arguments-calls]
+  : Node("string_publisher_cpp")
+         ^
+/usr/lib/gcc/x86_64-linux-gnu/9/../../../../include/c++/9/bits/basic_string.h:525:39: note: default parameter was declared here
+      basic_string(const _CharT* __s, const _Alloc& __a = _Alloc())
+                                      ^
+/home/devpc/Desktop/microros_ws/src/uros/micro-ROS-demos/rclcpp/string_publisher/main.cpp:30:21: warning: 10 is a magic number; consider replacing it with a named constant [cppcoreguidelines-avoid-magic-numbers]
+    rclcpp::QoS qos(10);
+                    ^
+/home/devpc/Desktop/microros_ws/src/uros/micro-ROS-demos/rclcpp/string_publisher/main.cpp:30:21: warning: 10 is a magic number; consider replacing it with a named constant [readability-magic-numbers]
+/home/devpc/Desktop/microros_ws/src/uros/micro-ROS-demos/rclcpp/string_publisher/main.cpp:31:18: warning: calling a function that uses a default argument is disallowed [fuchsia-default-arguments-calls]
+    publisher_ = this->create_publisher<std_msgs::msg::String>("std_msgs_msg_String", qos);
+                 ^
+/opt/ros/foxy/include/rclcpp/node_impl.hpp:74:3: note: default parameter was declared here
+  const PublisherOptionsWithAllocator<AllocatorT> & options)
+  ^
+/home/devpc/Desktop/microros_ws/src/uros/micro-ROS-demos/rclcpp/string_publisher/main.cpp:31:64: warning: calling a function that uses a default argument is disallowed [fuchsia-default-arguments-calls]
+    publisher_ = this->create_publisher<std_msgs::msg::String>("std_msgs_msg_String", qos);
+                                                               ^
+/usr/lib/gcc/x86_64-linux-gnu/9/../../../../include/c++/9/bits/basic_string.h:525:39: note: default parameter was declared here
+      basic_string(const _CharT* __s, const _Alloc& __a = _Alloc())
+                                      ^
+/home/devpc/Desktop/microros_ws/src/uros/micro-ROS-demos/rclcpp/string_publisher/main.cpp:32:14: warning: calling a function that uses a default argument is disallowed [fuchsia-default-arguments-calls]
+    timer_ = this->create_wall_timer(
+             ^
+/opt/ros/foxy/include/rclcpp/node_impl.hpp:112:3: note: default parameter was declared here
+  rclcpp::CallbackGroup::SharedPtr group)
+  ^
+/home/devpc/Desktop/microros_ws/src/uros/micro-ROS-demos/rclcpp/string_publisher/main.cpp:33:14: warning: prefer a lambda to std::bind [modernize-avoid-bind]
+      500ms, std::bind(&string_publisher_cpp_node::timer_callback, this));
+             ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+             [this] { timer_callback(); }
+/home/devpc/Desktop/microros_ws/src/uros/micro-ROS-demos/rclcpp/string_publisher/main.cpp:51:5: warning: use a trailing return type for this function [modernize-use-trailing-return-type]
+int main(int argc, char * argv[])
+~~~ ^
+auto                              -> int
+/home/devpc/Desktop/microros_ws/src/uros/micro-ROS-demos/rclcpp/string_publisher/main.cpp:53:3: warning: calling a function that uses a default argument is disallowed [fuchsia-default-arguments-calls]
+  rclcpp::init(argc, argv);
+  ^
+/opt/ros/foxy/include/rclcpp/utilities.hpp:56:43: note: default parameter was declared here
+init(int argc, char const * const argv[], const InitOptions & init_options = InitOptions());
+                                          ^
+/home/devpc/Desktop/microros_ws/src/uros/micro-ROS-demos/rclcpp/string_publisher/main.cpp:55:3: warning: calling a function that uses a default argument is disallowed [fuchsia-default-arguments-calls]
+  rclcpp::shutdown();
+  ^
+/opt/ros/foxy/include/rclcpp/utilities.hpp:178:3: note: default parameter was declared here
+  rclcpp::Context::SharedPtr context = nullptr,
+  ^
+/opt/ros/foxy/include/rclcpp/experimental/intra_process_manager.hpp:400:53: warning: Moved-from object 'message' is moved [clang-analyzer-cplusplus.Move]
+        subscription->provide_intra_process_message(std::move(message));
+                                                    ^
+/home/devpc/Desktop/microros_ws/src/uros/micro-ROS-demos/rclcpp/string_publisher/main.cpp:40:5: note: Calling 'Publisher::publish'
+    publisher_->publish(msg);
+    ^
+/opt/ros/foxy/include/rclcpp/publisher.hpp:212:9: note: Assuming field 'intra_process_is_enabled_' is true
+    if (!intra_process_is_enabled_) {
+        ^
+/opt/ros/foxy/include/rclcpp/publisher.hpp:212:5: note: Taking false branch
+    if (!intra_process_is_enabled_) {
+    ^
+/opt/ros/foxy/include/rclcpp/publisher.hpp:222:5: note: Calling 'Publisher::publish'
+    this->publish(std::move(unique_msg));
+    ^
+/opt/ros/foxy/include/rclcpp/publisher.hpp:187:10: note: Field 'intra_process_is_enabled_' is true
+    if (!intra_process_is_enabled_) {
+         ^
+/opt/ros/foxy/include/rclcpp/publisher.hpp:187:5: note: Taking false branch
+    if (!intra_process_is_enabled_) {
+    ^
+/opt/ros/foxy/include/rclcpp/publisher.hpp:198:7: note: Assuming the condition is false
+      get_subscription_count() > get_intra_process_subscription_count();
+      ^
+/opt/ros/foxy/include/rclcpp/publisher.hpp:200:9: note: 'inter_process_publish_needed' is false
+    if (inter_process_publish_needed) {
+        ^
+/opt/ros/foxy/include/rclcpp/publisher.hpp:200:5: note: Taking false branch
+    if (inter_process_publish_needed) {
+    ^
+/opt/ros/foxy/include/rclcpp/publisher.hpp:204:7: note: Calling 'Publisher::do_intra_process_publish'
+      this->do_intra_process_publish(std::move(msg));
+      ^
+/opt/ros/foxy/include/rclcpp/publisher.hpp:336:5: note: Taking false branch
+    if (!ipm) {
+    ^
+/opt/ros/foxy/include/rclcpp/publisher.hpp:340:5: note: Taking false branch
+    if (!msg) {
+    ^
+/opt/ros/foxy/include/rclcpp/publisher.hpp:344:5: note: Calling 'IntraProcessManager::do_intra_process_publish'
+    ipm->template do_intra_process_publish<MessageT, AllocatorT>(
+    ^
+/opt/ros/foxy/include/rclcpp/experimental/intra_process_manager.hpp:192:5: note: Taking false branch
+    if (publisher_it == pub_to_subs_.end()) {
+    ^
+/opt/ros/foxy/include/rclcpp/experimental/intra_process_manager.hpp:201:9: note: Assuming the condition is false
+    if (sub_ids.take_ownership_subscriptions.empty()) {
+        ^
+/opt/ros/foxy/include/rclcpp/experimental/intra_process_manager.hpp:201:5: note: Taking false branch
+    if (sub_ids.take_ownership_subscriptions.empty()) {
+    ^
+/opt/ros/foxy/include/rclcpp/experimental/intra_process_manager.hpp:404:27: warning: Method called on moved-from object 'message' [clang-analyzer-cplusplus.Move]
+        Deleter deleter = message.get_deleter();
+                          ^
+/home/devpc/Desktop/microros_ws/src/uros/micro-ROS-demos/rclcpp/string_publisher/main.cpp:40:5: note: Calling 'Publisher::publish'
+    publisher_->publish(msg);
+    ^
+/opt/ros/foxy/include/rclcpp/publisher.hpp:212:9: note: Assuming field 'intra_process_is_enabled_' is true
+    if (!intra_process_is_enabled_) {
+        ^
+/opt/ros/foxy/include/rclcpp/publisher.hpp:212:5: note: Taking false branch
+    if (!intra_process_is_enabled_) {
+    ^
+/opt/ros/foxy/include/rclcpp/publisher.hpp:222:5: note: Calling 'Publisher::publish'
+    this->publish(std::move(unique_msg));
+    ^
+/opt/ros/foxy/include/rclcpp/publisher.hpp:187:10: note: Field 'intra_process_is_enabled_' is true
+    if (!intra_process_is_enabled_) {
+         ^
+/opt/ros/foxy/include/rclcpp/publisher.hpp:187:5: note: Taking false branch
+    if (!intra_process_is_enabled_) {
+    ^
+/opt/ros/foxy/include/rclcpp/publisher.hpp:198:7: note: Assuming the condition is false
+      get_subscription_count() > get_intra_process_subscription_count();
+      ^
+/opt/ros/foxy/include/rclcpp/publisher.hpp:200:9: note: 'inter_process_publish_needed' is false
+    if (inter_process_publish_needed) {
+        ^
+/opt/ros/foxy/include/rclcpp/publisher.hpp:200:5: note: Taking false branch
+    if (inter_process_publish_needed) {
+    ^
+/opt/ros/foxy/include/rclcpp/publisher.hpp:204:7: note: Calling 'Publisher::do_intra_process_publish'
+      this->do_intra_process_publish(std::move(msg));
+      ^
+/opt/ros/foxy/include/rclcpp/publisher.hpp:336:5: note: Taking false branch
+    if (!ipm) {
+    ^
+/opt/ros/foxy/include/rclcpp/publisher.hpp:340:5: note: Taking false branch
+    if (!msg) {
+    ^
+/opt/ros/foxy/include/rclcpp/publisher.hpp:344:5: note: Calling 'IntraProcessManager::do_intra_process_publish'
+    ipm->template do_intra_process_publish<MessageT, AllocatorT>(
+    ^
+/opt/ros/foxy/include/rclcpp/experimental/intra_process_manager.hpp:192:5: note: Taking false branch
+    if (publisher_it == pub_to_subs_.end()) {
+    ^
+/opt/ros/foxy/include/rclcpp/experimental/intra_process_manager.hpp:201:9: note: Assuming the condition is false
+    if (sub_ids.take_ownership_subscriptions.empty()) {
+        ^
+/opt/ros/foxy/include/rclcpp/experimental/intra_process_manager.hpp:201:5: note: Taking false branch
+    if (sub_ids.take_ownership_subscriptions.empty()) {
+    ^
+/home/devpc/Desktop/microros_ws/src/uros/micro-ROS-demos/rclcpp/string_subscriber/main.cpp:15:1: warning: #includes are not sorted properly [llvm-include-order]
+#include <std_msgs/msg/string.hpp>
+^        ~~~~~~~~~~~~~~~~~~~~~~~~~
+         <rclcpp/rclcpp.hpp>
+/home/devpc/Desktop/microros_ws/src/uros/micro-ROS-demos/rclcpp/string_subscriber/main.cpp:18:1: warning: #includes are not sorted properly [llvm-include-order]
+#include <memory>
+^        ~~~~~~~~
+         <cstdio>
+/home/devpc/Desktop/microros_ws/src/uros/micro-ROS-demos/rclcpp/string_subscriber/main.cpp:27:5: warning: calling a function that uses a default argument is disallowed [fuchsia-default-arguments-calls]
+  : Node("string_subscriber_cpp")
+    ^
+/opt/ros/foxy/include/rclcpp/node.hpp:88:5: note: default parameter was declared here
+    const NodeOptions & options = NodeOptions());
+    ^
+/home/devpc/Desktop/microros_ws/src/uros/micro-ROS-demos/rclcpp/string_subscriber/main.cpp:27:10: warning: calling a function that uses a default argument is disallowed [fuchsia-default-arguments-calls]
+  : Node("string_subscriber_cpp")
+         ^
+/usr/lib/gcc/x86_64-linux-gnu/9/../../../../include/c++/9/bits/basic_string.h:525:39: note: default parameter was declared here
+      basic_string(const _CharT* __s, const _Alloc& __a = _Alloc())
+                                      ^
+/home/devpc/Desktop/microros_ws/src/uros/micro-ROS-demos/rclcpp/string_subscriber/main.cpp:29:21: warning: 10 is a magic number; consider replacing it with a named constant [cppcoreguidelines-avoid-magic-numbers]
+    rclcpp::QoS qos(10);
+                    ^
+/home/devpc/Desktop/microros_ws/src/uros/micro-ROS-demos/rclcpp/string_subscriber/main.cpp:29:21: warning: 10 is a magic number; consider replacing it with a named constant [readability-magic-numbers]
+/home/devpc/Desktop/microros_ws/src/uros/micro-ROS-demos/rclcpp/string_subscriber/main.cpp:30:21: warning: calling a function that uses a default argument is disallowed [fuchsia-default-arguments-calls]
+    subscription_ = this->create_subscription<std_msgs::msg::String>("std_msgs_msg_String", qos,
+                    ^
+/opt/ros/foxy/include/rclcpp/node_impl.hpp:95:3: note: default parameter was declared here
+  const SubscriptionOptionsWithAllocator<AllocatorT> & options,
+  ^
+/home/devpc/Desktop/microros_ws/src/uros/micro-ROS-demos/rclcpp/string_subscriber/main.cpp:30:70: warning: calling a function that uses a default argument is disallowed [fuchsia-default-arguments-calls]
+    subscription_ = this->create_subscription<std_msgs::msg::String>("std_msgs_msg_String", qos,
+                                                                     ^
+/usr/lib/gcc/x86_64-linux-gnu/9/../../../../include/c++/9/bits/basic_string.h:525:39: note: default parameter was declared here
+      basic_string(const _CharT* __s, const _Alloc& __a = _Alloc())
+                                      ^
+/home/devpc/Desktop/microros_ws/src/uros/micro-ROS-demos/rclcpp/string_subscriber/main.cpp:31:9: warning: prefer a lambda to std::bind [modernize-avoid-bind]
+        std::bind(&string_subscriber_cpp_node::topic_callback, this, _1));
+        ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+        [this](auto && PH1) { topic_callback(PH1); }
+/home/devpc/Desktop/microros_ws/src/uros/micro-ROS-demos/rclcpp/string_subscriber/main.cpp:37:8: warning: method 'topic_callback' can be made static [readability-convert-member-functions-to-static]
+  void topic_callback(const std_msgs::msg::String::SharedPtr msg)
+       ^
+  static 
+/home/devpc/Desktop/microros_ws/src/uros/micro-ROS-demos/rclcpp/string_subscriber/main.cpp:37:62: warning: the const qualified parameter 'msg' is copied for each invocation; consider making it a reference [performance-unnecessary-value-param]
+  void topic_callback(const std_msgs::msg::String::SharedPtr msg)
+                                                             ^
+                                                            &
+/home/devpc/Desktop/microros_ws/src/uros/micro-ROS-demos/rclcpp/string_subscriber/main.cpp:43:5: warning: use a trailing return type for this function [modernize-use-trailing-return-type]
+int main(int argc, char * argv[])
+~~~ ^
+auto                              -> int
+/home/devpc/Desktop/microros_ws/src/uros/micro-ROS-demos/rclcpp/string_subscriber/main.cpp:45:3: warning: calling a function that uses a default argument is disallowed [fuchsia-default-arguments-calls]
+  rclcpp::init(argc, argv);
+  ^
+/opt/ros/foxy/include/rclcpp/utilities.hpp:56:43: note: default parameter was declared here
+init(int argc, char const * const argv[], const InitOptions & init_options = InitOptions());
+                                          ^
+/home/devpc/Desktop/microros_ws/src/uros/micro-ROS-demos/rclcpp/string_subscriber/main.cpp:47:3: warning: calling a function that uses a default argument is disallowed [fuchsia-default-arguments-calls]
+  rclcpp::shutdown();
+  ^
+/opt/ros/foxy/include/rclcpp/utilities.hpp:178:3: note: default parameter was declared here
+  rclcpp::Context::SharedPtr context = nullptr,
+  ^
+/home/devpc/Desktop/microros_ws/src/uros/micro-ROS-demos/rclcpp/int32_publisher/main.cpp:18:1: warning: #includes are not sorted properly [llvm-include-order]
+#include <memory>
+^        ~~~~~~~~
+         <chrono>
+/home/devpc/Desktop/microros_ws/src/uros/micro-ROS-demos/rclcpp/int32_publisher/main.cpp:28:3: warning: calling a function that uses a default argument is disallowed [fuchsia-default-arguments-calls]
+  int32_publisher_node()
+  ^
+/opt/ros/foxy/include/std_msgs/msg/detail/int32__struct.hpp:35:19: note: default parameter was declared here
+  explicit Int32_(rosidl_runtime_cpp::MessageInitialization _init = rosidl_runtime_cpp::MessageInitialization::ALL)
+                  ^
+/home/devpc/Desktop/microros_ws/src/uros/micro-ROS-demos/rclcpp/int32_publisher/main.cpp:29:5: warning: calling a function that uses a default argument is disallowed [fuchsia-default-arguments-calls]
+  : Node("int32_publisher_cpp")
+    ^
+/opt/ros/foxy/include/rclcpp/node.hpp:88:5: note: default parameter was declared here
+    const NodeOptions & options = NodeOptions());
+    ^
+/home/devpc/Desktop/microros_ws/src/uros/micro-ROS-demos/rclcpp/int32_publisher/main.cpp:29:10: warning: calling a function that uses a default argument is disallowed [fuchsia-default-arguments-calls]
+  : Node("int32_publisher_cpp")
+         ^
+/usr/lib/gcc/x86_64-linux-gnu/9/../../../../include/c++/9/bits/basic_string.h:525:39: note: default parameter was declared here
+      basic_string(const _CharT* __s, const _Alloc& __a = _Alloc())
+                                      ^
+/home/devpc/Desktop/microros_ws/src/uros/micro-ROS-demos/rclcpp/int32_publisher/main.cpp:31:21: warning: 10 is a magic number; consider replacing it with a named constant [cppcoreguidelines-avoid-magic-numbers]
+    rclcpp::QoS qos(10);
+                    ^
+/home/devpc/Desktop/microros_ws/src/uros/micro-ROS-demos/rclcpp/int32_publisher/main.cpp:31:21: warning: 10 is a magic number; consider replacing it with a named constant [readability-magic-numbers]
+/home/devpc/Desktop/microros_ws/src/uros/micro-ROS-demos/rclcpp/int32_publisher/main.cpp:32:18: warning: calling a function that uses a default argument is disallowed [fuchsia-default-arguments-calls]
+    publisher_ = this->create_publisher<std_msgs::msg::Int32>("std_msgs_msg_Int32", qos);
+                 ^
+/opt/ros/foxy/include/rclcpp/node_impl.hpp:74:3: note: default parameter was declared here
+  const PublisherOptionsWithAllocator<AllocatorT> & options)
+  ^
+/home/devpc/Desktop/microros_ws/src/uros/micro-ROS-demos/rclcpp/int32_publisher/main.cpp:32:63: warning: calling a function that uses a default argument is disallowed [fuchsia-default-arguments-calls]
+    publisher_ = this->create_publisher<std_msgs::msg::Int32>("std_msgs_msg_Int32", qos);
+                                                              ^
+/usr/lib/gcc/x86_64-linux-gnu/9/../../../../include/c++/9/bits/basic_string.h:525:39: note: default parameter was declared here
+      basic_string(const _CharT* __s, const _Alloc& __a = _Alloc())
+                                      ^
+/home/devpc/Desktop/microros_ws/src/uros/micro-ROS-demos/rclcpp/int32_publisher/main.cpp:33:14: warning: calling a function that uses a default argument is disallowed [fuchsia-default-arguments-calls]
+    timer_ = this->create_wall_timer(
+             ^
+/opt/ros/foxy/include/rclcpp/node_impl.hpp:112:3: note: default parameter was declared here
+  rclcpp::CallbackGroup::SharedPtr group)
+  ^
+/home/devpc/Desktop/microros_ws/src/uros/micro-ROS-demos/rclcpp/int32_publisher/main.cpp:34:14: warning: prefer a lambda to std::bind [modernize-avoid-bind]
+      500ms, std::bind(&int32_publisher_node::timer_callback, this));
+             ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+             [this] { timer_callback(); }
+/home/devpc/Desktop/microros_ws/src/uros/micro-ROS-demos/rclcpp/int32_publisher/main.cpp:51:5: warning: use a trailing return type for this function [modernize-use-trailing-return-type]
+int main(int argc, char * argv[])
+~~~ ^
+auto                              -> int
+/home/devpc/Desktop/microros_ws/src/uros/micro-ROS-demos/rclcpp/int32_publisher/main.cpp:53:3: warning: calling a function that uses a default argument is disallowed [fuchsia-default-arguments-calls]
+  rclcpp::init(argc, argv);
+  ^
+/opt/ros/foxy/include/rclcpp/utilities.hpp:56:43: note: default parameter was declared here
+init(int argc, char const * const argv[], const InitOptions & init_options = InitOptions());
+                                          ^
+/home/devpc/Desktop/microros_ws/src/uros/micro-ROS-demos/rclcpp/int32_publisher/main.cpp:55:3: warning: calling a function that uses a default argument is disallowed [fuchsia-default-arguments-calls]
+  rclcpp::shutdown();
+  ^
+/opt/ros/foxy/include/rclcpp/utilities.hpp:178:3: note: default parameter was declared here
+  rclcpp::Context::SharedPtr context = nullptr,
+  ^
+/opt/ros/foxy/include/rclcpp/experimental/intra_process_manager.hpp:400:53: warning: Moved-from object 'message' is moved [clang-analyzer-cplusplus.Move]
+        subscription->provide_intra_process_message(std::move(message));
+                                                    ^
+/home/devpc/Desktop/microros_ws/src/uros/micro-ROS-demos/rclcpp/int32_publisher/main.cpp:41:5: note: Calling 'Publisher::publish'
+    publisher_->publish(count_);
+    ^
+/opt/ros/foxy/include/rclcpp/publisher.hpp:212:9: note: Assuming field 'intra_process_is_enabled_' is true
+    if (!intra_process_is_enabled_) {
+        ^
+/opt/ros/foxy/include/rclcpp/publisher.hpp:212:5: note: Taking false branch
+    if (!intra_process_is_enabled_) {
+    ^
+/opt/ros/foxy/include/rclcpp/publisher.hpp:222:5: note: Calling 'Publisher::publish'
+    this->publish(std::move(unique_msg));
+    ^
+/opt/ros/foxy/include/rclcpp/publisher.hpp:187:10: note: Field 'intra_process_is_enabled_' is true
+    if (!intra_process_is_enabled_) {
+         ^
+/opt/ros/foxy/include/rclcpp/publisher.hpp:187:5: note: Taking false branch
+    if (!intra_process_is_enabled_) {
+    ^
+/opt/ros/foxy/include/rclcpp/publisher.hpp:198:7: note: Assuming the condition is false
+      get_subscription_count() > get_intra_process_subscription_count();
+      ^
+/opt/ros/foxy/include/rclcpp/publisher.hpp:200:9: note: 'inter_process_publish_needed' is false
+    if (inter_process_publish_needed) {
+        ^
+/opt/ros/foxy/include/rclcpp/publisher.hpp:200:5: note: Taking false branch
+    if (inter_process_publish_needed) {
+    ^
+/opt/ros/foxy/include/rclcpp/publisher.hpp:204:7: note: Calling 'Publisher::do_intra_process_publish'
+      this->do_intra_process_publish(std::move(msg));
+      ^
+/opt/ros/foxy/include/rclcpp/publisher.hpp:336:5: note: Taking false branch
+    if (!ipm) {
+    ^
+/opt/ros/foxy/include/rclcpp/publisher.hpp:340:5: note: Taking false branch
+    if (!msg) {
+    ^
+/opt/ros/foxy/include/rclcpp/publisher.hpp:344:5: note: Calling 'IntraProcessManager::do_intra_process_publish'
+    ipm->template do_intra_process_publish<MessageT, AllocatorT>(
+    ^
+/opt/ros/foxy/include/rclcpp/experimental/intra_process_manager.hpp:192:5: note: Taking false branch
+    if (publisher_it == pub_to_subs_.end()) {
+    ^
+/opt/ros/foxy/include/rclcpp/experimental/intra_process_manager.hpp:201:9: note: Assuming the condition is false
+    if (sub_ids.take_ownership_subscriptions.empty()) {
+        ^
+/opt/ros/foxy/include/rclcpp/experimental/intra_process_manager.hpp:201:5: note: Taking false branch
+    if (sub_ids.take_ownership_subscriptions.empty()) {
+    ^
+/opt/ros/foxy/include/rclcpp/experimental/intra_process_manager.hpp:404:27: warning: Method called on moved-from object 'message' [clang-analyzer-cplusplus.Move]
+        Deleter deleter = message.get_deleter();
+                          ^
+/home/devpc/Desktop/microros_ws/src/uros/micro-ROS-demos/rclcpp/int32_publisher/main.cpp:41:5: note: Calling 'Publisher::publish'
+    publisher_->publish(count_);
+    ^
+/opt/ros/foxy/include/rclcpp/publisher.hpp:212:9: note: Assuming field 'intra_process_is_enabled_' is true
+    if (!intra_process_is_enabled_) {
+        ^
+/opt/ros/foxy/include/rclcpp/publisher.hpp:212:5: note: Taking false branch
+    if (!intra_process_is_enabled_) {
+    ^
+/opt/ros/foxy/include/rclcpp/publisher.hpp:222:5: note: Calling 'Publisher::publish'
+    this->publish(std::move(unique_msg));
+    ^
+/opt/ros/foxy/include/rclcpp/publisher.hpp:187:10: note: Field 'intra_process_is_enabled_' is true
+    if (!intra_process_is_enabled_) {
+         ^
+/opt/ros/foxy/include/rclcpp/publisher.hpp:187:5: note: Taking false branch
+    if (!intra_process_is_enabled_) {
+    ^
+/opt/ros/foxy/include/rclcpp/publisher.hpp:198:7: note: Assuming the condition is false
+      get_subscription_count() > get_intra_process_subscription_count();
+      ^
+/opt/ros/foxy/include/rclcpp/publisher.hpp:200:9: note: 'inter_process_publish_needed' is false
+    if (inter_process_publish_needed) {
+        ^
+/opt/ros/foxy/include/rclcpp/publisher.hpp:200:5: note: Taking false branch
+    if (inter_process_publish_needed) {
+    ^
+/opt/ros/foxy/include/rclcpp/publisher.hpp:204:7: note: Calling 'Publisher::do_intra_process_publish'
+      this->do_intra_process_publish(std::move(msg));
+      ^
+/opt/ros/foxy/include/rclcpp/publisher.hpp:336:5: note: Taking false branch
+    if (!ipm) {
+    ^
+/opt/ros/foxy/include/rclcpp/publisher.hpp:340:5: note: Taking false branch
+    if (!msg) {
+    ^
+/opt/ros/foxy/include/rclcpp/publisher.hpp:344:5: note: Calling 'IntraProcessManager::do_intra_process_publish'
+    ipm->template do_intra_process_publish<MessageT, AllocatorT>(
+    ^
+/opt/ros/foxy/include/rclcpp/experimental/intra_process_manager.hpp:192:5: note: Taking false branch
+    if (publisher_it == pub_to_subs_.end()) {
+    ^
+/opt/ros/foxy/include/rclcpp/experimental/intra_process_manager.hpp:201:9: note: Assuming the condition is false
+    if (sub_ids.take_ownership_subscriptions.empty()) {
+        ^
+/opt/ros/foxy/include/rclcpp/experimental/intra_process_manager.hpp:201:5: note: Taking false branch
+    if (sub_ids.take_ownership_subscriptions.empty()) {
+    ^
+/home/devpc/Desktop/microros_ws/src/uros/micro-ROS-demos/rclcpp/RAD0_control/main.cpp:26:5: warning: calling a function that uses a default argument is disallowed [fuchsia-default-arguments-calls]
+  : Node("rad0_control_cpp")
+    ^
+/opt/ros/foxy/include/rclcpp/node.hpp:88:5: note: default parameter was declared here
+    const NodeOptions & options = NodeOptions());
+    ^
+/home/devpc/Desktop/microros_ws/src/uros/micro-ROS-demos/rclcpp/RAD0_control/main.cpp:26:10: warning: calling a function that uses a default argument is disallowed [fuchsia-default-arguments-calls]
+  : Node("rad0_control_cpp")
+         ^
+/usr/lib/gcc/x86_64-linux-gnu/9/../../../../include/c++/9/bits/basic_string.h:525:39: note: default parameter was declared here
+      basic_string(const _CharT* __s, const _Alloc& __a = _Alloc())
+                                      ^
+/home/devpc/Desktop/microros_ws/src/uros/micro-ROS-demos/rclcpp/RAD0_control/main.cpp:28:21: warning: 10 is a magic number; consider replacing it with a named constant [cppcoreguidelines-avoid-magic-numbers]
+    rclcpp::QoS qos(10);
+                    ^
+/home/devpc/Desktop/microros_ws/src/uros/micro-ROS-demos/rclcpp/RAD0_control/main.cpp:28:21: warning: 10 is a magic number; consider replacing it with a named constant [readability-magic-numbers]
+/home/devpc/Desktop/microros_ws/src/uros/micro-ROS-demos/rclcpp/RAD0_control/main.cpp:29:31: warning: calling a function that uses a default argument is disallowed [fuchsia-default-arguments-calls]
+    engine_power_publisher_ = this->create_publisher<std_msgs::msg::Int32>(
+                              ^
+/opt/ros/foxy/include/rclcpp/node_impl.hpp:74:3: note: default parameter was declared here
+  const PublisherOptionsWithAllocator<AllocatorT> & options)
+  ^
+/home/devpc/Desktop/microros_ws/src/uros/micro-ROS-demos/rclcpp/RAD0_control/main.cpp:30:7: warning: calling a function that uses a default argument is disallowed [fuchsia-default-arguments-calls]
+      "std_msgs_msg_Int32", qos);
+      ^
+/usr/lib/gcc/x86_64-linux-gnu/9/../../../../include/c++/9/bits/basic_string.h:525:39: note: default parameter was declared here
+      basic_string(const _CharT* __s, const _Alloc& __a = _Alloc())
+                                      ^
+/home/devpc/Desktop/microros_ws/src/uros/micro-ROS-demos/rclcpp/RAD0_control/main.cpp:31:23: warning: calling a function that uses a default argument is disallowed [fuchsia-default-arguments-calls]
+    warn_publisher_ = this->create_publisher<std_msgs::msg::String>(
+                      ^
+/opt/ros/foxy/include/rclcpp/node_impl.hpp:74:3: note: default parameter was declared here
+  const PublisherOptionsWithAllocator<AllocatorT> & options)
+  ^
+/home/devpc/Desktop/microros_ws/src/uros/micro-ROS-demos/rclcpp/RAD0_control/main.cpp:32:7: warning: calling a function that uses a default argument is disallowed [fuchsia-default-arguments-calls]
+      "std_msgs_msg_String", qos);
+      ^
+/usr/lib/gcc/x86_64-linux-gnu/9/../../../../include/c++/9/bits/basic_string.h:525:39: note: default parameter was declared here
+      basic_string(const _CharT* __s, const _Alloc& __a = _Alloc())
+                                      ^
+/home/devpc/Desktop/microros_ws/src/uros/micro-ROS-demos/rclcpp/RAD0_control/main.cpp:34:30: warning: calling a function that uses a default argument is disallowed [fuchsia-default-arguments-calls]
+    altitude_subscription_ = this->create_subscription<std_msgs::msg::Float64>(
+                             ^
+/opt/ros/foxy/include/rclcpp/node_impl.hpp:95:3: note: default parameter was declared here
+  const SubscriptionOptionsWithAllocator<AllocatorT> & options,
+  ^
+/home/devpc/Desktop/microros_ws/src/uros/micro-ROS-demos/rclcpp/RAD0_control/main.cpp:35:7: warning: calling a function that uses a default argument is disallowed [fuchsia-default-arguments-calls]
+      "std_msgs_msg_Float64", qos, std::bind(&ExternalNode::topic_callback, this, _1));
+      ^
+/usr/lib/gcc/x86_64-linux-gnu/9/../../../../include/c++/9/bits/basic_string.h:525:39: note: default parameter was declared here
+      basic_string(const _CharT* __s, const _Alloc& __a = _Alloc())
+                                      ^
+/home/devpc/Desktop/microros_ws/src/uros/micro-ROS-demos/rclcpp/RAD0_control/main.cpp:35:36: warning: prefer a lambda to std::bind [modernize-avoid-bind]
+      "std_msgs_msg_Float64", qos, std::bind(&ExternalNode::topic_callback, this, _1));
+                                   ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+                                   [this](auto && PH1) { topic_callback(PH1); }
+/home/devpc/Desktop/microros_ws/src/uros/micro-ROS-demos/rclcpp/RAD0_control/main.cpp:43:63: warning: the const qualified parameter 'msg' is copied for each invocation; consider making it a reference [performance-unnecessary-value-param]
+  void topic_callback(const std_msgs::msg::Float64::SharedPtr msg)
+                                                              ^
+                                                             &
+/home/devpc/Desktop/microros_ws/src/uros/micro-ROS-demos/rclcpp/RAD0_control/main.cpp:46:22: warning: 500 is a magic number; consider replacing it with a named constant [cppcoreguidelines-avoid-magic-numbers]
+    if (msg->data <= 500) {
+                     ^
+/home/devpc/Desktop/microros_ws/src/uros/micro-ROS-demos/rclcpp/RAD0_control/main.cpp:46:22: warning: 500 is a magic number; consider replacing it with a named constant [readability-magic-numbers]
+/home/devpc/Desktop/microros_ws/src/uros/micro-ROS-demos/rclcpp/RAD0_control/main.cpp:48:24: warning: calling a function that uses a default argument is disallowed [fuchsia-default-arguments-calls]
+        auto message = std_msgs::msg::String();
+                       ^
+/opt/ros/foxy/include/std_msgs/msg/detail/string__struct.hpp:35:20: note: default parameter was declared here
+  explicit String_(rosidl_runtime_cpp::MessageInitialization _init = rosidl_runtime_cpp::MessageInitialization::ALL)
+                   ^
+/home/devpc/Desktop/microros_ws/src/uros/micro-ROS-demos/rclcpp/RAD0_control/main.cpp:50:9: warning: do not implicitly decay an array into a pointer; consider using gsl::array_view or an explicit cast instead [cppcoreguidelines-pro-bounds-array-to-pointer-decay]
+        RCLCPP_INFO(this->get_logger(), "Publishing: '%s'", message.data.c_str());
+        ^
+/opt/ros/foxy/include/rclcpp/logging.hpp:542:5: note: expanded from macro 'RCLCPP_INFO'
+    RCUTILS_LOG_INFO_NAMED( \
+    ^
+/opt/ros/foxy/include/rcutils/logging_macros.h:500:3: note: expanded from macro 'RCUTILS_LOG_INFO_NAMED'
+  RCUTILS_LOG_COND_NAMED( \
+  ^
+/opt/ros/foxy/include/rcutils/logging_macros.h:68:5: note: expanded from macro 'RCUTILS_LOG_COND_NAMED'
+    RCUTILS_LOGGING_AUTOINIT \
+    ^
+/opt/ros/foxy/include/rcutils/logging.h:525:37: note: expanded from macro 'RCUTILS_LOGGING_AUTOINIT'
+      RCUTILS_SAFE_FWRITE_TO_STDERR(rcutils_get_error_string().str); \
+                                    ^
+/home/devpc/Desktop/microros_ws/src/uros/micro-ROS-demos/rclcpp/RAD0_control/main.cpp:50:9: warning: do not call c-style vararg functions [cppcoreguidelines-pro-type-vararg]
+        RCLCPP_INFO(this->get_logger(), "Publishing: '%s'", message.data.c_str());
+        ^
+/opt/ros/foxy/include/rclcpp/logging.hpp:542:5: note: expanded from macro 'RCLCPP_INFO'
+    RCUTILS_LOG_INFO_NAMED( \
+    ^
+/opt/ros/foxy/include/rcutils/logging_macros.h:500:3: note: expanded from macro 'RCUTILS_LOG_INFO_NAMED'
+  RCUTILS_LOG_COND_NAMED( \
+  ^
+/opt/ros/foxy/include/rcutils/logging_macros.h:72:7: note: expanded from macro 'RCUTILS_LOG_COND_NAMED'
+      rcutils_log(&__rcutils_logging_location, severity, name, __VA_ARGS__); \
+      ^
+/home/devpc/Desktop/microros_ws/src/uros/micro-ROS-demos/rclcpp/RAD0_control/main.cpp:50:9: warning: do not implicitly decay an array into a pointer; consider using gsl::array_view or an explicit cast instead [hicpp-no-array-decay]
+        RCLCPP_INFO(this->get_logger(), "Publishing: '%s'", message.data.c_str());
+        ^
+/opt/ros/foxy/include/rclcpp/logging.hpp:542:5: note: expanded from macro 'RCLCPP_INFO'
+    RCUTILS_LOG_INFO_NAMED( \
+    ^
+/opt/ros/foxy/include/rcutils/logging_macros.h:500:3: note: expanded from macro 'RCUTILS_LOG_INFO_NAMED'
+  RCUTILS_LOG_COND_NAMED( \
+  ^
+/opt/ros/foxy/include/rcutils/logging_macros.h:69:65: note: expanded from macro 'RCUTILS_LOG_COND_NAMED'
+    static rcutils_log_location_t __rcutils_logging_location = {__func__, __FILE__, __LINE__}; \
+                                                                ^
+/home/devpc/Desktop/microros_ws/src/uros/micro-ROS-demos/rclcpp/RAD0_control/main.cpp:50:9: warning: do not call c-style vararg functions [hicpp-vararg]
+        RCLCPP_INFO(this->get_logger(), "Publishing: '%s'", message.data.c_str());
+        ^
+/opt/ros/foxy/include/rclcpp/logging.hpp:542:5: note: expanded from macro 'RCLCPP_INFO'
+    RCUTILS_LOG_INFO_NAMED( \
+    ^
+/opt/ros/foxy/include/rcutils/logging_macros.h:500:3: note: expanded from macro 'RCUTILS_LOG_INFO_NAMED'
+  RCUTILS_LOG_COND_NAMED( \
+  ^
+/opt/ros/foxy/include/rcutils/logging_macros.h:72:7: note: expanded from macro 'RCUTILS_LOG_COND_NAMED'
+      rcutils_log(&__rcutils_logging_location, severity, name, __VA_ARGS__); \
+      ^
+/home/devpc/Desktop/microros_ws/src/uros/micro-ROS-demos/rclcpp/RAD0_control/main.cpp:55:24: warning: calling a function that uses a default argument is disallowed [fuchsia-default-arguments-calls]
+        auto message = std_msgs::msg::Int32();
+                       ^
+/opt/ros/foxy/include/std_msgs/msg/detail/int32__struct.hpp:35:19: note: default parameter was declared here
+  explicit Int32_(rosidl_runtime_cpp::MessageInitialization _init = rosidl_runtime_cpp::MessageInitialization::ALL)
+                  ^
+/home/devpc/Desktop/microros_ws/src/uros/micro-ROS-demos/rclcpp/RAD0_control/main.cpp:56:24: warning: 10 is a magic number; consider replacing it with a named constant [cppcoreguidelines-avoid-magic-numbers]
+        message.data = 10;
+                       ^
+/home/devpc/Desktop/microros_ws/src/uros/micro-ROS-demos/rclcpp/RAD0_control/main.cpp:56:24: warning: 10 is a magic number; consider replacing it with a named constant [readability-magic-numbers]
+/home/devpc/Desktop/microros_ws/src/uros/micro-ROS-demos/rclcpp/RAD0_control/main.cpp:60:29: warning: 1000 is a magic number; consider replacing it with a named constant [cppcoreguidelines-avoid-magic-numbers]
+    } else if (msg->data <= 1000) {
+                            ^
+/home/devpc/Desktop/microros_ws/src/uros/micro-ROS-demos/rclcpp/RAD0_control/main.cpp:60:29: warning: 1000 is a magic number; consider replacing it with a named constant [readability-magic-numbers]
+/home/devpc/Desktop/microros_ws/src/uros/micro-ROS-demos/rclcpp/RAD0_control/main.cpp:62:24: warning: calling a function that uses a default argument is disallowed [fuchsia-default-arguments-calls]
+        auto message = std_msgs::msg::String();
+                       ^
+/opt/ros/foxy/include/std_msgs/msg/detail/string__struct.hpp:35:20: note: default parameter was declared here
+  explicit String_(rosidl_runtime_cpp::MessageInitialization _init = rosidl_runtime_cpp::MessageInitialization::ALL)
+                   ^
+/home/devpc/Desktop/microros_ws/src/uros/micro-ROS-demos/rclcpp/RAD0_control/main.cpp:64:9: warning: do not implicitly decay an array into a pointer; consider using gsl::array_view or an explicit cast instead [cppcoreguidelines-pro-bounds-array-to-pointer-decay]
+        RCLCPP_INFO(this->get_logger(), "Publishing: '%s'", message.data.c_str());
+        ^
+/opt/ros/foxy/include/rclcpp/logging.hpp:542:5: note: expanded from macro 'RCLCPP_INFO'
+    RCUTILS_LOG_INFO_NAMED( \
+    ^
+/opt/ros/foxy/include/rcutils/logging_macros.h:500:3: note: expanded from macro 'RCUTILS_LOG_INFO_NAMED'
+  RCUTILS_LOG_COND_NAMED( \
+  ^
+/opt/ros/foxy/include/rcutils/logging_macros.h:68:5: note: expanded from macro 'RCUTILS_LOG_COND_NAMED'
+    RCUTILS_LOGGING_AUTOINIT \
+    ^
+/opt/ros/foxy/include/rcutils/logging.h:525:37: note: expanded from macro 'RCUTILS_LOGGING_AUTOINIT'
+      RCUTILS_SAFE_FWRITE_TO_STDERR(rcutils_get_error_string().str); \
+                                    ^
+/home/devpc/Desktop/microros_ws/src/uros/micro-ROS-demos/rclcpp/RAD0_control/main.cpp:64:9: warning: do not call c-style vararg functions [cppcoreguidelines-pro-type-vararg]
+        RCLCPP_INFO(this->get_logger(), "Publishing: '%s'", message.data.c_str());
+        ^
+/opt/ros/foxy/include/rclcpp/logging.hpp:542:5: note: expanded from macro 'RCLCPP_INFO'
+    RCUTILS_LOG_INFO_NAMED( \
+    ^
+/opt/ros/foxy/include/rcutils/logging_macros.h:500:3: note: expanded from macro 'RCUTILS_LOG_INFO_NAMED'
+  RCUTILS_LOG_COND_NAMED( \
+  ^
+/opt/ros/foxy/include/rcutils/logging_macros.h:72:7: note: expanded from macro 'RCUTILS_LOG_COND_NAMED'
+      rcutils_log(&__rcutils_logging_location, severity, name, __VA_ARGS__); \
+      ^
+/home/devpc/Desktop/microros_ws/src/uros/micro-ROS-demos/rclcpp/RAD0_control/main.cpp:64:9: warning: do not implicitly decay an array into a pointer; consider using gsl::array_view or an explicit cast instead [hicpp-no-array-decay]
+        RCLCPP_INFO(this->get_logger(), "Publishing: '%s'", message.data.c_str());
+        ^
+/opt/ros/foxy/include/rclcpp/logging.hpp:542:5: note: expanded from macro 'RCLCPP_INFO'
+    RCUTILS_LOG_INFO_NAMED( \
+    ^
+/opt/ros/foxy/include/rcutils/logging_macros.h:500:3: note: expanded from macro 'RCUTILS_LOG_INFO_NAMED'
+  RCUTILS_LOG_COND_NAMED( \
+  ^
+/opt/ros/foxy/include/rcutils/logging_macros.h:68:5: note: expanded from macro 'RCUTILS_LOG_COND_NAMED'
+    RCUTILS_LOGGING_AUTOINIT \
+    ^
+/opt/ros/foxy/include/rcutils/logging.h:525:37: note: expanded from macro 'RCUTILS_LOGGING_AUTOINIT'
+      RCUTILS_SAFE_FWRITE_TO_STDERR(rcutils_get_error_string().str); \
+                                    ^
+/home/devpc/Desktop/microros_ws/src/uros/micro-ROS-demos/rclcpp/RAD0_control/main.cpp:64:9: warning: do not call c-style vararg functions [hicpp-vararg]
+        RCLCPP_INFO(this->get_logger(), "Publishing: '%s'", message.data.c_str());
+        ^
+/opt/ros/foxy/include/rclcpp/logging.hpp:542:5: note: expanded from macro 'RCLCPP_INFO'
+    RCUTILS_LOG_INFO_NAMED( \
+    ^
+/opt/ros/foxy/include/rcutils/logging_macros.h:500:3: note: expanded from macro 'RCUTILS_LOG_INFO_NAMED'
+  RCUTILS_LOG_COND_NAMED( \
+  ^
+/opt/ros/foxy/include/rcutils/logging_macros.h:72:7: note: expanded from macro 'RCUTILS_LOG_COND_NAMED'
+      rcutils_log(&__rcutils_logging_location, severity, name, __VA_ARGS__); \
+      ^
+/home/devpc/Desktop/microros_ws/src/uros/micro-ROS-demos/rclcpp/RAD0_control/main.cpp:69:24: warning: calling a function that uses a default argument is disallowed [fuchsia-default-arguments-calls]
+        auto message = std_msgs::msg::Int32();
+                       ^
+/opt/ros/foxy/include/std_msgs/msg/detail/int32__struct.hpp:35:19: note: default parameter was declared here
+  explicit Int32_(rosidl_runtime_cpp::MessageInitialization _init = rosidl_runtime_cpp::MessageInitialization::ALL)
+                  ^
+/home/devpc/Desktop/microros_ws/src/uros/micro-ROS-demos/rclcpp/RAD0_control/main.cpp:70:24: warning: 5 is a magic number; consider replacing it with a named constant [cppcoreguidelines-avoid-magic-numbers]
+        message.data = 5;
+                       ^
+/home/devpc/Desktop/microros_ws/src/uros/micro-ROS-demos/rclcpp/RAD0_control/main.cpp:70:24: warning: 5 is a magic number; consider replacing it with a named constant [readability-magic-numbers]
+/home/devpc/Desktop/microros_ws/src/uros/micro-ROS-demos/rclcpp/RAD0_control/main.cpp:77:5: warning: use a trailing return type for this function [modernize-use-trailing-return-type]
+int main(int argc, char * argv[])
+~~~ ^
+auto                              -> int
+/home/devpc/Desktop/microros_ws/src/uros/micro-ROS-demos/rclcpp/RAD0_control/main.cpp:79:3: warning: calling a function that uses a default argument is disallowed [fuchsia-default-arguments-calls]
+  rclcpp::init(argc, argv);
+  ^
+/opt/ros/foxy/include/rclcpp/utilities.hpp:56:43: note: default parameter was declared here
+init(int argc, char const * const argv[], const InitOptions & init_options = InitOptions());
+                                          ^
+/home/devpc/Desktop/microros_ws/src/uros/micro-ROS-demos/rclcpp/RAD0_control/main.cpp:81:3: warning: calling a function that uses a default argument is disallowed [fuchsia-default-arguments-calls]
+  rclcpp::shutdown();
+  ^
+/opt/ros/foxy/include/rclcpp/utilities.hpp:178:3: note: default parameter was declared here
+  rclcpp::Context::SharedPtr context = nullptr,
+  ^
+/home/devpc/Desktop/microros_ws/src/uros/micro-ROS-demos/rclcpp/int32_subscriber/main.cpp:18:1: warning: #includes are not sorted properly [llvm-include-order]
+#include <memory>
+^        ~~~~~~~~
+         <cstdio>
+/home/devpc/Desktop/microros_ws/src/uros/micro-ROS-demos/rclcpp/int32_subscriber/main.cpp:27:5: warning: calling a function that uses a default argument is disallowed [fuchsia-default-arguments-calls]
+  : Node("int32_subscriber_cpp")
+    ^
+/opt/ros/foxy/include/rclcpp/node.hpp:88:5: note: default parameter was declared here
+    const NodeOptions & options = NodeOptions());
+    ^
+/home/devpc/Desktop/microros_ws/src/uros/micro-ROS-demos/rclcpp/int32_subscriber/main.cpp:27:10: warning: calling a function that uses a default argument is disallowed [fuchsia-default-arguments-calls]
+  : Node("int32_subscriber_cpp")
+         ^
+/usr/lib/gcc/x86_64-linux-gnu/9/../../../../include/c++/9/bits/basic_string.h:525:39: note: default parameter was declared here
+      basic_string(const _CharT* __s, const _Alloc& __a = _Alloc())
+                                      ^
+/home/devpc/Desktop/microros_ws/src/uros/micro-ROS-demos/rclcpp/int32_subscriber/main.cpp:29:21: warning: 10 is a magic number; consider replacing it with a named constant [cppcoreguidelines-avoid-magic-numbers]
+    rclcpp::QoS qos(10);
+                    ^
+/home/devpc/Desktop/microros_ws/src/uros/micro-ROS-demos/rclcpp/int32_subscriber/main.cpp:29:21: warning: 10 is a magic number; consider replacing it with a named constant [readability-magic-numbers]
+/home/devpc/Desktop/microros_ws/src/uros/micro-ROS-demos/rclcpp/int32_subscriber/main.cpp:30:21: warning: calling a function that uses a default argument is disallowed [fuchsia-default-arguments-calls]
+    subscription_ = this->create_subscription<std_msgs::msg::Int32>("std_msgs_msg_Int32", qos,
+                    ^
+/opt/ros/foxy/include/rclcpp/node_impl.hpp:95:3: note: default parameter was declared here
+  const SubscriptionOptionsWithAllocator<AllocatorT> & options,
+  ^
+/home/devpc/Desktop/microros_ws/src/uros/micro-ROS-demos/rclcpp/int32_subscriber/main.cpp:30:69: warning: calling a function that uses a default argument is disallowed [fuchsia-default-arguments-calls]
+    subscription_ = this->create_subscription<std_msgs::msg::Int32>("std_msgs_msg_Int32", qos,
+                                                                    ^
+/usr/lib/gcc/x86_64-linux-gnu/9/../../../../include/c++/9/bits/basic_string.h:525:39: note: default parameter was declared here
+      basic_string(const _CharT* __s, const _Alloc& __a = _Alloc())
+                                      ^
+/home/devpc/Desktop/microros_ws/src/uros/micro-ROS-demos/rclcpp/int32_subscriber/main.cpp:31:9: warning: prefer a lambda to std::bind [modernize-avoid-bind]
+        std::bind(&int32_subscriber_node::topic_callback, this, _1));
+        ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+        [this](auto && PH1) { topic_callback(PH1); }
+/home/devpc/Desktop/microros_ws/src/uros/micro-ROS-demos/rclcpp/int32_subscriber/main.cpp:39:8: warning: method 'topic_callback' can be made static [readability-convert-member-functions-to-static]
+  void topic_callback(const std_msgs::msg::Int32::SharedPtr msg)
+       ^
+  static 
+/home/devpc/Desktop/microros_ws/src/uros/micro-ROS-demos/rclcpp/int32_subscriber/main.cpp:39:61: warning: the const qualified parameter 'msg' is copied for each invocation; consider making it a reference [performance-unnecessary-value-param]
+  void topic_callback(const std_msgs::msg::Int32::SharedPtr msg)
+                                                            ^
+                                                           &
+/home/devpc/Desktop/microros_ws/src/uros/micro-ROS-demos/rclcpp/int32_subscriber/main.cpp:45:5: warning: use a trailing return type for this function [modernize-use-trailing-return-type]
+int main(int argc, char * argv[])
+~~~ ^
+auto                              -> int
+/home/devpc/Desktop/microros_ws/src/uros/micro-ROS-demos/rclcpp/int32_subscriber/main.cpp:47:3: warning: calling a function that uses a default argument is disallowed [fuchsia-default-arguments-calls]
+  rclcpp::init(argc, argv);
+  ^
+/opt/ros/foxy/include/rclcpp/utilities.hpp:56:43: note: default parameter was declared here
+init(int argc, char const * const argv[], const InitOptions & init_options = InitOptions());
+                                          ^
+/home/devpc/Desktop/microros_ws/src/uros/micro-ROS-demos/rclcpp/int32_subscriber/main.cpp:49:3: warning: calling a function that uses a default argument is disallowed [fuchsia-default-arguments-calls]
+  rclcpp::shutdown();
+  ^
+/opt/ros/foxy/include/rclcpp/utilities.hpp:178:3: note: default parameter was declared here
+  rclcpp::Context::SharedPtr context = nullptr,
+  ^
+/home/devpc/Desktop/microros_ws/src/uros/micro-ROS-demos/rclcpp/complex_msg_subscriber/main.cpp:18:1: warning: #includes are not sorted properly [llvm-include-order]
+#include <memory>
+^        ~~~~~~~~
+         <cstdio>
+/home/devpc/Desktop/microros_ws/src/uros/micro-ROS-demos/rclcpp/complex_msg_subscriber/main.cpp:27:5: warning: calling a function that uses a default argument is disallowed [fuchsia-default-arguments-calls]
+  : Node("complex_msg_subscriber_cpp")
+    ^
+/opt/ros/foxy/include/rclcpp/node.hpp:88:5: note: default parameter was declared here
+    const NodeOptions & options = NodeOptions());
+    ^
+/home/devpc/Desktop/microros_ws/src/uros/micro-ROS-demos/rclcpp/complex_msg_subscriber/main.cpp:27:10: warning: calling a function that uses a default argument is disallowed [fuchsia-default-arguments-calls]
+  : Node("complex_msg_subscriber_cpp")
+         ^
+/usr/lib/gcc/x86_64-linux-gnu/9/../../../../include/c++/9/bits/basic_string.h:525:39: note: default parameter was declared here
+      basic_string(const _CharT* __s, const _Alloc& __a = _Alloc())
+                                      ^
+/home/devpc/Desktop/microros_ws/src/uros/micro-ROS-demos/rclcpp/complex_msg_subscriber/main.cpp:29:21: warning: calling a function that uses a default argument is disallowed [fuchsia-default-arguments-calls]
+    subscription_ = this->create_subscription<complex_msgs::msg::NestedMsgTest>(
+                    ^
+/opt/ros/foxy/include/rclcpp/node_impl.hpp:95:3: note: default parameter was declared here
+  const SubscriptionOptionsWithAllocator<AllocatorT> & options,
+  ^
+/home/devpc/Desktop/microros_ws/src/uros/micro-ROS-demos/rclcpp/complex_msg_subscriber/main.cpp:30:7: warning: calling a function that uses a default argument is disallowed [fuchsia-default-arguments-calls]
+      "complex_msgs_msg_NestedMsgTest", rclcpp::SystemDefaultsQoS(),
+      ^
+/usr/lib/gcc/x86_64-linux-gnu/9/../../../../include/c++/9/bits/basic_string.h:525:39: note: default parameter was declared here
+      basic_string(const _CharT* __s, const _Alloc& __a = _Alloc())
+                                      ^
+/home/devpc/Desktop/microros_ws/src/uros/micro-ROS-demos/rclcpp/complex_msg_subscriber/main.cpp:30:41: warning: calling a function that uses a default argument is disallowed [fuchsia-default-arguments-calls]
+      "complex_msgs_msg_NestedMsgTest", rclcpp::SystemDefaultsQoS(),
+                                        ^
+/opt/ros/foxy/include/rclcpp/qos.hpp:270:5: note: default parameter was declared here
+    const QoSInitialization & qos_initialization = (
+    ^
+/home/devpc/Desktop/microros_ws/src/uros/micro-ROS-demos/rclcpp/complex_msg_subscriber/main.cpp:31:7: warning: prefer a lambda to std::bind [modernize-avoid-bind]
+      std::bind(&complex_msg_subscriber_cpp_node::topic_callback, this, _1));
+      ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+      [this](auto && PH1) { topic_callback(PH1); }
+/home/devpc/Desktop/microros_ws/src/uros/micro-ROS-demos/rclcpp/complex_msg_subscriber/main.cpp:37:8: warning: method 'topic_callback' can be made static [readability-convert-member-functions-to-static]
+  void topic_callback(const complex_msgs::msg::NestedMsgTest::SharedPtr msg)
+       ^
+  static 
+/home/devpc/Desktop/microros_ws/src/uros/micro-ROS-demos/rclcpp/complex_msg_subscriber/main.cpp:37:73: warning: the const qualified parameter 'msg' is copied for each invocation; consider making it a reference [performance-unnecessary-value-param]
+  void topic_callback(const complex_msgs::msg::NestedMsgTest::SharedPtr msg)
+                                                                        ^
+                                                                       &
+/home/devpc/Desktop/microros_ws/src/uros/micro-ROS-demos/rclcpp/complex_msg_subscriber/main.cpp:40:47: warning: implicit conversion bool -> 'int' [readability-implicit-bool-conversion]
+    std::cout << "\tBool: " << std::to_string(msg->data1) << std::endl;
+                                              ^
+                                              static_cast<int>( )
+/home/devpc/Desktop/microros_ws/src/uros/micro-ROS-demos/rclcpp/complex_msg_subscriber/main.cpp:62:5: warning: use a trailing return type for this function [modernize-use-trailing-return-type]
+int main(int argc, char * argv[])
+~~~ ^
+auto                              -> int
+/home/devpc/Desktop/microros_ws/src/uros/micro-ROS-demos/rclcpp/complex_msg_subscriber/main.cpp:64:3: warning: calling a function that uses a default argument is disallowed [fuchsia-default-arguments-calls]
+  rclcpp::init(argc, argv);
+  ^
+/opt/ros/foxy/include/rclcpp/utilities.hpp:56:43: note: default parameter was declared here
+init(int argc, char const * const argv[], const InitOptions & init_options = InitOptions());
+                                          ^
+/home/devpc/Desktop/microros_ws/src/uros/micro-ROS-demos/rclcpp/complex_msg_subscriber/main.cpp:66:3: warning: calling a function that uses a default argument is disallowed [fuchsia-default-arguments-calls]
+  rclcpp::shutdown();
+  ^
+/opt/ros/foxy/include/rclcpp/utilities.hpp:178:3: note: default parameter was declared here
+  rclcpp::Context::SharedPtr context = nullptr,
+  ^

@@ -1,0 +1,188 @@
+[0.063s] Invoking command in '/home/devpc/Desktop/microros_ws/build/std_srvs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/devpc/Desktop/microros_ws/install/sensor_msgs_py:/home/devpc/Desktop/quad_ws/install/quad:/opt/ros/foxy /usr/bin/cmake --build /home/devpc/Desktop/microros_ws/build/std_srvs -- -j8 -l8
+[0.180s] [  1%] Built target std_srvs__cpp
+[0.198s] [ 10%] Built target std_srvs__rosidl_generator_c
+[0.254s] [ 18%] Built target std_srvs__rosidl_typesupport_microxrcedds_cpp
+[0.291s] [ 27%] Built target std_srvs__rosidl_typesupport_cpp
+[0.304s] [ 35%] Built target std_srvs__rosidl_typesupport_fastrtps_cpp
+[0.311s] [ 44%] Built target std_srvs__rosidl_typesupport_introspection_cpp
+[0.319s] [ 52%] Built target std_srvs__rosidl_typesupport_c
+[0.366s] [ 61%] Built target std_srvs__rosidl_typesupport_microxrcedds_c
+[0.395s] [ 69%] Built target std_srvs__rosidl_typesupport_introspection_c
+[0.407s] [ 77%] Built target std_srvs__rosidl_typesupport_fastrtps_c
+[0.446s] [ 77%] Built target std_srvs
+[0.506s] [ 79%] Built target std_srvs__py
+[0.529s] [ 86%] Built target std_srvs__python
+[0.592s] [ 89%] Built target std_srvs__rosidl_typesupport_introspection_c__pyext
+[0.598s] [ 93%] Built target std_srvs__rosidl_typesupport_fastrtps_c__pyext
+[0.610s] [ 96%] Built target std_srvs__rosidl_typesupport_microxrcedds_c__pyext
+[0.614s] [100%] Built target std_srvs__rosidl_typesupport_c__pyext
+[0.651s] Invoked command in '/home/devpc/Desktop/microros_ws/build/std_srvs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/devpc/Desktop/microros_ws/install/sensor_msgs_py:/home/devpc/Desktop/quad_ws/install/quad:/opt/ros/foxy /usr/bin/cmake --build /home/devpc/Desktop/microros_ws/build/std_srvs -- -j8 -l8
+[0.898s] Invoking command in '/home/devpc/Desktop/microros_ws/build/std_srvs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/devpc/Desktop/microros_ws/install/sensor_msgs_py:/home/devpc/Desktop/quad_ws/install/quad:/opt/ros/foxy /usr/bin/cmake --install /home/devpc/Desktop/microros_ws/build/std_srvs
+[0.912s] -- Install configuration: ""
+[0.913s] -- Up-to-date: /home/devpc/Desktop/microros_ws/install/std_srvs/share/ament_index/resource_index/rosidl_interfaces/std_srvs
+[0.915s] -- Up-to-date: /home/devpc/Desktop/microros_ws/install/std_srvs/include/std_srvs
+[0.916s] -- Up-to-date: /home/devpc/Desktop/microros_ws/install/std_srvs/include/std_srvs/msg
+[0.918s] -- Up-to-date: /home/devpc/Desktop/microros_ws/install/std_srvs/include/std_srvs/msg/rosidl_generator_c__visibility_control.h
+[0.918s] -- Up-to-date: /home/devpc/Desktop/microros_ws/install/std_srvs/include/std_srvs/srv
+[0.918s] -- Up-to-date: /home/devpc/Desktop/microros_ws/install/std_srvs/include/std_srvs/srv/detail
+[0.921s] -- Up-to-date: /home/devpc/Desktop/microros_ws/install/std_srvs/include/std_srvs/srv/detail/trigger__type_support.h
+[0.921s] -- Up-to-date: /home/devpc/Desktop/microros_ws/install/std_srvs/include/std_srvs/srv/detail/set_bool__functions.h
+[0.921s] -- Up-to-date: /home/devpc/Desktop/microros_ws/install/std_srvs/include/std_srvs/srv/detail/empty__struct.h
+[0.921s] -- Up-to-date: /home/devpc/Desktop/microros_ws/install/std_srvs/include/std_srvs/srv/detail/empty__type_support.h
+[0.921s] -- Up-to-date: /home/devpc/Desktop/microros_ws/install/std_srvs/include/std_srvs/srv/detail/set_bool__functions.c
+[0.921s] -- Up-to-date: /home/devpc/Desktop/microros_ws/install/std_srvs/include/std_srvs/srv/detail/trigger__functions.c
+[0.921s] -- Up-to-date: /home/devpc/Desktop/microros_ws/install/std_srvs/include/std_srvs/srv/detail/set_bool__struct.h
+[0.922s] -- Up-to-date: /home/devpc/Desktop/microros_ws/install/std_srvs/include/std_srvs/srv/detail/empty__functions.c
+[0.922s] -- Up-to-date: /home/devpc/Desktop/microros_ws/install/std_srvs/include/std_srvs/srv/detail/empty__functions.h
+[0.922s] -- Up-to-date: /home/devpc/Desktop/microros_ws/install/std_srvs/include/std_srvs/srv/detail/set_bool__type_support.h
+[0.922s] -- Up-to-date: /home/devpc/Desktop/microros_ws/install/std_srvs/include/std_srvs/srv/detail/trigger__struct.h
+[0.922s] -- Up-to-date: /home/devpc/Desktop/microros_ws/install/std_srvs/include/std_srvs/srv/detail/trigger__functions.h
+[0.922s] -- Up-to-date: /home/devpc/Desktop/microros_ws/install/std_srvs/include/std_srvs/srv/set_bool.h
+[0.922s] -- Up-to-date: /home/devpc/Desktop/microros_ws/install/std_srvs/include/std_srvs/srv/empty.h
+[0.922s] -- Up-to-date: /home/devpc/Desktop/microros_ws/install/std_srvs/include/std_srvs/srv/trigger.h
+[0.923s] -- Up-to-date: /home/devpc/Desktop/microros_ws/install/std_srvs/share/std_srvs/environment/library_path.sh
+[0.923s] -- Up-to-date: /home/devpc/Desktop/microros_ws/install/std_srvs/share/std_srvs/environment/library_path.dsv
+[0.923s] -- Up-to-date: /home/devpc/Desktop/microros_ws/install/std_srvs/lib/libstd_srvs__rosidl_generator_c.so
+[0.923s] -- Up-to-date: /home/devpc/Desktop/microros_ws/install/std_srvs/include/std_srvs
+[0.923s] -- Up-to-date: /home/devpc/Desktop/microros_ws/install/std_srvs/include/std_srvs/msg
+[0.923s] -- Up-to-date: /home/devpc/Desktop/microros_ws/install/std_srvs/include/std_srvs/msg/rosidl_typesupport_microxrcedds_c__visibility_control.h
+[0.923s] -- Up-to-date: /home/devpc/Desktop/microros_ws/install/std_srvs/include/std_srvs/srv
+[0.923s] -- Up-to-date: /home/devpc/Desktop/microros_ws/install/std_srvs/include/std_srvs/srv/detail
+[0.924s] -- Up-to-date: /home/devpc/Desktop/microros_ws/install/std_srvs/include/std_srvs/srv/detail/trigger__rosidl_typesupport_microxrcedds_c.h
+[0.924s] -- Up-to-date: /home/devpc/Desktop/microros_ws/install/std_srvs/include/std_srvs/srv/detail/empty__rosidl_typesupport_microxrcedds_c.h
+[0.924s] -- Up-to-date: /home/devpc/Desktop/microros_ws/install/std_srvs/include/std_srvs/srv/detail/set_bool__rosidl_typesupport_microxrcedds_c.h
+[0.924s] -- Up-to-date: /home/devpc/Desktop/microros_ws/install/std_srvs/include/std_srvs/srv/detail/microxrcedds
+[0.924s] -- Up-to-date: /home/devpc/Desktop/microros_ws/install/std_srvs/lib/libstd_srvs__rosidl_typesupport_microxrcedds_c.so
+[0.924s] -- Up-to-date: /home/devpc/Desktop/microros_ws/install/std_srvs/include/std_srvs
+[0.924s] -- Up-to-date: /home/devpc/Desktop/microros_ws/install/std_srvs/include/std_srvs/msg
+[0.924s] -- Up-to-date: /home/devpc/Desktop/microros_ws/install/std_srvs/include/std_srvs/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[0.925s] -- Up-to-date: /home/devpc/Desktop/microros_ws/install/std_srvs/include/std_srvs/srv
+[0.925s] -- Up-to-date: /home/devpc/Desktop/microros_ws/install/std_srvs/include/std_srvs/srv/detail
+[0.925s] -- Up-to-date: /home/devpc/Desktop/microros_ws/install/std_srvs/include/std_srvs/srv/detail/set_bool__rosidl_typesupport_fastrtps_c.h
+[0.925s] -- Up-to-date: /home/devpc/Desktop/microros_ws/install/std_srvs/include/std_srvs/srv/detail/empty__rosidl_typesupport_fastrtps_c.h
+[0.925s] -- Up-to-date: /home/devpc/Desktop/microros_ws/install/std_srvs/include/std_srvs/srv/detail/trigger__rosidl_typesupport_fastrtps_c.h
+[0.925s] -- Up-to-date: /home/devpc/Desktop/microros_ws/install/std_srvs/lib/libstd_srvs__rosidl_typesupport_fastrtps_c.so
+[0.926s] -- Up-to-date: /home/devpc/Desktop/microros_ws/install/std_srvs/include/std_srvs
+[0.926s] -- Up-to-date: /home/devpc/Desktop/microros_ws/install/std_srvs/include/std_srvs/msg
+[0.926s] -- Up-to-date: /home/devpc/Desktop/microros_ws/install/std_srvs/include/std_srvs/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[0.926s] -- Up-to-date: /home/devpc/Desktop/microros_ws/install/std_srvs/include/std_srvs/srv
+[0.926s] -- Up-to-date: /home/devpc/Desktop/microros_ws/install/std_srvs/include/std_srvs/srv/detail
+[0.934s] -- Up-to-date: /home/devpc/Desktop/microros_ws/install/std_srvs/include/std_srvs/srv/detail/set_bool__rosidl_typesupport_fastrtps_cpp.hpp
+[0.934s] -- Up-to-date: /home/devpc/Desktop/microros_ws/install/std_srvs/include/std_srvs/srv/detail/empty__rosidl_typesupport_fastrtps_cpp.hpp
+[0.934s] -- Up-to-date: /home/devpc/Desktop/microros_ws/install/std_srvs/include/std_srvs/srv/detail/dds_fastrtps
+[0.934s] -- Up-to-date: /home/devpc/Desktop/microros_ws/install/std_srvs/include/std_srvs/srv/detail/trigger__rosidl_typesupport_fastrtps_cpp.hpp
+[0.935s] -- Up-to-date: /home/devpc/Desktop/microros_ws/install/std_srvs/lib/libstd_srvs__rosidl_typesupport_fastrtps_cpp.so
+[0.935s] -- Up-to-date: /home/devpc/Desktop/microros_ws/install/std_srvs/include/std_srvs
+[0.935s] -- Up-to-date: /home/devpc/Desktop/microros_ws/install/std_srvs/include/std_srvs/msg
+[0.936s] -- Up-to-date: /home/devpc/Desktop/microros_ws/install/std_srvs/include/std_srvs/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[0.936s] -- Up-to-date: /home/devpc/Desktop/microros_ws/install/std_srvs/include/std_srvs/srv
+[0.936s] -- Up-to-date: /home/devpc/Desktop/microros_ws/install/std_srvs/include/std_srvs/srv/detail
+[0.936s] -- Up-to-date: /home/devpc/Desktop/microros_ws/install/std_srvs/include/std_srvs/srv/detail/empty__rosidl_typesupport_introspection_c.h
+[0.936s] -- Up-to-date: /home/devpc/Desktop/microros_ws/install/std_srvs/include/std_srvs/srv/detail/empty__type_support.c
+[0.937s] -- Up-to-date: /home/devpc/Desktop/microros_ws/install/std_srvs/include/std_srvs/srv/detail/set_bool__type_support.c
+[0.937s] -- Up-to-date: /home/devpc/Desktop/microros_ws/install/std_srvs/include/std_srvs/srv/detail/set_bool__rosidl_typesupport_introspection_c.h
+[0.937s] -- Up-to-date: /home/devpc/Desktop/microros_ws/install/std_srvs/include/std_srvs/srv/detail/trigger__type_support.c
+[0.939s] -- Up-to-date: /home/devpc/Desktop/microros_ws/install/std_srvs/include/std_srvs/srv/detail/trigger__rosidl_typesupport_introspection_c.h
+[0.941s] -- Up-to-date: /home/devpc/Desktop/microros_ws/install/std_srvs/lib/libstd_srvs__rosidl_typesupport_introspection_c.so
+[0.942s] -- Up-to-date: /home/devpc/Desktop/microros_ws/install/std_srvs/lib/libstd_srvs__rosidl_typesupport_c.so
+[0.944s] -- Up-to-date: /home/devpc/Desktop/microros_ws/install/std_srvs/include/std_srvs
+[0.944s] -- Up-to-date: /home/devpc/Desktop/microros_ws/install/std_srvs/include/std_srvs/srv
+[0.944s] -- Up-to-date: /home/devpc/Desktop/microros_ws/install/std_srvs/include/std_srvs/srv/detail
+[0.944s] -- Up-to-date: /home/devpc/Desktop/microros_ws/install/std_srvs/include/std_srvs/srv/detail/empty__builder.hpp
+[0.945s] -- Up-to-date: /home/devpc/Desktop/microros_ws/install/std_srvs/include/std_srvs/srv/detail/trigger__traits.hpp
+[0.945s] -- Up-to-date: /home/devpc/Desktop/microros_ws/install/std_srvs/include/std_srvs/srv/detail/empty__struct.hpp
+[0.945s] -- Up-to-date: /home/devpc/Desktop/microros_ws/install/std_srvs/include/std_srvs/srv/detail/trigger__struct.hpp
+[0.946s] -- Up-to-date: /home/devpc/Desktop/microros_ws/install/std_srvs/include/std_srvs/srv/detail/empty__traits.hpp
+[0.946s] -- Up-to-date: /home/devpc/Desktop/microros_ws/install/std_srvs/include/std_srvs/srv/detail/set_bool__traits.hpp
+[0.946s] -- Up-to-date: /home/devpc/Desktop/microros_ws/install/std_srvs/include/std_srvs/srv/detail/set_bool__struct.hpp
+[0.946s] -- Up-to-date: /home/devpc/Desktop/microros_ws/install/std_srvs/include/std_srvs/srv/detail/set_bool__builder.hpp
+[0.946s] -- Up-to-date: /home/devpc/Desktop/microros_ws/install/std_srvs/include/std_srvs/srv/detail/trigger__builder.hpp
+[0.947s] -- Up-to-date: /home/devpc/Desktop/microros_ws/install/std_srvs/include/std_srvs/srv/set_bool.hpp
+[0.947s] -- Up-to-date: /home/devpc/Desktop/microros_ws/install/std_srvs/include/std_srvs/srv/empty.hpp
+[0.947s] -- Up-to-date: /home/devpc/Desktop/microros_ws/install/std_srvs/include/std_srvs/srv/trigger.hpp
+[0.948s] -- Up-to-date: /home/devpc/Desktop/microros_ws/install/std_srvs/include/std_srvs
+[0.949s] -- Up-to-date: /home/devpc/Desktop/microros_ws/install/std_srvs/include/std_srvs/msg
+[0.949s] -- Up-to-date: /home/devpc/Desktop/microros_ws/install/std_srvs/include/std_srvs/msg/rosidl_typesupport_microxrcedds_cpp__visibility_control.h
+[0.949s] -- Up-to-date: /home/devpc/Desktop/microros_ws/install/std_srvs/include/std_srvs/srv
+[0.950s] -- Up-to-date: /home/devpc/Desktop/microros_ws/install/std_srvs/include/std_srvs/srv/detail
+[0.950s] -- Up-to-date: /home/devpc/Desktop/microros_ws/install/std_srvs/include/std_srvs/srv/detail/set_bool__rosidl_typesupport_microxrcedds_cpp.hpp
+[0.950s] -- Up-to-date: /home/devpc/Desktop/microros_ws/install/std_srvs/include/std_srvs/srv/detail/empty__rosidl_typesupport_microxrcedds_cpp.hpp
+[0.951s] -- Up-to-date: /home/devpc/Desktop/microros_ws/install/std_srvs/include/std_srvs/srv/detail/microxrcedds
+[0.951s] -- Up-to-date: /home/devpc/Desktop/microros_ws/install/std_srvs/include/std_srvs/srv/detail/microxrcedds/empty__type_support_cpp.cpp
+[0.953s] -- Up-to-date: /home/devpc/Desktop/microros_ws/install/std_srvs/include/std_srvs/srv/detail/microxrcedds/set_bool__type_support_cpp.cpp
+[0.953s] -- Up-to-date: /home/devpc/Desktop/microros_ws/install/std_srvs/include/std_srvs/srv/detail/microxrcedds/trigger__type_support_cpp.cpp
+[0.953s] -- Up-to-date: /home/devpc/Desktop/microros_ws/install/std_srvs/include/std_srvs/srv/detail/trigger__rosidl_typesupport_microxrcedds_cpp.hpp
+[0.954s] -- Up-to-date: /home/devpc/Desktop/microros_ws/install/std_srvs/lib/libstd_srvs__rosidl_typesupport_microxrcedds_cpp.so
+[0.954s] -- Up-to-date: /home/devpc/Desktop/microros_ws/install/std_srvs/include/std_srvs
+[0.955s] -- Up-to-date: /home/devpc/Desktop/microros_ws/install/std_srvs/include/std_srvs/srv
+[0.955s] -- Up-to-date: /home/devpc/Desktop/microros_ws/install/std_srvs/include/std_srvs/srv/detail
+[0.956s] -- Up-to-date: /home/devpc/Desktop/microros_ws/install/std_srvs/include/std_srvs/srv/detail/empty__type_support.cpp
+[0.956s] -- Up-to-date: /home/devpc/Desktop/microros_ws/install/std_srvs/include/std_srvs/srv/detail/set_bool__rosidl_typesupport_introspection_cpp.hpp
+[0.959s] -- Up-to-date: /home/devpc/Desktop/microros_ws/install/std_srvs/include/std_srvs/srv/detail/set_bool__type_support.cpp
+[0.959s] -- Up-to-date: /home/devpc/Desktop/microros_ws/install/std_srvs/include/std_srvs/srv/detail/empty__rosidl_typesupport_introspection_cpp.hpp
+[0.960s] -- Up-to-date: /home/devpc/Desktop/microros_ws/install/std_srvs/include/std_srvs/srv/detail/trigger__rosidl_typesupport_introspection_cpp.hpp
+[0.960s] -- Up-to-date: /home/devpc/Desktop/microros_ws/install/std_srvs/include/std_srvs/srv/detail/trigger__type_support.cpp
+[0.960s] -- Up-to-date: /home/devpc/Desktop/microros_ws/install/std_srvs/lib/libstd_srvs__rosidl_typesupport_introspection_cpp.so
+[0.961s] -- Up-to-date: /home/devpc/Desktop/microros_ws/install/std_srvs/lib/libstd_srvs__rosidl_typesupport_cpp.so
+[0.962s] -- Up-to-date: /home/devpc/Desktop/microros_ws/install/std_srvs/share/std_srvs/environment/pythonpath.sh
+[0.964s] -- Up-to-date: /home/devpc/Desktop/microros_ws/install/std_srvs/share/std_srvs/environment/pythonpath.dsv
+[0.965s] -- Up-to-date: /home/devpc/Desktop/microros_ws/install/std_srvs/lib/python3.8/site-packages/std_srvs/__init__.py
+[1.046s] -- Up-to-date: /home/devpc/Desktop/microros_ws/install/std_srvs/lib/python3.8/site-packages/std_srvs/srv
+[1.046s] -- Up-to-date: /home/devpc/Desktop/microros_ws/install/std_srvs/lib/python3.8/site-packages/std_srvs/srv/_empty.py
+[1.046s] -- Up-to-date: /home/devpc/Desktop/microros_ws/install/std_srvs/lib/python3.8/site-packages/std_srvs/srv/_empty_s.c
+[1.046s] -- Up-to-date: /home/devpc/Desktop/microros_ws/install/std_srvs/lib/python3.8/site-packages/std_srvs/srv/_set_bool_s.c
+[1.048s] -- Up-to-date: /home/devpc/Desktop/microros_ws/install/std_srvs/lib/python3.8/site-packages/std_srvs/srv/__init__.py
+[1.049s] -- Up-to-date: /home/devpc/Desktop/microros_ws/install/std_srvs/lib/python3.8/site-packages/std_srvs/srv/_set_bool.py
+[1.054s] -- Up-to-date: /home/devpc/Desktop/microros_ws/install/std_srvs/lib/python3.8/site-packages/std_srvs/srv/_trigger.py
+[1.055s] -- Up-to-date: /home/devpc/Desktop/microros_ws/install/std_srvs/lib/python3.8/site-packages/std_srvs/srv/_trigger_s.c
+[1.055s] -- Up-to-date: /home/devpc/Desktop/microros_ws/install/std_srvs/lib/python3.8/site-packages/std_srvs/std_srvs_s__rosidl_typesupport_microxrcedds_c.cpython-38-x86_64-linux-gnu.so
+[1.055s] -- Up-to-date: /home/devpc/Desktop/microros_ws/install/std_srvs/lib/python3.8/site-packages/std_srvs/std_srvs_s__rosidl_typesupport_fastrtps_c.cpython-38-x86_64-linux-gnu.so
+[1.055s] -- Up-to-date: /home/devpc/Desktop/microros_ws/install/std_srvs/lib/python3.8/site-packages/std_srvs/std_srvs_s__rosidl_typesupport_introspection_c.cpython-38-x86_64-linux-gnu.so
+[1.055s] -- Up-to-date: /home/devpc/Desktop/microros_ws/install/std_srvs/lib/python3.8/site-packages/std_srvs/std_srvs_s__rosidl_typesupport_c.cpython-38-x86_64-linux-gnu.so
+[1.055s] -- Up-to-date: /home/devpc/Desktop/microros_ws/install/std_srvs/lib/libstd_srvs__python.so
+[1.056s] -- Up-to-date: /home/devpc/Desktop/microros_ws/install/std_srvs/share/std_srvs/srv/Empty.idl
+[1.056s] -- Up-to-date: /home/devpc/Desktop/microros_ws/install/std_srvs/share/std_srvs/srv/SetBool.idl
+[1.056s] -- Up-to-date: /home/devpc/Desktop/microros_ws/install/std_srvs/share/std_srvs/srv/Trigger.idl
+[1.057s] -- Up-to-date: /home/devpc/Desktop/microros_ws/install/std_srvs/share/std_srvs/srv/Empty.srv
+[1.057s] -- Up-to-date: /home/devpc/Desktop/microros_ws/install/std_srvs/share/std_srvs/srv/Empty_Request.msg
+[1.057s] -- Up-to-date: /home/devpc/Desktop/microros_ws/install/std_srvs/share/std_srvs/srv/Empty_Response.msg
+[1.057s] -- Up-to-date: /home/devpc/Desktop/microros_ws/install/std_srvs/share/std_srvs/srv/SetBool.srv
+[1.057s] -- Up-to-date: /home/devpc/Desktop/microros_ws/install/std_srvs/share/std_srvs/srv/SetBool_Request.msg
+[1.057s] -- Up-to-date: /home/devpc/Desktop/microros_ws/install/std_srvs/share/std_srvs/srv/SetBool_Response.msg
+[1.057s] -- Up-to-date: /home/devpc/Desktop/microros_ws/install/std_srvs/share/std_srvs/srv/Trigger.srv
+[1.058s] -- Up-to-date: /home/devpc/Desktop/microros_ws/install/std_srvs/share/std_srvs/srv/Trigger_Request.msg
+[1.058s] -- Up-to-date: /home/devpc/Desktop/microros_ws/install/std_srvs/share/std_srvs/srv/Trigger_Response.msg
+[1.058s] -- Up-to-date: /home/devpc/Desktop/microros_ws/install/std_srvs/share/ament_index/resource_index/package_run_dependencies/std_srvs
+[1.058s] -- Up-to-date: /home/devpc/Desktop/microros_ws/install/std_srvs/share/ament_index/resource_index/parent_prefix_path/std_srvs
+[1.058s] -- Up-to-date: /home/devpc/Desktop/microros_ws/install/std_srvs/share/std_srvs/environment/ament_prefix_path.sh
+[1.058s] -- Up-to-date: /home/devpc/Desktop/microros_ws/install/std_srvs/share/std_srvs/environment/ament_prefix_path.dsv
+[1.058s] -- Up-to-date: /home/devpc/Desktop/microros_ws/install/std_srvs/share/std_srvs/environment/path.sh
+[1.059s] -- Up-to-date: /home/devpc/Desktop/microros_ws/install/std_srvs/share/std_srvs/environment/path.dsv
+[1.059s] -- Up-to-date: /home/devpc/Desktop/microros_ws/install/std_srvs/share/std_srvs/local_setup.bash
+[1.059s] -- Up-to-date: /home/devpc/Desktop/microros_ws/install/std_srvs/share/std_srvs/local_setup.sh
+[1.059s] -- Up-to-date: /home/devpc/Desktop/microros_ws/install/std_srvs/share/std_srvs/local_setup.zsh
+[1.059s] -- Up-to-date: /home/devpc/Desktop/microros_ws/install/std_srvs/share/std_srvs/local_setup.dsv
+[1.059s] -- Installing: /home/devpc/Desktop/microros_ws/install/std_srvs/share/std_srvs/package.dsv
+[1.060s] -- Up-to-date: /home/devpc/Desktop/microros_ws/install/std_srvs/share/ament_index/resource_index/packages/std_srvs
+[1.060s] -- Up-to-date: /home/devpc/Desktop/microros_ws/install/std_srvs/share/std_srvs/cmake/std_srvs__rosidl_generator_cExport.cmake
+[1.060s] -- Up-to-date: /home/devpc/Desktop/microros_ws/install/std_srvs/share/std_srvs/cmake/std_srvs__rosidl_generator_cExport-noconfig.cmake
+[1.060s] -- Up-to-date: /home/devpc/Desktop/microros_ws/install/std_srvs/share/std_srvs/cmake/std_srvs__rosidl_typesupport_introspection_cExport.cmake
+[1.061s] -- Up-to-date: /home/devpc/Desktop/microros_ws/install/std_srvs/share/std_srvs/cmake/std_srvs__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[1.062s] -- Up-to-date: /home/devpc/Desktop/microros_ws/install/std_srvs/share/std_srvs/cmake/std_srvs__rosidl_typesupport_cExport.cmake
+[1.062s] -- Up-to-date: /home/devpc/Desktop/microros_ws/install/std_srvs/share/std_srvs/cmake/std_srvs__rosidl_typesupport_cExport-noconfig.cmake
+[1.062s] -- Up-to-date: /home/devpc/Desktop/microros_ws/install/std_srvs/share/std_srvs/cmake/std_srvs__rosidl_generator_cppExport.cmake
+[1.063s] -- Up-to-date: /home/devpc/Desktop/microros_ws/install/std_srvs/share/std_srvs/cmake/std_srvs__rosidl_typesupport_introspection_cppExport.cmake
+[1.063s] -- Up-to-date: /home/devpc/Desktop/microros_ws/install/std_srvs/share/std_srvs/cmake/std_srvs__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[1.063s] -- Up-to-date: /home/devpc/Desktop/microros_ws/install/std_srvs/share/std_srvs/cmake/std_srvs__rosidl_typesupport_cppExport.cmake
+[1.063s] -- Up-to-date: /home/devpc/Desktop/microros_ws/install/std_srvs/share/std_srvs/cmake/std_srvs__rosidl_typesupport_cppExport-noconfig.cmake
+[1.063s] -- Up-to-date: /home/devpc/Desktop/microros_ws/install/std_srvs/share/std_srvs/cmake/rosidl_cmake-extras.cmake
+[1.064s] -- Up-to-date: /home/devpc/Desktop/microros_ws/install/std_srvs/share/std_srvs/cmake/ament_cmake_export_dependencies-extras.cmake
+[1.064s] -- Up-to-date: /home/devpc/Desktop/microros_ws/install/std_srvs/share/std_srvs/cmake/ament_cmake_export_libraries-extras.cmake
+[1.064s] -- Up-to-date: /home/devpc/Desktop/microros_ws/install/std_srvs/share/std_srvs/cmake/ament_cmake_export_targets-extras.cmake
+[1.065s] -- Up-to-date: /home/devpc/Desktop/microros_ws/install/std_srvs/share/std_srvs/cmake/ament_cmake_export_include_directories-extras.cmake
+[1.065s] -- Up-to-date: /home/devpc/Desktop/microros_ws/install/std_srvs/share/std_srvs/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[1.065s] -- Up-to-date: /home/devpc/Desktop/microros_ws/install/std_srvs/share/std_srvs/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[1.065s] -- Up-to-date: /home/devpc/Desktop/microros_ws/install/std_srvs/share/std_srvs/cmake/std_srvsConfig.cmake
+[1.066s] -- Up-to-date: /home/devpc/Desktop/microros_ws/install/std_srvs/share/std_srvs/cmake/std_srvsConfig-version.cmake
+[1.067s] -- Up-to-date: /home/devpc/Desktop/microros_ws/install/std_srvs/share/std_srvs/package.xml
+[1.067s] Invoked command in '/home/devpc/Desktop/microros_ws/build/std_srvs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/devpc/Desktop/microros_ws/install/sensor_msgs_py:/home/devpc/Desktop/quad_ws/install/quad:/opt/ros/foxy /usr/bin/cmake --install /home/devpc/Desktop/microros_ws/build/std_srvs

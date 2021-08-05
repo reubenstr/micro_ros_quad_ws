@@ -1,0 +1,12 @@
+[01m[K/home/devpc/Desktop/microros_ws/src/uros/micro-ROS-demos/rclc/fibonacci_action_server/main.c:[m[K In function ‘[01m[Kmain[m[K’:
+[01m[K/home/devpc/Desktop/microros_ws/src/uros/micro-ROS-demos/rclc/fibonacci_action_server/main.c:87:5:[m[K [01;35m[Kwarning: [m[Kignoring return value of ‘[01m[Krcl_wait[m[K’, declared with attribute warn_unused_result [[01;35m[K-Wunused-result[m[K]
+   87 |     [01;35m[Krcl_wait(&wait_set, RCL_MS_TO_NS(200))[m[K;
+      |     [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/devpc/Desktop/microros_ws/src/uros/micro-ROS-demos/rclc/ping_pong/main.c:[m[K In function ‘[01m[Kping_timer_callback[m[K’:
+[01m[K/home/devpc/Desktop/microros_ws/src/uros/micro-ROS-demos/rclc/ping_pong/main.c:48:3:[m[K [01;35m[Kwarning: [m[Kignoring return value of ‘[01m[Krcl_publish[m[K’, declared with attribute warn_unused_result [[01;35m[K-Wunused-result[m[K]
+   48 |   [01;35m[Krcl_publish(&ping_publisher, (const void*)&outcoming_ping, NULL)[m[K;
+      |   [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/devpc/Desktop/microros_ws/src/uros/micro-ROS-demos/rclc/ping_pong/main.c:[m[K In function ‘[01m[Kping_subscription_callback[m[K’:
+[01m[K/home/devpc/Desktop/microros_ws/src/uros/micro-ROS-demos/rclc/ping_pong/main.c:60:3:[m[K [01;35m[Kwarning: [m[Kignoring return value of ‘[01m[Krcl_publish[m[K’, declared with attribute warn_unused_result [[01;35m[K-Wunused-result[m[K]
+   60 |   [01;35m[Krcl_publish(&pong_publisher, (const void*)msg, NULL)[m[K;
+      |   [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K

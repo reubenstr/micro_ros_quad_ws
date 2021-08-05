@@ -1,0 +1,15 @@
+file(REMOVE_RECURSE
+  "CMakeFiles/rosidl_typesupport_microxrcedds_test_msg__python.dir/rosidl_generator_py/rosidl_typesupport_microxrcedds_test_msg/msg/_basic_primitive_s.c.o"
+  "CMakeFiles/rosidl_typesupport_microxrcedds_test_msg__python.dir/rosidl_generator_py/rosidl_typesupport_microxrcedds_test_msg/msg/_compound_s.c.o"
+  "CMakeFiles/rosidl_typesupport_microxrcedds_test_msg__python.dir/rosidl_generator_py/rosidl_typesupport_microxrcedds_test_msg/msg/_not_enought_memory_test_s.c.o"
+  "CMakeFiles/rosidl_typesupport_microxrcedds_test_msg__python.dir/rosidl_generator_py/rosidl_typesupport_microxrcedds_test_msg/msg/_primitive_s.c.o"
+  "CMakeFiles/rosidl_typesupport_microxrcedds_test_msg__python.dir/rosidl_generator_py/rosidl_typesupport_microxrcedds_test_msg/msg/_sequence_s.c.o"
+  "CMakeFiles/rosidl_typesupport_microxrcedds_test_msg__python.dir/rosidl_generator_py/rosidl_typesupport_microxrcedds_test_msg/msg/_unbounded_string_s.c.o"
+  "rosidl_generator_py/rosidl_typesupport_microxrcedds_test_msg/librosidl_typesupport_microxrcedds_test_msg__python.pdb"
+  "rosidl_generator_py/rosidl_typesupport_microxrcedds_test_msg/librosidl_typesupport_microxrcedds_test_msg__python.so"
+)
+
+# Per-language clean rules from dependency scanning.
+foreach(lang C)
+  include(CMakeFiles/rosidl_typesupport_microxrcedds_test_msg__python.dir/cmake_clean_${lang}.cmake OPTIONAL)
+endforeach()

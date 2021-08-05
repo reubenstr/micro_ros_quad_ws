@@ -1,0 +1,34 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from drive_base_msgs/msg/CommandStatus.msg
+// generated code does not contain a copyright notice
+
+#include "builtin_interfaces/msg/Time.idl"
+#include "drive_base_msgs/msg/CommandHeader.idl"
+
+module drive_base_msgs {
+  module msg {
+    module CommandStatus_Constants {
+      const uint8 OK = 0;
+      const uint8 CAPABILITIES_EXCEEDED = 1;
+      const uint8 INVALID = 2;
+      const uint8 POWER_INSUFFICIENT = 3;
+      const uint8 TEMPORARY_FAILURE = 4;
+      const uint8 SYSTEM_FAILURE = 5;
+    };
+    @verbatim (language="comment", text=
+      " command has been accepted")
+    struct CommandStatus {
+      @verbatim (language="comment", text=
+        " timestamp of this message")
+      builtin_interfaces::msg::Time stamp;
+
+      @verbatim (language="comment", text=
+        " command this pertains to")
+      drive_base_msgs::msg::CommandHeader cmd_header;
+
+      @verbatim (language="comment", text=
+        " result of the command")
+      uint8 status;
+    };
+  };
+};

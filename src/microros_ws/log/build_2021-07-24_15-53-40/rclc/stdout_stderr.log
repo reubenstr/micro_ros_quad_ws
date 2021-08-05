@@ -1,0 +1,82 @@
+/usr/bin/cmake -S/home/devpc/Desktop/microros_ws/src/uros/rclc/rclc -B/home/devpc/Desktop/microros_ws/build/rclc --check-build-system CMakeFiles/Makefile.cmake 0
+/usr/bin/cmake -E cmake_progress_start /home/devpc/Desktop/microros_ws/build/rclc/CMakeFiles /home/devpc/Desktop/microros_ws/build/rclc/CMakeFiles/progress.marks
+/usr/bin/make -f CMakeFiles/Makefile2 all
+make[1]: Entering directory '/home/devpc/Desktop/microros_ws/build/rclc'
+/usr/bin/make -f CMakeFiles/rclc.dir/build.make CMakeFiles/rclc.dir/depend
+/usr/bin/make -f gtest/CMakeFiles/gtest_main.dir/build.make gtest/CMakeFiles/gtest_main.dir/depend
+/usr/bin/make -f gtest/CMakeFiles/gtest.dir/build.make gtest/CMakeFiles/gtest.dir/depend
+make[2]: Entering directory '/home/devpc/Desktop/microros_ws/build/rclc'
+cd /home/devpc/Desktop/microros_ws/build/rclc && /usr/bin/cmake -E cmake_depends "Unix Makefiles" /home/devpc/Desktop/microros_ws/src/uros/rclc/rclc /opt/ros/foxy/src/gtest_vendor /home/devpc/Desktop/microros_ws/build/rclc /home/devpc/Desktop/microros_ws/build/rclc/gtest /home/devpc/Desktop/microros_ws/build/rclc/gtest/CMakeFiles/gtest_main.dir/DependInfo.cmake --color=
+make[2]: Entering directory '/home/devpc/Desktop/microros_ws/build/rclc'
+cd /home/devpc/Desktop/microros_ws/build/rclc && /usr/bin/cmake -E cmake_depends "Unix Makefiles" /home/devpc/Desktop/microros_ws/src/uros/rclc/rclc /opt/ros/foxy/src/gtest_vendor /home/devpc/Desktop/microros_ws/build/rclc /home/devpc/Desktop/microros_ws/build/rclc/gtest /home/devpc/Desktop/microros_ws/build/rclc/gtest/CMakeFiles/gtest.dir/DependInfo.cmake --color=
+make[2]: Entering directory '/home/devpc/Desktop/microros_ws/build/rclc'
+cd /home/devpc/Desktop/microros_ws/build/rclc && /usr/bin/cmake -E cmake_depends "Unix Makefiles" /home/devpc/Desktop/microros_ws/src/uros/rclc/rclc /home/devpc/Desktop/microros_ws/src/uros/rclc/rclc /home/devpc/Desktop/microros_ws/build/rclc /home/devpc/Desktop/microros_ws/build/rclc /home/devpc/Desktop/microros_ws/build/rclc/CMakeFiles/rclc.dir/DependInfo.cmake --color=
+make[2]: Leaving directory '/home/devpc/Desktop/microros_ws/build/rclc'
+/usr/bin/make -f gtest/CMakeFiles/gtest_main.dir/build.make gtest/CMakeFiles/gtest_main.dir/build
+make[2]: Leaving directory '/home/devpc/Desktop/microros_ws/build/rclc'
+make[2]: Leaving directory '/home/devpc/Desktop/microros_ws/build/rclc'
+/usr/bin/make -f gtest/CMakeFiles/gtest.dir/build.make gtest/CMakeFiles/gtest.dir/build
+/usr/bin/make -f CMakeFiles/rclc.dir/build.make CMakeFiles/rclc.dir/build
+make[2]: Entering directory '/home/devpc/Desktop/microros_ws/build/rclc'
+make[2]: Nothing to be done for 'gtest/CMakeFiles/gtest_main.dir/build'.
+make[2]: Leaving directory '/home/devpc/Desktop/microros_ws/build/rclc'
+make[2]: Entering directory '/home/devpc/Desktop/microros_ws/build/rclc'
+make[2]: Nothing to be done for 'gtest/CMakeFiles/gtest.dir/build'.
+make[2]: Leaving directory '/home/devpc/Desktop/microros_ws/build/rclc'
+make[2]: Entering directory '/home/devpc/Desktop/microros_ws/build/rclc'
+make[2]: Nothing to be done for 'CMakeFiles/rclc.dir/build'.
+make[2]: Leaving directory '/home/devpc/Desktop/microros_ws/build/rclc'
+[ 16%] Built target gtest_main
+[ 16%] Built target gtest
+[ 60%] Built target rclc
+/usr/bin/make -f CMakeFiles/rclc_test.dir/build.make CMakeFiles/rclc_test.dir/depend
+make[2]: Entering directory '/home/devpc/Desktop/microros_ws/build/rclc'
+cd /home/devpc/Desktop/microros_ws/build/rclc && /usr/bin/cmake -E cmake_depends "Unix Makefiles" /home/devpc/Desktop/microros_ws/src/uros/rclc/rclc /home/devpc/Desktop/microros_ws/src/uros/rclc/rclc /home/devpc/Desktop/microros_ws/build/rclc /home/devpc/Desktop/microros_ws/build/rclc /home/devpc/Desktop/microros_ws/build/rclc/CMakeFiles/rclc_test.dir/DependInfo.cmake --color=
+make[2]: Leaving directory '/home/devpc/Desktop/microros_ws/build/rclc'
+/usr/bin/make -f CMakeFiles/rclc_test.dir/build.make CMakeFiles/rclc_test.dir/build
+make[2]: Entering directory '/home/devpc/Desktop/microros_ws/build/rclc'
+make[2]: Nothing to be done for 'CMakeFiles/rclc_test.dir/build'.
+make[2]: Leaving directory '/home/devpc/Desktop/microros_ws/build/rclc'
+[100%] Built target rclc_test
+make[1]: Leaving directory '/home/devpc/Desktop/microros_ws/build/rclc'
+/usr/bin/cmake -E cmake_progress_start /home/devpc/Desktop/microros_ws/build/rclc/CMakeFiles 0
+-- Install configuration: ""
+-- Up-to-date: /home/devpc/Desktop/microros_ws/install/rclc/lib/librclc.so
+-- Up-to-date: /home/devpc/Desktop/microros_ws/install/rclc/include
+-- Up-to-date: /home/devpc/Desktop/microros_ws/install/rclc/include/rclc
+-- Up-to-date: /home/devpc/Desktop/microros_ws/install/rclc/include/rclc/publisher.h
+-- Up-to-date: /home/devpc/Desktop/microros_ws/install/rclc/include/rclc/types.h
+-- Up-to-date: /home/devpc/Desktop/microros_ws/install/rclc/include/rclc/service.h
+-- Up-to-date: /home/devpc/Desktop/microros_ws/install/rclc/include/rclc/init.h
+-- Up-to-date: /home/devpc/Desktop/microros_ws/install/rclc/include/rclc/timer.h
+-- Up-to-date: /home/devpc/Desktop/microros_ws/install/rclc/include/rclc/node.h
+-- Up-to-date: /home/devpc/Desktop/microros_ws/install/rclc/include/rclc/rclc.h
+-- Up-to-date: /home/devpc/Desktop/microros_ws/install/rclc/include/rclc/executor.h
+-- Up-to-date: /home/devpc/Desktop/microros_ws/install/rclc/include/rclc/executor_handle.h
+-- Up-to-date: /home/devpc/Desktop/microros_ws/install/rclc/include/rclc/visibility_control.h
+-- Up-to-date: /home/devpc/Desktop/microros_ws/install/rclc/include/rclc/subscription.h
+-- Up-to-date: /home/devpc/Desktop/microros_ws/install/rclc/include/rclc/sleep.h
+-- Up-to-date: /home/devpc/Desktop/microros_ws/install/rclc/include/rclc/client.h
+-- Up-to-date: /home/devpc/Desktop/microros_ws/install/rclc/share/rclc/environment/library_path.sh
+-- Up-to-date: /home/devpc/Desktop/microros_ws/install/rclc/share/rclc/environment/library_path.dsv
+-- Up-to-date: /home/devpc/Desktop/microros_ws/install/rclc/share/ament_index/resource_index/package_run_dependencies/rclc
+-- Up-to-date: /home/devpc/Desktop/microros_ws/install/rclc/share/ament_index/resource_index/parent_prefix_path/rclc
+-- Up-to-date: /home/devpc/Desktop/microros_ws/install/rclc/share/rclc/environment/ament_prefix_path.sh
+-- Up-to-date: /home/devpc/Desktop/microros_ws/install/rclc/share/rclc/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/devpc/Desktop/microros_ws/install/rclc/share/rclc/environment/path.sh
+-- Up-to-date: /home/devpc/Desktop/microros_ws/install/rclc/share/rclc/environment/path.dsv
+-- Up-to-date: /home/devpc/Desktop/microros_ws/install/rclc/share/rclc/local_setup.bash
+-- Up-to-date: /home/devpc/Desktop/microros_ws/install/rclc/share/rclc/local_setup.sh
+-- Up-to-date: /home/devpc/Desktop/microros_ws/install/rclc/share/rclc/local_setup.zsh
+-- Up-to-date: /home/devpc/Desktop/microros_ws/install/rclc/share/rclc/local_setup.dsv
+-- Installing: /home/devpc/Desktop/microros_ws/install/rclc/share/rclc/package.dsv
+-- Up-to-date: /home/devpc/Desktop/microros_ws/install/rclc/share/ament_index/resource_index/packages/rclc
+-- Up-to-date: /home/devpc/Desktop/microros_ws/install/rclc/share/rclc/cmake/rclcExport.cmake
+-- Up-to-date: /home/devpc/Desktop/microros_ws/install/rclc/share/rclc/cmake/rclcExport-noconfig.cmake
+-- Up-to-date: /home/devpc/Desktop/microros_ws/install/rclc/share/rclc/cmake/ament_cmake_export_include_directories-extras.cmake
+-- Up-to-date: /home/devpc/Desktop/microros_ws/install/rclc/share/rclc/cmake/ament_cmake_export_libraries-extras.cmake
+-- Up-to-date: /home/devpc/Desktop/microros_ws/install/rclc/share/rclc/cmake/ament_cmake_export_targets-extras.cmake
+-- Up-to-date: /home/devpc/Desktop/microros_ws/install/rclc/share/rclc/cmake/ament_cmake_export_dependencies-extras.cmake
+-- Up-to-date: /home/devpc/Desktop/microros_ws/install/rclc/share/rclc/cmake/rclcConfig.cmake
+-- Up-to-date: /home/devpc/Desktop/microros_ws/install/rclc/share/rclc/cmake/rclcConfig-version.cmake
+-- Up-to-date: /home/devpc/Desktop/microros_ws/install/rclc/share/rclc/package.xml

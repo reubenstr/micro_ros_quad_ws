@@ -1,0 +1,13 @@
+# Target labels
+ sanitizers
+# Source files and their labels
+/home/devpc/Desktop/microros_ws/build/microxrcedds_agent/CMakeFiles/sanitizers
+/home/devpc/Desktop/microros_ws/build/microxrcedds_agent/CMakeFiles/sanitizers.rule
+/home/devpc/Desktop/microros_ws/build/microxrcedds_agent/CMakeFiles/sanitizers-complete.rule
+/home/devpc/Desktop/microros_ws/build/microxrcedds_agent/sanitizers/src/sanitizers-stamp/sanitizers-install.rule
+/home/devpc/Desktop/microros_ws/build/microxrcedds_agent/sanitizers/src/sanitizers-stamp/sanitizers-mkdir.rule
+/home/devpc/Desktop/microros_ws/build/microxrcedds_agent/sanitizers/src/sanitizers-stamp/sanitizers-download.rule
+/home/devpc/Desktop/microros_ws/build/microxrcedds_agent/sanitizers/src/sanitizers-stamp/sanitizers-update.rule
+/home/devpc/Desktop/microros_ws/build/microxrcedds_agent/sanitizers/src/sanitizers-stamp/sanitizers-patch.rule
+/home/devpc/Desktop/microros_ws/build/microxrcedds_agent/sanitizers/src/sanitizers-stamp/sanitizers-configure.rule
+/home/devpc/Desktop/microros_ws/build/microxrcedds_agent/sanitizers/src/sanitizers-stamp/sanitizers-build.rule

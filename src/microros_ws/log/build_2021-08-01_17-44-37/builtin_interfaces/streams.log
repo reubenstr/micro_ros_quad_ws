@@ -1,0 +1,182 @@
+[0.039s] Invoking command in '/home/devpc/Desktop/microros_ws/build/builtin_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/devpc/Desktop/microros_ws/install/sensor_msgs_py:/home/devpc/Desktop/quad_ws/install/teleop_twist_keyboard:/home/devpc/Desktop/quad_ws/install/teleop:/home/devpc/Desktop/quad_ws/install/quad:/home/devpc/Desktop/quad_ws/install/motion_servos_calibration:/home/devpc/Desktop/quad_ws/install/joystick_ros2:/opt/ros/foxy /usr/bin/cmake /home/devpc/Desktop/microros_ws/src/ros2/rcl_interfaces/builtin_interfaces -DUAGENT_BUILD_EXECUTABLE=OFF -DUAGENT_P2P_PROFILE=OFF --no-warn-unused-cli -DCMAKE_INSTALL_PREFIX=/home/devpc/Desktop/microros_ws/install/builtin_interfaces
+[0.057s] Not searching for unused variables given on the command line.
+[0.062s] -- Found ament_cmake: 0.9.8 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.093s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[0.093s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.400s] -- Found rosidl_default_generators: 1.0.1 (/opt/ros/foxy/share/rosidl_default_generators/cmake)
+[0.415s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_microxrcedds_c;rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.420s] -- Found rosidl_adapter: 1.2.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[0.605s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_microxrcedds_cpp;rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.677s] -- Found PythonInterp: /usr/bin/python3 (found version "3.8.10") 
+[0.863s] -- Found ament_cmake_cppcheck: 0.9.6 (/opt/ros/foxy/share/ament_cmake_cppcheck/cmake)
+[0.864s] -- Found ament_cmake_cpplint: 0.9.6 (/opt/ros/foxy/share/ament_cmake_cpplint/cmake)
+[0.865s] -- Found ament_cmake_uncrustify: 0.9.6 (/opt/ros/foxy/share/ament_cmake_uncrustify/cmake)
+[0.867s] -- Found ament_cmake_ros: 0.9.2 (/opt/ros/foxy/share/ament_cmake_ros/cmake)
+[0.995s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_microxrcedds_c;rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.021s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_microxrcedds_cpp;rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.057s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3.5") 
+[1.057s] -- Found python_cmake_module: 0.8.1 (/opt/ros/foxy/share/python_cmake_module/cmake)
+[1.091s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[1.091s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.8
+[1.092s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.8.so
+[1.136s] -- Found ament_cmake_flake8: 0.9.6 (/opt/ros/foxy/share/ament_cmake_flake8/cmake)
+[1.136s] -- Found ament_cmake_pep257: 0.9.6 (/opt/ros/foxy/share/ament_cmake_pep257/cmake)
+[1.147s] -- Configuring done
+[1.190s] -- Generating done
+[1.194s] -- Build files have been written to: /home/devpc/Desktop/microros_ws/build/builtin_interfaces
+[1.201s] Invoked command in '/home/devpc/Desktop/microros_ws/build/builtin_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/devpc/Desktop/microros_ws/install/sensor_msgs_py:/home/devpc/Desktop/quad_ws/install/teleop_twist_keyboard:/home/devpc/Desktop/quad_ws/install/teleop:/home/devpc/Desktop/quad_ws/install/quad:/home/devpc/Desktop/quad_ws/install/motion_servos_calibration:/home/devpc/Desktop/quad_ws/install/joystick_ros2:/opt/ros/foxy /usr/bin/cmake /home/devpc/Desktop/microros_ws/src/ros2/rcl_interfaces/builtin_interfaces -DUAGENT_BUILD_EXECUTABLE=OFF -DUAGENT_P2P_PROFILE=OFF --no-warn-unused-cli -DCMAKE_INSTALL_PREFIX=/home/devpc/Desktop/microros_ws/install/builtin_interfaces
+[1.204s] Invoking command in '/home/devpc/Desktop/microros_ws/build/builtin_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/devpc/Desktop/microros_ws/install/sensor_msgs_py:/home/devpc/Desktop/quad_ws/install/teleop_twist_keyboard:/home/devpc/Desktop/quad_ws/install/teleop:/home/devpc/Desktop/quad_ws/install/quad:/home/devpc/Desktop/quad_ws/install/motion_servos_calibration:/home/devpc/Desktop/quad_ws/install/joystick_ros2:/opt/ros/foxy /usr/bin/cmake --build /home/devpc/Desktop/microros_ws/build/builtin_interfaces -- -j8 -l8
+[1.275s] [  8%] Built target builtin_interfaces__rosidl_generator_c
+[1.277s] [ 10%] Built target builtin_interfaces__cpp
+[1.322s] [ 18%] Built target builtin_interfaces__rosidl_typesupport_microxrcedds_c
+[1.325s] [ 26%] Built target builtin_interfaces__rosidl_typesupport_introspection_c
+[1.326s] [ 34%] Built target builtin_interfaces__rosidl_typesupport_c
+[1.326s] [ 42%] Built target builtin_interfaces__rosidl_typesupport_introspection_cpp
+[1.328s] [ 51%] Built target builtin_interfaces__rosidl_typesupport_fastrtps_cpp
+[1.330s] [ 59%] Built target builtin_interfaces__rosidl_typesupport_cpp
+[1.337s] [ 67%] Built target builtin_interfaces__rosidl_typesupport_microxrcedds_cpp
+[1.374s] [ 75%] Built target builtin_interfaces__rosidl_typesupport_fastrtps_c
+[1.406s] [ 75%] Built target builtin_interfaces
+[1.433s] [ 77%] Built target builtin_interfaces__py
+[1.463s] [ 83%] Built target builtin_interfaces__python
+[1.499s] [ 87%] Built target builtin_interfaces__rosidl_typesupport_fastrtps_c__pyext
+[1.501s] [ 91%] Built target builtin_interfaces__rosidl_typesupport_introspection_c__pyext
+[1.502s] [ 95%] Built target builtin_interfaces__rosidl_typesupport_microxrcedds_c__pyext
+[1.503s] [100%] Built target builtin_interfaces__rosidl_typesupport_c__pyext
+[1.517s] Invoked command in '/home/devpc/Desktop/microros_ws/build/builtin_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/devpc/Desktop/microros_ws/install/sensor_msgs_py:/home/devpc/Desktop/quad_ws/install/teleop_twist_keyboard:/home/devpc/Desktop/quad_ws/install/teleop:/home/devpc/Desktop/quad_ws/install/quad:/home/devpc/Desktop/quad_ws/install/motion_servos_calibration:/home/devpc/Desktop/quad_ws/install/joystick_ros2:/opt/ros/foxy /usr/bin/cmake --build /home/devpc/Desktop/microros_ws/build/builtin_interfaces -- -j8 -l8
+[1.647s] Invoking command in '/home/devpc/Desktop/microros_ws/build/builtin_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/devpc/Desktop/microros_ws/install/sensor_msgs_py:/home/devpc/Desktop/quad_ws/install/teleop_twist_keyboard:/home/devpc/Desktop/quad_ws/install/teleop:/home/devpc/Desktop/quad_ws/install/quad:/home/devpc/Desktop/quad_ws/install/motion_servos_calibration:/home/devpc/Desktop/quad_ws/install/joystick_ros2:/opt/ros/foxy /usr/bin/cmake --install /home/devpc/Desktop/microros_ws/build/builtin_interfaces
+[1.659s] -- Install configuration: ""
+[1.659s] -- Up-to-date: /home/devpc/Desktop/microros_ws/install/builtin_interfaces/share/ament_index/resource_index/rosidl_interfaces/builtin_interfaces
+[1.660s] -- Up-to-date: /home/devpc/Desktop/microros_ws/install/builtin_interfaces/include/builtin_interfaces
+[1.660s] -- Up-to-date: /home/devpc/Desktop/microros_ws/install/builtin_interfaces/include/builtin_interfaces/msg
+[1.660s] -- Up-to-date: /home/devpc/Desktop/microros_ws/install/builtin_interfaces/include/builtin_interfaces/msg/detail
+[1.660s] -- Up-to-date: /home/devpc/Desktop/microros_ws/install/builtin_interfaces/include/builtin_interfaces/msg/detail/duration__type_support.h
+[1.660s] -- Up-to-date: /home/devpc/Desktop/microros_ws/install/builtin_interfaces/include/builtin_interfaces/msg/detail/time__type_support.h
+[1.660s] -- Up-to-date: /home/devpc/Desktop/microros_ws/install/builtin_interfaces/include/builtin_interfaces/msg/detail/time__functions.h
+[1.660s] -- Up-to-date: /home/devpc/Desktop/microros_ws/install/builtin_interfaces/include/builtin_interfaces/msg/detail/duration__functions.h
+[1.660s] -- Up-to-date: /home/devpc/Desktop/microros_ws/install/builtin_interfaces/include/builtin_interfaces/msg/detail/time__struct.h
+[1.660s] -- Up-to-date: /home/devpc/Desktop/microros_ws/install/builtin_interfaces/include/builtin_interfaces/msg/detail/time__functions.c
+[1.661s] -- Up-to-date: /home/devpc/Desktop/microros_ws/install/builtin_interfaces/include/builtin_interfaces/msg/detail/duration__struct.h
+[1.661s] -- Up-to-date: /home/devpc/Desktop/microros_ws/install/builtin_interfaces/include/builtin_interfaces/msg/detail/duration__functions.c
+[1.661s] -- Up-to-date: /home/devpc/Desktop/microros_ws/install/builtin_interfaces/include/builtin_interfaces/msg/time.h
+[1.661s] -- Up-to-date: /home/devpc/Desktop/microros_ws/install/builtin_interfaces/include/builtin_interfaces/msg/duration.h
+[1.661s] -- Up-to-date: /home/devpc/Desktop/microros_ws/install/builtin_interfaces/include/builtin_interfaces/msg/rosidl_generator_c__visibility_control.h
+[1.661s] -- Up-to-date: /home/devpc/Desktop/microros_ws/install/builtin_interfaces/share/builtin_interfaces/environment/library_path.sh
+[1.661s] -- Installing: /home/devpc/Desktop/microros_ws/install/builtin_interfaces/share/builtin_interfaces/environment/library_path.dsv
+[1.662s] -- Up-to-date: /home/devpc/Desktop/microros_ws/install/builtin_interfaces/lib/libbuiltin_interfaces__rosidl_generator_c.so
+[1.662s] -- Up-to-date: /home/devpc/Desktop/microros_ws/install/builtin_interfaces/include/builtin_interfaces
+[1.662s] -- Up-to-date: /home/devpc/Desktop/microros_ws/install/builtin_interfaces/include/builtin_interfaces/msg
+[1.662s] -- Up-to-date: /home/devpc/Desktop/microros_ws/install/builtin_interfaces/include/builtin_interfaces/msg/detail
+[1.662s] -- Up-to-date: /home/devpc/Desktop/microros_ws/install/builtin_interfaces/include/builtin_interfaces/msg/detail/time__rosidl_typesupport_microxrcedds_c.h
+[1.662s] -- Up-to-date: /home/devpc/Desktop/microros_ws/install/builtin_interfaces/include/builtin_interfaces/msg/detail/microxrcedds
+[1.663s] -- Up-to-date: /home/devpc/Desktop/microros_ws/install/builtin_interfaces/include/builtin_interfaces/msg/detail/duration__rosidl_typesupport_microxrcedds_c.h
+[1.663s] -- Up-to-date: /home/devpc/Desktop/microros_ws/install/builtin_interfaces/include/builtin_interfaces/msg/rosidl_typesupport_microxrcedds_c__visibility_control.h
+[1.663s] -- Up-to-date: /home/devpc/Desktop/microros_ws/install/builtin_interfaces/lib/libbuiltin_interfaces__rosidl_typesupport_microxrcedds_c.so
+[1.663s] -- Up-to-date: /home/devpc/Desktop/microros_ws/install/builtin_interfaces/include/builtin_interfaces
+[1.663s] -- Up-to-date: /home/devpc/Desktop/microros_ws/install/builtin_interfaces/include/builtin_interfaces/msg
+[1.663s] -- Up-to-date: /home/devpc/Desktop/microros_ws/install/builtin_interfaces/include/builtin_interfaces/msg/detail
+[1.664s] -- Up-to-date: /home/devpc/Desktop/microros_ws/install/builtin_interfaces/include/builtin_interfaces/msg/detail/duration__rosidl_typesupport_fastrtps_c.h
+[1.664s] -- Up-to-date: /home/devpc/Desktop/microros_ws/install/builtin_interfaces/include/builtin_interfaces/msg/detail/time__rosidl_typesupport_fastrtps_c.h
+[1.664s] -- Up-to-date: /home/devpc/Desktop/microros_ws/install/builtin_interfaces/include/builtin_interfaces/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[1.664s] -- Up-to-date: /home/devpc/Desktop/microros_ws/install/builtin_interfaces/lib/libbuiltin_interfaces__rosidl_typesupport_fastrtps_c.so
+[1.664s] -- Up-to-date: /home/devpc/Desktop/microros_ws/install/builtin_interfaces/include/builtin_interfaces
+[1.664s] -- Up-to-date: /home/devpc/Desktop/microros_ws/install/builtin_interfaces/include/builtin_interfaces/msg
+[1.664s] -- Up-to-date: /home/devpc/Desktop/microros_ws/install/builtin_interfaces/include/builtin_interfaces/msg/detail
+[1.665s] -- Up-to-date: /home/devpc/Desktop/microros_ws/install/builtin_interfaces/include/builtin_interfaces/msg/detail/duration__rosidl_typesupport_fastrtps_cpp.hpp
+[1.665s] -- Up-to-date: /home/devpc/Desktop/microros_ws/install/builtin_interfaces/include/builtin_interfaces/msg/detail/time__rosidl_typesupport_fastrtps_cpp.hpp
+[1.665s] -- Up-to-date: /home/devpc/Desktop/microros_ws/install/builtin_interfaces/include/builtin_interfaces/msg/detail/dds_fastrtps
+[1.665s] -- Up-to-date: /home/devpc/Desktop/microros_ws/install/builtin_interfaces/include/builtin_interfaces/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[1.665s] -- Up-to-date: /home/devpc/Desktop/microros_ws/install/builtin_interfaces/lib/libbuiltin_interfaces__rosidl_typesupport_fastrtps_cpp.so
+[1.665s] -- Up-to-date: /home/devpc/Desktop/microros_ws/install/builtin_interfaces/include/builtin_interfaces
+[1.665s] -- Up-to-date: /home/devpc/Desktop/microros_ws/install/builtin_interfaces/include/builtin_interfaces/msg
+[1.666s] -- Up-to-date: /home/devpc/Desktop/microros_ws/install/builtin_interfaces/include/builtin_interfaces/msg/detail
+[1.666s] -- Up-to-date: /home/devpc/Desktop/microros_ws/install/builtin_interfaces/include/builtin_interfaces/msg/detail/duration__type_support.c
+[1.666s] -- Up-to-date: /home/devpc/Desktop/microros_ws/install/builtin_interfaces/include/builtin_interfaces/msg/detail/time__type_support.c
+[1.666s] -- Up-to-date: /home/devpc/Desktop/microros_ws/install/builtin_interfaces/include/builtin_interfaces/msg/detail/time__rosidl_typesupport_introspection_c.h
+[1.666s] -- Up-to-date: /home/devpc/Desktop/microros_ws/install/builtin_interfaces/include/builtin_interfaces/msg/detail/duration__rosidl_typesupport_introspection_c.h
+[1.666s] -- Up-to-date: /home/devpc/Desktop/microros_ws/install/builtin_interfaces/include/builtin_interfaces/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[1.666s] -- Up-to-date: /home/devpc/Desktop/microros_ws/install/builtin_interfaces/lib/libbuiltin_interfaces__rosidl_typesupport_introspection_c.so
+[1.666s] -- Up-to-date: /home/devpc/Desktop/microros_ws/install/builtin_interfaces/lib/libbuiltin_interfaces__rosidl_typesupport_c.so
+[1.666s] -- Up-to-date: /home/devpc/Desktop/microros_ws/install/builtin_interfaces/include/builtin_interfaces
+[1.667s] -- Up-to-date: /home/devpc/Desktop/microros_ws/install/builtin_interfaces/include/builtin_interfaces/msg
+[1.667s] -- Up-to-date: /home/devpc/Desktop/microros_ws/install/builtin_interfaces/include/builtin_interfaces/msg/time.hpp
+[1.667s] -- Up-to-date: /home/devpc/Desktop/microros_ws/install/builtin_interfaces/include/builtin_interfaces/msg/duration.hpp
+[1.667s] -- Up-to-date: /home/devpc/Desktop/microros_ws/install/builtin_interfaces/include/builtin_interfaces/msg/detail
+[1.667s] -- Up-to-date: /home/devpc/Desktop/microros_ws/install/builtin_interfaces/include/builtin_interfaces/msg/detail/time__traits.hpp
+[1.667s] -- Up-to-date: /home/devpc/Desktop/microros_ws/install/builtin_interfaces/include/builtin_interfaces/msg/detail/time__struct.hpp
+[1.667s] -- Up-to-date: /home/devpc/Desktop/microros_ws/install/builtin_interfaces/include/builtin_interfaces/msg/detail/duration__builder.hpp
+[1.668s] -- Up-to-date: /home/devpc/Desktop/microros_ws/install/builtin_interfaces/include/builtin_interfaces/msg/detail/duration__traits.hpp
+[1.668s] -- Up-to-date: /home/devpc/Desktop/microros_ws/install/builtin_interfaces/include/builtin_interfaces/msg/detail/duration__struct.hpp
+[1.668s] -- Up-to-date: /home/devpc/Desktop/microros_ws/install/builtin_interfaces/include/builtin_interfaces/msg/detail/time__builder.hpp
+[1.668s] -- Up-to-date: /home/devpc/Desktop/microros_ws/install/builtin_interfaces/include/builtin_interfaces
+[1.668s] -- Up-to-date: /home/devpc/Desktop/microros_ws/install/builtin_interfaces/include/builtin_interfaces/msg
+[1.668s] -- Up-to-date: /home/devpc/Desktop/microros_ws/install/builtin_interfaces/include/builtin_interfaces/msg/detail
+[1.668s] -- Up-to-date: /home/devpc/Desktop/microros_ws/install/builtin_interfaces/include/builtin_interfaces/msg/detail/time__rosidl_typesupport_microxrcedds_cpp.hpp
+[1.668s] -- Up-to-date: /home/devpc/Desktop/microros_ws/install/builtin_interfaces/include/builtin_interfaces/msg/detail/microxrcedds
+[1.669s] -- Up-to-date: /home/devpc/Desktop/microros_ws/install/builtin_interfaces/include/builtin_interfaces/msg/detail/microxrcedds/time__type_support_cpp.cpp
+[1.669s] -- Up-to-date: /home/devpc/Desktop/microros_ws/install/builtin_interfaces/include/builtin_interfaces/msg/detail/microxrcedds/duration__type_support_cpp.cpp
+[1.669s] -- Up-to-date: /home/devpc/Desktop/microros_ws/install/builtin_interfaces/include/builtin_interfaces/msg/detail/duration__rosidl_typesupport_microxrcedds_cpp.hpp
+[1.669s] -- Up-to-date: /home/devpc/Desktop/microros_ws/install/builtin_interfaces/include/builtin_interfaces/msg/rosidl_typesupport_microxrcedds_cpp__visibility_control.h
+[1.669s] -- Up-to-date: /home/devpc/Desktop/microros_ws/install/builtin_interfaces/lib/libbuiltin_interfaces__rosidl_typesupport_microxrcedds_cpp.so
+[1.669s] -- Up-to-date: /home/devpc/Desktop/microros_ws/install/builtin_interfaces/include/builtin_interfaces
+[1.669s] -- Up-to-date: /home/devpc/Desktop/microros_ws/install/builtin_interfaces/include/builtin_interfaces/msg
+[1.669s] -- Up-to-date: /home/devpc/Desktop/microros_ws/install/builtin_interfaces/include/builtin_interfaces/msg/detail
+[1.669s] -- Up-to-date: /home/devpc/Desktop/microros_ws/install/builtin_interfaces/include/builtin_interfaces/msg/detail/duration__type_support.cpp
+[1.669s] -- Up-to-date: /home/devpc/Desktop/microros_ws/install/builtin_interfaces/include/builtin_interfaces/msg/detail/time__rosidl_typesupport_introspection_cpp.hpp
+[1.669s] -- Up-to-date: /home/devpc/Desktop/microros_ws/install/builtin_interfaces/include/builtin_interfaces/msg/detail/time__type_support.cpp
+[1.670s] -- Up-to-date: /home/devpc/Desktop/microros_ws/install/builtin_interfaces/include/builtin_interfaces/msg/detail/duration__rosidl_typesupport_introspection_cpp.hpp
+[1.670s] -- Up-to-date: /home/devpc/Desktop/microros_ws/install/builtin_interfaces/lib/libbuiltin_interfaces__rosidl_typesupport_introspection_cpp.so
+[1.670s] -- Up-to-date: /home/devpc/Desktop/microros_ws/install/builtin_interfaces/lib/libbuiltin_interfaces__rosidl_typesupport_cpp.so
+[1.670s] -- Up-to-date: /home/devpc/Desktop/microros_ws/install/builtin_interfaces/share/builtin_interfaces/environment/pythonpath.sh
+[1.670s] -- Installing: /home/devpc/Desktop/microros_ws/install/builtin_interfaces/share/builtin_interfaces/environment/pythonpath.dsv
+[1.670s] -- Installing: /home/devpc/Desktop/microros_ws/install/builtin_interfaces/lib/python3.8/site-packages/builtin_interfaces/__init__.py
+[1.720s] Compiling '/home/devpc/Desktop/microros_ws/install/builtin_interfaces/lib/python3.8/site-packages/builtin_interfaces/__init__.py'...
+[1.725s] -- Up-to-date: /home/devpc/Desktop/microros_ws/install/builtin_interfaces/lib/python3.8/site-packages/builtin_interfaces/msg
+[1.726s] -- Up-to-date: /home/devpc/Desktop/microros_ws/install/builtin_interfaces/lib/python3.8/site-packages/builtin_interfaces/msg/_time_s.c
+[1.726s] -- Up-to-date: /home/devpc/Desktop/microros_ws/install/builtin_interfaces/lib/python3.8/site-packages/builtin_interfaces/msg/__init__.py
+[1.726s] -- Up-to-date: /home/devpc/Desktop/microros_ws/install/builtin_interfaces/lib/python3.8/site-packages/builtin_interfaces/msg/_duration.py
+[1.726s] -- Up-to-date: /home/devpc/Desktop/microros_ws/install/builtin_interfaces/lib/python3.8/site-packages/builtin_interfaces/msg/_duration_s.c
+[1.726s] -- Up-to-date: /home/devpc/Desktop/microros_ws/install/builtin_interfaces/lib/python3.8/site-packages/builtin_interfaces/msg/_time.py
+[1.726s] -- Up-to-date: /home/devpc/Desktop/microros_ws/install/builtin_interfaces/lib/python3.8/site-packages/builtin_interfaces/builtin_interfaces_s__rosidl_typesupport_microxrcedds_c.cpython-38-x86_64-linux-gnu.so
+[1.727s] -- Up-to-date: /home/devpc/Desktop/microros_ws/install/builtin_interfaces/lib/python3.8/site-packages/builtin_interfaces/builtin_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-38-x86_64-linux-gnu.so
+[1.728s] -- Up-to-date: /home/devpc/Desktop/microros_ws/install/builtin_interfaces/lib/python3.8/site-packages/builtin_interfaces/builtin_interfaces_s__rosidl_typesupport_introspection_c.cpython-38-x86_64-linux-gnu.so
+[1.729s] -- Up-to-date: /home/devpc/Desktop/microros_ws/install/builtin_interfaces/lib/python3.8/site-packages/builtin_interfaces/builtin_interfaces_s__rosidl_typesupport_c.cpython-38-x86_64-linux-gnu.so
+[1.730s] -- Up-to-date: /home/devpc/Desktop/microros_ws/install/builtin_interfaces/lib/libbuiltin_interfaces__python.so
+[1.730s] -- Up-to-date: /home/devpc/Desktop/microros_ws/install/builtin_interfaces/share/builtin_interfaces/msg/Duration.idl
+[1.730s] -- Up-to-date: /home/devpc/Desktop/microros_ws/install/builtin_interfaces/share/builtin_interfaces/msg/Time.idl
+[1.730s] -- Up-to-date: /home/devpc/Desktop/microros_ws/install/builtin_interfaces/share/builtin_interfaces/msg/Duration.msg
+[1.731s] -- Up-to-date: /home/devpc/Desktop/microros_ws/install/builtin_interfaces/share/builtin_interfaces/msg/Time.msg
+[1.731s] -- Up-to-date: /home/devpc/Desktop/microros_ws/install/builtin_interfaces/share/ament_index/resource_index/package_run_dependencies/builtin_interfaces
+[1.731s] -- Installing: /home/devpc/Desktop/microros_ws/install/builtin_interfaces/share/ament_index/resource_index/parent_prefix_path/builtin_interfaces
+[1.731s] -- Up-to-date: /home/devpc/Desktop/microros_ws/install/builtin_interfaces/share/builtin_interfaces/environment/ament_prefix_path.sh
+[1.732s] -- Installing: /home/devpc/Desktop/microros_ws/install/builtin_interfaces/share/builtin_interfaces/environment/ament_prefix_path.dsv
+[1.732s] -- Up-to-date: /home/devpc/Desktop/microros_ws/install/builtin_interfaces/share/builtin_interfaces/environment/path.sh
+[1.732s] -- Installing: /home/devpc/Desktop/microros_ws/install/builtin_interfaces/share/builtin_interfaces/environment/path.dsv
+[1.732s] -- Up-to-date: /home/devpc/Desktop/microros_ws/install/builtin_interfaces/share/builtin_interfaces/local_setup.bash
+[1.732s] -- Up-to-date: /home/devpc/Desktop/microros_ws/install/builtin_interfaces/share/builtin_interfaces/local_setup.sh
+[1.732s] -- Up-to-date: /home/devpc/Desktop/microros_ws/install/builtin_interfaces/share/builtin_interfaces/local_setup.zsh
+[1.733s] -- Installing: /home/devpc/Desktop/microros_ws/install/builtin_interfaces/share/builtin_interfaces/local_setup.dsv
+[1.733s] -- Installing: /home/devpc/Desktop/microros_ws/install/builtin_interfaces/share/builtin_interfaces/package.dsv
+[1.733s] -- Up-to-date: /home/devpc/Desktop/microros_ws/install/builtin_interfaces/share/ament_index/resource_index/packages/builtin_interfaces
+[1.733s] -- Up-to-date: /home/devpc/Desktop/microros_ws/install/builtin_interfaces/share/builtin_interfaces/cmake/builtin_interfaces__rosidl_generator_cExport.cmake
+[1.733s] -- Installing: /home/devpc/Desktop/microros_ws/install/builtin_interfaces/share/builtin_interfaces/cmake/builtin_interfaces__rosidl_generator_cExport-noconfig.cmake
+[1.733s] -- Up-to-date: /home/devpc/Desktop/microros_ws/install/builtin_interfaces/share/builtin_interfaces/cmake/builtin_interfaces__rosidl_typesupport_introspection_cExport.cmake
+[1.733s] -- Installing: /home/devpc/Desktop/microros_ws/install/builtin_interfaces/share/builtin_interfaces/cmake/builtin_interfaces__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[1.733s] -- Up-to-date: /home/devpc/Desktop/microros_ws/install/builtin_interfaces/share/builtin_interfaces/cmake/builtin_interfaces__rosidl_typesupport_cExport.cmake
+[1.734s] -- Installing: /home/devpc/Desktop/microros_ws/install/builtin_interfaces/share/builtin_interfaces/cmake/builtin_interfaces__rosidl_typesupport_cExport-noconfig.cmake
+[1.734s] -- Up-to-date: /home/devpc/Desktop/microros_ws/install/builtin_interfaces/share/builtin_interfaces/cmake/builtin_interfaces__rosidl_generator_cppExport.cmake
+[1.734s] -- Up-to-date: /home/devpc/Desktop/microros_ws/install/builtin_interfaces/share/builtin_interfaces/cmake/builtin_interfaces__rosidl_typesupport_introspection_cppExport.cmake
+[1.734s] -- Installing: /home/devpc/Desktop/microros_ws/install/builtin_interfaces/share/builtin_interfaces/cmake/builtin_interfaces__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[1.734s] -- Up-to-date: /home/devpc/Desktop/microros_ws/install/builtin_interfaces/share/builtin_interfaces/cmake/builtin_interfaces__rosidl_typesupport_cppExport.cmake
+[1.734s] -- Installing: /home/devpc/Desktop/microros_ws/install/builtin_interfaces/share/builtin_interfaces/cmake/builtin_interfaces__rosidl_typesupport_cppExport-noconfig.cmake
+[1.734s] -- Up-to-date: /home/devpc/Desktop/microros_ws/install/builtin_interfaces/share/builtin_interfaces/cmake/rosidl_cmake-extras.cmake
+[1.735s] -- Up-to-date: /home/devpc/Desktop/microros_ws/install/builtin_interfaces/share/builtin_interfaces/cmake/ament_cmake_export_dependencies-extras.cmake
+[1.735s] -- Up-to-date: /home/devpc/Desktop/microros_ws/install/builtin_interfaces/share/builtin_interfaces/cmake/ament_cmake_export_libraries-extras.cmake
+[1.735s] -- Up-to-date: /home/devpc/Desktop/microros_ws/install/builtin_interfaces/share/builtin_interfaces/cmake/ament_cmake_export_targets-extras.cmake
+[1.735s] -- Up-to-date: /home/devpc/Desktop/microros_ws/install/builtin_interfaces/share/builtin_interfaces/cmake/ament_cmake_export_include_directories-extras.cmake
+[1.735s] -- Up-to-date: /home/devpc/Desktop/microros_ws/install/builtin_interfaces/share/builtin_interfaces/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[1.735s] -- Up-to-date: /home/devpc/Desktop/microros_ws/install/builtin_interfaces/share/builtin_interfaces/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[1.735s] -- Up-to-date: /home/devpc/Desktop/microros_ws/install/builtin_interfaces/share/builtin_interfaces/cmake/builtin_interfacesConfig.cmake
+[1.736s] -- Up-to-date: /home/devpc/Desktop/microros_ws/install/builtin_interfaces/share/builtin_interfaces/cmake/builtin_interfacesConfig-version.cmake
+[1.736s] -- Up-to-date: /home/devpc/Desktop/microros_ws/install/builtin_interfaces/share/builtin_interfaces/package.xml
+[1.739s] Invoked command in '/home/devpc/Desktop/microros_ws/build/builtin_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/devpc/Desktop/microros_ws/install/sensor_msgs_py:/home/devpc/Desktop/quad_ws/install/teleop_twist_keyboard:/home/devpc/Desktop/quad_ws/install/teleop:/home/devpc/Desktop/quad_ws/install/quad:/home/devpc/Desktop/quad_ws/install/motion_servos_calibration:/home/devpc/Desktop/quad_ws/install/joystick_ros2:/opt/ros/foxy /usr/bin/cmake --install /home/devpc/Desktop/microros_ws/build/builtin_interfaces

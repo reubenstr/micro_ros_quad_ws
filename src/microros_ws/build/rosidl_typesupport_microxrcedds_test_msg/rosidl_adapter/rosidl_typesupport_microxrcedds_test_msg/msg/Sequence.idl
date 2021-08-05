@@ -1,0 +1,12 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from rosidl_typesupport_microxrcedds_test_msg/msg/Sequence.msg
+// generated code does not contain a copyright notice
+
+
+module rosidl_typesupport_microxrcedds_test_msg {
+  module msg {
+    struct Sequence {
+      sequence<string> sequence_string_test;
+    };
+  };
+};

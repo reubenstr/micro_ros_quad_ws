@@ -1,0 +1,9 @@
+{
+  "package_name": "drive_base_msgs",
+  "non_idl_tuples": [
+    "/home/devpc/Desktop/microros_ws/src/uros/drive_base/drive_base_msgs:msg/CommandHeader.msg",
+    "/home/devpc/Desktop/microros_ws/src/uros/drive_base/drive_base_msgs:msg/BaseInfo.msg",
+    "/home/devpc/Desktop/microros_ws/src/uros/drive_base/drive_base_msgs:msg/CommandStatus.msg",
+    "/home/devpc/Desktop/microros_ws/src/uros/drive_base/drive_base_msgs:msg/TRVCommand.msg"
+  ]
+}

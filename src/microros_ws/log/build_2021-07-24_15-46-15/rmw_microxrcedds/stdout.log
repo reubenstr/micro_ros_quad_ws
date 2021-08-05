@@ -1,0 +1,182 @@
+-- The C compiler identification is GNU 9.3.0
+-- Check for working C compiler: /usr/bin/cc
+-- Check for working C compiler: /usr/bin/cc -- works
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Found ament_cmake_ros: 0.9.2 (/opt/ros/foxy/share/ament_cmake_ros/cmake)
+-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+-- Using PYTHON_EXECUTABLE: /usr/bin/python3
+-- Found rcutils: 1.1.3 (/opt/ros/foxy/share/rcutils/cmake)
+-- Found rosidl_runtime_c: 1.2.1 (/opt/ros/foxy/share/rosidl_runtime_c/cmake)
+-- Found rmw: 1.0.3 (/opt/ros/foxy/share/rmw/cmake)
+-- Found rosidl_typesupport_microxrcedds_c: 0.0.1 (/home/devpc/Desktop/microros_ws/install/rosidl_typesupport_microxrcedds_c/share/rosidl_typesupport_microxrcedds_c/cmake)
+-- Found rosidl_adapter: 1.2.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+-- Found ament_lint_auto: 0.9.6 (/opt/ros/foxy/share/ament_lint_auto/cmake)
+-- The CXX compiler identification is GNU 9.3.0
+-- Check for working CXX compiler: /usr/bin/c++
+-- Check for working CXX compiler: /usr/bin/c++ -- works
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found gtest sources under '/opt/ros/foxy/src/gtest_vendor': C++ tests using 'Google Test' will be built
+-- Looking for pthread.h
+-- Looking for pthread.h - found
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed
+-- Check if compiler accepts -pthread
+-- Check if compiler accepts -pthread - yes
+-- Found Threads: TRUE  
+-- Added test 'copyright' to check source files copyright and LICENSE
+-- Added test 'cppcheck' to perform static code analysis on C / C++ code
+-- Configured cppcheck include dirs: $<BUILD_INTERFACE:/home/devpc/Desktop/microros_ws/src/uros/rmw_microxrcedds/rmw_microxrcedds_c/include>;$<BUILD_INTERFACE:/home/devpc/Desktop/microros_ws/src/uros/rmw_microxrcedds/rmw_microxrcedds_c/src>
+-- Configured cppcheck exclude dirs and/or files: 
+-- Added test 'cpplint' to check C / C++ code against the Google style
+-- Configured cpplint exclude dirs and/or files: 
+-- Added test 'lint_cmake' to check CMake code style
+-- Added test 'uncrustify' to check C / C++ code style
+-- Configured uncrustify additional arguments: 
+-- Added test 'xmllint' to check XML markup files
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/devpc/Desktop/microros_ws/build/rmw_microxrcedds
+[35m[1mScanning dependencies of target gtest_main[0m
+[35m[1mScanning dependencies of target gtest[0m
+[35m[1mScanning dependencies of target rmw_microxrcedds[0m
+[  1%] [32mBuilding CXX object gtest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.o[0m
+[  2%] [32mBuilding CXX object gtest/CMakeFiles/gtest.dir/src/gtest-all.cc.o[0m
+[  4%] [32mBuilding C object CMakeFiles/rmw_microxrcedds.dir/src/memory.c.o[0m
+[  5%] [32mBuilding C object CMakeFiles/rmw_microxrcedds.dir/src/identifiers.c.o[0m
+[  6%] [32mBuilding C object CMakeFiles/rmw_microxrcedds.dir/src/rmw_compare_gids_equal.c.o[0m
+[  8%] [32mBuilding C object CMakeFiles/rmw_microxrcedds.dir/src/rmw_client.c.o[0m
+[  9%] [32mBuilding C object CMakeFiles/rmw_microxrcedds.dir/src/rmw_count.c.o[0m
+[ 10%] [32mBuilding C object CMakeFiles/rmw_microxrcedds.dir/src/rmw_event.c.o[0m
+[ 12%] [32mBuilding C object CMakeFiles/rmw_microxrcedds.dir/src/rmw_get_gid_for_publisher.c.o[0m
+[ 13%] [32mBuilding C object CMakeFiles/rmw_microxrcedds.dir/src/rmw_get_serialization_format.c.o[0m
+[ 14%] [32mBuilding C object CMakeFiles/rmw_microxrcedds.dir/src/rmw_get_implementation_identifier.c.o[0m
+[ 16%] [32mBuilding C object CMakeFiles/rmw_microxrcedds.dir/src/rmw_get_topic_endpoint_info.c.o[0m
+[ 17%] [32mBuilding C object CMakeFiles/rmw_microxrcedds.dir/src/rmw_guard_condition.c.o[0m
+[ 18%] [32mBuilding C object CMakeFiles/rmw_microxrcedds.dir/src/rmw_init.c.o[0m
+[ 20%] [32mBuilding C object CMakeFiles/rmw_microxrcedds.dir/src/rmw_logging.c.o[0m
+[ 21%] [32mBuilding C object CMakeFiles/rmw_microxrcedds.dir/src/rmw_microxrcedds_topic.c.o[0m
+[ 22%] [32mBuilding C object CMakeFiles/rmw_microxrcedds.dir/src/rmw_node.c.o[0m
+[ 24%] [32mBuilding C object CMakeFiles/rmw_microxrcedds.dir/src/rmw_node_names.c.o[0m
+[ 25%] [32mBuilding C object CMakeFiles/rmw_microxrcedds.dir/src/rmw_node_info_and_types.c.o[0m
+[ 26%] [32mBuilding C object CMakeFiles/rmw_microxrcedds.dir/src/rmw_publish.c.o[0m
+[ 28%] [32mBuilding C object CMakeFiles/rmw_microxrcedds.dir/src/rmw_publisher.c.o[0m
+[ 29%] [32mBuilding C object CMakeFiles/rmw_microxrcedds.dir/src/rmw_request.c.o[0m
+[ 30%] [32mBuilding C object CMakeFiles/rmw_microxrcedds.dir/src/rmw_response.c.o[0m
+[ 32%] [32mBuilding C object CMakeFiles/rmw_microxrcedds.dir/src/rmw_serialize.c.o[0m
+[ 33%] [32mBuilding C object CMakeFiles/rmw_microxrcedds.dir/src/rmw_service.c.o[0m
+[ 34%] [32mBuilding C object CMakeFiles/rmw_microxrcedds.dir/src/rmw_service_names_and_types.c.o[0m
+[ 36%] [32mBuilding C object CMakeFiles/rmw_microxrcedds.dir/src/rmw_service_server_is_available.c.o[0m
+[ 37%] [32mBuilding C object CMakeFiles/rmw_microxrcedds.dir/src/rmw_subscription.c.o[0m
+[ 38%] [32mBuilding C object CMakeFiles/rmw_microxrcedds.dir/src/rmw_topic_names_and_types.c.o[0m
+[ 40%] [32mBuilding C object CMakeFiles/rmw_microxrcedds.dir/src/rmw_take.c.o[0m
+[ 41%] [32mBuilding C object CMakeFiles/rmw_microxrcedds.dir/src/rmw_trigger_guard_condition.c.o[0m
+[ 42%] [32mBuilding C object CMakeFiles/rmw_microxrcedds.dir/src/types.c.o[0m
+[ 44%] [32mBuilding C object CMakeFiles/rmw_microxrcedds.dir/src/rmw_wait_set.c.o[0m
+[ 45%] [32mBuilding C object CMakeFiles/rmw_microxrcedds.dir/src/rmw_wait.c.o[0m
+[ 46%] [32mBuilding C object CMakeFiles/rmw_microxrcedds.dir/src/utils.c.o[0m
+[ 48%] [32mBuilding C object CMakeFiles/rmw_microxrcedds.dir/src/callbacks.c.o[0m
+[ 49%] [32mBuilding C object CMakeFiles/rmw_microxrcedds.dir/src/rmw_uxrce_transports.c.o[0m
+[ 50%] [32mBuilding C object CMakeFiles/rmw_microxrcedds.dir/src/rmw_microros/continous_serialization.c.o[0m
+[ 52%] [32mBuilding C object CMakeFiles/rmw_microxrcedds.dir/src/rmw_microros/init_options.c.o[0m
+[ 53%] [32mBuilding C object CMakeFiles/rmw_microxrcedds.dir/src/rmw_microros/time_sync.c.o[0m
+[ 54%] [32mBuilding C object CMakeFiles/rmw_microxrcedds.dir/src/rmw_microros/ping.c.o[0m
+[ 56%] [32mBuilding C object CMakeFiles/rmw_microxrcedds.dir/src/rmw_microros/discovery.c.o[0m
+[ 57%] [32m[1mLinking C shared library librmw_microxrcedds.so[0m
+[ 57%] Built target rmw_microxrcedds
+[ 58%] [32m[1mLinking CXX static library libgtest_main.a[0m
+[ 58%] Built target gtest_main
+[ 60%] [32m[1mLinking CXX static library libgtest.a[0m
+[ 60%] Built target gtest
+[35m[1mScanning dependencies of target test-node[0m
+[35m[1mScanning dependencies of target test-publisher[0m
+[35m[1mScanning dependencies of target test-reqres[0m
+[35m[1mScanning dependencies of target test-subscriber[0m
+[35m[1mScanning dependencies of target test-service[0m
+[35m[1mScanning dependencies of target test-pubsub[0m
+[35m[1mScanning dependencies of target test-client[0m
+[35m[1mScanning dependencies of target test-rmw[0m
+[ 61%] [32mBuilding CXX object test/CMakeFiles/test-node.dir/test_node.cpp.o[0m
+[ 62%] [32mBuilding CXX object test/CMakeFiles/test-publisher.dir/test_publisher.cpp.o[0m
+[ 64%] [32mBuilding CXX object test/CMakeFiles/test-client.dir/test_client.cpp.o[0m
+[ 65%] [32mBuilding CXX object test/CMakeFiles/test-reqres.dir/test_reqres.cpp.o[0m
+[ 66%] [32mBuilding CXX object test/CMakeFiles/test-service.dir/test_service.cpp.o[0m
+[ 68%] [32mBuilding CXX object test/CMakeFiles/test-subscriber.dir/test_subscription.cpp.o[0m
+[ 69%] [32mBuilding CXX object test/CMakeFiles/test-pubsub.dir/test_pubsub.cpp.o[0m
+[ 70%] [32mBuilding CXX object test/CMakeFiles/test-rmw.dir/test_rmw.cpp.o[0m
+[ 72%] [32mBuilding CXX object test/CMakeFiles/test-pubsub.dir/test_utils.cpp.o[0m
+[ 73%] [32mBuilding CXX object test/CMakeFiles/test-rmw.dir/test_utils.cpp.o[0m
+[ 74%] [32m[1mLinking CXX executable test-pubsub[0m
+[ 74%] Built target test-pubsub
+[ 76%] [32mBuilding CXX object test/CMakeFiles/test-subscriber.dir/test_utils.cpp.o[0m
+[ 77%] [32m[1mLinking CXX executable test-rmw[0m
+[ 78%] [32mBuilding CXX object test/CMakeFiles/test-client.dir/test_utils.cpp.o[0m
+[ 80%] [32mBuilding CXX object test/CMakeFiles/test-reqres.dir/test_utils.cpp.o[0m
+[ 81%] [32mBuilding CXX object test/CMakeFiles/test-service.dir/test_utils.cpp.o[0m
+[ 82%] [32mBuilding CXX object test/CMakeFiles/test-publisher.dir/test_utils.cpp.o[0m
+[ 82%] Built target test-rmw
+[ 84%] [32mBuilding CXX object test/CMakeFiles/test-node.dir/test_utils.cpp.o[0m
+[ 85%] [32m[1mLinking CXX executable test-subscriber[0m
+[ 86%] [32m[1mLinking CXX executable test-service[0m
+[ 88%] [32m[1mLinking CXX executable test-client[0m
+[ 89%] [32m[1mLinking CXX executable test-reqres[0m
+[ 90%] [32m[1mLinking CXX executable test-publisher[0m
+[ 90%] Built target test-subscriber
+[ 90%] Built target test-client
+[ 90%] Built target test-reqres
+[ 90%] Built target test-service
+[ 92%] [32m[1mLinking CXX executable test-node[0m
+[ 92%] Built target test-publisher
+[ 92%] Built target test-node
+[35m[1mScanning dependencies of target test-topic[0m
+[ 93%] [32mBuilding CXX object test/CMakeFiles/test-topic.dir/test_topic.cpp.o[0m
+[ 94%] [32mBuilding CXX object test/CMakeFiles/test-topic.dir/test_utils.cpp.o[0m
+[ 96%] [32m[1mLinking CXX executable test-topic[0m
+[ 96%] Built target test-topic
+[35m[1mScanning dependencies of target test-sizes[0m
+[ 97%] [32mBuilding CXX object test/CMakeFiles/test-sizes.dir/test_sizes.cpp.o[0m
+[ 98%] [32mBuilding CXX object test/CMakeFiles/test-sizes.dir/test_utils.cpp.o[0m
+[100%] [32m[1mLinking CXX executable test-sizes[0m
+[100%] Built target test-sizes
+-- Install configuration: ""
+-- Installing: /home/devpc/Desktop/microros_ws/install/rmw_microxrcedds/share/rmw_microxrcedds/environment/library_path.sh
+-- Installing: /home/devpc/Desktop/microros_ws/install/rmw_microxrcedds/share/rmw_microxrcedds/environment/library_path.dsv
+-- Installing: /home/devpc/Desktop/microros_ws/install/rmw_microxrcedds/share/ament_index/resource_index/rmw_typesupport_c/rmw_microxrcedds
+-- Installing: /home/devpc/Desktop/microros_ws/install/rmw_microxrcedds/share/ament_index/resource_index/rmw_typesupport/rmw_microxrcedds
+-- Installing: /home/devpc/Desktop/microros_ws/install/rmw_microxrcedds/share/ament_index/resource_index/package_run_dependencies/rmw_microxrcedds
+-- Installing: /home/devpc/Desktop/microros_ws/install/rmw_microxrcedds/share/ament_index/resource_index/parent_prefix_path/rmw_microxrcedds
+-- Installing: /home/devpc/Desktop/microros_ws/install/rmw_microxrcedds/share/rmw_microxrcedds/environment/ament_prefix_path.sh
+-- Installing: /home/devpc/Desktop/microros_ws/install/rmw_microxrcedds/share/rmw_microxrcedds/environment/ament_prefix_path.dsv
+-- Installing: /home/devpc/Desktop/microros_ws/install/rmw_microxrcedds/share/rmw_microxrcedds/environment/path.sh
+-- Installing: /home/devpc/Desktop/microros_ws/install/rmw_microxrcedds/share/rmw_microxrcedds/environment/path.dsv
+-- Installing: /home/devpc/Desktop/microros_ws/install/rmw_microxrcedds/share/rmw_microxrcedds/local_setup.bash
+-- Installing: /home/devpc/Desktop/microros_ws/install/rmw_microxrcedds/share/rmw_microxrcedds/local_setup.sh
+-- Installing: /home/devpc/Desktop/microros_ws/install/rmw_microxrcedds/share/rmw_microxrcedds/local_setup.zsh
+-- Installing: /home/devpc/Desktop/microros_ws/install/rmw_microxrcedds/share/rmw_microxrcedds/local_setup.dsv
+-- Installing: /home/devpc/Desktop/microros_ws/install/rmw_microxrcedds/share/rmw_microxrcedds/package.dsv
+-- Installing: /home/devpc/Desktop/microros_ws/install/rmw_microxrcedds/share/ament_index/resource_index/packages/rmw_microxrcedds
+-- Installing: /home/devpc/Desktop/microros_ws/install/rmw_microxrcedds/share/rmw_microxrcedds/cmake/ament_cmake_export_include_directories-extras.cmake
+-- Installing: /home/devpc/Desktop/microros_ws/install/rmw_microxrcedds/share/rmw_microxrcedds/cmake/ament_cmake_export_libraries-extras.cmake
+-- Installing: /home/devpc/Desktop/microros_ws/install/rmw_microxrcedds/share/rmw_microxrcedds/cmake/ament_cmake_export_dependencies-extras.cmake
+-- Installing: /home/devpc/Desktop/microros_ws/install/rmw_microxrcedds/share/rmw_microxrcedds/cmake/rmw_microxrceddsConfig.cmake
+-- Installing: /home/devpc/Desktop/microros_ws/install/rmw_microxrcedds/share/rmw_microxrcedds/cmake/rmw_microxrceddsConfig-version.cmake
+-- Installing: /home/devpc/Desktop/microros_ws/install/rmw_microxrcedds/share/rmw_microxrcedds/package.xml
+-- Up-to-date: /home/devpc/Desktop/microros_ws/install/rmw_microxrcedds/include
+-- Installing: /home/devpc/Desktop/microros_ws/install/rmw_microxrcedds/include/rmw_microros
+-- Installing: /home/devpc/Desktop/microros_ws/install/rmw_microxrcedds/include/rmw_microros/ping.h
+-- Installing: /home/devpc/Desktop/microros_ws/install/rmw_microxrcedds/include/rmw_microros/discovery.h
+-- Installing: /home/devpc/Desktop/microros_ws/install/rmw_microxrcedds/include/rmw_microros/init_options.h
+-- Installing: /home/devpc/Desktop/microros_ws/install/rmw_microxrcedds/include/rmw_microros/rmw_microros.h
+-- Installing: /home/devpc/Desktop/microros_ws/install/rmw_microxrcedds/include/rmw_microros/continous_serialization.h
+-- Installing: /home/devpc/Desktop/microros_ws/install/rmw_microxrcedds/include/rmw_microros/time_sync.h
+-- Installing: /home/devpc/Desktop/microros_ws/install/rmw_microxrcedds/include/rmw_microros/custom_transport.h
+-- Installing: /home/devpc/Desktop/microros_ws/install/rmw_microxrcedds/include/rmw_microxrcedds_c
+-- Installing: /home/devpc/Desktop/microros_ws/install/rmw_microxrcedds/include/rmw_microxrcedds_c/rmw_c_macros.h
+-- Installing: /home/devpc/Desktop/microros_ws/install/rmw_microxrcedds/include/rmw_microxrcedds_c/config.h
+-- Installing: /home/devpc/Desktop/microros_ws/install/rmw_microxrcedds/lib/librmw_microxrcedds.so
+-- Set runtime path of "/home/devpc/Desktop/microros_ws/install/rmw_microxrcedds/lib/librmw_microxrcedds.so" to ""

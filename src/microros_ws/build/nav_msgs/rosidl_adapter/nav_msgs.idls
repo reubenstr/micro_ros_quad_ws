@@ -1,0 +1,8 @@
+/home/devpc/Desktop/microros_ws/build/nav_msgs/rosidl_adapter/nav_msgs:msg/GridCells.idl
+/home/devpc/Desktop/microros_ws/build/nav_msgs/rosidl_adapter/nav_msgs:msg/MapMetaData.idl
+/home/devpc/Desktop/microros_ws/build/nav_msgs/rosidl_adapter/nav_msgs:msg/OccupancyGrid.idl
+/home/devpc/Desktop/microros_ws/build/nav_msgs/rosidl_adapter/nav_msgs:msg/Odometry.idl
+/home/devpc/Desktop/microros_ws/build/nav_msgs/rosidl_adapter/nav_msgs:msg/Path.idl
+/home/devpc/Desktop/microros_ws/build/nav_msgs/rosidl_adapter/nav_msgs:srv/GetMap.idl
+/home/devpc/Desktop/microros_ws/build/nav_msgs/rosidl_adapter/nav_msgs:srv/GetPlan.idl
+/home/devpc/Desktop/microros_ws/build/nav_msgs/rosidl_adapter/nav_msgs:srv/SetMap.idl

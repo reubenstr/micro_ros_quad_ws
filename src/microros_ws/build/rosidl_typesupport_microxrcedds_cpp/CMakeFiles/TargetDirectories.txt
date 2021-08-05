@@ -1,0 +1,10 @@
+/home/devpc/Desktop/microros_ws/build/rosidl_typesupport_microxrcedds_cpp/CMakeFiles/install/strip.dir
+/home/devpc/Desktop/microros_ws/build/rosidl_typesupport_microxrcedds_cpp/CMakeFiles/install/local.dir
+/home/devpc/Desktop/microros_ws/build/rosidl_typesupport_microxrcedds_cpp/CMakeFiles/install.dir
+/home/devpc/Desktop/microros_ws/build/rosidl_typesupport_microxrcedds_cpp/CMakeFiles/list_install_components.dir
+/home/devpc/Desktop/microros_ws/build/rosidl_typesupport_microxrcedds_cpp/CMakeFiles/rebuild_cache.dir
+/home/devpc/Desktop/microros_ws/build/rosidl_typesupport_microxrcedds_cpp/CMakeFiles/rosidl_typesupport_microxrcedds_cpp.dir
+/home/devpc/Desktop/microros_ws/build/rosidl_typesupport_microxrcedds_cpp/CMakeFiles/edit_cache.dir
+/home/devpc/Desktop/microros_ws/build/rosidl_typesupport_microxrcedds_cpp/CMakeFiles/test.dir
+/home/devpc/Desktop/microros_ws/build/rosidl_typesupport_microxrcedds_cpp/CMakeFiles/rosidl_typesupport_microxrcedds_cpp_uninstall.dir
+/home/devpc/Desktop/microros_ws/build/rosidl_typesupport_microxrcedds_cpp/CMakeFiles/uninstall.dir

@@ -1,0 +1,43 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "/home/devpc/Desktop/microros_ws/build/microxrcedds_agent/CMakeFiles/sanitizers"
+		},
+		{
+			"file" : "/home/devpc/Desktop/microros_ws/build/microxrcedds_agent/CMakeFiles/sanitizers.rule"
+		},
+		{
+			"file" : "/home/devpc/Desktop/microros_ws/build/microxrcedds_agent/CMakeFiles/sanitizers-complete.rule"
+		},
+		{
+			"file" : "/home/devpc/Desktop/microros_ws/build/microxrcedds_agent/sanitizers/src/sanitizers-stamp/sanitizers-install.rule"
+		},
+		{
+			"file" : "/home/devpc/Desktop/microros_ws/build/microxrcedds_agent/sanitizers/src/sanitizers-stamp/sanitizers-mkdir.rule"
+		},
+		{
+			"file" : "/home/devpc/Desktop/microros_ws/build/microxrcedds_agent/sanitizers/src/sanitizers-stamp/sanitizers-download.rule"
+		},
+		{
+			"file" : "/home/devpc/Desktop/microros_ws/build/microxrcedds_agent/sanitizers/src/sanitizers-stamp/sanitizers-update.rule"
+		},
+		{
+			"file" : "/home/devpc/Desktop/microros_ws/build/microxrcedds_agent/sanitizers/src/sanitizers-stamp/sanitizers-patch.rule"
+		},
+		{
+			"file" : "/home/devpc/Desktop/microros_ws/build/microxrcedds_agent/sanitizers/src/sanitizers-stamp/sanitizers-configure.rule"
+		},
+		{
+			"file" : "/home/devpc/Desktop/microros_ws/build/microxrcedds_agent/sanitizers/src/sanitizers-stamp/sanitizers-build.rule"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"sanitizers"
+		],
+		"name" : "sanitizers"
+	}
+}

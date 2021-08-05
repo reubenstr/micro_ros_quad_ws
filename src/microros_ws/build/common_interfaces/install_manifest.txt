@@ -1,0 +1,15 @@
+/home/devpc/Desktop/microros_ws/install/common_interfaces/share/ament_index/resource_index/package_run_dependencies/common_interfaces
+/home/devpc/Desktop/microros_ws/install/common_interfaces/share/ament_index/resource_index/parent_prefix_path/common_interfaces
+/home/devpc/Desktop/microros_ws/install/common_interfaces/share/common_interfaces/environment/ament_prefix_path.sh
+/home/devpc/Desktop/microros_ws/install/common_interfaces/share/common_interfaces/environment/ament_prefix_path.dsv
+/home/devpc/Desktop/microros_ws/install/common_interfaces/share/common_interfaces/environment/path.sh
+/home/devpc/Desktop/microros_ws/install/common_interfaces/share/common_interfaces/environment/path.dsv
+/home/devpc/Desktop/microros_ws/install/common_interfaces/share/common_interfaces/local_setup.bash
+/home/devpc/Desktop/microros_ws/install/common_interfaces/share/common_interfaces/local_setup.sh
+/home/devpc/Desktop/microros_ws/install/common_interfaces/share/common_interfaces/local_setup.zsh
+/home/devpc/Desktop/microros_ws/install/common_interfaces/share/common_interfaces/local_setup.dsv
+/home/devpc/Desktop/microros_ws/install/common_interfaces/share/common_interfaces/package.dsv
+/home/devpc/Desktop/microros_ws/install/common_interfaces/share/ament_index/resource_index/packages/common_interfaces
+/home/devpc/Desktop/microros_ws/install/common_interfaces/share/common_interfaces/cmake/common_interfacesConfig.cmake
+/home/devpc/Desktop/microros_ws/install/common_interfaces/share/common_interfaces/cmake/common_interfacesConfig-version.cmake
+/home/devpc/Desktop/microros_ws/install/common_interfaces/share/common_interfaces/package.xml

@@ -1,0 +1,77 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from rosidl_typesupport_microxrcedds_test_msg/msg/Primitive.msg
+// generated code does not contain a copyright notice
+
+#include "rosidl_typesupport_microxrcedds_test_msg/msg/UnboundedString.idl"
+
+module rosidl_typesupport_microxrcedds_test_msg {
+  module msg {
+    typedef boolean boolean__11[11];
+    typedef octet octet__11[11];
+    typedef uint8 uint8__11[11];
+    typedef float float__11[11];
+    typedef double double__11[11];
+    typedef int8 int8__11[11];
+    typedef int16 int16__11[11];
+    typedef uint16 uint16__11[11];
+    typedef int32 int32__11[11];
+    typedef uint32 uint32__11[11];
+    typedef int64 int64__11[11];
+    typedef uint64 uint64__11[11];
+    struct Primitive {
+      boolean bool_test;
+
+      boolean__11 bool_array_test;
+
+      octet byte_test;
+
+      octet__11 byte_array_test;
+
+      uint8 char_test;
+
+      uint8__11 char_array_test;
+
+      float float32_test;
+
+      float__11 float32_array_test;
+
+      double double_test;
+
+      double__11 float64_array_test;
+
+      int8 int8_test;
+
+      int8__11 int8_array_test;
+
+      uint8 uint8_test;
+
+      uint8__11 uint8_array_test;
+
+      int16 int16_test;
+
+      int16__11 int16_array_test;
+
+      uint16 uint16_test;
+
+      uint16__11 uint16_array_test;
+
+      int32 int32_test;
+
+      int32__11 int32_array_test;
+
+      uint32 uint32_test;
+
+      uint32__11 uint32_array_test;
+
+      int64 int64_test;
+
+      int64__11 int64_array_test;
+
+      uint64 uint64_test;
+
+      uint64__11 uint64_array_test;
+
+      rosidl_typesupport_microxrcedds_test_msg::msg::UnboundedString nested_test;
+    };
+  };
+};

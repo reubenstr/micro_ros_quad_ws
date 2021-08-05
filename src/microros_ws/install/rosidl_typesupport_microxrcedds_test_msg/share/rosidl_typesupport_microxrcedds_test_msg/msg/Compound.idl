@@ -1,0 +1,20 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from rosidl_typesupport_microxrcedds_test_msg/msg/Compound.msg
+// generated code does not contain a copyright notice
+
+#include "rosidl_typesupport_microxrcedds_test_msg/msg/BasicPrimitive.idl"
+#include "rosidl_typesupport_microxrcedds_test_msg/msg/Primitive.idl"
+
+module rosidl_typesupport_microxrcedds_test_msg {
+  module msg {
+    typedef rosidl_typesupport_microxrcedds_test_msg::msg::BasicPrimitive rosidl_typesupport_microxrcedds_test_msg__msg__BasicPrimitive;
+    typedef rosidl_typesupport_microxrcedds_test_msg__msg__BasicPrimitive rosidl_typesupport_microxrcedds_test_msg__msg__BasicPrimitive__3[3];
+    struct Compound {
+      string string_data;
+
+      sequence<rosidl_typesupport_microxrcedds_test_msg::msg::Primitive> sequence_data;
+
+      rosidl_typesupport_microxrcedds_test_msg__msg__BasicPrimitive__3 array_data;
+    };
+  };
+};

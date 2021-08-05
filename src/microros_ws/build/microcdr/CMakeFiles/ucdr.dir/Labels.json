@@ -1,0 +1,43 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "/home/devpc/Desktop/microros_ws/build/microcdr/CMakeFiles/ucdr"
+		},
+		{
+			"file" : "/home/devpc/Desktop/microros_ws/build/microcdr/CMakeFiles/ucdr.rule"
+		},
+		{
+			"file" : "/home/devpc/Desktop/microros_ws/build/microcdr/CMakeFiles/ucdr-complete.rule"
+		},
+		{
+			"file" : "/home/devpc/Desktop/microros_ws/build/microcdr/ucdr-prefix/src/ucdr-stamp/ucdr-install.rule"
+		},
+		{
+			"file" : "/home/devpc/Desktop/microros_ws/build/microcdr/ucdr-prefix/src/ucdr-stamp/ucdr-mkdir.rule"
+		},
+		{
+			"file" : "/home/devpc/Desktop/microros_ws/build/microcdr/ucdr-prefix/src/ucdr-stamp/ucdr-download.rule"
+		},
+		{
+			"file" : "/home/devpc/Desktop/microros_ws/build/microcdr/ucdr-prefix/src/ucdr-stamp/ucdr-update.rule"
+		},
+		{
+			"file" : "/home/devpc/Desktop/microros_ws/build/microcdr/ucdr-prefix/src/ucdr-stamp/ucdr-patch.rule"
+		},
+		{
+			"file" : "/home/devpc/Desktop/microros_ws/build/microcdr/ucdr-prefix/src/ucdr-stamp/ucdr-configure.rule"
+		},
+		{
+			"file" : "/home/devpc/Desktop/microros_ws/build/microcdr/ucdr-prefix/src/ucdr-stamp/ucdr-build.rule"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"ucdr"
+		],
+		"name" : "ucdr"
+	}
+}

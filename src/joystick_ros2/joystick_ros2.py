@@ -20,10 +20,11 @@ from math import modf
 
 import rclpy
 from rclpy.node import Node
-
+from rclpy.logging import LoggingSeverity
 from sensor_msgs.msg import Joy
 from std_msgs.msg import Header
 from inputs import devices, UnpluggedError
+
 
 # Microsoft X-Box 360 pad
 XINPUT_CODE_MAP = {
@@ -179,6 +180,8 @@ class JoystickRos2(Node):
     def __init__(self):
         super().__init__('joystick_ros2')
 
+        rclpy.logging._root_logger.log("joystick_ros2 startup.", LoggingSeverity.INFO)
+
         # Node params
         # TODO : use rosparam
         self.deadzone = 0.05
@@ -222,14 +225,14 @@ class JoystickRos2(Node):
             try:
                 gamepad = device_manager.gamepads[0]
             except IndexError:
-                print('Joystick not found. Will retry every second.')
+                rclpy.logging._root_logger.log("Joystick not found. Retrying every second.", LoggingSeverity.INFO)             
                 time.sleep(1)
                 device_manager.find_devices()
                 continue
 
             # detected joystick is not keymapped yet
             if (gamepad.name not in JOYSTICK_CODE_VALUE_MAP):
-                print('Joystick found but type not supported yet! Joystick name: ', gamepad.name)
+                rclpy.logging._root_logger.log("Joystick found but type not supported yet! Joystick name: " + gamepad.name, LoggingSeverity.INFO)             
                 time.sleep(1)
                 device_manager.find_devices()
                 continue
@@ -241,8 +244,8 @@ class JoystickRos2(Node):
                 except UnpluggedError:
                     device_manager.find_devices()
                     continue
-
-            print("Joystick found with name: ", gamepad.name)
+            
+            rclpy.logging._root_logger.log("Joystick found with name: "+ gamepad.name, LoggingSeverity.INFO)
 
             # read inputs from joystick
             while True:
@@ -250,7 +253,7 @@ class JoystickRos2(Node):
                     events = gamepad._do_iter()
                 # check unplugged joystick
                 except OSError:
-                    print('Joystick not found. Will retry every second.')
+                    rclpy.logging._root_logger.log("Joystick not found. Retrying every second.", LoggingSeverity.INFO)             
                     time.sleep(1)
                     device_manager.find_devices()
                     break

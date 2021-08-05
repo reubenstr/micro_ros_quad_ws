@@ -1,0 +1,6 @@
+Invoking command in '/home/devpc/Desktop/microros_ws/build/microxrcedds_agent': /usr/bin/cmake /home/devpc/Desktop/microros_ws/src/eProsima/Micro-XRCE-DDS-Agent -DUAGENT_ISOLATED_INSTALL=OFF -DUAGENT_USE_SYSTEM_FASTCDR=ON -DUAGENT_USE_SYSTEM_FASTDDS=ON -DCMAKE_INSTALL_PREFIX=/home/devpc/Desktop/microros_ws/install/microxrcedds_agent
+Invoked command in '/home/devpc/Desktop/microros_ws/build/microxrcedds_agent' returned '0': /usr/bin/cmake /home/devpc/Desktop/microros_ws/src/eProsima/Micro-XRCE-DDS-Agent -DUAGENT_ISOLATED_INSTALL=OFF -DUAGENT_USE_SYSTEM_FASTCDR=ON -DUAGENT_USE_SYSTEM_FASTDDS=ON -DCMAKE_INSTALL_PREFIX=/home/devpc/Desktop/microros_ws/install/microxrcedds_agent
+Invoking command in '/home/devpc/Desktop/microros_ws/build/microxrcedds_agent': /usr/bin/cmake --build /home/devpc/Desktop/microros_ws/build/microxrcedds_agent -- -j8 -l8
+Invoked command in '/home/devpc/Desktop/microros_ws/build/microxrcedds_agent' returned '0': /usr/bin/cmake --build /home/devpc/Desktop/microros_ws/build/microxrcedds_agent -- -j8 -l8
+Invoking command in '/home/devpc/Desktop/microros_ws/build/microxrcedds_agent': /usr/bin/cmake --install /home/devpc/Desktop/microros_ws/build/microxrcedds_agent
+Invoked command in '/home/devpc/Desktop/microros_ws/build/microxrcedds_agent' returned '0': /usr/bin/cmake --install /home/devpc/Desktop/microros_ws/build/microxrcedds_agent

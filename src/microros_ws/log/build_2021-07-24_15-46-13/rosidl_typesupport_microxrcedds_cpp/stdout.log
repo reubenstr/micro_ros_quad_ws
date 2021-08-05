@@ -1,0 +1,85 @@
+-- The CXX compiler identification is GNU 9.3.0
+-- Check for working CXX compiler: /usr/bin/c++
+-- Check for working CXX compiler: /usr/bin/c++ -- works
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found ament_cmake_python: 0.9.8 (/opt/ros/foxy/share/ament_cmake_python/cmake)
+-- Found rosidl_runtime_c: 1.2.1 (/opt/ros/foxy/share/rosidl_runtime_c/cmake)
+-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+-- Using PYTHON_EXECUTABLE: /usr/bin/python3
+-- Found rosidl_typesupport_microxrcedds_c: 0.0.1 (/home/devpc/Desktop/microros_ws/install/rosidl_typesupport_microxrcedds_c/share/rosidl_typesupport_microxrcedds_c/cmake)
+-- Found rosidl_adapter: 1.2.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+-- Found ament_lint_auto: 0.9.6 (/opt/ros/foxy/share/ament_lint_auto/cmake)
+-- Added test 'copyright' to check source files copyright and LICENSE
+-- Added test 'cppcheck' to perform static code analysis on C / C++ code
+-- Configured cppcheck include dirs: $<BUILD_INTERFACE:/home/devpc/Desktop/microros_ws/src/uros/rosidl_typesupport_microxrcedds/rosidl_typesupport_microxrcedds_cpp/include>
+-- Configured cppcheck exclude dirs and/or files: 
+-- Added test 'cpplint' to check C / C++ code against the Google style
+-- Configured cpplint exclude dirs and/or files: 
+-- Added test 'flake8' to check Python code syntax and style conventions
+-- Added test 'lint_cmake' to check CMake code style
+-- Added test 'pep257' to check Python code against some of the style conventions in PEP 257
+-- Added test 'uncrustify' to check C / C++ code style
+-- Configured uncrustify additional arguments: 
+-- Added test 'xmllint' to check XML markup files
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/devpc/Desktop/microros_ws/build/rosidl_typesupport_microxrcedds_cpp
+[35m[1mScanning dependencies of target rosidl_typesupport_microxrcedds_cpp[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/rosidl_typesupport_microxrcedds_cpp.dir/src/identifier.cpp.o[0m
+[100%] [32m[1mLinking CXX shared library librosidl_typesupport_microxrcedds_cpp.so[0m
+[100%] Built target rosidl_typesupport_microxrcedds_cpp
+-- Install configuration: ""
+-- Installing: /home/devpc/Desktop/microros_ws/install/rosidl_typesupport_microxrcedds_cpp/share/rosidl_typesupport_microxrcedds_cpp/environment/pythonpath.sh
+-- Installing: /home/devpc/Desktop/microros_ws/install/rosidl_typesupport_microxrcedds_cpp/share/rosidl_typesupport_microxrcedds_cpp/environment/pythonpath.dsv
+-- Installing: /home/devpc/Desktop/microros_ws/install/rosidl_typesupport_microxrcedds_cpp/lib/python3.8/site-packages/rosidl_typesupport_microxrcedds_cpp
+-- Installing: /home/devpc/Desktop/microros_ws/install/rosidl_typesupport_microxrcedds_cpp/lib/python3.8/site-packages/rosidl_typesupport_microxrcedds_cpp/__init__.py
+Listing '/home/devpc/Desktop/microros_ws/install/rosidl_typesupport_microxrcedds_cpp/lib/python3.8/site-packages/rosidl_typesupport_microxrcedds_cpp'...
+Compiling '/home/devpc/Desktop/microros_ws/install/rosidl_typesupport_microxrcedds_cpp/lib/python3.8/site-packages/rosidl_typesupport_microxrcedds_cpp/__init__.py'...
+-- Installing: /home/devpc/Desktop/microros_ws/install/rosidl_typesupport_microxrcedds_cpp/share/rosidl_typesupport_microxrcedds_cpp/environment/library_path.sh
+-- Installing: /home/devpc/Desktop/microros_ws/install/rosidl_typesupport_microxrcedds_cpp/share/rosidl_typesupport_microxrcedds_cpp/environment/library_path.dsv
+-- Installing: /home/devpc/Desktop/microros_ws/install/rosidl_typesupport_microxrcedds_cpp/share/ament_index/resource_index/rosidl_typesupport_cpp/rosidl_typesupport_microxrcedds_cpp
+-- Installing: /home/devpc/Desktop/microros_ws/install/rosidl_typesupport_microxrcedds_cpp/share/ament_index/resource_index/package_run_dependencies/rosidl_typesupport_microxrcedds_cpp
+-- Installing: /home/devpc/Desktop/microros_ws/install/rosidl_typesupport_microxrcedds_cpp/share/ament_index/resource_index/parent_prefix_path/rosidl_typesupport_microxrcedds_cpp
+-- Installing: /home/devpc/Desktop/microros_ws/install/rosidl_typesupport_microxrcedds_cpp/share/rosidl_typesupport_microxrcedds_cpp/environment/ament_prefix_path.sh
+-- Installing: /home/devpc/Desktop/microros_ws/install/rosidl_typesupport_microxrcedds_cpp/share/rosidl_typesupport_microxrcedds_cpp/environment/ament_prefix_path.dsv
+-- Installing: /home/devpc/Desktop/microros_ws/install/rosidl_typesupport_microxrcedds_cpp/share/rosidl_typesupport_microxrcedds_cpp/environment/path.sh
+-- Installing: /home/devpc/Desktop/microros_ws/install/rosidl_typesupport_microxrcedds_cpp/share/rosidl_typesupport_microxrcedds_cpp/environment/path.dsv
+-- Installing: /home/devpc/Desktop/microros_ws/install/rosidl_typesupport_microxrcedds_cpp/share/rosidl_typesupport_microxrcedds_cpp/local_setup.bash
+-- Installing: /home/devpc/Desktop/microros_ws/install/rosidl_typesupport_microxrcedds_cpp/share/rosidl_typesupport_microxrcedds_cpp/local_setup.sh
+-- Installing: /home/devpc/Desktop/microros_ws/install/rosidl_typesupport_microxrcedds_cpp/share/rosidl_typesupport_microxrcedds_cpp/local_setup.zsh
+-- Installing: /home/devpc/Desktop/microros_ws/install/rosidl_typesupport_microxrcedds_cpp/share/rosidl_typesupport_microxrcedds_cpp/local_setup.dsv
+-- Installing: /home/devpc/Desktop/microros_ws/install/rosidl_typesupport_microxrcedds_cpp/share/rosidl_typesupport_microxrcedds_cpp/package.dsv
+-- Installing: /home/devpc/Desktop/microros_ws/install/rosidl_typesupport_microxrcedds_cpp/share/ament_index/resource_index/packages/rosidl_typesupport_microxrcedds_cpp
+-- Installing: /home/devpc/Desktop/microros_ws/install/rosidl_typesupport_microxrcedds_cpp/share/rosidl_typesupport_microxrcedds_cpp/cmake/rosidl_typesupport_microxrcedds_cppExport.cmake
+-- Installing: /home/devpc/Desktop/microros_ws/install/rosidl_typesupport_microxrcedds_cpp/share/rosidl_typesupport_microxrcedds_cpp/cmake/rosidl_typesupport_microxrcedds_cppExport-noconfig.cmake
+-- Installing: /home/devpc/Desktop/microros_ws/install/rosidl_typesupport_microxrcedds_cpp/share/rosidl_typesupport_microxrcedds_cpp/cmake/rosidl_typesupport_microxrcedds_cpp-extras.cmake
+-- Installing: /home/devpc/Desktop/microros_ws/install/rosidl_typesupport_microxrcedds_cpp/share/rosidl_typesupport_microxrcedds_cpp/cmake/ament_cmake_export_dependencies-extras.cmake
+-- Installing: /home/devpc/Desktop/microros_ws/install/rosidl_typesupport_microxrcedds_cpp/share/rosidl_typesupport_microxrcedds_cpp/cmake/ament_cmake_export_include_directories-extras.cmake
+-- Installing: /home/devpc/Desktop/microros_ws/install/rosidl_typesupport_microxrcedds_cpp/share/rosidl_typesupport_microxrcedds_cpp/cmake/ament_cmake_export_libraries-extras.cmake
+-- Installing: /home/devpc/Desktop/microros_ws/install/rosidl_typesupport_microxrcedds_cpp/share/rosidl_typesupport_microxrcedds_cpp/cmake/ament_cmake_export_targets-extras.cmake
+-- Installing: /home/devpc/Desktop/microros_ws/install/rosidl_typesupport_microxrcedds_cpp/share/rosidl_typesupport_microxrcedds_cpp/cmake/rosidl_typesupport_microxrcedds_cppConfig.cmake
+-- Installing: /home/devpc/Desktop/microros_ws/install/rosidl_typesupport_microxrcedds_cpp/share/rosidl_typesupport_microxrcedds_cpp/cmake/rosidl_typesupport_microxrcedds_cppConfig-version.cmake
+-- Installing: /home/devpc/Desktop/microros_ws/install/rosidl_typesupport_microxrcedds_cpp/share/rosidl_typesupport_microxrcedds_cpp/package.xml
+-- Installing: /home/devpc/Desktop/microros_ws/install/rosidl_typesupport_microxrcedds_cpp/lib/rosidl_typesupport_microxrcedds_cpp/rosidl_typesupport_microxrcedds_cpp
+-- Up-to-date: /home/devpc/Desktop/microros_ws/install/rosidl_typesupport_microxrcedds_cpp/share/rosidl_typesupport_microxrcedds_cpp/cmake
+-- Installing: /home/devpc/Desktop/microros_ws/install/rosidl_typesupport_microxrcedds_cpp/share/rosidl_typesupport_microxrcedds_cpp/cmake/rosidl_typesupport_microxrcedds_cpp_generate_interfaces.cmake
+-- Installing: /home/devpc/Desktop/microros_ws/install/rosidl_typesupport_microxrcedds_cpp/share/rosidl_typesupport_microxrcedds_cpp/resource
+-- Installing: /home/devpc/Desktop/microros_ws/install/rosidl_typesupport_microxrcedds_cpp/share/rosidl_typesupport_microxrcedds_cpp/resource/msg__rosidl_typesupport_microxrcedds_cpp.hpp.em
+-- Installing: /home/devpc/Desktop/microros_ws/install/rosidl_typesupport_microxrcedds_cpp/share/rosidl_typesupport_microxrcedds_cpp/resource/msg__type_support_cpp.cpp.em
+-- Installing: /home/devpc/Desktop/microros_ws/install/rosidl_typesupport_microxrcedds_cpp/share/rosidl_typesupport_microxrcedds_cpp/resource/srv__rosidl_typesupport_microxrcedds_cpp.hpp.em
+-- Installing: /home/devpc/Desktop/microros_ws/install/rosidl_typesupport_microxrcedds_cpp/share/rosidl_typesupport_microxrcedds_cpp/resource/srv__type_support_cpp.cpp.em
+-- Installing: /home/devpc/Desktop/microros_ws/install/rosidl_typesupport_microxrcedds_cpp/share/rosidl_typesupport_microxrcedds_cpp/resource/idl__rosidl_typesupport_microxrcedds_cpp.hpp.em
+-- Installing: /home/devpc/Desktop/microros_ws/install/rosidl_typesupport_microxrcedds_cpp/share/rosidl_typesupport_microxrcedds_cpp/resource/idl__type_support_cpp.cpp.em
+-- Installing: /home/devpc/Desktop/microros_ws/install/rosidl_typesupport_microxrcedds_cpp/share/rosidl_typesupport_microxrcedds_cpp/resource/rosidl_typesupport_microxrcedds_cpp__visibility_control.h.in
+-- Installing: /home/devpc/Desktop/microros_ws/install/rosidl_typesupport_microxrcedds_cpp/include
+-- Installing: /home/devpc/Desktop/microros_ws/install/rosidl_typesupport_microxrcedds_cpp/include/rosidl_typesupport_microxrcedds_cpp
+-- Installing: /home/devpc/Desktop/microros_ws/install/rosidl_typesupport_microxrcedds_cpp/include/rosidl_typesupport_microxrcedds_cpp/message_type_support_decl.hpp
+-- Installing: /home/devpc/Desktop/microros_ws/install/rosidl_typesupport_microxrcedds_cpp/include/rosidl_typesupport_microxrcedds_cpp/identifier.hpp
+-- Installing: /home/devpc/Desktop/microros_ws/install/rosidl_typesupport_microxrcedds_cpp/include/rosidl_typesupport_microxrcedds_cpp/identifier.h
+-- Installing: /home/devpc/Desktop/microros_ws/install/rosidl_typesupport_microxrcedds_cpp/include/rosidl_typesupport_microxrcedds_cpp/visibility_control.h
+-- Installing: /home/devpc/Desktop/microros_ws/install/rosidl_typesupport_microxrcedds_cpp/include/rosidl_typesupport_microxrcedds_cpp/service_type_support_decl.hpp
+-- Installing: /home/devpc/Desktop/microros_ws/install/rosidl_typesupport_microxrcedds_cpp/lib/librosidl_typesupport_microxrcedds_cpp.so
+-- Set runtime path of "/home/devpc/Desktop/microros_ws/install/rosidl_typesupport_microxrcedds_cpp/lib/librosidl_typesupport_microxrcedds_cpp.so" to ""

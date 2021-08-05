@@ -1,0 +1,4 @@
+Invoking command in '/home/devpc/Desktop/microros_ws/build/microcdr': /usr/bin/cmake --build /home/devpc/Desktop/microros_ws/build/microcdr -- -j8 -l8
+Invoked command in '/home/devpc/Desktop/microros_ws/build/microcdr' returned '0': /usr/bin/cmake --build /home/devpc/Desktop/microros_ws/build/microcdr -- -j8 -l8
+Invoking command in '/home/devpc/Desktop/microros_ws/build/microcdr': /usr/bin/cmake --install /home/devpc/Desktop/microros_ws/build/microcdr
+Invoked command in '/home/devpc/Desktop/microros_ws/build/microcdr' returned '0': /usr/bin/cmake --install /home/devpc/Desktop/microros_ws/build/microcdr

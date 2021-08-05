@@ -1,0 +1,592 @@
+[0.054s] Invoking command in '/home/devpc/Desktop/microros_ws/build/visualization_msgs': AMENT_PREFIX_PATH=/home/devpc/Desktop/microros_ws/install/geometry_msgs:/home/devpc/Desktop/microros_ws/install/std_msgs:/home/devpc/Desktop/microros_ws/install/builtin_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/devpc/Desktop/microros_ws/install/geometry_msgs:/home/devpc/Desktop/microros_ws/install/std_msgs:/home/devpc/Desktop/microros_ws/install/builtin_interfaces:/home/devpc/Desktop/microros_ws/install/rosidl_typesupport_microxrcedds_cpp:/home/devpc/Desktop/microros_ws/install/rosidl_typesupport_microxrcedds_c:/home/devpc/Desktop/microros_ws/install/microcdr:/home/devpc/Desktop/microros_ws/install/micro_ros_agent:/home/devpc/Desktop/microros_ws/install/microxrcedds_agent:/home/devpc/Desktop/microros_ws/install/micro_ros_setup:/home/devpc/Desktop/microros_ws/install/micro_ros_msgs:/home/devpc/Desktop/quad_ws/install/quad_interfaces:/home/devpc/Desktop/quad_ws/install/quad:/opt/ros/foxy LD_LIBRARY_PATH=/home/devpc/Desktop/microros_ws/install/geometry_msgs/lib:/home/devpc/Desktop/microros_ws/install/std_msgs/lib:/home/devpc/Desktop/microros_ws/install/builtin_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/devpc/Desktop/microros_ws/install/geometry_msgs/lib/python3.8/site-packages:/home/devpc/Desktop/microros_ws/install/std_msgs/lib/python3.8/site-packages:/home/devpc/Desktop/microros_ws/install/builtin_interfaces/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake /home/devpc/Desktop/microros_ws/src/ros2/common_interfaces/visualization_msgs -DCMAKE_INSTALL_PREFIX=/home/devpc/Desktop/microros_ws/install/visualization_msgs
+[3.644s] -- The C compiler identification is GNU 9.3.0
+[3.644s] -- The CXX compiler identification is GNU 9.3.0
+[3.644s] -- Check for working C compiler: /usr/bin/cc
+[3.644s] -- Check for working C compiler: /usr/bin/cc -- works
+[3.645s] -- Detecting C compiler ABI info
+[3.646s] -- Detecting C compiler ABI info - done
+[3.646s] -- Detecting C compile features
+[3.646s] -- Detecting C compile features - done
+[3.646s] -- Check for working CXX compiler: /usr/bin/c++
+[3.647s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[3.655s] -- Detecting CXX compiler ABI info
+[3.655s] -- Detecting CXX compiler ABI info - done
+[3.656s] -- Detecting CXX compile features
+[3.656s] -- Detecting CXX compile features - done
+[3.656s] -- Found ament_cmake: 0.9.8 (/opt/ros/foxy/share/ament_cmake/cmake)
+[3.656s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[3.656s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[3.656s] -- Found builtin_interfaces: 1.0.0 (/home/devpc/Desktop/microros_ws/install/builtin_interfaces/share/builtin_interfaces/cmake)
+[3.657s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_microxrcedds_c;rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[3.657s] -- Found rosidl_adapter: 1.2.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[3.657s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  
+[3.657s] -- Found FastRTPS: /opt/ros/foxy/include  
+[3.658s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_microxrcedds_cpp;rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[3.658s] -- Found geometry_msgs: 2.0.4 (/home/devpc/Desktop/microros_ws/install/geometry_msgs/share/geometry_msgs/cmake)
+[3.658s] -- Found rosidl_default_generators: 1.0.1 (/opt/ros/foxy/share/rosidl_default_generators/cmake)
+[3.658s] -- Found PythonInterp: /usr/bin/python3 (found version "3.8.10") 
+[3.658s] -- Found ament_cmake_cppcheck: 0.9.6 (/opt/ros/foxy/share/ament_cmake_cppcheck/cmake)
+[3.658s] -- Found ament_cmake_cpplint: 0.9.6 (/opt/ros/foxy/share/ament_cmake_cpplint/cmake)
+[3.658s] -- Found ament_cmake_uncrustify: 0.9.6 (/opt/ros/foxy/share/ament_cmake_uncrustify/cmake)
+[3.659s] -- Found ament_cmake_ros: 0.9.2 (/opt/ros/foxy/share/ament_cmake_ros/cmake)
+[3.659s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_microxrcedds_c;rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[3.659s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_microxrcedds_cpp;rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[3.659s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3.5") 
+[3.659s] -- Found python_cmake_module: 0.8.1 (/opt/ros/foxy/share/python_cmake_module/cmake)
+[3.659s] -- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.8.so (found suitable version "3.8.10", minimum required is "3.5") 
+[3.660s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[3.660s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.8
+[3.660s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.8.so
+[3.662s] -- Found PythonExtra: .so  
+[3.867s] -- Found ament_cmake_flake8: 0.9.6 (/opt/ros/foxy/share/ament_cmake_flake8/cmake)
+[3.872s] -- Found ament_cmake_pep257: 0.9.6 (/opt/ros/foxy/share/ament_cmake_pep257/cmake)
+[3.906s] -- Configuring done
+[4.210s] -- Generating done
+[4.217s] -- Build files have been written to: /home/devpc/Desktop/microros_ws/build/visualization_msgs
+[4.244s] Invoked command in '/home/devpc/Desktop/microros_ws/build/visualization_msgs' returned '0': AMENT_PREFIX_PATH=/home/devpc/Desktop/microros_ws/install/geometry_msgs:/home/devpc/Desktop/microros_ws/install/std_msgs:/home/devpc/Desktop/microros_ws/install/builtin_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/devpc/Desktop/microros_ws/install/geometry_msgs:/home/devpc/Desktop/microros_ws/install/std_msgs:/home/devpc/Desktop/microros_ws/install/builtin_interfaces:/home/devpc/Desktop/microros_ws/install/rosidl_typesupport_microxrcedds_cpp:/home/devpc/Desktop/microros_ws/install/rosidl_typesupport_microxrcedds_c:/home/devpc/Desktop/microros_ws/install/microcdr:/home/devpc/Desktop/microros_ws/install/micro_ros_agent:/home/devpc/Desktop/microros_ws/install/microxrcedds_agent:/home/devpc/Desktop/microros_ws/install/micro_ros_setup:/home/devpc/Desktop/microros_ws/install/micro_ros_msgs:/home/devpc/Desktop/quad_ws/install/quad_interfaces:/home/devpc/Desktop/quad_ws/install/quad:/opt/ros/foxy LD_LIBRARY_PATH=/home/devpc/Desktop/microros_ws/install/geometry_msgs/lib:/home/devpc/Desktop/microros_ws/install/std_msgs/lib:/home/devpc/Desktop/microros_ws/install/builtin_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/devpc/Desktop/microros_ws/install/geometry_msgs/lib/python3.8/site-packages:/home/devpc/Desktop/microros_ws/install/std_msgs/lib/python3.8/site-packages:/home/devpc/Desktop/microros_ws/install/builtin_interfaces/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake /home/devpc/Desktop/microros_ws/src/ros2/common_interfaces/visualization_msgs -DCMAKE_INSTALL_PREFIX=/home/devpc/Desktop/microros_ws/install/visualization_msgs
+[4.245s] Invoking command in '/home/devpc/Desktop/microros_ws/build/visualization_msgs': AMENT_PREFIX_PATH=/home/devpc/Desktop/microros_ws/install/geometry_msgs:/home/devpc/Desktop/microros_ws/install/std_msgs:/home/devpc/Desktop/microros_ws/install/builtin_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/devpc/Desktop/microros_ws/install/geometry_msgs:/home/devpc/Desktop/microros_ws/install/std_msgs:/home/devpc/Desktop/microros_ws/install/builtin_interfaces:/home/devpc/Desktop/microros_ws/install/rosidl_typesupport_microxrcedds_cpp:/home/devpc/Desktop/microros_ws/install/rosidl_typesupport_microxrcedds_c:/home/devpc/Desktop/microros_ws/install/microcdr:/home/devpc/Desktop/microros_ws/install/micro_ros_agent:/home/devpc/Desktop/microros_ws/install/microxrcedds_agent:/home/devpc/Desktop/microros_ws/install/micro_ros_setup:/home/devpc/Desktop/microros_ws/install/micro_ros_msgs:/home/devpc/Desktop/quad_ws/install/quad_interfaces:/home/devpc/Desktop/quad_ws/install/quad:/opt/ros/foxy LD_LIBRARY_PATH=/home/devpc/Desktop/microros_ws/install/geometry_msgs/lib:/home/devpc/Desktop/microros_ws/install/std_msgs/lib:/home/devpc/Desktop/microros_ws/install/builtin_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/devpc/Desktop/microros_ws/install/geometry_msgs/lib/python3.8/site-packages:/home/devpc/Desktop/microros_ws/install/std_msgs/lib/python3.8/site-packages:/home/devpc/Desktop/microros_ws/install/builtin_interfaces/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/devpc/Desktop/microros_ws/build/visualization_msgs -- -j8 -l8
+[6.114s] [35m[1mScanning dependencies of target visualization_msgs__cpp[0m
+[6.114s] [  0%] [34m[1mGenerating C code for ROS interfaces[0m
+[6.114s] [  0%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[10.975s] [35m[1mScanning dependencies of target visualization_msgs__rosidl_generator_c[0m
+[11.096s] [  1%] [32mBuilding C object CMakeFiles/visualization_msgs__rosidl_generator_c.dir/rosidl_generator_c/visualization_msgs/msg/detail/image_marker__functions.c.o[0m
+[11.235s] [  2%] [32mBuilding C object CMakeFiles/visualization_msgs__rosidl_generator_c.dir/rosidl_generator_c/visualization_msgs/msg/detail/interactive_marker_init__functions.c.o[0m
+[11.402s] [  3%] [32mBuilding C object CMakeFiles/visualization_msgs__rosidl_generator_c.dir/rosidl_generator_c/visualization_msgs/msg/detail/marker__functions.c.o[0m
+[11.517s] [  4%] [32mBuilding C object CMakeFiles/visualization_msgs__rosidl_generator_c.dir/rosidl_generator_c/visualization_msgs/msg/detail/marker_array__functions.c.o[0m
+[11.569s] [  4%] Built target visualization_msgs__cpp
+[11.674s] [  4%] [32mBuilding C object CMakeFiles/visualization_msgs__rosidl_generator_c.dir/rosidl_generator_c/visualization_msgs/msg/detail/menu_entry__functions.c.o[0m
+[11.844s] [  4%] [32mBuilding C object CMakeFiles/visualization_msgs__rosidl_generator_c.dir/rosidl_generator_c/visualization_msgs/msg/detail/interactive_marker_update__functions.c.o[0m
+[12.029s] [  5%] [32mBuilding C object CMakeFiles/visualization_msgs__rosidl_generator_c.dir/rosidl_generator_c/visualization_msgs/msg/detail/interactive_marker_pose__functions.c.o[0m
+[12.137s] [  6%] [32mBuilding C object CMakeFiles/visualization_msgs__rosidl_generator_c.dir/rosidl_generator_c/visualization_msgs/msg/detail/interactive_marker_feedback__functions.c.o[0m
+[12.208s] [  7%] [32mBuilding C object CMakeFiles/visualization_msgs__rosidl_generator_c.dir/rosidl_generator_c/visualization_msgs/srv/detail/get_interactive_markers__functions.c.o[0m
+[12.288s] [  7%] [32mBuilding C object CMakeFiles/visualization_msgs__rosidl_generator_c.dir/rosidl_generator_c/visualization_msgs/msg/detail/interactive_marker_control__functions.c.o[0m
+[12.381s] [  8%] [32mBuilding C object CMakeFiles/visualization_msgs__rosidl_generator_c.dir/rosidl_generator_c/visualization_msgs/msg/detail/interactive_marker__functions.c.o[0m
+[12.480s] [  9%] [32m[1mLinking C shared library libvisualization_msgs__rosidl_generator_c.so[0m
+[12.540s] [  9%] Built target visualization_msgs__rosidl_generator_c
+[12.556s] [ 10%] [34m[1mGenerating C++ type support for eProsima Micro XRCE-DDS[0m
+[16.115s] [35m[1mScanning dependencies of target visualization_msgs__rosidl_typesupport_microxrcedds_cpp[0m
+[16.153s] [ 11%] [32mBuilding CXX object CMakeFiles/visualization_msgs__rosidl_typesupport_microxrcedds_cpp.dir/rosidl_typesupport_microxrcedds_cpp/visualization_msgs/msg/detail/microxrcedds/image_marker__type_support_cpp.cpp.o[0m
+[16.892s] [ 11%] [32mBuilding CXX object CMakeFiles/visualization_msgs__rosidl_typesupport_microxrcedds_cpp.dir/rosidl_typesupport_microxrcedds_cpp/visualization_msgs/msg/detail/microxrcedds/interactive_marker__type_support_cpp.cpp.o[0m
+[17.750s] [ 12%] [32mBuilding CXX object CMakeFiles/visualization_msgs__rosidl_typesupport_microxrcedds_cpp.dir/rosidl_typesupport_microxrcedds_cpp/visualization_msgs/msg/detail/microxrcedds/interactive_marker_control__type_support_cpp.cpp.o[0m
+[18.525s] [ 13%] [32mBuilding CXX object CMakeFiles/visualization_msgs__rosidl_typesupport_microxrcedds_cpp.dir/rosidl_typesupport_microxrcedds_cpp/visualization_msgs/msg/detail/microxrcedds/interactive_marker_feedback__type_support_cpp.cpp.o[0m
+[19.134s] [ 13%] [32mBuilding CXX object CMakeFiles/visualization_msgs__rosidl_typesupport_microxrcedds_cpp.dir/rosidl_typesupport_microxrcedds_cpp/visualization_msgs/msg/detail/microxrcedds/interactive_marker_init__type_support_cpp.cpp.o[0m
+[19.948s] [ 14%] [32mBuilding CXX object CMakeFiles/visualization_msgs__rosidl_typesupport_microxrcedds_cpp.dir/rosidl_typesupport_microxrcedds_cpp/visualization_msgs/msg/detail/microxrcedds/interactive_marker_pose__type_support_cpp.cpp.o[0m
+[20.544s] [ 15%] [32mBuilding CXX object CMakeFiles/visualization_msgs__rosidl_typesupport_microxrcedds_cpp.dir/rosidl_typesupport_microxrcedds_cpp/visualization_msgs/msg/detail/microxrcedds/interactive_marker_update__type_support_cpp.cpp.o[0m
+[21.553s] [ 16%] [32mBuilding CXX object CMakeFiles/visualization_msgs__rosidl_typesupport_microxrcedds_cpp.dir/rosidl_typesupport_microxrcedds_cpp/visualization_msgs/msg/detail/microxrcedds/marker__type_support_cpp.cpp.o[0m
+[22.312s] [ 16%] [32mBuilding CXX object CMakeFiles/visualization_msgs__rosidl_typesupport_microxrcedds_cpp.dir/rosidl_typesupport_microxrcedds_cpp/visualization_msgs/msg/detail/microxrcedds/marker_array__type_support_cpp.cpp.o[0m
+[23.046s] [ 17%] [32mBuilding CXX object CMakeFiles/visualization_msgs__rosidl_typesupport_microxrcedds_cpp.dir/rosidl_typesupport_microxrcedds_cpp/visualization_msgs/msg/detail/microxrcedds/menu_entry__type_support_cpp.cpp.o[0m
+[23.586s] [ 18%] [32mBuilding CXX object CMakeFiles/visualization_msgs__rosidl_typesupport_microxrcedds_cpp.dir/rosidl_typesupport_microxrcedds_cpp/visualization_msgs/srv/detail/microxrcedds/get_interactive_markers__type_support_cpp.cpp.o[0m
+[24.361s] [ 19%] [32m[1mLinking CXX shared library libvisualization_msgs__rosidl_typesupport_microxrcedds_cpp.so[0m
+[24.554s] [ 19%] Built target visualization_msgs__rosidl_typesupport_microxrcedds_cpp
+[24.572s] [ 20%] [34m[1mGenerating C type support for eProsima Micro XRCE-DDS[0m
+[27.995s] [35m[1mScanning dependencies of target visualization_msgs__rosidl_typesupport_microxrcedds_c[0m
+[28.032s] [ 21%] [32mBuilding C object CMakeFiles/visualization_msgs__rosidl_typesupport_microxrcedds_c.dir/rosidl_typesupport_microxrcedds_c/visualization_msgs/msg/detail/microxrcedds/image_marker__type_support_c.c.o[0m
+[28.117s] [ 21%] [32mBuilding C object CMakeFiles/visualization_msgs__rosidl_typesupport_microxrcedds_c.dir/rosidl_typesupport_microxrcedds_c/visualization_msgs/msg/detail/microxrcedds/interactive_marker_control__type_support_c.c.o[0m
+[28.210s] [ 22%] [32mBuilding C object CMakeFiles/visualization_msgs__rosidl_typesupport_microxrcedds_c.dir/rosidl_typesupport_microxrcedds_c/visualization_msgs/msg/detail/microxrcedds/interactive_marker_feedback__type_support_c.c.o[0m
+[28.297s] [ 23%] [32mBuilding C object CMakeFiles/visualization_msgs__rosidl_typesupport_microxrcedds_c.dir/rosidl_typesupport_microxrcedds_c/visualization_msgs/msg/detail/microxrcedds/interactive_marker_init__type_support_c.c.o[0m
+[28.376s] [ 23%] [32mBuilding C object CMakeFiles/visualization_msgs__rosidl_typesupport_microxrcedds_c.dir/rosidl_typesupport_microxrcedds_c/visualization_msgs/msg/detail/microxrcedds/interactive_marker_pose__type_support_c.c.o[0m
+[28.469s] [ 24%] [32mBuilding C object CMakeFiles/visualization_msgs__rosidl_typesupport_microxrcedds_c.dir/rosidl_typesupport_microxrcedds_c/visualization_msgs/msg/detail/microxrcedds/interactive_marker_update__type_support_c.c.o[0m
+[28.557s] [ 25%] [32mBuilding C object CMakeFiles/visualization_msgs__rosidl_typesupport_microxrcedds_c.dir/rosidl_typesupport_microxrcedds_c/visualization_msgs/msg/detail/microxrcedds/marker__type_support_c.c.o[0m
+[28.645s] [ 26%] [32mBuilding C object CMakeFiles/visualization_msgs__rosidl_typesupport_microxrcedds_c.dir/rosidl_typesupport_microxrcedds_c/visualization_msgs/msg/detail/microxrcedds/marker_array__type_support_c.c.o[0m
+[28.731s] [ 26%] [32mBuilding C object CMakeFiles/visualization_msgs__rosidl_typesupport_microxrcedds_c.dir/rosidl_typesupport_microxrcedds_c/visualization_msgs/msg/detail/microxrcedds/menu_entry__type_support_c.c.o[0m
+[28.827s] [ 27%] [32mBuilding C object CMakeFiles/visualization_msgs__rosidl_typesupport_microxrcedds_c.dir/rosidl_typesupport_microxrcedds_c/visualization_msgs/srv/detail/microxrcedds/get_interactive_markers__type_support_c.c.o[0m
+[28.905s] [ 28%] [32mBuilding C object CMakeFiles/visualization_msgs__rosidl_typesupport_microxrcedds_c.dir/rosidl_typesupport_microxrcedds_c/visualization_msgs/msg/detail/microxrcedds/interactive_marker__type_support_c.c.o[0m
+[28.986s] [ 29%] [32m[1mLinking C shared library libvisualization_msgs__rosidl_typesupport_microxrcedds_c.so[0m
+[29.063s] [ 29%] Built target visualization_msgs__rosidl_typesupport_microxrcedds_c
+[29.084s] [ 30%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[32.065s] [35m[1mScanning dependencies of target visualization_msgs__rosidl_typesupport_c[0m
+[32.093s] [ 30%] [32mBuilding CXX object CMakeFiles/visualization_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/visualization_msgs/msg/image_marker__type_support.cpp.o[0m
+[32.151s] [ 31%] [32mBuilding CXX object CMakeFiles/visualization_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/visualization_msgs/msg/interactive_marker_feedback__type_support.cpp.o[0m
+[32.202s] [ 31%] [32mBuilding CXX object CMakeFiles/visualization_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/visualization_msgs/msg/interactive_marker_init__type_support.cpp.o[0m
+[32.251s] [ 32%] [32mBuilding CXX object CMakeFiles/visualization_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/visualization_msgs/msg/interactive_marker_pose__type_support.cpp.o[0m
+[32.300s] [ 33%] [32mBuilding CXX object CMakeFiles/visualization_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/visualization_msgs/msg/interactive_marker_update__type_support.cpp.o[0m
+[32.350s] [ 33%] [32mBuilding CXX object CMakeFiles/visualization_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/visualization_msgs/msg/marker__type_support.cpp.o[0m
+[32.400s] [ 34%] [32mBuilding CXX object CMakeFiles/visualization_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/visualization_msgs/msg/marker_array__type_support.cpp.o[0m
+[32.452s] [ 35%] [32mBuilding CXX object CMakeFiles/visualization_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/visualization_msgs/msg/menu_entry__type_support.cpp.o[0m
+[32.502s] [ 36%] [32mBuilding CXX object CMakeFiles/visualization_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/visualization_msgs/srv/get_interactive_markers__type_support.cpp.o[0m
+[32.564s] [ 37%] [32mBuilding CXX object CMakeFiles/visualization_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/visualization_msgs/msg/interactive_marker_control__type_support.cpp.o[0m
+[32.622s] [ 38%] [32mBuilding CXX object CMakeFiles/visualization_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/visualization_msgs/msg/interactive_marker__type_support.cpp.o[0m
+[32.671s] [ 38%] [32m[1mLinking CXX shared library libvisualization_msgs__rosidl_typesupport_c.so[0m
+[32.739s] [ 38%] Built target visualization_msgs__rosidl_typesupport_c
+[32.756s] [ 39%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[35.880s] [35m[1mScanning dependencies of target visualization_msgs__rosidl_typesupport_introspection_c[0m
+[35.920s] [ 40%] [32mBuilding C object CMakeFiles/visualization_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/visualization_msgs/msg/detail/image_marker__type_support.c.o[0m
+[35.985s] [ 41%] [32mBuilding C object CMakeFiles/visualization_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/visualization_msgs/msg/detail/interactive_marker_init__type_support.c.o[0m
+[36.040s] [ 41%] [32mBuilding C object CMakeFiles/visualization_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/visualization_msgs/msg/detail/interactive_marker_pose__type_support.c.o[0m
+[36.094s] [ 42%] [32mBuilding C object CMakeFiles/visualization_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/visualization_msgs/msg/detail/interactive_marker_update__type_support.c.o[0m
+[36.158s] [ 43%] [32mBuilding C object CMakeFiles/visualization_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/visualization_msgs/msg/detail/marker__type_support.c.o[0m
+[36.219s] [ 43%] [32mBuilding C object CMakeFiles/visualization_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/visualization_msgs/msg/detail/marker_array__type_support.c.o[0m
+[36.272s] [ 44%] [32mBuilding C object CMakeFiles/visualization_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/visualization_msgs/msg/detail/menu_entry__type_support.c.o[0m
+[36.322s] [ 45%] [32mBuilding C object CMakeFiles/visualization_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/visualization_msgs/srv/detail/get_interactive_markers__type_support.c.o[0m
+[36.382s] [ 46%] [32mBuilding C object CMakeFiles/visualization_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/visualization_msgs/msg/detail/interactive_marker_feedback__type_support.c.o[0m
+[36.434s] [ 47%] [32mBuilding C object CMakeFiles/visualization_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/visualization_msgs/msg/detail/interactive_marker_control__type_support.c.o[0m
+[36.490s] [ 47%] [32mBuilding C object CMakeFiles/visualization_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/visualization_msgs/msg/detail/interactive_marker__type_support.c.o[0m
+[36.550s] [ 48%] [32m[1mLinking C shared library libvisualization_msgs__rosidl_typesupport_introspection_c.so[0m
+[36.602s] [ 48%] Built target visualization_msgs__rosidl_typesupport_introspection_c
+[36.618s] [ 48%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[39.278s] [35m[1mScanning dependencies of target visualization_msgs__rosidl_typesupport_cpp[0m
+[39.307s] [ 49%] [32mBuilding CXX object CMakeFiles/visualization_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/visualization_msgs/msg/image_marker__type_support.cpp.o[0m
+[39.829s] [ 50%] [32mBuilding CXX object CMakeFiles/visualization_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/visualization_msgs/msg/interactive_marker_pose__type_support.cpp.o[0m
+[40.313s] [ 50%] [32mBuilding CXX object CMakeFiles/visualization_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/visualization_msgs/msg/interactive_marker_update__type_support.cpp.o[0m
+[40.749s] [ 51%] [32mBuilding CXX object CMakeFiles/visualization_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/visualization_msgs/msg/marker__type_support.cpp.o[0m
+[41.189s] [ 52%] [32mBuilding CXX object CMakeFiles/visualization_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/visualization_msgs/msg/marker_array__type_support.cpp.o[0m
+[41.558s] [ 53%] [32mBuilding CXX object CMakeFiles/visualization_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/visualization_msgs/msg/menu_entry__type_support.cpp.o[0m
+[42.063s] [ 53%] [32mBuilding CXX object CMakeFiles/visualization_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/visualization_msgs/srv/get_interactive_markers__type_support.cpp.o[0m
+[42.604s] [ 54%] [32mBuilding CXX object CMakeFiles/visualization_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/visualization_msgs/msg/interactive_marker_init__type_support.cpp.o[0m
+[42.932s] [ 54%] [32mBuilding CXX object CMakeFiles/visualization_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/visualization_msgs/msg/interactive_marker_feedback__type_support.cpp.o[0m
+[43.268s] [ 55%] [32mBuilding CXX object CMakeFiles/visualization_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/visualization_msgs/msg/interactive_marker_control__type_support.cpp.o[0m
+[43.622s] [ 56%] [32mBuilding CXX object CMakeFiles/visualization_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/visualization_msgs/msg/interactive_marker__type_support.cpp.o[0m
+[43.949s] [ 57%] [32m[1mLinking CXX shared library libvisualization_msgs__rosidl_typesupport_cpp.so[0m
+[43.991s] [ 57%] Built target visualization_msgs__rosidl_typesupport_cpp
+[44.002s] [ 58%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[46.046s] [35m[1mScanning dependencies of target visualization_msgs__rosidl_typesupport_fastrtps_cpp[0m
+[46.072s] [ 58%] [32mBuilding CXX object CMakeFiles/visualization_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/visualization_msgs/msg/detail/dds_fastrtps/image_marker__type_support.cpp.o[0m
+[46.800s] [ 59%] [32mBuilding CXX object CMakeFiles/visualization_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/visualization_msgs/msg/detail/dds_fastrtps/interactive_marker_update__type_support.cpp.o[0m
+[47.511s] [ 59%] [32mBuilding CXX object CMakeFiles/visualization_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/visualization_msgs/msg/detail/dds_fastrtps/marker__type_support.cpp.o[0m
+[48.219s] [ 60%] [32mBuilding CXX object CMakeFiles/visualization_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/visualization_msgs/msg/detail/dds_fastrtps/marker_array__type_support.cpp.o[0m
+[48.767s] [ 61%] [32mBuilding CXX object CMakeFiles/visualization_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/visualization_msgs/msg/detail/dds_fastrtps/menu_entry__type_support.cpp.o[0m
+[49.394s] [ 61%] [32mBuilding CXX object CMakeFiles/visualization_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/visualization_msgs/srv/detail/dds_fastrtps/get_interactive_markers__type_support.cpp.o[0m
+[50.016s] [ 62%] [32mBuilding CXX object CMakeFiles/visualization_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/visualization_msgs/msg/detail/dds_fastrtps/interactive_marker_pose__type_support.cpp.o[0m
+[50.547s] [ 63%] [32mBuilding CXX object CMakeFiles/visualization_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/visualization_msgs/msg/detail/dds_fastrtps/interactive_marker_init__type_support.cpp.o[0m
+[51.226s] [ 63%] [32mBuilding CXX object CMakeFiles/visualization_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/visualization_msgs/msg/detail/dds_fastrtps/interactive_marker_feedback__type_support.cpp.o[0m
+[51.755s] [ 64%] [32mBuilding CXX object CMakeFiles/visualization_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/visualization_msgs/msg/detail/dds_fastrtps/interactive_marker_control__type_support.cpp.o[0m
+[52.314s] [ 65%] [32mBuilding CXX object CMakeFiles/visualization_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/visualization_msgs/msg/detail/dds_fastrtps/interactive_marker__type_support.cpp.o[0m
+[52.957s] [ 66%] [32m[1mLinking CXX shared library libvisualization_msgs__rosidl_typesupport_fastrtps_cpp.so[0m
+[53.090s] [ 66%] Built target visualization_msgs__rosidl_typesupport_fastrtps_cpp
+[53.105s] [ 67%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[55.105s] [35m[1mScanning dependencies of target visualization_msgs__rosidl_typesupport_introspection_cpp[0m
+[55.129s] [ 67%] [32mBuilding CXX object CMakeFiles/visualization_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/visualization_msgs/msg/detail/image_marker__type_support.cpp.o[0m
+[55.590s] [ 68%] [32mBuilding CXX object CMakeFiles/visualization_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/visualization_msgs/msg/detail/interactive_marker_update__type_support.cpp.o[0m
+[56.097s] [ 68%] [32mBuilding CXX object CMakeFiles/visualization_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/visualization_msgs/msg/detail/marker__type_support.cpp.o[0m
+[56.664s] [ 69%] [32mBuilding CXX object CMakeFiles/visualization_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/visualization_msgs/msg/detail/marker_array__type_support.cpp.o[0m
+[57.060s] [ 70%] [32mBuilding CXX object CMakeFiles/visualization_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/visualization_msgs/msg/detail/menu_entry__type_support.cpp.o[0m
+[57.421s] [ 71%] [32mBuilding CXX object CMakeFiles/visualization_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/visualization_msgs/srv/detail/get_interactive_markers__type_support.cpp.o[0m
+[57.845s] [ 72%] [32mBuilding CXX object CMakeFiles/visualization_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/visualization_msgs/msg/detail/interactive_marker_pose__type_support.cpp.o[0m
+[58.155s] [ 72%] [32mBuilding CXX object CMakeFiles/visualization_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/visualization_msgs/msg/detail/interactive_marker_init__type_support.cpp.o[0m
+[58.580s] [ 73%] [32mBuilding CXX object CMakeFiles/visualization_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/visualization_msgs/msg/detail/interactive_marker_feedback__type_support.cpp.o[0m
+[58.892s] [ 74%] [32mBuilding CXX object CMakeFiles/visualization_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/visualization_msgs/msg/detail/interactive_marker_control__type_support.cpp.o[0m
+[59.284s] [ 75%] [32mBuilding CXX object CMakeFiles/visualization_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/visualization_msgs/msg/detail/interactive_marker__type_support.cpp.o[0m
+[59.732s] [ 75%] [32m[1mLinking CXX shared library libvisualization_msgs__rosidl_typesupport_introspection_cpp.so[0m
+[59.842s] [ 75%] Built target visualization_msgs__rosidl_typesupport_introspection_cpp
+[59.853s] [ 76%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[61.694s] [35m[1mScanning dependencies of target visualization_msgs__rosidl_typesupport_fastrtps_c[0m
+[61.726s] [ 77%] [32mBuilding CXX object CMakeFiles/visualization_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/visualization_msgs/msg/detail/interactive_marker__type_support_c.cpp.o[0m
+[61.727s] [ 77%] [32mBuilding CXX object CMakeFiles/visualization_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/visualization_msgs/msg/detail/image_marker__type_support_c.cpp.o[0m
+[62.123s] [ 78%] [32mBuilding CXX object CMakeFiles/visualization_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/visualization_msgs/msg/detail/marker__type_support_c.cpp.o[0m
+[62.192s] [ 78%] [32mBuilding CXX object CMakeFiles/visualization_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/visualization_msgs/msg/detail/marker_array__type_support_c.cpp.o[0m
+[62.544s] [ 79%] [32mBuilding CXX object CMakeFiles/visualization_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/visualization_msgs/msg/detail/menu_entry__type_support_c.cpp.o[0m
+[62.576s] [ 80%] [32mBuilding CXX object CMakeFiles/visualization_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/visualization_msgs/srv/detail/get_interactive_markers__type_support_c.cpp.o[0m
+[63.032s] [ 81%] [32mBuilding CXX object CMakeFiles/visualization_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/visualization_msgs/msg/detail/interactive_marker_update__type_support_c.cpp.o[0m
+[63.077s] [ 82%] [32mBuilding CXX object CMakeFiles/visualization_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/visualization_msgs/msg/detail/interactive_marker_pose__type_support_c.cpp.o[0m
+[63.433s] [ 82%] [32mBuilding CXX object CMakeFiles/visualization_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/visualization_msgs/msg/detail/interactive_marker_init__type_support_c.cpp.o[0m
+[63.665s] [ 83%] [32mBuilding CXX object CMakeFiles/visualization_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/visualization_msgs/msg/detail/interactive_marker_feedback__type_support_c.cpp.o[0m
+[63.840s] [ 84%] [32mBuilding CXX object CMakeFiles/visualization_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/visualization_msgs/msg/detail/interactive_marker_control__type_support_c.cpp.o[0m
+[64.290s] [ 84%] [32m[1mLinking CXX shared library libvisualization_msgs__rosidl_typesupport_fastrtps_c.so[0m
+[64.390s] [ 84%] Built target visualization_msgs__rosidl_typesupport_fastrtps_c
+[64.400s] [35m[1mScanning dependencies of target visualization_msgs[0m
+[64.410s] [ 84%] Built target visualization_msgs
+[64.421s] [35m[1mScanning dependencies of target visualization_msgs__py[0m
+[64.434s] [ 85%] [34m[1mGenerating Python code for ROS interfaces[0m
+[69.532s] [ 85%] Built target visualization_msgs__py
+[69.547s] [35m[1mScanning dependencies of target visualization_msgs__python[0m
+[69.618s] [ 87%] [32mBuilding C object CMakeFiles/visualization_msgs__python.dir/rosidl_generator_py/visualization_msgs/msg/_interactive_marker_s.c.o[0m
+[69.618s] [ 87%] [32mBuilding C object CMakeFiles/visualization_msgs__python.dir/rosidl_generator_py/visualization_msgs/msg/_image_marker_s.c.o[0m
+[69.618s] [ 87%] [32mBuilding C object CMakeFiles/visualization_msgs__python.dir/rosidl_generator_py/visualization_msgs/msg/_interactive_marker_control_s.c.o[0m
+[69.799s] [ 88%] [32mBuilding C object CMakeFiles/visualization_msgs__python.dir/rosidl_generator_py/visualization_msgs/msg/_marker_s.c.o[0m
+[69.802s] [ 88%] [32mBuilding C object CMakeFiles/visualization_msgs__python.dir/rosidl_generator_py/visualization_msgs/msg/_marker_array_s.c.o[0m
+[69.821s] [ 89%] [32mBuilding C object CMakeFiles/visualization_msgs__python.dir/rosidl_generator_py/visualization_msgs/msg/_menu_entry_s.c.o[0m
+[69.966s] [ 91%] [32mBuilding C object CMakeFiles/visualization_msgs__python.dir/rosidl_generator_py/visualization_msgs/msg/_interactive_marker_update_s.c.o[0m
+[69.967s] [ 91%] [32mBuilding C object CMakeFiles/visualization_msgs__python.dir/rosidl_generator_py/visualization_msgs/srv/_get_interactive_markers_s.c.o[0m
+[69.993s] [ 91%] [32mBuilding C object CMakeFiles/visualization_msgs__python.dir/rosidl_generator_py/visualization_msgs/msg/_interactive_marker_pose_s.c.o[0m
+[70.004s] [ 92%] [32mBuilding C object CMakeFiles/visualization_msgs__python.dir/rosidl_generator_py/visualization_msgs/msg/_interactive_marker_init_s.c.o[0m
+[70.139s] [ 93%] [32mBuilding C object CMakeFiles/visualization_msgs__python.dir/rosidl_generator_py/visualization_msgs/msg/_interactive_marker_feedback_s.c.o[0m
+[70.241s] [ 94%] [32m[1mLinking C shared library rosidl_generator_py/visualization_msgs/libvisualization_msgs__python.so[0m
+[70.298s] [ 94%] Built target visualization_msgs__python
+[70.311s] [35m[1mScanning dependencies of target visualization_msgs__rosidl_typesupport_microxrcedds_c__pyext[0m
+[70.312s] [35m[1mScanning dependencies of target visualization_msgs__rosidl_typesupport_c__pyext[0m
+[70.312s] [35m[1mScanning dependencies of target visualization_msgs__rosidl_typesupport_fastrtps_c__pyext[0m
+[70.337s] [ 94%] [32mBuilding C object CMakeFiles/visualization_msgs__rosidl_typesupport_microxrcedds_c__pyext.dir/rosidl_generator_py/visualization_msgs/_visualization_msgs_s.ep.rosidl_typesupport_microxrcedds_c.c.o[0m
+[70.344s] [ 95%] [32mBuilding C object CMakeFiles/visualization_msgs__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/visualization_msgs/_visualization_msgs_s.ep.rosidl_typesupport_c.c.o[0m
+[70.349s] [ 96%] [32mBuilding C object CMakeFiles/visualization_msgs__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/visualization_msgs/_visualization_msgs_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[70.476s] [ 97%] [32m[1mLinking C shared library rosidl_generator_py/visualization_msgs/visualization_msgs_s__rosidl_typesupport_c.cpython-38-x86_64-linux-gnu.so[0m
+[70.518s] [ 97%] Built target visualization_msgs__rosidl_typesupport_c__pyext
+[70.528s] [35m[1mScanning dependencies of target visualization_msgs__rosidl_typesupport_introspection_c__pyext[0m
+[70.544s] [ 98%] [32m[1mLinking C shared library rosidl_generator_py/visualization_msgs/visualization_msgs_s__rosidl_typesupport_microxrcedds_c.cpython-38-x86_64-linux-gnu.so[0m
+[70.554s] [ 98%] [32mBuilding C object CMakeFiles/visualization_msgs__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/visualization_msgs/_visualization_msgs_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[70.562s] [ 99%] [32m[1mLinking CXX shared library rosidl_generator_py/visualization_msgs/visualization_msgs_s__rosidl_typesupport_fastrtps_c.cpython-38-x86_64-linux-gnu.so[0m
+[70.598s] [ 99%] Built target visualization_msgs__rosidl_typesupport_microxrcedds_c__pyext
+[70.637s] [ 99%] Built target visualization_msgs__rosidl_typesupport_fastrtps_c__pyext
+[70.751s] [100%] [32m[1mLinking C shared library rosidl_generator_py/visualization_msgs/visualization_msgs_s__rosidl_typesupport_introspection_c.cpython-38-x86_64-linux-gnu.so[0m
+[70.792s] [100%] Built target visualization_msgs__rosidl_typesupport_introspection_c__pyext
+[70.805s] Invoked command in '/home/devpc/Desktop/microros_ws/build/visualization_msgs' returned '0': AMENT_PREFIX_PATH=/home/devpc/Desktop/microros_ws/install/geometry_msgs:/home/devpc/Desktop/microros_ws/install/std_msgs:/home/devpc/Desktop/microros_ws/install/builtin_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/devpc/Desktop/microros_ws/install/geometry_msgs:/home/devpc/Desktop/microros_ws/install/std_msgs:/home/devpc/Desktop/microros_ws/install/builtin_interfaces:/home/devpc/Desktop/microros_ws/install/rosidl_typesupport_microxrcedds_cpp:/home/devpc/Desktop/microros_ws/install/rosidl_typesupport_microxrcedds_c:/home/devpc/Desktop/microros_ws/install/microcdr:/home/devpc/Desktop/microros_ws/install/micro_ros_agent:/home/devpc/Desktop/microros_ws/install/microxrcedds_agent:/home/devpc/Desktop/microros_ws/install/micro_ros_setup:/home/devpc/Desktop/microros_ws/install/micro_ros_msgs:/home/devpc/Desktop/quad_ws/install/quad_interfaces:/home/devpc/Desktop/quad_ws/install/quad:/opt/ros/foxy LD_LIBRARY_PATH=/home/devpc/Desktop/microros_ws/install/geometry_msgs/lib:/home/devpc/Desktop/microros_ws/install/std_msgs/lib:/home/devpc/Desktop/microros_ws/install/builtin_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/devpc/Desktop/microros_ws/install/geometry_msgs/lib/python3.8/site-packages:/home/devpc/Desktop/microros_ws/install/std_msgs/lib/python3.8/site-packages:/home/devpc/Desktop/microros_ws/install/builtin_interfaces/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/devpc/Desktop/microros_ws/build/visualization_msgs -- -j8 -l8
+[71.013s] Invoking command in '/home/devpc/Desktop/microros_ws/build/visualization_msgs': AMENT_PREFIX_PATH=/home/devpc/Desktop/microros_ws/install/geometry_msgs:/home/devpc/Desktop/microros_ws/install/std_msgs:/home/devpc/Desktop/microros_ws/install/builtin_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/devpc/Desktop/microros_ws/install/geometry_msgs:/home/devpc/Desktop/microros_ws/install/std_msgs:/home/devpc/Desktop/microros_ws/install/builtin_interfaces:/home/devpc/Desktop/microros_ws/install/rosidl_typesupport_microxrcedds_cpp:/home/devpc/Desktop/microros_ws/install/rosidl_typesupport_microxrcedds_c:/home/devpc/Desktop/microros_ws/install/microcdr:/home/devpc/Desktop/microros_ws/install/micro_ros_agent:/home/devpc/Desktop/microros_ws/install/microxrcedds_agent:/home/devpc/Desktop/microros_ws/install/micro_ros_setup:/home/devpc/Desktop/microros_ws/install/micro_ros_msgs:/home/devpc/Desktop/quad_ws/install/quad_interfaces:/home/devpc/Desktop/quad_ws/install/quad:/opt/ros/foxy LD_LIBRARY_PATH=/home/devpc/Desktop/microros_ws/install/geometry_msgs/lib:/home/devpc/Desktop/microros_ws/install/std_msgs/lib:/home/devpc/Desktop/microros_ws/install/builtin_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/devpc/Desktop/microros_ws/install/geometry_msgs/lib/python3.8/site-packages:/home/devpc/Desktop/microros_ws/install/std_msgs/lib/python3.8/site-packages:/home/devpc/Desktop/microros_ws/install/builtin_interfaces/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/devpc/Desktop/microros_ws/build/visualization_msgs
+[71.023s] -- Install configuration: ""
+[71.023s] -- Installing: /home/devpc/Desktop/microros_ws/install/visualization_msgs/share/ament_index/resource_index/rosidl_interfaces/visualization_msgs
+[71.024s] -- Installing: /home/devpc/Desktop/microros_ws/install/visualization_msgs/include/visualization_msgs
+[71.024s] -- Installing: /home/devpc/Desktop/microros_ws/install/visualization_msgs/include/visualization_msgs/msg
+[71.024s] -- Installing: /home/devpc/Desktop/microros_ws/install/visualization_msgs/include/visualization_msgs/msg/interactive_marker_pose.h
+[71.024s] -- Installing: /home/devpc/Desktop/microros_ws/install/visualization_msgs/include/visualization_msgs/msg/marker_array.h
+[71.024s] -- Installing: /home/devpc/Desktop/microros_ws/install/visualization_msgs/include/visualization_msgs/msg/marker.h
+[71.025s] -- Installing: /home/devpc/Desktop/microros_ws/install/visualization_msgs/include/visualization_msgs/msg/detail
+[71.025s] -- Installing: /home/devpc/Desktop/microros_ws/install/visualization_msgs/include/visualization_msgs/msg/detail/marker_array__functions.c
+[71.025s] -- Installing: /home/devpc/Desktop/microros_ws/install/visualization_msgs/include/visualization_msgs/msg/detail/marker_array__struct.h
+[71.025s] -- Installing: /home/devpc/Desktop/microros_ws/install/visualization_msgs/include/visualization_msgs/msg/detail/image_marker__struct.h
+[71.025s] -- Installing: /home/devpc/Desktop/microros_ws/install/visualization_msgs/include/visualization_msgs/msg/detail/interactive_marker__functions.h
+[71.026s] -- Installing: /home/devpc/Desktop/microros_ws/install/visualization_msgs/include/visualization_msgs/msg/detail/marker__functions.h
+[71.026s] -- Installing: /home/devpc/Desktop/microros_ws/install/visualization_msgs/include/visualization_msgs/msg/detail/menu_entry__struct.h
+[71.026s] -- Installing: /home/devpc/Desktop/microros_ws/install/visualization_msgs/include/visualization_msgs/msg/detail/interactive_marker_update__functions.h
+[71.026s] -- Installing: /home/devpc/Desktop/microros_ws/install/visualization_msgs/include/visualization_msgs/msg/detail/interactive_marker_feedback__struct.h
+[71.026s] -- Installing: /home/devpc/Desktop/microros_ws/install/visualization_msgs/include/visualization_msgs/msg/detail/interactive_marker_update__type_support.h
+[71.026s] -- Installing: /home/devpc/Desktop/microros_ws/install/visualization_msgs/include/visualization_msgs/msg/detail/marker__struct.h
+[71.027s] -- Installing: /home/devpc/Desktop/microros_ws/install/visualization_msgs/include/visualization_msgs/msg/detail/interactive_marker_control__functions.h
+[71.027s] -- Installing: /home/devpc/Desktop/microros_ws/install/visualization_msgs/include/visualization_msgs/msg/detail/marker_array__functions.h
+[71.027s] -- Installing: /home/devpc/Desktop/microros_ws/install/visualization_msgs/include/visualization_msgs/msg/detail/image_marker__type_support.h
+[71.027s] -- Installing: /home/devpc/Desktop/microros_ws/install/visualization_msgs/include/visualization_msgs/msg/detail/interactive_marker__type_support.h
+[71.027s] -- Installing: /home/devpc/Desktop/microros_ws/install/visualization_msgs/include/visualization_msgs/msg/detail/interactive_marker_init__functions.c
+[71.028s] -- Installing: /home/devpc/Desktop/microros_ws/install/visualization_msgs/include/visualization_msgs/msg/detail/interactive_marker_init__struct.h
+[71.028s] -- Installing: /home/devpc/Desktop/microros_ws/install/visualization_msgs/include/visualization_msgs/msg/detail/interactive_marker__functions.c
+[71.028s] -- Installing: /home/devpc/Desktop/microros_ws/install/visualization_msgs/include/visualization_msgs/msg/detail/interactive_marker_init__type_support.h
+[71.028s] -- Installing: /home/devpc/Desktop/microros_ws/install/visualization_msgs/include/visualization_msgs/msg/detail/interactive_marker_control__struct.h
+[71.028s] -- Installing: /home/devpc/Desktop/microros_ws/install/visualization_msgs/include/visualization_msgs/msg/detail/marker__functions.c
+[71.029s] -- Installing: /home/devpc/Desktop/microros_ws/install/visualization_msgs/include/visualization_msgs/msg/detail/interactive_marker_pose__functions.h
+[71.029s] -- Installing: /home/devpc/Desktop/microros_ws/install/visualization_msgs/include/visualization_msgs/msg/detail/image_marker__functions.h
+[71.029s] -- Installing: /home/devpc/Desktop/microros_ws/install/visualization_msgs/include/visualization_msgs/msg/detail/marker_array__type_support.h
+[71.029s] -- Installing: /home/devpc/Desktop/microros_ws/install/visualization_msgs/include/visualization_msgs/msg/detail/marker__type_support.h
+[71.029s] -- Installing: /home/devpc/Desktop/microros_ws/install/visualization_msgs/include/visualization_msgs/msg/detail/interactive_marker_update__struct.h
+[71.029s] -- Installing: /home/devpc/Desktop/microros_ws/install/visualization_msgs/include/visualization_msgs/msg/detail/interactive_marker_init__functions.h
+[71.030s] -- Installing: /home/devpc/Desktop/microros_ws/install/visualization_msgs/include/visualization_msgs/msg/detail/interactive_marker_control__functions.c
+[71.030s] -- Installing: /home/devpc/Desktop/microros_ws/install/visualization_msgs/include/visualization_msgs/msg/detail/menu_entry__functions.c
+[71.030s] -- Installing: /home/devpc/Desktop/microros_ws/install/visualization_msgs/include/visualization_msgs/msg/detail/interactive_marker_pose__functions.c
+[71.030s] -- Installing: /home/devpc/Desktop/microros_ws/install/visualization_msgs/include/visualization_msgs/msg/detail/interactive_marker_pose__type_support.h
+[71.030s] -- Installing: /home/devpc/Desktop/microros_ws/install/visualization_msgs/include/visualization_msgs/msg/detail/interactive_marker_feedback__functions.h
+[71.030s] -- Installing: /home/devpc/Desktop/microros_ws/install/visualization_msgs/include/visualization_msgs/msg/detail/interactive_marker__struct.h
+[71.031s] -- Installing: /home/devpc/Desktop/microros_ws/install/visualization_msgs/include/visualization_msgs/msg/detail/image_marker__functions.c
+[71.031s] -- Installing: /home/devpc/Desktop/microros_ws/install/visualization_msgs/include/visualization_msgs/msg/detail/interactive_marker_update__functions.c
+[71.031s] -- Installing: /home/devpc/Desktop/microros_ws/install/visualization_msgs/include/visualization_msgs/msg/detail/interactive_marker_control__type_support.h
+[71.031s] -- Installing: /home/devpc/Desktop/microros_ws/install/visualization_msgs/include/visualization_msgs/msg/detail/interactive_marker_pose__struct.h
+[71.031s] -- Installing: /home/devpc/Desktop/microros_ws/install/visualization_msgs/include/visualization_msgs/msg/detail/menu_entry__functions.h
+[71.032s] -- Installing: /home/devpc/Desktop/microros_ws/install/visualization_msgs/include/visualization_msgs/msg/detail/menu_entry__type_support.h
+[71.032s] -- Installing: /home/devpc/Desktop/microros_ws/install/visualization_msgs/include/visualization_msgs/msg/detail/interactive_marker_feedback__functions.c
+[71.032s] -- Installing: /home/devpc/Desktop/microros_ws/install/visualization_msgs/include/visualization_msgs/msg/detail/interactive_marker_feedback__type_support.h
+[71.032s] -- Installing: /home/devpc/Desktop/microros_ws/install/visualization_msgs/include/visualization_msgs/msg/interactive_marker_init.h
+[71.032s] -- Installing: /home/devpc/Desktop/microros_ws/install/visualization_msgs/include/visualization_msgs/msg/menu_entry.h
+[71.032s] -- Installing: /home/devpc/Desktop/microros_ws/install/visualization_msgs/include/visualization_msgs/msg/interactive_marker.h
+[71.033s] -- Installing: /home/devpc/Desktop/microros_ws/install/visualization_msgs/include/visualization_msgs/msg/interactive_marker_update.h
+[71.033s] -- Installing: /home/devpc/Desktop/microros_ws/install/visualization_msgs/include/visualization_msgs/msg/interactive_marker_control.h
+[71.033s] -- Installing: /home/devpc/Desktop/microros_ws/install/visualization_msgs/include/visualization_msgs/msg/interactive_marker_feedback.h
+[71.033s] -- Installing: /home/devpc/Desktop/microros_ws/install/visualization_msgs/include/visualization_msgs/msg/rosidl_generator_c__visibility_control.h
+[71.033s] -- Installing: /home/devpc/Desktop/microros_ws/install/visualization_msgs/include/visualization_msgs/msg/image_marker.h
+[71.034s] -- Installing: /home/devpc/Desktop/microros_ws/install/visualization_msgs/include/visualization_msgs/srv
+[71.034s] -- Installing: /home/devpc/Desktop/microros_ws/install/visualization_msgs/include/visualization_msgs/srv/detail
+[71.034s] -- Installing: /home/devpc/Desktop/microros_ws/install/visualization_msgs/include/visualization_msgs/srv/detail/get_interactive_markers__functions.c
+[71.034s] -- Installing: /home/devpc/Desktop/microros_ws/install/visualization_msgs/include/visualization_msgs/srv/detail/get_interactive_markers__struct.h
+[71.034s] -- Installing: /home/devpc/Desktop/microros_ws/install/visualization_msgs/include/visualization_msgs/srv/detail/get_interactive_markers__type_support.h
+[71.034s] -- Installing: /home/devpc/Desktop/microros_ws/install/visualization_msgs/include/visualization_msgs/srv/detail/get_interactive_markers__functions.h
+[71.035s] -- Installing: /home/devpc/Desktop/microros_ws/install/visualization_msgs/include/visualization_msgs/srv/get_interactive_markers.h
+[71.035s] -- Installing: /home/devpc/Desktop/microros_ws/install/visualization_msgs/share/visualization_msgs/environment/library_path.sh
+[71.035s] -- Installing: /home/devpc/Desktop/microros_ws/install/visualization_msgs/share/visualization_msgs/environment/library_path.dsv
+[71.035s] -- Installing: /home/devpc/Desktop/microros_ws/install/visualization_msgs/lib/libvisualization_msgs__rosidl_generator_c.so
+[71.035s] -- Set runtime path of "/home/devpc/Desktop/microros_ws/install/visualization_msgs/lib/libvisualization_msgs__rosidl_generator_c.so" to ""
+[71.036s] -- Up-to-date: /home/devpc/Desktop/microros_ws/install/visualization_msgs/include/visualization_msgs
+[71.036s] -- Up-to-date: /home/devpc/Desktop/microros_ws/install/visualization_msgs/include/visualization_msgs/msg
+[71.036s] -- Up-to-date: /home/devpc/Desktop/microros_ws/install/visualization_msgs/include/visualization_msgs/msg/detail
+[71.036s] -- Installing: /home/devpc/Desktop/microros_ws/install/visualization_msgs/include/visualization_msgs/msg/detail/marker__rosidl_typesupport_microxrcedds_c.h
+[71.036s] -- Installing: /home/devpc/Desktop/microros_ws/install/visualization_msgs/include/visualization_msgs/msg/detail/interactive_marker_control__rosidl_typesupport_microxrcedds_c.h
+[71.036s] -- Installing: /home/devpc/Desktop/microros_ws/install/visualization_msgs/include/visualization_msgs/msg/detail/menu_entry__rosidl_typesupport_microxrcedds_c.h
+[71.037s] -- Installing: /home/devpc/Desktop/microros_ws/install/visualization_msgs/include/visualization_msgs/msg/detail/interactive_marker_update__rosidl_typesupport_microxrcedds_c.h
+[71.037s] -- Installing: /home/devpc/Desktop/microros_ws/install/visualization_msgs/include/visualization_msgs/msg/detail/interactive_marker_feedback__rosidl_typesupport_microxrcedds_c.h
+[71.037s] -- Installing: /home/devpc/Desktop/microros_ws/install/visualization_msgs/include/visualization_msgs/msg/detail/marker_array__rosidl_typesupport_microxrcedds_c.h
+[71.037s] -- Installing: /home/devpc/Desktop/microros_ws/install/visualization_msgs/include/visualization_msgs/msg/detail/image_marker__rosidl_typesupport_microxrcedds_c.h
+[71.037s] -- Installing: /home/devpc/Desktop/microros_ws/install/visualization_msgs/include/visualization_msgs/msg/detail/interactive_marker_pose__rosidl_typesupport_microxrcedds_c.h
+[71.037s] -- Installing: /home/devpc/Desktop/microros_ws/install/visualization_msgs/include/visualization_msgs/msg/detail/interactive_marker__rosidl_typesupport_microxrcedds_c.h
+[71.038s] -- Installing: /home/devpc/Desktop/microros_ws/install/visualization_msgs/include/visualization_msgs/msg/detail/interactive_marker_init__rosidl_typesupport_microxrcedds_c.h
+[71.038s] -- Installing: /home/devpc/Desktop/microros_ws/install/visualization_msgs/include/visualization_msgs/msg/detail/microxrcedds
+[71.038s] -- Installing: /home/devpc/Desktop/microros_ws/install/visualization_msgs/include/visualization_msgs/msg/rosidl_typesupport_microxrcedds_c__visibility_control.h
+[71.038s] -- Up-to-date: /home/devpc/Desktop/microros_ws/install/visualization_msgs/include/visualization_msgs/srv
+[71.038s] -- Up-to-date: /home/devpc/Desktop/microros_ws/install/visualization_msgs/include/visualization_msgs/srv/detail
+[71.039s] -- Installing: /home/devpc/Desktop/microros_ws/install/visualization_msgs/include/visualization_msgs/srv/detail/get_interactive_markers__rosidl_typesupport_microxrcedds_c.h
+[71.039s] -- Installing: /home/devpc/Desktop/microros_ws/install/visualization_msgs/include/visualization_msgs/srv/detail/microxrcedds
+[71.039s] -- Installing: /home/devpc/Desktop/microros_ws/install/visualization_msgs/lib/libvisualization_msgs__rosidl_typesupport_microxrcedds_c.so
+[71.039s] -- Set runtime path of "/home/devpc/Desktop/microros_ws/install/visualization_msgs/lib/libvisualization_msgs__rosidl_typesupport_microxrcedds_c.so" to ""
+[71.039s] -- Up-to-date: /home/devpc/Desktop/microros_ws/install/visualization_msgs/include/visualization_msgs
+[71.039s] -- Up-to-date: /home/devpc/Desktop/microros_ws/install/visualization_msgs/include/visualization_msgs/msg
+[71.040s] -- Up-to-date: /home/devpc/Desktop/microros_ws/install/visualization_msgs/include/visualization_msgs/msg/detail
+[71.040s] -- Installing: /home/devpc/Desktop/microros_ws/install/visualization_msgs/include/visualization_msgs/msg/detail/interactive_marker_feedback__rosidl_typesupport_fastrtps_c.h
+[71.040s] -- Installing: /home/devpc/Desktop/microros_ws/install/visualization_msgs/include/visualization_msgs/msg/detail/menu_entry__rosidl_typesupport_fastrtps_c.h
+[71.040s] -- Installing: /home/devpc/Desktop/microros_ws/install/visualization_msgs/include/visualization_msgs/msg/detail/image_marker__rosidl_typesupport_fastrtps_c.h
+[71.040s] -- Installing: /home/devpc/Desktop/microros_ws/install/visualization_msgs/include/visualization_msgs/msg/detail/interactive_marker__rosidl_typesupport_fastrtps_c.h
+[71.040s] -- Installing: /home/devpc/Desktop/microros_ws/install/visualization_msgs/include/visualization_msgs/msg/detail/interactive_marker_init__rosidl_typesupport_fastrtps_c.h
+[71.041s] -- Installing: /home/devpc/Desktop/microros_ws/install/visualization_msgs/include/visualization_msgs/msg/detail/interactive_marker_update__rosidl_typesupport_fastrtps_c.h
+[71.041s] -- Installing: /home/devpc/Desktop/microros_ws/install/visualization_msgs/include/visualization_msgs/msg/detail/interactive_marker_pose__rosidl_typesupport_fastrtps_c.h
+[71.041s] -- Installing: /home/devpc/Desktop/microros_ws/install/visualization_msgs/include/visualization_msgs/msg/detail/marker__rosidl_typesupport_fastrtps_c.h
+[71.041s] -- Installing: /home/devpc/Desktop/microros_ws/install/visualization_msgs/include/visualization_msgs/msg/detail/interactive_marker_control__rosidl_typesupport_fastrtps_c.h
+[71.041s] -- Installing: /home/devpc/Desktop/microros_ws/install/visualization_msgs/include/visualization_msgs/msg/detail/marker_array__rosidl_typesupport_fastrtps_c.h
+[71.042s] -- Installing: /home/devpc/Desktop/microros_ws/install/visualization_msgs/include/visualization_msgs/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[71.042s] -- Up-to-date: /home/devpc/Desktop/microros_ws/install/visualization_msgs/include/visualization_msgs/srv
+[71.042s] -- Up-to-date: /home/devpc/Desktop/microros_ws/install/visualization_msgs/include/visualization_msgs/srv/detail
+[71.042s] -- Installing: /home/devpc/Desktop/microros_ws/install/visualization_msgs/include/visualization_msgs/srv/detail/get_interactive_markers__rosidl_typesupport_fastrtps_c.h
+[71.042s] -- Installing: /home/devpc/Desktop/microros_ws/install/visualization_msgs/lib/libvisualization_msgs__rosidl_typesupport_fastrtps_c.so
+[71.042s] -- Set runtime path of "/home/devpc/Desktop/microros_ws/install/visualization_msgs/lib/libvisualization_msgs__rosidl_typesupport_fastrtps_c.so" to ""
+[71.042s] -- Up-to-date: /home/devpc/Desktop/microros_ws/install/visualization_msgs/include/visualization_msgs
+[71.042s] -- Up-to-date: /home/devpc/Desktop/microros_ws/install/visualization_msgs/include/visualization_msgs/msg
+[71.042s] -- Up-to-date: /home/devpc/Desktop/microros_ws/install/visualization_msgs/include/visualization_msgs/msg/detail
+[71.043s] -- Installing: /home/devpc/Desktop/microros_ws/install/visualization_msgs/include/visualization_msgs/msg/detail/interactive_marker_control__rosidl_typesupport_fastrtps_cpp.hpp
+[71.043s] -- Installing: /home/devpc/Desktop/microros_ws/install/visualization_msgs/include/visualization_msgs/msg/detail/menu_entry__rosidl_typesupport_fastrtps_cpp.hpp
+[71.043s] -- Installing: /home/devpc/Desktop/microros_ws/install/visualization_msgs/include/visualization_msgs/msg/detail/interactive_marker_init__rosidl_typesupport_fastrtps_cpp.hpp
+[71.043s] -- Installing: /home/devpc/Desktop/microros_ws/install/visualization_msgs/include/visualization_msgs/msg/detail/marker_array__rosidl_typesupport_fastrtps_cpp.hpp
+[71.043s] -- Installing: /home/devpc/Desktop/microros_ws/install/visualization_msgs/include/visualization_msgs/msg/detail/interactive_marker_feedback__rosidl_typesupport_fastrtps_cpp.hpp
+[71.043s] -- Installing: /home/devpc/Desktop/microros_ws/install/visualization_msgs/include/visualization_msgs/msg/detail/image_marker__rosidl_typesupport_fastrtps_cpp.hpp
+[71.043s] -- Installing: /home/devpc/Desktop/microros_ws/install/visualization_msgs/include/visualization_msgs/msg/detail/marker__rosidl_typesupport_fastrtps_cpp.hpp
+[71.043s] -- Installing: /home/devpc/Desktop/microros_ws/install/visualization_msgs/include/visualization_msgs/msg/detail/interactive_marker_pose__rosidl_typesupport_fastrtps_cpp.hpp
+[71.043s] -- Installing: /home/devpc/Desktop/microros_ws/install/visualization_msgs/include/visualization_msgs/msg/detail/interactive_marker__rosidl_typesupport_fastrtps_cpp.hpp
+[71.044s] -- Installing: /home/devpc/Desktop/microros_ws/install/visualization_msgs/include/visualization_msgs/msg/detail/dds_fastrtps
+[71.044s] -- Installing: /home/devpc/Desktop/microros_ws/install/visualization_msgs/include/visualization_msgs/msg/detail/interactive_marker_update__rosidl_typesupport_fastrtps_cpp.hpp
+[71.044s] -- Installing: /home/devpc/Desktop/microros_ws/install/visualization_msgs/include/visualization_msgs/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[71.044s] -- Up-to-date: /home/devpc/Desktop/microros_ws/install/visualization_msgs/include/visualization_msgs/srv
+[71.044s] -- Up-to-date: /home/devpc/Desktop/microros_ws/install/visualization_msgs/include/visualization_msgs/srv/detail
+[71.044s] -- Installing: /home/devpc/Desktop/microros_ws/install/visualization_msgs/include/visualization_msgs/srv/detail/get_interactive_markers__rosidl_typesupport_fastrtps_cpp.hpp
+[71.044s] -- Installing: /home/devpc/Desktop/microros_ws/install/visualization_msgs/include/visualization_msgs/srv/detail/dds_fastrtps
+[71.044s] -- Installing: /home/devpc/Desktop/microros_ws/install/visualization_msgs/lib/libvisualization_msgs__rosidl_typesupport_fastrtps_cpp.so
+[71.045s] -- Set runtime path of "/home/devpc/Desktop/microros_ws/install/visualization_msgs/lib/libvisualization_msgs__rosidl_typesupport_fastrtps_cpp.so" to ""
+[71.045s] -- Up-to-date: /home/devpc/Desktop/microros_ws/install/visualization_msgs/include/visualization_msgs
+[71.045s] -- Up-to-date: /home/devpc/Desktop/microros_ws/install/visualization_msgs/include/visualization_msgs/msg
+[71.045s] -- Up-to-date: /home/devpc/Desktop/microros_ws/install/visualization_msgs/include/visualization_msgs/msg/detail
+[71.045s] -- Installing: /home/devpc/Desktop/microros_ws/install/visualization_msgs/include/visualization_msgs/msg/detail/menu_entry__type_support.c
+[71.045s] -- Installing: /home/devpc/Desktop/microros_ws/install/visualization_msgs/include/visualization_msgs/msg/detail/interactive_marker_update__rosidl_typesupport_introspection_c.h
+[71.045s] -- Installing: /home/devpc/Desktop/microros_ws/install/visualization_msgs/include/visualization_msgs/msg/detail/interactive_marker_pose__type_support.c
+[71.045s] -- Installing: /home/devpc/Desktop/microros_ws/install/visualization_msgs/include/visualization_msgs/msg/detail/interactive_marker__rosidl_typesupport_introspection_c.h
+[71.045s] -- Installing: /home/devpc/Desktop/microros_ws/install/visualization_msgs/include/visualization_msgs/msg/detail/interactive_marker__type_support.c
+[71.046s] -- Installing: /home/devpc/Desktop/microros_ws/install/visualization_msgs/include/visualization_msgs/msg/detail/marker_array__type_support.c
+[71.046s] -- Installing: /home/devpc/Desktop/microros_ws/install/visualization_msgs/include/visualization_msgs/msg/detail/interactive_marker_feedback__type_support.c
+[71.046s] -- Installing: /home/devpc/Desktop/microros_ws/install/visualization_msgs/include/visualization_msgs/msg/detail/menu_entry__rosidl_typesupport_introspection_c.h
+[71.046s] -- Installing: /home/devpc/Desktop/microros_ws/install/visualization_msgs/include/visualization_msgs/msg/detail/interactive_marker_init__type_support.c
+[71.046s] -- Installing: /home/devpc/Desktop/microros_ws/install/visualization_msgs/include/visualization_msgs/msg/detail/interactive_marker_pose__rosidl_typesupport_introspection_c.h
+[71.046s] -- Installing: /home/devpc/Desktop/microros_ws/install/visualization_msgs/include/visualization_msgs/msg/detail/interactive_marker_init__rosidl_typesupport_introspection_c.h
+[71.046s] -- Installing: /home/devpc/Desktop/microros_ws/install/visualization_msgs/include/visualization_msgs/msg/detail/interactive_marker_control__rosidl_typesupport_introspection_c.h
+[71.046s] -- Installing: /home/devpc/Desktop/microros_ws/install/visualization_msgs/include/visualization_msgs/msg/detail/interactive_marker_feedback__rosidl_typesupport_introspection_c.h
+[71.046s] -- Installing: /home/devpc/Desktop/microros_ws/install/visualization_msgs/include/visualization_msgs/msg/detail/interactive_marker_control__type_support.c
+[71.047s] -- Installing: /home/devpc/Desktop/microros_ws/install/visualization_msgs/include/visualization_msgs/msg/detail/marker_array__rosidl_typesupport_introspection_c.h
+[71.047s] -- Installing: /home/devpc/Desktop/microros_ws/install/visualization_msgs/include/visualization_msgs/msg/detail/interactive_marker_update__type_support.c
+[71.047s] -- Installing: /home/devpc/Desktop/microros_ws/install/visualization_msgs/include/visualization_msgs/msg/detail/image_marker__type_support.c
+[71.047s] -- Installing: /home/devpc/Desktop/microros_ws/install/visualization_msgs/include/visualization_msgs/msg/detail/marker__rosidl_typesupport_introspection_c.h
+[71.047s] -- Installing: /home/devpc/Desktop/microros_ws/install/visualization_msgs/include/visualization_msgs/msg/detail/image_marker__rosidl_typesupport_introspection_c.h
+[71.047s] -- Installing: /home/devpc/Desktop/microros_ws/install/visualization_msgs/include/visualization_msgs/msg/detail/marker__type_support.c
+[71.047s] -- Installing: /home/devpc/Desktop/microros_ws/install/visualization_msgs/include/visualization_msgs/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[71.047s] -- Up-to-date: /home/devpc/Desktop/microros_ws/install/visualization_msgs/include/visualization_msgs/srv
+[71.048s] -- Up-to-date: /home/devpc/Desktop/microros_ws/install/visualization_msgs/include/visualization_msgs/srv/detail
+[71.048s] -- Installing: /home/devpc/Desktop/microros_ws/install/visualization_msgs/include/visualization_msgs/srv/detail/get_interactive_markers__type_support.c
+[71.048s] -- Installing: /home/devpc/Desktop/microros_ws/install/visualization_msgs/include/visualization_msgs/srv/detail/get_interactive_markers__rosidl_typesupport_introspection_c.h
+[71.048s] -- Installing: /home/devpc/Desktop/microros_ws/install/visualization_msgs/lib/libvisualization_msgs__rosidl_typesupport_introspection_c.so
+[71.048s] -- Set runtime path of "/home/devpc/Desktop/microros_ws/install/visualization_msgs/lib/libvisualization_msgs__rosidl_typesupport_introspection_c.so" to ""
+[71.048s] -- Installing: /home/devpc/Desktop/microros_ws/install/visualization_msgs/lib/libvisualization_msgs__rosidl_typesupport_c.so
+[71.048s] -- Set runtime path of "/home/devpc/Desktop/microros_ws/install/visualization_msgs/lib/libvisualization_msgs__rosidl_typesupport_c.so" to ""
+[71.048s] -- Up-to-date: /home/devpc/Desktop/microros_ws/install/visualization_msgs/include/visualization_msgs
+[71.048s] -- Up-to-date: /home/devpc/Desktop/microros_ws/install/visualization_msgs/include/visualization_msgs/msg
+[71.048s] -- Installing: /home/devpc/Desktop/microros_ws/install/visualization_msgs/include/visualization_msgs/msg/marker.hpp
+[71.048s] -- Installing: /home/devpc/Desktop/microros_ws/install/visualization_msgs/include/visualization_msgs/msg/interactive_marker_update.hpp
+[71.048s] -- Installing: /home/devpc/Desktop/microros_ws/install/visualization_msgs/include/visualization_msgs/msg/interactive_marker.hpp
+[71.049s] -- Installing: /home/devpc/Desktop/microros_ws/install/visualization_msgs/include/visualization_msgs/msg/interactive_marker_init.hpp
+[71.049s] -- Up-to-date: /home/devpc/Desktop/microros_ws/install/visualization_msgs/include/visualization_msgs/msg/detail
+[71.049s] -- Installing: /home/devpc/Desktop/microros_ws/install/visualization_msgs/include/visualization_msgs/msg/detail/interactive_marker_feedback__builder.hpp
+[71.049s] -- Installing: /home/devpc/Desktop/microros_ws/install/visualization_msgs/include/visualization_msgs/msg/detail/marker__builder.hpp
+[71.049s] -- Installing: /home/devpc/Desktop/microros_ws/install/visualization_msgs/include/visualization_msgs/msg/detail/image_marker__traits.hpp
+[71.049s] -- Installing: /home/devpc/Desktop/microros_ws/install/visualization_msgs/include/visualization_msgs/msg/detail/image_marker__builder.hpp
+[71.049s] -- Installing: /home/devpc/Desktop/microros_ws/install/visualization_msgs/include/visualization_msgs/msg/detail/interactive_marker__traits.hpp
+[71.049s] -- Installing: /home/devpc/Desktop/microros_ws/install/visualization_msgs/include/visualization_msgs/msg/detail/interactive_marker_control__struct.hpp
+[71.049s] -- Installing: /home/devpc/Desktop/microros_ws/install/visualization_msgs/include/visualization_msgs/msg/detail/interactive_marker_init__builder.hpp
+[71.050s] -- Installing: /home/devpc/Desktop/microros_ws/install/visualization_msgs/include/visualization_msgs/msg/detail/interactive_marker_control__builder.hpp
+[71.050s] -- Installing: /home/devpc/Desktop/microros_ws/install/visualization_msgs/include/visualization_msgs/msg/detail/interactive_marker__builder.hpp
+[71.050s] -- Installing: /home/devpc/Desktop/microros_ws/install/visualization_msgs/include/visualization_msgs/msg/detail/interactive_marker_update__struct.hpp
+[71.050s] -- Installing: /home/devpc/Desktop/microros_ws/install/visualization_msgs/include/visualization_msgs/msg/detail/interactive_marker_update__builder.hpp
+[71.050s] -- Installing: /home/devpc/Desktop/microros_ws/install/visualization_msgs/include/visualization_msgs/msg/detail/marker_array__struct.hpp
+[71.050s] -- Installing: /home/devpc/Desktop/microros_ws/install/visualization_msgs/include/visualization_msgs/msg/detail/interactive_marker_init__traits.hpp
+[71.050s] -- Installing: /home/devpc/Desktop/microros_ws/install/visualization_msgs/include/visualization_msgs/msg/detail/menu_entry__builder.hpp
+[71.050s] -- Installing: /home/devpc/Desktop/microros_ws/install/visualization_msgs/include/visualization_msgs/msg/detail/marker_array__builder.hpp
+[71.050s] -- Installing: /home/devpc/Desktop/microros_ws/install/visualization_msgs/include/visualization_msgs/msg/detail/interactive_marker__struct.hpp
+[71.050s] -- Installing: /home/devpc/Desktop/microros_ws/install/visualization_msgs/include/visualization_msgs/msg/detail/interactive_marker_pose__struct.hpp
+[71.051s] -- Installing: /home/devpc/Desktop/microros_ws/install/visualization_msgs/include/visualization_msgs/msg/detail/menu_entry__struct.hpp
+[71.051s] -- Installing: /home/devpc/Desktop/microros_ws/install/visualization_msgs/include/visualization_msgs/msg/detail/menu_entry__traits.hpp
+[71.051s] -- Installing: /home/devpc/Desktop/microros_ws/install/visualization_msgs/include/visualization_msgs/msg/detail/interactive_marker_control__traits.hpp
+[71.051s] -- Installing: /home/devpc/Desktop/microros_ws/install/visualization_msgs/include/visualization_msgs/msg/detail/interactive_marker_feedback__struct.hpp
+[71.051s] -- Installing: /home/devpc/Desktop/microros_ws/install/visualization_msgs/include/visualization_msgs/msg/detail/interactive_marker_pose__traits.hpp
+[71.051s] -- Installing: /home/devpc/Desktop/microros_ws/install/visualization_msgs/include/visualization_msgs/msg/detail/interactive_marker_pose__builder.hpp
+[71.051s] -- Installing: /home/devpc/Desktop/microros_ws/install/visualization_msgs/include/visualization_msgs/msg/detail/interactive_marker_init__struct.hpp
+[71.051s] -- Installing: /home/devpc/Desktop/microros_ws/install/visualization_msgs/include/visualization_msgs/msg/detail/interactive_marker_feedback__traits.hpp
+[71.051s] -- Installing: /home/devpc/Desktop/microros_ws/install/visualization_msgs/include/visualization_msgs/msg/detail/marker_array__traits.hpp
+[71.052s] -- Installing: /home/devpc/Desktop/microros_ws/install/visualization_msgs/include/visualization_msgs/msg/detail/interactive_marker_update__traits.hpp
+[71.052s] -- Installing: /home/devpc/Desktop/microros_ws/install/visualization_msgs/include/visualization_msgs/msg/detail/marker__traits.hpp
+[71.052s] -- Installing: /home/devpc/Desktop/microros_ws/install/visualization_msgs/include/visualization_msgs/msg/detail/image_marker__struct.hpp
+[71.052s] -- Installing: /home/devpc/Desktop/microros_ws/install/visualization_msgs/include/visualization_msgs/msg/detail/marker__struct.hpp
+[71.052s] -- Installing: /home/devpc/Desktop/microros_ws/install/visualization_msgs/include/visualization_msgs/msg/menu_entry.hpp
+[71.052s] -- Installing: /home/devpc/Desktop/microros_ws/install/visualization_msgs/include/visualization_msgs/msg/image_marker.hpp
+[71.052s] -- Installing: /home/devpc/Desktop/microros_ws/install/visualization_msgs/include/visualization_msgs/msg/interactive_marker_control.hpp
+[71.052s] -- Installing: /home/devpc/Desktop/microros_ws/install/visualization_msgs/include/visualization_msgs/msg/marker_array.hpp
+[71.052s] -- Installing: /home/devpc/Desktop/microros_ws/install/visualization_msgs/include/visualization_msgs/msg/interactive_marker_feedback.hpp
+[71.052s] -- Installing: /home/devpc/Desktop/microros_ws/install/visualization_msgs/include/visualization_msgs/msg/interactive_marker_pose.hpp
+[71.052s] -- Up-to-date: /home/devpc/Desktop/microros_ws/install/visualization_msgs/include/visualization_msgs/srv
+[71.052s] -- Up-to-date: /home/devpc/Desktop/microros_ws/install/visualization_msgs/include/visualization_msgs/srv/detail
+[71.052s] -- Installing: /home/devpc/Desktop/microros_ws/install/visualization_msgs/include/visualization_msgs/srv/detail/get_interactive_markers__builder.hpp
+[71.053s] -- Installing: /home/devpc/Desktop/microros_ws/install/visualization_msgs/include/visualization_msgs/srv/detail/get_interactive_markers__struct.hpp
+[71.053s] -- Installing: /home/devpc/Desktop/microros_ws/install/visualization_msgs/include/visualization_msgs/srv/detail/get_interactive_markers__traits.hpp
+[71.053s] -- Installing: /home/devpc/Desktop/microros_ws/install/visualization_msgs/include/visualization_msgs/srv/get_interactive_markers.hpp
+[71.053s] -- Up-to-date: /home/devpc/Desktop/microros_ws/install/visualization_msgs/include/visualization_msgs
+[71.053s] -- Up-to-date: /home/devpc/Desktop/microros_ws/install/visualization_msgs/include/visualization_msgs/msg
+[71.053s] -- Up-to-date: /home/devpc/Desktop/microros_ws/install/visualization_msgs/include/visualization_msgs/msg/detail
+[71.053s] -- Installing: /home/devpc/Desktop/microros_ws/install/visualization_msgs/include/visualization_msgs/msg/detail/marker__rosidl_typesupport_microxrcedds_cpp.hpp
+[71.053s] -- Installing: /home/devpc/Desktop/microros_ws/install/visualization_msgs/include/visualization_msgs/msg/detail/image_marker__rosidl_typesupport_microxrcedds_cpp.hpp
+[71.053s] -- Installing: /home/devpc/Desktop/microros_ws/install/visualization_msgs/include/visualization_msgs/msg/detail/menu_entry__rosidl_typesupport_microxrcedds_cpp.hpp
+[71.053s] -- Installing: /home/devpc/Desktop/microros_ws/install/visualization_msgs/include/visualization_msgs/msg/detail/interactive_marker_init__rosidl_typesupport_microxrcedds_cpp.hpp
+[71.053s] -- Installing: /home/devpc/Desktop/microros_ws/install/visualization_msgs/include/visualization_msgs/msg/detail/interactive_marker__rosidl_typesupport_microxrcedds_cpp.hpp
+[71.054s] -- Installing: /home/devpc/Desktop/microros_ws/install/visualization_msgs/include/visualization_msgs/msg/detail/interactive_marker_control__rosidl_typesupport_microxrcedds_cpp.hpp
+[71.054s] -- Installing: /home/devpc/Desktop/microros_ws/install/visualization_msgs/include/visualization_msgs/msg/detail/interactive_marker_pose__rosidl_typesupport_microxrcedds_cpp.hpp
+[71.054s] -- Installing: /home/devpc/Desktop/microros_ws/install/visualization_msgs/include/visualization_msgs/msg/detail/interactive_marker_update__rosidl_typesupport_microxrcedds_cpp.hpp
+[71.054s] -- Up-to-date: /home/devpc/Desktop/microros_ws/install/visualization_msgs/include/visualization_msgs/msg/detail/microxrcedds
+[71.054s] -- Installing: /home/devpc/Desktop/microros_ws/install/visualization_msgs/include/visualization_msgs/msg/detail/microxrcedds/interactive_marker__type_support_cpp.cpp
+[71.054s] -- Installing: /home/devpc/Desktop/microros_ws/install/visualization_msgs/include/visualization_msgs/msg/detail/microxrcedds/marker__type_support_cpp.cpp
+[71.054s] -- Installing: /home/devpc/Desktop/microros_ws/install/visualization_msgs/include/visualization_msgs/msg/detail/microxrcedds/menu_entry__type_support_cpp.cpp
+[71.054s] -- Installing: /home/devpc/Desktop/microros_ws/install/visualization_msgs/include/visualization_msgs/msg/detail/microxrcedds/marker_array__type_support_cpp.cpp
+[71.054s] -- Installing: /home/devpc/Desktop/microros_ws/install/visualization_msgs/include/visualization_msgs/msg/detail/microxrcedds/interactive_marker_init__type_support_cpp.cpp
+[71.054s] -- Installing: /home/devpc/Desktop/microros_ws/install/visualization_msgs/include/visualization_msgs/msg/detail/microxrcedds/interactive_marker_update__type_support_cpp.cpp
+[71.054s] -- Installing: /home/devpc/Desktop/microros_ws/install/visualization_msgs/include/visualization_msgs/msg/detail/microxrcedds/image_marker__type_support_cpp.cpp
+[71.054s] -- Installing: /home/devpc/Desktop/microros_ws/install/visualization_msgs/include/visualization_msgs/msg/detail/microxrcedds/interactive_marker_feedback__type_support_cpp.cpp
+[71.054s] -- Installing: /home/devpc/Desktop/microros_ws/install/visualization_msgs/include/visualization_msgs/msg/detail/microxrcedds/interactive_marker_pose__type_support_cpp.cpp
+[71.055s] -- Installing: /home/devpc/Desktop/microros_ws/install/visualization_msgs/include/visualization_msgs/msg/detail/microxrcedds/interactive_marker_control__type_support_cpp.cpp
+[71.055s] -- Installing: /home/devpc/Desktop/microros_ws/install/visualization_msgs/include/visualization_msgs/msg/detail/interactive_marker_feedback__rosidl_typesupport_microxrcedds_cpp.hpp
+[71.055s] -- Installing: /home/devpc/Desktop/microros_ws/install/visualization_msgs/include/visualization_msgs/msg/detail/marker_array__rosidl_typesupport_microxrcedds_cpp.hpp
+[71.055s] -- Installing: /home/devpc/Desktop/microros_ws/install/visualization_msgs/include/visualization_msgs/msg/rosidl_typesupport_microxrcedds_cpp__visibility_control.h
+[71.055s] -- Up-to-date: /home/devpc/Desktop/microros_ws/install/visualization_msgs/include/visualization_msgs/srv
+[71.055s] -- Up-to-date: /home/devpc/Desktop/microros_ws/install/visualization_msgs/include/visualization_msgs/srv/detail
+[71.055s] -- Installing: /home/devpc/Desktop/microros_ws/install/visualization_msgs/include/visualization_msgs/srv/detail/get_interactive_markers__rosidl_typesupport_microxrcedds_cpp.hpp
+[71.055s] -- Up-to-date: /home/devpc/Desktop/microros_ws/install/visualization_msgs/include/visualization_msgs/srv/detail/microxrcedds
+[71.055s] -- Installing: /home/devpc/Desktop/microros_ws/install/visualization_msgs/include/visualization_msgs/srv/detail/microxrcedds/get_interactive_markers__type_support_cpp.cpp
+[71.055s] -- Installing: /home/devpc/Desktop/microros_ws/install/visualization_msgs/lib/libvisualization_msgs__rosidl_typesupport_microxrcedds_cpp.so
+[71.055s] -- Set runtime path of "/home/devpc/Desktop/microros_ws/install/visualization_msgs/lib/libvisualization_msgs__rosidl_typesupport_microxrcedds_cpp.so" to ""
+[71.055s] -- Up-to-date: /home/devpc/Desktop/microros_ws/install/visualization_msgs/include/visualization_msgs
+[71.055s] -- Up-to-date: /home/devpc/Desktop/microros_ws/install/visualization_msgs/include/visualization_msgs/msg
+[71.056s] -- Up-to-date: /home/devpc/Desktop/microros_ws/install/visualization_msgs/include/visualization_msgs/msg/detail
+[71.056s] -- Installing: /home/devpc/Desktop/microros_ws/install/visualization_msgs/include/visualization_msgs/msg/detail/interactive_marker_init__rosidl_typesupport_introspection_cpp.hpp
+[71.056s] -- Installing: /home/devpc/Desktop/microros_ws/install/visualization_msgs/include/visualization_msgs/msg/detail/image_marker__type_support.cpp
+[71.056s] -- Installing: /home/devpc/Desktop/microros_ws/install/visualization_msgs/include/visualization_msgs/msg/detail/interactive_marker_init__type_support.cpp
+[71.056s] -- Installing: /home/devpc/Desktop/microros_ws/install/visualization_msgs/include/visualization_msgs/msg/detail/marker_array__rosidl_typesupport_introspection_cpp.hpp
+[71.056s] -- Installing: /home/devpc/Desktop/microros_ws/install/visualization_msgs/include/visualization_msgs/msg/detail/interactive_marker_update__rosidl_typesupport_introspection_cpp.hpp
+[71.056s] -- Installing: /home/devpc/Desktop/microros_ws/install/visualization_msgs/include/visualization_msgs/msg/detail/interactive_marker_control__rosidl_typesupport_introspection_cpp.hpp
+[71.056s] -- Installing: /home/devpc/Desktop/microros_ws/install/visualization_msgs/include/visualization_msgs/msg/detail/menu_entry__type_support.cpp
+[71.056s] -- Installing: /home/devpc/Desktop/microros_ws/install/visualization_msgs/include/visualization_msgs/msg/detail/interactive_marker_feedback__rosidl_typesupport_introspection_cpp.hpp
+[71.056s] -- Installing: /home/devpc/Desktop/microros_ws/install/visualization_msgs/include/visualization_msgs/msg/detail/interactive_marker_update__type_support.cpp
+[71.056s] -- Installing: /home/devpc/Desktop/microros_ws/install/visualization_msgs/include/visualization_msgs/msg/detail/interactive_marker_control__type_support.cpp
+[71.056s] -- Installing: /home/devpc/Desktop/microros_ws/install/visualization_msgs/include/visualization_msgs/msg/detail/marker__type_support.cpp
+[71.056s] -- Installing: /home/devpc/Desktop/microros_ws/install/visualization_msgs/include/visualization_msgs/msg/detail/marker_array__type_support.cpp
+[71.057s] -- Installing: /home/devpc/Desktop/microros_ws/install/visualization_msgs/include/visualization_msgs/msg/detail/menu_entry__rosidl_typesupport_introspection_cpp.hpp
+[71.057s] -- Installing: /home/devpc/Desktop/microros_ws/install/visualization_msgs/include/visualization_msgs/msg/detail/interactive_marker_feedback__type_support.cpp
+[71.057s] -- Installing: /home/devpc/Desktop/microros_ws/install/visualization_msgs/include/visualization_msgs/msg/detail/interactive_marker__rosidl_typesupport_introspection_cpp.hpp
+[71.057s] -- Installing: /home/devpc/Desktop/microros_ws/install/visualization_msgs/include/visualization_msgs/msg/detail/interactive_marker_pose__type_support.cpp
+[71.057s] -- Installing: /home/devpc/Desktop/microros_ws/install/visualization_msgs/include/visualization_msgs/msg/detail/interactive_marker_pose__rosidl_typesupport_introspection_cpp.hpp
+[71.057s] -- Installing: /home/devpc/Desktop/microros_ws/install/visualization_msgs/include/visualization_msgs/msg/detail/marker__rosidl_typesupport_introspection_cpp.hpp
+[71.057s] -- Installing: /home/devpc/Desktop/microros_ws/install/visualization_msgs/include/visualization_msgs/msg/detail/image_marker__rosidl_typesupport_introspection_cpp.hpp
+[71.057s] -- Installing: /home/devpc/Desktop/microros_ws/install/visualization_msgs/include/visualization_msgs/msg/detail/interactive_marker__type_support.cpp
+[71.057s] -- Up-to-date: /home/devpc/Desktop/microros_ws/install/visualization_msgs/include/visualization_msgs/srv
+[71.057s] -- Up-to-date: /home/devpc/Desktop/microros_ws/install/visualization_msgs/include/visualization_msgs/srv/detail
+[71.057s] -- Installing: /home/devpc/Desktop/microros_ws/install/visualization_msgs/include/visualization_msgs/srv/detail/get_interactive_markers__type_support.cpp
+[71.057s] -- Installing: /home/devpc/Desktop/microros_ws/install/visualization_msgs/include/visualization_msgs/srv/detail/get_interactive_markers__rosidl_typesupport_introspection_cpp.hpp
+[71.058s] -- Installing: /home/devpc/Desktop/microros_ws/install/visualization_msgs/lib/libvisualization_msgs__rosidl_typesupport_introspection_cpp.so
+[71.058s] -- Set runtime path of "/home/devpc/Desktop/microros_ws/install/visualization_msgs/lib/libvisualization_msgs__rosidl_typesupport_introspection_cpp.so" to ""
+[71.058s] -- Installing: /home/devpc/Desktop/microros_ws/install/visualization_msgs/lib/libvisualization_msgs__rosidl_typesupport_cpp.so
+[71.058s] -- Set runtime path of "/home/devpc/Desktop/microros_ws/install/visualization_msgs/lib/libvisualization_msgs__rosidl_typesupport_cpp.so" to ""
+[71.058s] -- Installing: /home/devpc/Desktop/microros_ws/install/visualization_msgs/share/visualization_msgs/environment/pythonpath.sh
+[71.058s] -- Installing: /home/devpc/Desktop/microros_ws/install/visualization_msgs/share/visualization_msgs/environment/pythonpath.dsv
+[71.058s] -- Installing: /home/devpc/Desktop/microros_ws/install/visualization_msgs/lib/python3.8/site-packages/visualization_msgs/__init__.py
+[71.084s] Compiling '/home/devpc/Desktop/microros_ws/install/visualization_msgs/lib/python3.8/site-packages/visualization_msgs/__init__.py'...
+[71.087s] -- Installing: /home/devpc/Desktop/microros_ws/install/visualization_msgs/lib/python3.8/site-packages/visualization_msgs/msg
+[71.088s] -- Installing: /home/devpc/Desktop/microros_ws/install/visualization_msgs/lib/python3.8/site-packages/visualization_msgs/msg/_interactive_marker_update.py
+[71.088s] -- Installing: /home/devpc/Desktop/microros_ws/install/visualization_msgs/lib/python3.8/site-packages/visualization_msgs/msg/_marker_array.py
+[71.088s] -- Installing: /home/devpc/Desktop/microros_ws/install/visualization_msgs/lib/python3.8/site-packages/visualization_msgs/msg/_interactive_marker_update_s.c
+[71.088s] -- Installing: /home/devpc/Desktop/microros_ws/install/visualization_msgs/lib/python3.8/site-packages/visualization_msgs/msg/_interactive_marker_pose_s.c
+[71.088s] -- Installing: /home/devpc/Desktop/microros_ws/install/visualization_msgs/lib/python3.8/site-packages/visualization_msgs/msg/_interactive_marker_feedback_s.c
+[71.089s] -- Installing: /home/devpc/Desktop/microros_ws/install/visualization_msgs/lib/python3.8/site-packages/visualization_msgs/msg/_menu_entry.py
+[71.089s] -- Installing: /home/devpc/Desktop/microros_ws/install/visualization_msgs/lib/python3.8/site-packages/visualization_msgs/msg/_image_marker_s.c
+[71.089s] -- Installing: /home/devpc/Desktop/microros_ws/install/visualization_msgs/lib/python3.8/site-packages/visualization_msgs/msg/_interactive_marker_init.py
+[71.089s] -- Installing: /home/devpc/Desktop/microros_ws/install/visualization_msgs/lib/python3.8/site-packages/visualization_msgs/msg/_menu_entry_s.c
+[71.089s] -- Installing: /home/devpc/Desktop/microros_ws/install/visualization_msgs/lib/python3.8/site-packages/visualization_msgs/msg/__init__.py
+[71.089s] -- Installing: /home/devpc/Desktop/microros_ws/install/visualization_msgs/lib/python3.8/site-packages/visualization_msgs/msg/_marker.py
+[71.089s] -- Installing: /home/devpc/Desktop/microros_ws/install/visualization_msgs/lib/python3.8/site-packages/visualization_msgs/msg/_interactive_marker_init_s.c
+[71.090s] -- Installing: /home/devpc/Desktop/microros_ws/install/visualization_msgs/lib/python3.8/site-packages/visualization_msgs/msg/_interactive_marker_s.c
+[71.090s] -- Installing: /home/devpc/Desktop/microros_ws/install/visualization_msgs/lib/python3.8/site-packages/visualization_msgs/msg/_interactive_marker_control.py
+[71.090s] -- Installing: /home/devpc/Desktop/microros_ws/install/visualization_msgs/lib/python3.8/site-packages/visualization_msgs/msg/_interactive_marker_feedback.py
+[71.090s] -- Installing: /home/devpc/Desktop/microros_ws/install/visualization_msgs/lib/python3.8/site-packages/visualization_msgs/msg/_interactive_marker.py
+[71.090s] -- Installing: /home/devpc/Desktop/microros_ws/install/visualization_msgs/lib/python3.8/site-packages/visualization_msgs/msg/_marker_array_s.c
+[71.090s] -- Installing: /home/devpc/Desktop/microros_ws/install/visualization_msgs/lib/python3.8/site-packages/visualization_msgs/msg/_interactive_marker_pose.py
+[71.090s] -- Installing: /home/devpc/Desktop/microros_ws/install/visualization_msgs/lib/python3.8/site-packages/visualization_msgs/msg/_interactive_marker_control_s.c
+[71.091s] -- Installing: /home/devpc/Desktop/microros_ws/install/visualization_msgs/lib/python3.8/site-packages/visualization_msgs/msg/_marker_s.c
+[71.091s] -- Installing: /home/devpc/Desktop/microros_ws/install/visualization_msgs/lib/python3.8/site-packages/visualization_msgs/msg/_image_marker.py
+[71.091s] -- Installing: /home/devpc/Desktop/microros_ws/install/visualization_msgs/lib/python3.8/site-packages/visualization_msgs/srv
+[71.091s] -- Installing: /home/devpc/Desktop/microros_ws/install/visualization_msgs/lib/python3.8/site-packages/visualization_msgs/srv/__init__.py
+[71.091s] -- Installing: /home/devpc/Desktop/microros_ws/install/visualization_msgs/lib/python3.8/site-packages/visualization_msgs/srv/_get_interactive_markers.py
+[71.091s] -- Installing: /home/devpc/Desktop/microros_ws/install/visualization_msgs/lib/python3.8/site-packages/visualization_msgs/srv/_get_interactive_markers_s.c
+[71.091s] -- Installing: /home/devpc/Desktop/microros_ws/install/visualization_msgs/lib/python3.8/site-packages/visualization_msgs/visualization_msgs_s__rosidl_typesupport_microxrcedds_c.cpython-38-x86_64-linux-gnu.so
+[71.091s] -- Set runtime path of "/home/devpc/Desktop/microros_ws/install/visualization_msgs/lib/python3.8/site-packages/visualization_msgs/visualization_msgs_s__rosidl_typesupport_microxrcedds_c.cpython-38-x86_64-linux-gnu.so" to ""
+[71.092s] -- Installing: /home/devpc/Desktop/microros_ws/install/visualization_msgs/lib/python3.8/site-packages/visualization_msgs/visualization_msgs_s__rosidl_typesupport_fastrtps_c.cpython-38-x86_64-linux-gnu.so
+[71.092s] -- Set runtime path of "/home/devpc/Desktop/microros_ws/install/visualization_msgs/lib/python3.8/site-packages/visualization_msgs/visualization_msgs_s__rosidl_typesupport_fastrtps_c.cpython-38-x86_64-linux-gnu.so" to ""
+[71.092s] -- Installing: /home/devpc/Desktop/microros_ws/install/visualization_msgs/lib/python3.8/site-packages/visualization_msgs/visualization_msgs_s__rosidl_typesupport_introspection_c.cpython-38-x86_64-linux-gnu.so
+[71.092s] -- Set runtime path of "/home/devpc/Desktop/microros_ws/install/visualization_msgs/lib/python3.8/site-packages/visualization_msgs/visualization_msgs_s__rosidl_typesupport_introspection_c.cpython-38-x86_64-linux-gnu.so" to ""
+[71.092s] -- Installing: /home/devpc/Desktop/microros_ws/install/visualization_msgs/lib/python3.8/site-packages/visualization_msgs/visualization_msgs_s__rosidl_typesupport_c.cpython-38-x86_64-linux-gnu.so
+[71.092s] -- Set runtime path of "/home/devpc/Desktop/microros_ws/install/visualization_msgs/lib/python3.8/site-packages/visualization_msgs/visualization_msgs_s__rosidl_typesupport_c.cpython-38-x86_64-linux-gnu.so" to ""
+[71.093s] -- Installing: /home/devpc/Desktop/microros_ws/install/visualization_msgs/lib/libvisualization_msgs__python.so
+[71.093s] -- Set runtime path of "/home/devpc/Desktop/microros_ws/install/visualization_msgs/lib/libvisualization_msgs__python.so" to ""
+[71.093s] -- Installing: /home/devpc/Desktop/microros_ws/install/visualization_msgs/share/visualization_msgs/msg/ImageMarker.idl
+[71.093s] -- Installing: /home/devpc/Desktop/microros_ws/install/visualization_msgs/share/visualization_msgs/msg/InteractiveMarker.idl
+[71.094s] -- Installing: /home/devpc/Desktop/microros_ws/install/visualization_msgs/share/visualization_msgs/msg/InteractiveMarkerControl.idl
+[71.094s] -- Installing: /home/devpc/Desktop/microros_ws/install/visualization_msgs/share/visualization_msgs/msg/InteractiveMarkerFeedback.idl
+[71.094s] -- Installing: /home/devpc/Desktop/microros_ws/install/visualization_msgs/share/visualization_msgs/msg/InteractiveMarkerInit.idl
+[71.094s] -- Installing: /home/devpc/Desktop/microros_ws/install/visualization_msgs/share/visualization_msgs/msg/InteractiveMarkerPose.idl
+[71.094s] -- Installing: /home/devpc/Desktop/microros_ws/install/visualization_msgs/share/visualization_msgs/msg/InteractiveMarkerUpdate.idl
+[71.094s] -- Installing: /home/devpc/Desktop/microros_ws/install/visualization_msgs/share/visualization_msgs/msg/Marker.idl
+[71.095s] -- Installing: /home/devpc/Desktop/microros_ws/install/visualization_msgs/share/visualization_msgs/msg/MarkerArray.idl
+[71.095s] -- Installing: /home/devpc/Desktop/microros_ws/install/visualization_msgs/share/visualization_msgs/msg/MenuEntry.idl
+[71.095s] -- Installing: /home/devpc/Desktop/microros_ws/install/visualization_msgs/share/visualization_msgs/srv/GetInteractiveMarkers.idl
+[71.095s] -- Installing: /home/devpc/Desktop/microros_ws/install/visualization_msgs/share/visualization_msgs/msg/ImageMarker.msg
+[71.095s] -- Installing: /home/devpc/Desktop/microros_ws/install/visualization_msgs/share/visualization_msgs/msg/InteractiveMarker.msg
+[71.095s] -- Installing: /home/devpc/Desktop/microros_ws/install/visualization_msgs/share/visualization_msgs/msg/InteractiveMarkerControl.msg
+[71.095s] -- Installing: /home/devpc/Desktop/microros_ws/install/visualization_msgs/share/visualization_msgs/msg/InteractiveMarkerFeedback.msg
+[71.096s] -- Installing: /home/devpc/Desktop/microros_ws/install/visualization_msgs/share/visualization_msgs/msg/InteractiveMarkerInit.msg
+[71.096s] -- Installing: /home/devpc/Desktop/microros_ws/install/visualization_msgs/share/visualization_msgs/msg/InteractiveMarkerPose.msg
+[71.096s] -- Installing: /home/devpc/Desktop/microros_ws/install/visualization_msgs/share/visualization_msgs/msg/InteractiveMarkerUpdate.msg
+[71.096s] -- Installing: /home/devpc/Desktop/microros_ws/install/visualization_msgs/share/visualization_msgs/msg/Marker.msg
+[71.096s] -- Installing: /home/devpc/Desktop/microros_ws/install/visualization_msgs/share/visualization_msgs/msg/MarkerArray.msg
+[71.096s] -- Installing: /home/devpc/Desktop/microros_ws/install/visualization_msgs/share/visualization_msgs/msg/MenuEntry.msg
+[71.096s] -- Installing: /home/devpc/Desktop/microros_ws/install/visualization_msgs/share/visualization_msgs/srv/GetInteractiveMarkers.srv
+[71.097s] -- Installing: /home/devpc/Desktop/microros_ws/install/visualization_msgs/share/visualization_msgs/srv/GetInteractiveMarkers_Request.msg
+[71.097s] -- Installing: /home/devpc/Desktop/microros_ws/install/visualization_msgs/share/visualization_msgs/srv/GetInteractiveMarkers_Response.msg
+[71.097s] -- Installing: /home/devpc/Desktop/microros_ws/install/visualization_msgs/share/ament_index/resource_index/package_run_dependencies/visualization_msgs
+[71.097s] -- Installing: /home/devpc/Desktop/microros_ws/install/visualization_msgs/share/ament_index/resource_index/parent_prefix_path/visualization_msgs
+[71.097s] -- Installing: /home/devpc/Desktop/microros_ws/install/visualization_msgs/share/visualization_msgs/environment/ament_prefix_path.sh
+[71.097s] -- Installing: /home/devpc/Desktop/microros_ws/install/visualization_msgs/share/visualization_msgs/environment/ament_prefix_path.dsv
+[71.097s] -- Installing: /home/devpc/Desktop/microros_ws/install/visualization_msgs/share/visualization_msgs/environment/path.sh
+[71.098s] -- Installing: /home/devpc/Desktop/microros_ws/install/visualization_msgs/share/visualization_msgs/environment/path.dsv
+[71.098s] -- Installing: /home/devpc/Desktop/microros_ws/install/visualization_msgs/share/visualization_msgs/local_setup.bash
+[71.098s] -- Installing: /home/devpc/Desktop/microros_ws/install/visualization_msgs/share/visualization_msgs/local_setup.sh
+[71.098s] -- Installing: /home/devpc/Desktop/microros_ws/install/visualization_msgs/share/visualization_msgs/local_setup.zsh
+[71.098s] -- Installing: /home/devpc/Desktop/microros_ws/install/visualization_msgs/share/visualization_msgs/local_setup.dsv
+[71.098s] -- Installing: /home/devpc/Desktop/microros_ws/install/visualization_msgs/share/visualization_msgs/package.dsv
+[71.098s] -- Installing: /home/devpc/Desktop/microros_ws/install/visualization_msgs/share/ament_index/resource_index/packages/visualization_msgs
+[71.099s] -- Installing: /home/devpc/Desktop/microros_ws/install/visualization_msgs/share/visualization_msgs/cmake/visualization_msgs__rosidl_generator_cExport.cmake
+[71.099s] -- Installing: /home/devpc/Desktop/microros_ws/install/visualization_msgs/share/visualization_msgs/cmake/visualization_msgs__rosidl_generator_cExport-noconfig.cmake
+[71.099s] -- Installing: /home/devpc/Desktop/microros_ws/install/visualization_msgs/share/visualization_msgs/cmake/visualization_msgs__rosidl_typesupport_introspection_cExport.cmake
+[71.099s] -- Installing: /home/devpc/Desktop/microros_ws/install/visualization_msgs/share/visualization_msgs/cmake/visualization_msgs__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[71.100s] -- Installing: /home/devpc/Desktop/microros_ws/install/visualization_msgs/share/visualization_msgs/cmake/visualization_msgs__rosidl_typesupport_cExport.cmake
+[71.100s] -- Installing: /home/devpc/Desktop/microros_ws/install/visualization_msgs/share/visualization_msgs/cmake/visualization_msgs__rosidl_typesupport_cExport-noconfig.cmake
+[71.100s] -- Installing: /home/devpc/Desktop/microros_ws/install/visualization_msgs/share/visualization_msgs/cmake/visualization_msgs__rosidl_generator_cppExport.cmake
+[71.100s] -- Installing: /home/devpc/Desktop/microros_ws/install/visualization_msgs/share/visualization_msgs/cmake/visualization_msgs__rosidl_typesupport_introspection_cppExport.cmake
+[71.101s] -- Installing: /home/devpc/Desktop/microros_ws/install/visualization_msgs/share/visualization_msgs/cmake/visualization_msgs__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[71.101s] -- Installing: /home/devpc/Desktop/microros_ws/install/visualization_msgs/share/visualization_msgs/cmake/visualization_msgs__rosidl_typesupport_cppExport.cmake
+[71.101s] -- Installing: /home/devpc/Desktop/microros_ws/install/visualization_msgs/share/visualization_msgs/cmake/visualization_msgs__rosidl_typesupport_cppExport-noconfig.cmake
+[71.101s] -- Installing: /home/devpc/Desktop/microros_ws/install/visualization_msgs/share/visualization_msgs/cmake/rosidl_cmake-extras.cmake
+[71.102s] -- Installing: /home/devpc/Desktop/microros_ws/install/visualization_msgs/share/visualization_msgs/cmake/ament_cmake_export_dependencies-extras.cmake
+[71.102s] -- Installing: /home/devpc/Desktop/microros_ws/install/visualization_msgs/share/visualization_msgs/cmake/ament_cmake_export_libraries-extras.cmake
+[71.102s] -- Installing: /home/devpc/Desktop/microros_ws/install/visualization_msgs/share/visualization_msgs/cmake/ament_cmake_export_targets-extras.cmake
+[71.102s] -- Installing: /home/devpc/Desktop/microros_ws/install/visualization_msgs/share/visualization_msgs/cmake/ament_cmake_export_include_directories-extras.cmake
+[71.102s] -- Installing: /home/devpc/Desktop/microros_ws/install/visualization_msgs/share/visualization_msgs/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[71.103s] -- Installing: /home/devpc/Desktop/microros_ws/install/visualization_msgs/share/visualization_msgs/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[71.103s] -- Installing: /home/devpc/Desktop/microros_ws/install/visualization_msgs/share/visualization_msgs/cmake/visualization_msgsConfig.cmake
+[71.103s] -- Installing: /home/devpc/Desktop/microros_ws/install/visualization_msgs/share/visualization_msgs/cmake/visualization_msgsConfig-version.cmake
+[71.103s] -- Installing: /home/devpc/Desktop/microros_ws/install/visualization_msgs/share/visualization_msgs/package.xml
+[71.108s] Invoked command in '/home/devpc/Desktop/microros_ws/build/visualization_msgs' returned '0': AMENT_PREFIX_PATH=/home/devpc/Desktop/microros_ws/install/geometry_msgs:/home/devpc/Desktop/microros_ws/install/std_msgs:/home/devpc/Desktop/microros_ws/install/builtin_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/devpc/Desktop/microros_ws/install/geometry_msgs:/home/devpc/Desktop/microros_ws/install/std_msgs:/home/devpc/Desktop/microros_ws/install/builtin_interfaces:/home/devpc/Desktop/microros_ws/install/rosidl_typesupport_microxrcedds_cpp:/home/devpc/Desktop/microros_ws/install/rosidl_typesupport_microxrcedds_c:/home/devpc/Desktop/microros_ws/install/microcdr:/home/devpc/Desktop/microros_ws/install/micro_ros_agent:/home/devpc/Desktop/microros_ws/install/microxrcedds_agent:/home/devpc/Desktop/microros_ws/install/micro_ros_setup:/home/devpc/Desktop/microros_ws/install/micro_ros_msgs:/home/devpc/Desktop/quad_ws/install/quad_interfaces:/home/devpc/Desktop/quad_ws/install/quad:/opt/ros/foxy LD_LIBRARY_PATH=/home/devpc/Desktop/microros_ws/install/geometry_msgs/lib:/home/devpc/Desktop/microros_ws/install/std_msgs/lib:/home/devpc/Desktop/microros_ws/install/builtin_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/devpc/Desktop/microros_ws/install/geometry_msgs/lib/python3.8/site-packages:/home/devpc/Desktop/microros_ws/install/std_msgs/lib/python3.8/site-packages:/home/devpc/Desktop/microros_ws/install/builtin_interfaces/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/devpc/Desktop/microros_ws/build/visualization_msgs

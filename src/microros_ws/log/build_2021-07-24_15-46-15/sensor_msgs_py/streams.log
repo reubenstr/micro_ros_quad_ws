@@ -1,0 +1,35 @@
+[0.330s] Invoking command in '/home/devpc/Desktop/microros_ws/src/ros2/common_interfaces/sensor_msgs_py': AMENT_PREFIX_PATH=/home/devpc/Desktop/microros_ws/install/sensor_msgs:/home/devpc/Desktop/microros_ws/install/geometry_msgs:/home/devpc/Desktop/microros_ws/install/std_msgs:/home/devpc/Desktop/microros_ws/install/builtin_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/devpc/Desktop/microros_ws/install/sensor_msgs:/home/devpc/Desktop/microros_ws/install/geometry_msgs:/home/devpc/Desktop/microros_ws/install/std_msgs:/home/devpc/Desktop/microros_ws/install/builtin_interfaces:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/home/devpc/Desktop/microros_ws/install/sensor_msgs/lib:/home/devpc/Desktop/microros_ws/install/geometry_msgs/lib:/home/devpc/Desktop/microros_ws/install/std_msgs/lib:/home/devpc/Desktop/microros_ws/install/builtin_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/devpc/Desktop/microros_ws/install/sensor_msgs_py/lib/python3.8/site-packages:/home/devpc/Desktop/microros_ws/install/sensor_msgs/lib/python3.8/site-packages:/home/devpc/Desktop/microros_ws/install/geometry_msgs/lib/python3.8/site-packages:/home/devpc/Desktop/microros_ws/install/std_msgs/lib/python3.8/site-packages:/home/devpc/Desktop/microros_ws/install/builtin_interfaces/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../../../build/sensor_msgs_py build --build-base /home/devpc/Desktop/microros_ws/build/sensor_msgs_py/build install --prefix /home/devpc/Desktop/microros_ws/install/sensor_msgs_py --record /home/devpc/Desktop/microros_ws/build/sensor_msgs_py/install.log --single-version-externally-managed
+[0.559s] running egg_info
+[0.559s] creating ../../../../build/sensor_msgs_py/sensor_msgs_py.egg-info
+[0.559s] writing ../../../../build/sensor_msgs_py/sensor_msgs_py.egg-info/PKG-INFO
+[0.560s] writing dependency_links to ../../../../build/sensor_msgs_py/sensor_msgs_py.egg-info/dependency_links.txt
+[0.560s] writing requirements to ../../../../build/sensor_msgs_py/sensor_msgs_py.egg-info/requires.txt
+[0.560s] writing top-level names to ../../../../build/sensor_msgs_py/sensor_msgs_py.egg-info/top_level.txt
+[0.561s] writing manifest file '../../../../build/sensor_msgs_py/sensor_msgs_py.egg-info/SOURCES.txt'
+[0.598s] reading manifest file '../../../../build/sensor_msgs_py/sensor_msgs_py.egg-info/SOURCES.txt'
+[0.599s] writing manifest file '../../../../build/sensor_msgs_py/sensor_msgs_py.egg-info/SOURCES.txt'
+[0.599s] running build
+[0.599s] running build_py
+[0.599s] creating /home/devpc/Desktop/microros_ws/build/sensor_msgs_py/build
+[0.599s] creating /home/devpc/Desktop/microros_ws/build/sensor_msgs_py/build/lib
+[0.599s] creating /home/devpc/Desktop/microros_ws/build/sensor_msgs_py/build/lib/sensor_msgs_py
+[0.600s] copying sensor_msgs_py/point_cloud2.py -> /home/devpc/Desktop/microros_ws/build/sensor_msgs_py/build/lib/sensor_msgs_py
+[0.600s] copying sensor_msgs_py/__init__.py -> /home/devpc/Desktop/microros_ws/build/sensor_msgs_py/build/lib/sensor_msgs_py
+[0.600s] running install
+[0.600s] running install_lib
+[0.601s] creating /home/devpc/Desktop/microros_ws/install/sensor_msgs_py/lib/python3.8/site-packages/sensor_msgs_py
+[0.601s] copying /home/devpc/Desktop/microros_ws/build/sensor_msgs_py/build/lib/sensor_msgs_py/point_cloud2.py -> /home/devpc/Desktop/microros_ws/install/sensor_msgs_py/lib/python3.8/site-packages/sensor_msgs_py
+[0.601s] copying /home/devpc/Desktop/microros_ws/build/sensor_msgs_py/build/lib/sensor_msgs_py/__init__.py -> /home/devpc/Desktop/microros_ws/install/sensor_msgs_py/lib/python3.8/site-packages/sensor_msgs_py
+[0.602s] byte-compiling /home/devpc/Desktop/microros_ws/install/sensor_msgs_py/lib/python3.8/site-packages/sensor_msgs_py/point_cloud2.py to point_cloud2.cpython-38.pyc
+[0.604s] byte-compiling /home/devpc/Desktop/microros_ws/install/sensor_msgs_py/lib/python3.8/site-packages/sensor_msgs_py/__init__.py to __init__.cpython-38.pyc
+[0.604s] running install_data
+[0.604s] creating /home/devpc/Desktop/microros_ws/install/sensor_msgs_py/share/ament_index
+[0.604s] creating /home/devpc/Desktop/microros_ws/install/sensor_msgs_py/share/ament_index/resource_index
+[0.605s] creating /home/devpc/Desktop/microros_ws/install/sensor_msgs_py/share/ament_index/resource_index/packages
+[0.605s] copying resource/sensor_msgs_py -> /home/devpc/Desktop/microros_ws/install/sensor_msgs_py/share/ament_index/resource_index/packages
+[0.605s] copying package.xml -> /home/devpc/Desktop/microros_ws/install/sensor_msgs_py/share/sensor_msgs_py
+[0.605s] running install_egg_info
+[0.606s] Copying ../../../../build/sensor_msgs_py/sensor_msgs_py.egg-info to /home/devpc/Desktop/microros_ws/install/sensor_msgs_py/lib/python3.8/site-packages/sensor_msgs_py-2.0.4-py3.8.egg-info
+[0.607s] running install_scripts
+[0.624s] writing list of installed files to '/home/devpc/Desktop/microros_ws/build/sensor_msgs_py/install.log'
+[0.646s] Invoked command in '/home/devpc/Desktop/microros_ws/src/ros2/common_interfaces/sensor_msgs_py' returned '0': AMENT_PREFIX_PATH=/home/devpc/Desktop/microros_ws/install/sensor_msgs:/home/devpc/Desktop/microros_ws/install/geometry_msgs:/home/devpc/Desktop/microros_ws/install/std_msgs:/home/devpc/Desktop/microros_ws/install/builtin_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/devpc/Desktop/microros_ws/install/sensor_msgs:/home/devpc/Desktop/microros_ws/install/geometry_msgs:/home/devpc/Desktop/microros_ws/install/std_msgs:/home/devpc/Desktop/microros_ws/install/builtin_interfaces:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/home/devpc/Desktop/microros_ws/install/sensor_msgs/lib:/home/devpc/Desktop/microros_ws/install/geometry_msgs/lib:/home/devpc/Desktop/microros_ws/install/std_msgs/lib:/home/devpc/Desktop/microros_ws/install/builtin_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/devpc/Desktop/microros_ws/install/sensor_msgs_py/lib/python3.8/site-packages:/home/devpc/Desktop/microros_ws/install/sensor_msgs/lib/python3.8/site-packages:/home/devpc/Desktop/microros_ws/install/geometry_msgs/lib/python3.8/site-packages:/home/devpc/Desktop/microros_ws/install/std_msgs/lib/python3.8/site-packages:/home/devpc/Desktop/microros_ws/install/builtin_interfaces/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../../../build/sensor_msgs_py build --build-base /home/devpc/Desktop/microros_ws/build/sensor_msgs_py/build install --prefix /home/devpc/Desktop/microros_ws/install/sensor_msgs_py --record /home/devpc/Desktop/microros_ws/build/sensor_msgs_py/install.log --single-version-externally-managed

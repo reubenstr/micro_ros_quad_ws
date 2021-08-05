@@ -1,0 +1,43 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "/home/devpc/Desktop/microros_ws/build/micro_ros_demos_rclcpp/CMakeFiles/RAD0_control"
+		},
+		{
+			"file" : "/home/devpc/Desktop/microros_ws/build/micro_ros_demos_rclcpp/CMakeFiles/RAD0_control.rule"
+		},
+		{
+			"file" : "/home/devpc/Desktop/microros_ws/build/micro_ros_demos_rclcpp/CMakeFiles/RAD0_control-complete.rule"
+		},
+		{
+			"file" : "/home/devpc/Desktop/microros_ws/build/micro_ros_demos_rclcpp/RAD0_control/src/RAD0_control-stamp/RAD0_control-install.rule"
+		},
+		{
+			"file" : "/home/devpc/Desktop/microros_ws/build/micro_ros_demos_rclcpp/RAD0_control/src/RAD0_control-stamp/RAD0_control-mkdir.rule"
+		},
+		{
+			"file" : "/home/devpc/Desktop/microros_ws/build/micro_ros_demos_rclcpp/RAD0_control/src/RAD0_control-stamp/RAD0_control-download.rule"
+		},
+		{
+			"file" : "/home/devpc/Desktop/microros_ws/build/micro_ros_demos_rclcpp/RAD0_control/src/RAD0_control-stamp/RAD0_control-update.rule"
+		},
+		{
+			"file" : "/home/devpc/Desktop/microros_ws/build/micro_ros_demos_rclcpp/RAD0_control/src/RAD0_control-stamp/RAD0_control-patch.rule"
+		},
+		{
+			"file" : "/home/devpc/Desktop/microros_ws/build/micro_ros_demos_rclcpp/RAD0_control/src/RAD0_control-stamp/RAD0_control-configure.rule"
+		},
+		{
+			"file" : "/home/devpc/Desktop/microros_ws/build/micro_ros_demos_rclcpp/RAD0_control/src/RAD0_control-stamp/RAD0_control-build.rule"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"RAD0_control"
+		],
+		"name" : "RAD0_control"
+	}
+}

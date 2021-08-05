@@ -1,0 +1,13 @@
+# Target labels
+ spdlog
+# Source files and their labels
+/home/devpc/Desktop/microros_ws/build/microxrcedds_agent/CMakeFiles/spdlog
+/home/devpc/Desktop/microros_ws/build/microxrcedds_agent/CMakeFiles/spdlog.rule
+/home/devpc/Desktop/microros_ws/build/microxrcedds_agent/CMakeFiles/spdlog-complete.rule
+/home/devpc/Desktop/microros_ws/build/microxrcedds_agent/spdlog/src/spdlog-stamp/spdlog-install.rule
+/home/devpc/Desktop/microros_ws/build/microxrcedds_agent/spdlog/src/spdlog-stamp/spdlog-mkdir.rule
+/home/devpc/Desktop/microros_ws/build/microxrcedds_agent/spdlog/src/spdlog-stamp/spdlog-download.rule
+/home/devpc/Desktop/microros_ws/build/microxrcedds_agent/spdlog/src/spdlog-stamp/spdlog-update.rule
+/home/devpc/Desktop/microros_ws/build/microxrcedds_agent/spdlog/src/spdlog-stamp/spdlog-patch.rule
+/home/devpc/Desktop/microros_ws/build/microxrcedds_agent/spdlog/src/spdlog-stamp/spdlog-configure.rule
+/home/devpc/Desktop/microros_ws/build/microxrcedds_agent/spdlog/src/spdlog-stamp/spdlog-build.rule

@@ -1,0 +1,11 @@
+{
+  "package_name": "rosidl_typesupport_microxrcedds_test_msg",
+  "non_idl_tuples": [
+    "/home/devpc/Desktop/microros_ws/src/uros/rosidl_typesupport_microxrcedds/test/msg:msg/UnboundedString.msg",
+    "/home/devpc/Desktop/microros_ws/src/uros/rosidl_typesupport_microxrcedds/test/msg:msg/Primitive.msg",
+    "/home/devpc/Desktop/microros_ws/src/uros/rosidl_typesupport_microxrcedds/test/msg:msg/NotEnoughtMemoryTest.msg",
+    "/home/devpc/Desktop/microros_ws/src/uros/rosidl_typesupport_microxrcedds/test/msg:msg/Sequence.msg",
+    "/home/devpc/Desktop/microros_ws/src/uros/rosidl_typesupport_microxrcedds/test/msg:msg/Compound.msg",
+    "/home/devpc/Desktop/microros_ws/src/uros/rosidl_typesupport_microxrcedds/test/msg:msg/BasicPrimitive.msg"
+  ]
+}

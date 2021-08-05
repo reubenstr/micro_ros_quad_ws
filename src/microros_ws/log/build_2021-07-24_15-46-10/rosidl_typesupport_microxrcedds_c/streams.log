@@ -1,0 +1,90 @@
+[0.007s] Invoking command in '/home/devpc/Desktop/microros_ws/build/rosidl_typesupport_microxrcedds_c': CMAKE_PREFIX_PATH=/home/devpc/Desktop/microros_ws/install/microcdr:/home/devpc/Desktop/microros_ws/install/micro_ros_agent:/home/devpc/Desktop/microros_ws/install/microxrcedds_agent:/home/devpc/Desktop/microros_ws/install/micro_ros_setup:/home/devpc/Desktop/microros_ws/install/micro_ros_msgs:/home/devpc/Desktop/quad_ws/install/quad_interfaces:/home/devpc/Desktop/quad_ws/install/quad:/opt/ros/foxy LD_LIBRARY_PATH=/home/devpc/Desktop/microros_ws/install/microcdr/lib:${LD_LIBRARY_PATH} /usr/bin/cmake /home/devpc/Desktop/microros_ws/src/uros/rosidl_typesupport_microxrcedds/rosidl_typesupport_microxrcedds_c -DBUILD_SHARED_LIBS=ON -DCMAKE_INSTALL_PREFIX=/home/devpc/Desktop/microros_ws/install/rosidl_typesupport_microxrcedds_c
+[0.065s] -- The C compiler identification is GNU 9.3.0
+[0.071s] -- Check for working C compiler: /usr/bin/cc
+[0.143s] -- Check for working C compiler: /usr/bin/cc -- works
+[0.145s] -- Detecting C compiler ABI info
+[0.209s] -- Detecting C compiler ABI info - done
+[0.226s] -- Detecting C compile features
+[0.227s] -- Detecting C compile features - done
+[0.229s] -- Found ament_cmake: 0.9.8 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.251s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[0.251s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.451s] -- Found rosidl_runtime_c: 1.2.1 (/opt/ros/foxy/share/rosidl_runtime_c/cmake)
+[0.504s] -- Found ament_lint_auto: 0.9.6 (/opt/ros/foxy/share/ament_lint_auto/cmake)
+[0.579s] -- Added test 'copyright' to check source files copyright and LICENSE
+[0.581s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[0.581s] -- Configured cppcheck include dirs: $<BUILD_INTERFACE:/home/devpc/Desktop/microros_ws/src/uros/rosidl_typesupport_microxrcedds/rosidl_typesupport_microxrcedds_c/include>
+[0.581s] -- Configured cppcheck exclude dirs and/or files: 
+[0.582s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[0.583s] -- Configured cpplint exclude dirs and/or files: 
+[0.583s] -- Added test 'flake8' to check Python code syntax and style conventions
+[0.584s] -- Added test 'lint_cmake' to check CMake code style
+[0.584s] -- Added test 'pep257' to check Python code against some of the style conventions in PEP 257
+[0.586s] -- Added test 'uncrustify' to check C / C++ code style
+[0.586s] -- Configured uncrustify additional arguments: 
+[0.587s] -- Added test 'xmllint' to check XML markup files
+[0.590s] -- Configuring done
+[0.594s] -- Generating done
+[0.595s] -- Build files have been written to: /home/devpc/Desktop/microros_ws/build/rosidl_typesupport_microxrcedds_c
+[0.598s] Invoked command in '/home/devpc/Desktop/microros_ws/build/rosidl_typesupport_microxrcedds_c' returned '0': CMAKE_PREFIX_PATH=/home/devpc/Desktop/microros_ws/install/microcdr:/home/devpc/Desktop/microros_ws/install/micro_ros_agent:/home/devpc/Desktop/microros_ws/install/microxrcedds_agent:/home/devpc/Desktop/microros_ws/install/micro_ros_setup:/home/devpc/Desktop/microros_ws/install/micro_ros_msgs:/home/devpc/Desktop/quad_ws/install/quad_interfaces:/home/devpc/Desktop/quad_ws/install/quad:/opt/ros/foxy LD_LIBRARY_PATH=/home/devpc/Desktop/microros_ws/install/microcdr/lib:${LD_LIBRARY_PATH} /usr/bin/cmake /home/devpc/Desktop/microros_ws/src/uros/rosidl_typesupport_microxrcedds/rosidl_typesupport_microxrcedds_c -DBUILD_SHARED_LIBS=ON -DCMAKE_INSTALL_PREFIX=/home/devpc/Desktop/microros_ws/install/rosidl_typesupport_microxrcedds_c
+[0.601s] Invoking command in '/home/devpc/Desktop/microros_ws/build/rosidl_typesupport_microxrcedds_c': CMAKE_PREFIX_PATH=/home/devpc/Desktop/microros_ws/install/microcdr:/home/devpc/Desktop/microros_ws/install/micro_ros_agent:/home/devpc/Desktop/microros_ws/install/microxrcedds_agent:/home/devpc/Desktop/microros_ws/install/micro_ros_setup:/home/devpc/Desktop/microros_ws/install/micro_ros_msgs:/home/devpc/Desktop/quad_ws/install/quad_interfaces:/home/devpc/Desktop/quad_ws/install/quad:/opt/ros/foxy LD_LIBRARY_PATH=/home/devpc/Desktop/microros_ws/install/microcdr/lib:${LD_LIBRARY_PATH} /usr/bin/cmake --build /home/devpc/Desktop/microros_ws/build/rosidl_typesupport_microxrcedds_c -- -j8 -l8
+[0.634s] [35m[1mScanning dependencies of target rosidl_typesupport_microxrcedds_c[0m
+[0.643s] [ 66%] [32mBuilding C object CMakeFiles/rosidl_typesupport_microxrcedds_c.dir/src/identifier.c.o[0m
+[0.643s] [ 66%] [32mBuilding C object CMakeFiles/rosidl_typesupport_microxrcedds_c.dir/src/deserialize_buffer_utility.c.o[0m
+[0.669s] [100%] [32m[1mLinking C shared library librosidl_typesupport_microxrcedds_c.so[0m
+[0.702s] [100%] Built target rosidl_typesupport_microxrcedds_c
+[0.719s] Invoked command in '/home/devpc/Desktop/microros_ws/build/rosidl_typesupport_microxrcedds_c' returned '0': CMAKE_PREFIX_PATH=/home/devpc/Desktop/microros_ws/install/microcdr:/home/devpc/Desktop/microros_ws/install/micro_ros_agent:/home/devpc/Desktop/microros_ws/install/microxrcedds_agent:/home/devpc/Desktop/microros_ws/install/micro_ros_setup:/home/devpc/Desktop/microros_ws/install/micro_ros_msgs:/home/devpc/Desktop/quad_ws/install/quad_interfaces:/home/devpc/Desktop/quad_ws/install/quad:/opt/ros/foxy LD_LIBRARY_PATH=/home/devpc/Desktop/microros_ws/install/microcdr/lib:${LD_LIBRARY_PATH} /usr/bin/cmake --build /home/devpc/Desktop/microros_ws/build/rosidl_typesupport_microxrcedds_c -- -j8 -l8
+[0.759s] Invoking command in '/home/devpc/Desktop/microros_ws/build/rosidl_typesupport_microxrcedds_c': CMAKE_PREFIX_PATH=/home/devpc/Desktop/microros_ws/install/microcdr:/home/devpc/Desktop/microros_ws/install/micro_ros_agent:/home/devpc/Desktop/microros_ws/install/microxrcedds_agent:/home/devpc/Desktop/microros_ws/install/micro_ros_setup:/home/devpc/Desktop/microros_ws/install/micro_ros_msgs:/home/devpc/Desktop/quad_ws/install/quad_interfaces:/home/devpc/Desktop/quad_ws/install/quad:/opt/ros/foxy LD_LIBRARY_PATH=/home/devpc/Desktop/microros_ws/install/microcdr/lib:${LD_LIBRARY_PATH} /usr/bin/cmake --install /home/devpc/Desktop/microros_ws/build/rosidl_typesupport_microxrcedds_c
+[0.771s] -- Install configuration: ""
+[0.771s] -- Installing: /home/devpc/Desktop/microros_ws/install/rosidl_typesupport_microxrcedds_c/share/rosidl_typesupport_microxrcedds_c/environment/pythonpath.sh
+[0.772s] -- Installing: /home/devpc/Desktop/microros_ws/install/rosidl_typesupport_microxrcedds_c/share/rosidl_typesupport_microxrcedds_c/environment/pythonpath.dsv
+[0.772s] -- Installing: /home/devpc/Desktop/microros_ws/install/rosidl_typesupport_microxrcedds_c/lib/python3.8/site-packages/rosidl_typesupport_microxrcedds_c
+[0.772s] -- Installing: /home/devpc/Desktop/microros_ws/install/rosidl_typesupport_microxrcedds_c/lib/python3.8/site-packages/rosidl_typesupport_microxrcedds_c/__init__.py
+[0.804s] Listing '/home/devpc/Desktop/microros_ws/install/rosidl_typesupport_microxrcedds_c/lib/python3.8/site-packages/rosidl_typesupport_microxrcedds_c'...
+[0.804s] Compiling '/home/devpc/Desktop/microros_ws/install/rosidl_typesupport_microxrcedds_c/lib/python3.8/site-packages/rosidl_typesupport_microxrcedds_c/__init__.py'...
+[0.807s] -- Installing: /home/devpc/Desktop/microros_ws/install/rosidl_typesupport_microxrcedds_c/share/rosidl_typesupport_microxrcedds_c/environment/library_path.sh
+[0.807s] -- Installing: /home/devpc/Desktop/microros_ws/install/rosidl_typesupport_microxrcedds_c/share/rosidl_typesupport_microxrcedds_c/environment/library_path.dsv
+[0.808s] -- Installing: /home/devpc/Desktop/microros_ws/install/rosidl_typesupport_microxrcedds_c/share/ament_index/resource_index/rosidl_typesupport_c/rosidl_typesupport_microxrcedds_c
+[0.808s] -- Installing: /home/devpc/Desktop/microros_ws/install/rosidl_typesupport_microxrcedds_c/share/ament_index/resource_index/package_run_dependencies/rosidl_typesupport_microxrcedds_c
+[0.808s] -- Installing: /home/devpc/Desktop/microros_ws/install/rosidl_typesupport_microxrcedds_c/share/ament_index/resource_index/parent_prefix_path/rosidl_typesupport_microxrcedds_c
+[0.808s] -- Installing: /home/devpc/Desktop/microros_ws/install/rosidl_typesupport_microxrcedds_c/share/rosidl_typesupport_microxrcedds_c/environment/ament_prefix_path.sh
+[0.808s] -- Installing: /home/devpc/Desktop/microros_ws/install/rosidl_typesupport_microxrcedds_c/share/rosidl_typesupport_microxrcedds_c/environment/ament_prefix_path.dsv
+[0.809s] -- Installing: /home/devpc/Desktop/microros_ws/install/rosidl_typesupport_microxrcedds_c/share/rosidl_typesupport_microxrcedds_c/environment/path.sh
+[0.809s] -- Installing: /home/devpc/Desktop/microros_ws/install/rosidl_typesupport_microxrcedds_c/share/rosidl_typesupport_microxrcedds_c/environment/path.dsv
+[0.809s] -- Installing: /home/devpc/Desktop/microros_ws/install/rosidl_typesupport_microxrcedds_c/share/rosidl_typesupport_microxrcedds_c/local_setup.bash
+[0.809s] -- Installing: /home/devpc/Desktop/microros_ws/install/rosidl_typesupport_microxrcedds_c/share/rosidl_typesupport_microxrcedds_c/local_setup.sh
+[0.809s] -- Installing: /home/devpc/Desktop/microros_ws/install/rosidl_typesupport_microxrcedds_c/share/rosidl_typesupport_microxrcedds_c/local_setup.zsh
+[0.809s] -- Installing: /home/devpc/Desktop/microros_ws/install/rosidl_typesupport_microxrcedds_c/share/rosidl_typesupport_microxrcedds_c/local_setup.dsv
+[0.809s] -- Installing: /home/devpc/Desktop/microros_ws/install/rosidl_typesupport_microxrcedds_c/share/rosidl_typesupport_microxrcedds_c/package.dsv
+[0.809s] -- Installing: /home/devpc/Desktop/microros_ws/install/rosidl_typesupport_microxrcedds_c/share/ament_index/resource_index/packages/rosidl_typesupport_microxrcedds_c
+[0.810s] -- Installing: /home/devpc/Desktop/microros_ws/install/rosidl_typesupport_microxrcedds_c/share/rosidl_typesupport_microxrcedds_c/cmake/rosidl_typesupport_microxrcedds_cExport.cmake
+[0.810s] -- Installing: /home/devpc/Desktop/microros_ws/install/rosidl_typesupport_microxrcedds_c/share/rosidl_typesupport_microxrcedds_c/cmake/rosidl_typesupport_microxrcedds_cExport-noconfig.cmake
+[0.810s] -- Installing: /home/devpc/Desktop/microros_ws/install/rosidl_typesupport_microxrcedds_c/share/rosidl_typesupport_microxrcedds_c/cmake/rosidl_typesupport_microxrcedds_c-extras.cmake
+[0.810s] -- Installing: /home/devpc/Desktop/microros_ws/install/rosidl_typesupport_microxrcedds_c/share/rosidl_typesupport_microxrcedds_c/cmake/ament_cmake_export_dependencies-extras.cmake
+[0.810s] -- Installing: /home/devpc/Desktop/microros_ws/install/rosidl_typesupport_microxrcedds_c/share/rosidl_typesupport_microxrcedds_c/cmake/ament_cmake_export_include_directories-extras.cmake
+[0.810s] -- Installing: /home/devpc/Desktop/microros_ws/install/rosidl_typesupport_microxrcedds_c/share/rosidl_typesupport_microxrcedds_c/cmake/ament_cmake_export_libraries-extras.cmake
+[0.810s] -- Installing: /home/devpc/Desktop/microros_ws/install/rosidl_typesupport_microxrcedds_c/share/rosidl_typesupport_microxrcedds_c/cmake/ament_cmake_export_targets-extras.cmake
+[0.811s] -- Installing: /home/devpc/Desktop/microros_ws/install/rosidl_typesupport_microxrcedds_c/share/rosidl_typesupport_microxrcedds_c/cmake/rosidl_typesupport_microxrcedds_cConfig.cmake
+[0.811s] -- Installing: /home/devpc/Desktop/microros_ws/install/rosidl_typesupport_microxrcedds_c/share/rosidl_typesupport_microxrcedds_c/cmake/rosidl_typesupport_microxrcedds_cConfig-version.cmake
+[0.811s] -- Installing: /home/devpc/Desktop/microros_ws/install/rosidl_typesupport_microxrcedds_c/share/rosidl_typesupport_microxrcedds_c/package.xml
+[0.811s] -- Installing: /home/devpc/Desktop/microros_ws/install/rosidl_typesupport_microxrcedds_c/lib/rosidl_typesupport_microxrcedds_c/rosidl_typesupport_microxrcedds_c
+[0.811s] -- Up-to-date: /home/devpc/Desktop/microros_ws/install/rosidl_typesupport_microxrcedds_c/share/rosidl_typesupport_microxrcedds_c/cmake
+[0.811s] -- Installing: /home/devpc/Desktop/microros_ws/install/rosidl_typesupport_microxrcedds_c/share/rosidl_typesupport_microxrcedds_c/cmake/rosidl_typesupport_microxrcedds_c_generate_interfaces.cmake
+[0.811s] -- Installing: /home/devpc/Desktop/microros_ws/install/rosidl_typesupport_microxrcedds_c/share/rosidl_typesupport_microxrcedds_c/resource
+[0.811s] -- Installing: /home/devpc/Desktop/microros_ws/install/rosidl_typesupport_microxrcedds_c/share/rosidl_typesupport_microxrcedds_c/resource/idl__type_support_c.c.em
+[0.812s] -- Installing: /home/devpc/Desktop/microros_ws/install/rosidl_typesupport_microxrcedds_c/share/rosidl_typesupport_microxrcedds_c/resource/srv__type_support_c.c.em
+[0.812s] -- Installing: /home/devpc/Desktop/microros_ws/install/rosidl_typesupport_microxrcedds_c/share/rosidl_typesupport_microxrcedds_c/resource/msg__rosidl_typesupport_microxrcedds_c.h.em
+[0.812s] -- Installing: /home/devpc/Desktop/microros_ws/install/rosidl_typesupport_microxrcedds_c/share/rosidl_typesupport_microxrcedds_c/resource/srv__rosidl_typesupport_microxrcedds_c.h.em
+[0.812s] -- Installing: /home/devpc/Desktop/microros_ws/install/rosidl_typesupport_microxrcedds_c/share/rosidl_typesupport_microxrcedds_c/resource/rosidl_typesupport_microxrcedds_c__visibility_control.h.in
+[0.812s] -- Installing: /home/devpc/Desktop/microros_ws/install/rosidl_typesupport_microxrcedds_c/share/rosidl_typesupport_microxrcedds_c/resource/msg__type_support_c.c.em
+[0.812s] -- Installing: /home/devpc/Desktop/microros_ws/install/rosidl_typesupport_microxrcedds_c/share/rosidl_typesupport_microxrcedds_c/resource/idl__rosidl_typesupport_microxrcedds_c.h.em
+[0.812s] -- Installing: /home/devpc/Desktop/microros_ws/install/rosidl_typesupport_microxrcedds_c/include
+[0.812s] -- Installing: /home/devpc/Desktop/microros_ws/install/rosidl_typesupport_microxrcedds_c/include/rosidl_typesupport_microxrcedds_c
+[0.812s] -- Installing: /home/devpc/Desktop/microros_ws/install/rosidl_typesupport_microxrcedds_c/include/rosidl_typesupport_microxrcedds_c/service_type_support.h
+[0.813s] -- Installing: /home/devpc/Desktop/microros_ws/install/rosidl_typesupport_microxrcedds_c/include/rosidl_typesupport_microxrcedds_c/deserialize_buffer_utility.h
+[0.813s] -- Installing: /home/devpc/Desktop/microros_ws/install/rosidl_typesupport_microxrcedds_c/include/rosidl_typesupport_microxrcedds_c/identifier.h
+[0.813s] -- Installing: /home/devpc/Desktop/microros_ws/install/rosidl_typesupport_microxrcedds_c/include/rosidl_typesupport_microxrcedds_c/message_type_support.h
+[0.813s] -- Installing: /home/devpc/Desktop/microros_ws/install/rosidl_typesupport_microxrcedds_c/include/rosidl_typesupport_microxrcedds_c/visibility_control.h
+[0.813s] -- Installing: /home/devpc/Desktop/microros_ws/install/rosidl_typesupport_microxrcedds_c/lib/librosidl_typesupport_microxrcedds_c.so
+[0.813s] -- Set runtime path of "/home/devpc/Desktop/microros_ws/install/rosidl_typesupport_microxrcedds_c/lib/librosidl_typesupport_microxrcedds_c.so" to ""
+[0.815s] Invoked command in '/home/devpc/Desktop/microros_ws/build/rosidl_typesupport_microxrcedds_c' returned '0': CMAKE_PREFIX_PATH=/home/devpc/Desktop/microros_ws/install/microcdr:/home/devpc/Desktop/microros_ws/install/micro_ros_agent:/home/devpc/Desktop/microros_ws/install/microxrcedds_agent:/home/devpc/Desktop/microros_ws/install/micro_ros_setup:/home/devpc/Desktop/microros_ws/install/micro_ros_msgs:/home/devpc/Desktop/quad_ws/install/quad_interfaces:/home/devpc/Desktop/quad_ws/install/quad:/opt/ros/foxy LD_LIBRARY_PATH=/home/devpc/Desktop/microros_ws/install/microcdr/lib:${LD_LIBRARY_PATH} /usr/bin/cmake --install /home/devpc/Desktop/microros_ws/build/rosidl_typesupport_microxrcedds_c

@@ -1,0 +1,13 @@
+# Target labels
+ int32_subscriber
+# Source files and their labels
+/home/devpc/Desktop/microros_ws/build/micro_ros_demos_rclcpp/CMakeFiles/int32_subscriber
+/home/devpc/Desktop/microros_ws/build/micro_ros_demos_rclcpp/CMakeFiles/int32_subscriber.rule
+/home/devpc/Desktop/microros_ws/build/micro_ros_demos_rclcpp/CMakeFiles/int32_subscriber-complete.rule
+/home/devpc/Desktop/microros_ws/build/micro_ros_demos_rclcpp/int32_subscriber/src/int32_subscriber-stamp/int32_subscriber-install.rule
+/home/devpc/Desktop/microros_ws/build/micro_ros_demos_rclcpp/int32_subscriber/src/int32_subscriber-stamp/int32_subscriber-mkdir.rule
+/home/devpc/Desktop/microros_ws/build/micro_ros_demos_rclcpp/int32_subscriber/src/int32_subscriber-stamp/int32_subscriber-download.rule
+/home/devpc/Desktop/microros_ws/build/micro_ros_demos_rclcpp/int32_subscriber/src/int32_subscriber-stamp/int32_subscriber-update.rule
+/home/devpc/Desktop/microros_ws/build/micro_ros_demos_rclcpp/int32_subscriber/src/int32_subscriber-stamp/int32_subscriber-patch.rule
+/home/devpc/Desktop/microros_ws/build/micro_ros_demos_rclcpp/int32_subscriber/src/int32_subscriber-stamp/int32_subscriber-configure.rule
+/home/devpc/Desktop/microros_ws/build/micro_ros_demos_rclcpp/int32_subscriber/src/int32_subscriber-stamp/int32_subscriber-build.rule

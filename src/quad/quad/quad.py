@@ -14,6 +14,8 @@ from src.motion_parameters import MotionParameters
 from quad_interfaces.msg import MotionServos
 from .joystick_interpreter import JoystickInterpreter
 
+from rclpy.logging import LoggingSeverity
+
 
 class MinimalSubscriber(Node):
 
@@ -22,12 +24,13 @@ class MinimalSubscriber(Node):
         self.subscription = self.create_subscription(
             Joy, 'joy', self.listener_callback, 10)
         self.joystick_interpreter = JoystickInterpreter()
-        self.motion_parameters = MotionParameters()   
+        self.motion_parameters = MotionParameters()
 
     def listener_callback(self, msg):
         axes = msg.axes
         buttons = msg.buttons
-        self.motion_parameters =self.joystick_interpreter.get_motion_parameters(axes, buttons)
+        self.motion_parameters = self.joystick_interpreter.get_motion_parameters(
+            axes, buttons)
 
     def get_motion_parameters(self):
         return copy.deepcopy(self.motion_parameters)
@@ -39,7 +42,7 @@ class MinimalPublisher(Node):
         super().__init__('quad_publisher_node')
         self.publisher_ = self.create_publisher(
             MotionServos, 'motion_servos', 10)
-        timer_period = .01  # seconds
+        timer_period = 0.025
         self.timer = self.create_timer(timer_period, self.timer_callback)
         self.i = 0
         self.toggle = False
@@ -74,6 +77,8 @@ class MinimalPublisher(Node):
         for i in range(12):
             msg.enable[i] = True
             msg.angle[i] = self.joint_angles_flat[i]
+
+        # rclpy.logging._root_logger.log(str(msg.angle[0]), LoggingSeverity.INFO)
 
         self.publisher_.publish(msg)
 

@@ -1,0 +1,25 @@
+{
+  "package_name": "complex_msgs",
+  "output_dir": "/home/devpc/Desktop/microros_ws/build/complex_msgs/rosidl_typesupport_cpp/complex_msgs",
+  "template_dir": "/opt/ros/foxy/share/rosidl_typesupport_cpp/resource",
+  "idl_tuples": [
+    "/home/devpc/Desktop/microros_ws/build/complex_msgs/rosidl_adapter/complex_msgs:msg/MultiStringTest.idl",
+    "/home/devpc/Desktop/microros_ws/build/complex_msgs/rosidl_adapter/complex_msgs:msg/NestedMsgTest.idl"
+  ],
+  "ros_interface_dependencies": [
+    "builtin_interfaces:/home/devpc/Desktop/microros_ws/install/builtin_interfaces/share/builtin_interfaces/msg/Duration.idl",
+    "builtin_interfaces:/home/devpc/Desktop/microros_ws/install/builtin_interfaces/share/builtin_interfaces/msg/Time.idl"
+  ],
+  "target_dependencies": [
+    "/opt/ros/foxy/lib/rosidl_typesupport_cpp/rosidl_typesupport_cpp",
+    "/opt/ros/foxy/lib/python3.8/site-packages/rosidl_typesupport_cpp/__init__.py",
+    "/opt/ros/foxy/share/rosidl_typesupport_cpp/resource/action__type_support.cpp.em",
+    "/opt/ros/foxy/share/rosidl_typesupport_cpp/resource/idl__type_support.cpp.em",
+    "/opt/ros/foxy/share/rosidl_typesupport_cpp/resource/msg__type_support.cpp.em",
+    "/opt/ros/foxy/share/rosidl_typesupport_cpp/resource/srv__type_support.cpp.em",
+    "/home/devpc/Desktop/microros_ws/build/complex_msgs/rosidl_adapter/complex_msgs/msg/MultiStringTest.idl",
+    "/home/devpc/Desktop/microros_ws/build/complex_msgs/rosidl_adapter/complex_msgs/msg/NestedMsgTest.idl",
+    "/home/devpc/Desktop/microros_ws/install/builtin_interfaces/share/builtin_interfaces/msg/Duration.idl",
+    "/home/devpc/Desktop/microros_ws/install/builtin_interfaces/share/builtin_interfaces/msg/Time.idl"
+  ]
+}

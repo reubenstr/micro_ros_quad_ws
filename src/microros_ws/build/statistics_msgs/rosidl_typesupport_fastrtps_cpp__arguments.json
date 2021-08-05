@@ -1,0 +1,29 @@
+{
+  "package_name": "statistics_msgs",
+  "output_dir": "/home/devpc/Desktop/microros_ws/build/statistics_msgs/rosidl_typesupport_fastrtps_cpp/statistics_msgs",
+  "template_dir": "/opt/ros/foxy/share/rosidl_typesupport_fastrtps_cpp/resource",
+  "idl_tuples": [
+    "/home/devpc/Desktop/microros_ws/build/statistics_msgs/rosidl_adapter/statistics_msgs:msg/MetricsMessage.idl",
+    "/home/devpc/Desktop/microros_ws/build/statistics_msgs/rosidl_adapter/statistics_msgs:msg/StatisticDataPoint.idl",
+    "/home/devpc/Desktop/microros_ws/build/statistics_msgs/rosidl_adapter/statistics_msgs:msg/StatisticDataType.idl"
+  ],
+  "ros_interface_dependencies": [
+    "builtin_interfaces:/home/devpc/Desktop/microros_ws/install/builtin_interfaces/share/builtin_interfaces/msg/Duration.idl",
+    "builtin_interfaces:/home/devpc/Desktop/microros_ws/install/builtin_interfaces/share/builtin_interfaces/msg/Time.idl"
+  ],
+  "target_dependencies": [
+    "/opt/ros/foxy/lib/rosidl_typesupport_fastrtps_cpp/rosidl_typesupport_fastrtps_cpp",
+    "/opt/ros/foxy/lib/python3.8/site-packages/rosidl_typesupport_fastrtps_cpp/__init__.py",
+    "/opt/ros/foxy/share/rosidl_typesupport_fastrtps_cpp/resource/idl__rosidl_typesupport_fastrtps_cpp.hpp.em",
+    "/opt/ros/foxy/share/rosidl_typesupport_fastrtps_cpp/resource/idl__type_support.cpp.em",
+    "/opt/ros/foxy/share/rosidl_typesupport_fastrtps_cpp/resource/msg__rosidl_typesupport_fastrtps_cpp.hpp.em",
+    "/opt/ros/foxy/share/rosidl_typesupport_fastrtps_cpp/resource/msg__type_support.cpp.em",
+    "/opt/ros/foxy/share/rosidl_typesupport_fastrtps_cpp/resource/srv__rosidl_typesupport_fastrtps_cpp.hpp.em",
+    "/opt/ros/foxy/share/rosidl_typesupport_fastrtps_cpp/resource/srv__type_support.cpp.em",
+    "/home/devpc/Desktop/microros_ws/build/statistics_msgs/rosidl_adapter/statistics_msgs/msg/MetricsMessage.idl",
+    "/home/devpc/Desktop/microros_ws/build/statistics_msgs/rosidl_adapter/statistics_msgs/msg/StatisticDataPoint.idl",
+    "/home/devpc/Desktop/microros_ws/build/statistics_msgs/rosidl_adapter/statistics_msgs/msg/StatisticDataType.idl",
+    "/home/devpc/Desktop/microros_ws/install/builtin_interfaces/share/builtin_interfaces/msg/Duration.idl",
+    "/home/devpc/Desktop/microros_ws/install/builtin_interfaces/share/builtin_interfaces/msg/Time.idl"
+  ]
+}

@@ -11,12 +11,32 @@ def generate_launch_description():
         'quad_params.yaml'
         )
         
-    node=Node(
+    quad_node=Node(
         package = 'quad',
-        # name = 'quad_node',
+        #name = 'quad_node',
         executable = 'quad',
         output='screen',  
         parameters = [config]
     )
-    ld.add_action(node)
+    
+    joy_node=Node(
+        package = 'joystick_ros2',
+        # name = 'quad_node',
+        executable = 'joystick_ros2',
+        output='screen',          
+    )
+     
+    micro_ros_agent_node=Node(
+        package = 'micro_ros_agent',
+        # name = 'quad_node',
+        executable = 'micro_ros_agent',
+         prefix=['stdbuf -o L'],
+        output='screen', 
+        # emulate_tty=True,  
+        arguments={'serial --dev /dev/ttyACM0'},            
+    )    
+    
+    ld.add_action(micro_ros_agent_node)
+    ld.add_action(quad_node)
+    ld.add_action(joy_node)
     return ld    

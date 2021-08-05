@@ -1,0 +1,1 @@
+/home/devpc/Desktop/microros_ws/build/micro_ros_demos_rclcpp/temp_install/string_publisher/string_publisher
