@@ -27,17 +27,18 @@ sys.path.append("/home/devpc/Desktop/quad_ws/install/quad/lib/quad/urdf")
 import urdf
 
 
-INIT_POSITION = [0, 0, 0.25]
+INIT_POSITION = [0, 0, 0.5]
 INIT_RACK_POSITION = [0, 0, 1]
 # NOTE: URDF IS FACING THE WRONG WAY
 # TEMP FIX
 INIT_ORIENTATION = [0, 0, 0, 1]
+# INIT_ORIENTATION = [0, 0, 1, -1]
 OVERHEAT_SHUTDOWN_TORQUE = 2.45
 OVERHEAT_SHUTDOWN_TIME = 1.0
 # -math.pi / 5
-INIT_LEG_POS = -0.658319
+#INIT_LEG_POS = -0.658319
 # math.pi / 3
-INIT_FOOT_POS = 1.0472
+#INIT_FOOT_POS = 1.0472
 
 LEG_POSITION = ["front_left", "front_right", "back_left", "back_right"]
 
@@ -96,9 +97,10 @@ class Model(object):
     INIT_POSES = {
         'stand':
         np.array([
-            0.15192765, 0.7552236, -1.5104472, -0.15192765, 0.7552236,
-            -1.5104472, 0.15192765, 0.7552236, -1.5104472, -0.15192765,
-            0.7552236, -1.5104472
+            0.15192765, 0.7552236, -1.5104472, 
+            -0.15192765, 0.7552236, -1.5104472, 
+            0.15192765, 0.7552236, -1.5104472, 
+            -0.15192765, 0.7552236, -1.5104472
         ]),
         'liedown':
         np.array([-0.4, -1.5, 6, 0.4, -1.5, 6, -0.4, -1.5, 6, 0.4, -1.5, 6]),
@@ -176,8 +178,8 @@ class Model(object):
         # Leg Phases
         self.LegPhases = [0.0, 0.0, 0.0, 0.0]
         # used to calculate minitaur acceleration
-        self.init_leg = INIT_LEG_POS
-        self.init_foot = INIT_FOOT_POS
+        #self.init_leg = INIT_LEG_POS
+        #self.init_foot = INIT_FOOT_POS
         self.prev_ang_twist = np.array([0, 0, 0])
         self.prev_lin_twist = np.array([0, 0, 0])
         self.prev_lin_acc = np.array([0, 0, 0])

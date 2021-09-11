@@ -26,24 +26,24 @@ class QuadCommander():
         if 1:
             # env
             self.env = GymEnv(render=True,
-                            on_rack=False,
-                            height_field=False,
-                            draw_foot_path=False,
-                            env_randomizer=None)
+                              on_rack=False,
+                              height_field=False,
+                              draw_foot_path=False,
+                              env_randomizer=None)
             self.env.reset()
-            self.gui_param_controller = GuiParamControl(self.env.spot.quadruped)
+            self.gui_param_controller = GuiParamControl(
+                self.env.spot.quadruped)
             self.action = self.env.action_space.sample()
             self.bezier_gait = BezierGait(dt=self.env._time_step)
             # env
-       
+
         else:
             self.bezier_gait = BezierGait(dt=0.01)
 
-
         self.kinematics = Kinematics()
-        self.T_bf0 = self.kinematics.WorldToFoot
-        self.T_bf = copy.deepcopy(self.T_bf0)
         
+
+
         self.bezier_stepper = BezierStepper()
 
         self.temp = 0
@@ -53,7 +53,7 @@ class QuadCommander():
         # get motion parameters from the bezier stepper
         # pos, orn, StepLength, LateralFraction, YawRate, StepVelocity, ClearanceHeight, PenetrationDepth = self.bezier_stepper.StateMachine()
 
-        # get motion parameters from tick input
+        # get motion parameters from tick input (joystick via ROS)
         self.motion_parameters = motion_parameters
         pos = self.motion_parameters.pos
         orn = self.motion_parameters.orn
@@ -66,9 +66,8 @@ class QuadCommander():
         contacts = self.motion_parameters.contacts
         contacts = [0, 0, 0, 0]
 
-        # override joy with gui params
+        # get motion parameters from simulation gui params
         # pos, orn, StepLength, LateralFraction, YawRate, StepVelocity, ClearanceHeight, PenetrationDepth, SwingPeriod = self.gui_param_controller.UserInput()
-       
 
         # self.bezier_gait.Tswing = self.motion_parameters.swing_period
 
@@ -80,24 +79,32 @@ class QuadCommander():
 
         """ print ("**************************")
         print (pos)
-        print (orn)
-        print (StepLength)
-        print (YawRate)
-        print (StepVelocity)       
+        print (orn)T_bf
         print (ClearanceHeight)
         print (PenetrationDepth)
   """
-        
-       
 
         # get foot poses
+        # self.T_bf = self.bezier_gait.GenerateTrajectory(
+        #    StepLength, LateralFraction, YawRate, StepVelocity, self.T_bf0, self.T_bf, ClearanceHeight, PenetrationDepth, contacts)
+
+       
         self.T_bf = self.bezier_gait.GenerateTrajectory(
-            StepLength, LateralFraction, YawRate, StepVelocity, self.T_bf0, self.T_bf, ClearanceHeight, PenetrationDepth, contacts)
+            StepLength, LateralFraction, YawRate, StepVelocity, self.kinematics.WorldToFoot, ClearanceHeight, PenetrationDepth, contacts)
 
-        joint_angles = self.kinematics.InverseKinematics(orn, pos, self.T_bf)
+        # print(self.T_bf )
+        
 
-        # env
-        self.env.pass_joint_angles(joint_angles.reshape(-1))
+        # self.T_bf_temp = copy.deepcopy(self.kinematics.WorldToFoot)
+
+        joint_angles = self.kinematics.inverse_kinematics(orn, pos, self.T_bf).flatten()
+        #joint_angles = self.kinematics.InverseKinematics(orn, pos, self.T_bf_temp)
+
+        
+     
+
+        
+        self.env.pass_joint_angles(joint_angles)
         # pass parameters into the model as external observations (for machine learning)
         # env.spot.GetExternalObservations(self.bezier_gait, self.bezier_stepper)
         # step simulation

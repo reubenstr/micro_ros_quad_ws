@@ -17,7 +17,7 @@ from .joystick_interpreter import JoystickInterpreter
 from rclpy.logging import LoggingSeverity
 
 
-class MinimalSubscriber(Node):
+class JoystickSubscriber(Node):
 
     def __init__(self):
         super().__init__('joy_subscriber_node')
@@ -36,7 +36,7 @@ class MinimalSubscriber(Node):
         return copy.deepcopy(self.motion_parameters)
 
 
-class MinimalPublisher(Node):
+class QuadPublisher(Node):
 
     def __init__(self):
         super().__init__('quad_publisher_node')
@@ -48,28 +48,12 @@ class MinimalPublisher(Node):
         self.toggle = False
 
         self.joint_angles = np.zeros((4, 3))
-
-        self.declare_parameters(
-            namespace='',
-            parameters=[
-                ('bool_value', None),
-                ('int_number', None),
-                ('float_number', None),
-                ('str_text', "default"),
-                ('str_text2', None),
-                ('bool_array', None),
-                ('bytes_array', None),
-                ('nested_param.another_int', None)
-            ])
+        
 
     def set_joint_angles(self, joint_angles):
         self.joint_angles = joint_angles
 
-    def timer_callback(self):
-
-        # print(self.get_parameter('str_text').get_parameter_value().string_value)
-        # print(self.get_parameter('str_text2').get_parameter_value().string_value)
-
+    def timer_callback(self):  
         msg = MotionServos()
 
         self.joint_angles_flat = self.joint_angles.flatten()
@@ -84,34 +68,69 @@ class MinimalPublisher(Node):
 
 
 def main(args=None):
-
     rclpy.init(args=args)
 
-    print('QUAD STARTED')
-    # rclpy.logging._root_logger.log("QUAD STARTED", LoggingSeverity.INFO)
+    rclpy.logging._root_logger.log("QUAD STARTED", LoggingSeverity.INFO)
+
+
+    quad_publisher = QuadPublisher()
+    joystick_subscriber = JoystickSubscriber()
+
+    parameters = quad_publisher.declare_parameters(
+            namespace='',
+            parameters=[
+                ('bool_value', None),               
+                ('str_text', "default"),               
+            ])
+
+    print(parameters)
+  
+
+    rclpy.logging._root_logger.log(quad_publisher.get_parameter('str_text').get_parameter_value().string_value, LoggingSeverity.INFO)
+    
+    #print(self.get_parameter('str_text').get_parameter_value().string_value)
+    #print(self.get_parameter('str_text2').get_parameter_value().string_value)
 
     quad_commander = QuadCommander()
 
-    minimal_publisher = MinimalPublisher()
-    minimal_subscriber = MinimalSubscriber()
-
     executor = SingleThreadedExecutor()
 
-    executor.add_node(minimal_publisher)
-    executor.add_node(minimal_subscriber)
+    executor.add_node(quad_publisher)
+    executor.add_node(joystick_subscriber)
 
     while rclpy.ok():
-        motion_parameters = minimal_subscriber.get_motion_parameters()
+        motion_parameters = joystick_subscriber.get_motion_parameters()
         joint_angles = quad_commander.tick(motion_parameters)
-        minimal_publisher.set_joint_angles(joint_angles)
+        
+        
+        flat = joint_angles.flatten()
+
+        # convert the joint angles into the linkage mechanical space.
+        
+
+
+        # rclpy.logging._root_logger.log("shoulder  : " + str(flat[0]), LoggingSeverity.INFO)  
+        #rclpy.logging._root_logger.log("upper leg : " + str(flat[1]), LoggingSeverity.INFO)  
+        #rclpy.logging._root_logger.log("lower leg : " + str(flat[2]), LoggingSeverity.INFO)  
+
+        #rclpy.logging._root_logger.log("legnth : " + str(motion_parameters.step_length), LoggingSeverity.INFO)  
+        #rclpy.logging._root_logger.log("yaw : " + str(motion_parameters.yaw_rate), LoggingSeverity.INFO)
+        #sleep(.1)
+        
+
+
+
+        
+        
+        quad_publisher.set_joint_angles(joint_angles)
         executor.spin_once()
 
     try:
         executor.spin()
     finally:
         executor.shutdown()
-        minimal_publisher.destroy_node()
-        minimal_subscriber.destroy_node()
+        quad_publisher.destroy_node()
+        joystick_subscriber.destroy_node()
 
     rclpy.shutdown()
 

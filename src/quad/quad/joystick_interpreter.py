@@ -1,3 +1,4 @@
+# Converts joystick axes and button input into motion parameters to control the robot.
 
 import copy
 import numpy as np
@@ -26,8 +27,7 @@ class JoystickInterpreter():
             self.mode_toggle_button_release_flag = True
 
         # TODO: fetch parameters from a centalized param file
-        xLimit = 0.1
-        yLimit = 0.1
+       
         zLimit = 0.1
 
         ornLimit = np.pi / 4
@@ -41,19 +41,19 @@ class JoystickInterpreter():
 
             # left analog stick up/down
             self.motion_parameters.orn[1] = self.map(
-                axes[1], -1, 1, -ornLimit, ornLimit)
+                axes[1], -1, 1, self.motion_parameters.orn_y_min, self.motion_parameters.orn_y_max)
 
             # left analog stick left/right
             self.motion_parameters.orn[2] = - self.map(
-                axes[0], -1, 1, -ornLimit, ornLimit)
+                axes[0], -1, 1, self.motion_parameters.orn_z_min, self.motion_parameters.orn_z_max)
 
             # right analog stick left/right
             self.motion_parameters.orn[0] = self.map(
-                axes[2], -1, 1, -ornLimit, ornLimit)
+                axes[2], -1, 1, self.motion_parameters.orn_x_min, self.motion_parameters.orn_x_max)
 
             # right analog stick up/down
             self.motion_parameters.pos[2] = - self.map(
-                axes[5], -1, 1, -zLimit, zLimit)
+                axes[5], -1, 1, self.motion_parameters.pos_z_min, self.motion_parameters.pos_z_max)
 
         if self.motion_parameters.motion_state == MotionState.MOTION:
 
@@ -71,6 +71,6 @@ class JoystickInterpreter():
 
             # right analog stick up/down
             self.motion_parameters.pos[2] = - self.map(
-                axes[5], -1, 1, -zLimit, zLimit)
+                axes[5], -1, 1, self.motion_parameters.pos_z_min, self.motion_parameters.pos_z_max)
 
         return copy.deepcopy(self.motion_parameters)

@@ -29,10 +29,7 @@ class QuadCommander():
 
         self.motion_parameters = MotionParameters()
         self.motion_parameters = motion_parameters
-
-        # NOT SURE WHERE TO SLEEP....
-        # time.sleep(0.010)
-
+      
         # get motion parameters from the bezier stepper
         # pos, orn, StepLength, LateralFraction, YawRate, StepVelocity, ClearanceHeight, PenetrationDepth = self.bezier_stepper.StateMachine()
 

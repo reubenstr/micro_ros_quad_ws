@@ -439,7 +439,7 @@ class BezierGait():
                            YawRate,
                            vel,
                            T_bf_,
-                           T_bf_curr,
+                           #T_bf_curr,
                            clearance_height=0.06,
                            penetration_depth=0.01,
                            contacts=[0, 0, 0, 0],
@@ -494,6 +494,7 @@ class BezierGait():
 
         T_bf = copy.deepcopy(T_bf_)
         for i, (key, Tbf_in) in enumerate(T_bf_.items()):
+            
             # TODO: MAKE THIS MORE ELEGANT
             if key == "FL":
                 self.ref_idx = i
@@ -504,7 +505,9 @@ class BezierGait():
                 self.dSref[i] = 0.5
             if key == "BR":
                 self.dSref[i] = 0.0
+            
             _, p_bf = TransToRp(Tbf_in)
+            
             if Tstance > 0.0:
                 step_coord = self.GetFootStep(L, LateralFraction, YawRate,
                                               clearance_height,
@@ -512,6 +515,7 @@ class BezierGait():
                                               i, key)
             else:
                 step_coord = np.array([0.0, 0.0, 0.0])
+            
             T_bf[key][0, 3] = Tbf_in[0, 3] + step_coord[0]
             T_bf[key][1, 3] = Tbf_in[1, 3] + step_coord[1]
             T_bf[key][2, 3] = Tbf_in[2, 3] + step_coord[2]
