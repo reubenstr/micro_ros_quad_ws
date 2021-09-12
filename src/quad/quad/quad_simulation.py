@@ -21,7 +21,9 @@ from src.env_randomizer import EnvRandomizer
 
 class QuadCommander():
 
-    def __init__(self):
+    def __init__(self, motion_servo_parameters_path):
+
+        self.motion_servo_parameters_path = motion_servo_parameters_path
 
         if 1:
             # env
@@ -40,9 +42,7 @@ class QuadCommander():
         else:
             self.bezier_gait = BezierGait(dt=0.01)
 
-        self.kinematics = Kinematics()
-        
-
+        self.kinematics = Kinematics()   
 
         self.bezier_stepper = BezierStepper()
 

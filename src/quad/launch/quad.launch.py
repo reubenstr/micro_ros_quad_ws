@@ -5,18 +5,18 @@ from launch_ros.actions import Node
 
 def generate_launch_description():
     ld = LaunchDescription()
-    config = os.path.join(
+    
+    motion_servo_parameters_path = os.path.join(
         get_package_share_directory('quad'),
         'config',
-        'quad_params.yaml'
-        )
+        'motion_servo_parameters.yaml')  
         
     quad_node=Node(
         package = 'quad',
         #name = 'quad_node',
         executable = 'quad',
         output='screen',  
-        parameters = [config]
+        parameters = [{"motion_servo_parameters_path": motion_servo_parameters_path}]       
     )
     
     joy_node=Node(

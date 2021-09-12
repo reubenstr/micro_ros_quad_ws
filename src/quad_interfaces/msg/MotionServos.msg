@@ -1,2 +1,2 @@
 bool[12] enable
-float32[12] angle
+int16[12] pulse_width
