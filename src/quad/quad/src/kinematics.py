@@ -244,3 +244,7 @@ class Kinematics:
             joint_angles[i, :] = self._solve_joint_angles(p_hf, key)
 
         return joint_angles
+    
+    def get_servo_pulse_widths_linked_legs(self, joint_angles)
+        pass
+        # TODO CONVERT JOINTS TO PULSES
