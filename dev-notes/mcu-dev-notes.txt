@@ -1,0 +1,82 @@
+ROS2 on Teensy 4.0
+
+install Visual Studio Code via Ubuntu software
+install platformio extension inside Visual Studio Code
+install teensy platform inside platformio
+
+
+install docker:
+	https://docs.docker.com/engine/install/ubuntu/
+
+compile micro-ros:
+	https://github.com/micro-ROS/micro_ros_arduino
+
+from above linked guide
+download latest micro-ROS release:
+	https://github.com/micro-ROS/micro_ros_arduino/releases
+
+Build micro-ros-arduino library for teensy:
+	install container:
+		docker pull microros/micro_ros_static_library_builder:rolling
+
+	run container (from inside the micro-ROS library)
+	(/home/devpc/Desktop/teensy-board/lib/micro_ros_arduino-foxy)
+	(likely errors will occur, but most are ignorable):
+		docker run -it --rm -v $(pwd):/project --env MICROROS_LIBRARY_FOLDER=extras microros/micro_ros_static_library_builder:rolling
+
+
+
+
+______________________
+
+
+micro-ROS agent package:
+
+dependancies:
+	https://micro-xrce-dds.docs.eprosima.com/en/latest/installation.html
+	sudo snap install micro-xrce-dds-agent
+
+FIND SERIAL of TEENSY:
+	dmesg | grep tty
+	serial device name: ls /dev/serial/by-id/*
+	/dev/serial/by-id/usb-Teensyduino_USB_Serial_6584060-if00
+
+RUN MICRO-ROS-AGENT from docker:
+	docker run -it --net=host -v /dev:/dev --prlsivileged ros:foxy
+	docker exec -it <container> bash
+
+START CONTAINER
+	docker run -it --net=host -v /dev:/dev --privileged ros:foxy
+
+RUN INSIDE CONTAINER
+	source /opt/ros/$ROS_DISTRO/setup.bash
+	source install/local_setup.bash
+
+
+# RUN AGENT
+ros2 run micro_ros_agent micro_ros_agent serial --dev /dev/serial/by-id/usb-Teensyduino_USB_Serial_6584060-if00
+ros2 run micro_ros_agent micro_ros_agent serial --dev /dev/ttyACM0
+
+docker container ls
+docker exec -it <container_id> bash
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

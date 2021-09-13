@@ -1,0 +1,169 @@
+Install Ubuntu 20.04 
+
+$ sudo apt-get update
+
+Follow ROS2 install guide for Ubuntu:
+https://docs.ros.org/en/foxy/Installation/Ubuntu-Install-Binary.html
+https://docs.ros.org/en/foxy/Tutorials/Configuring-ROS2-Environment.html
+Complete the turtlebot tutorial to confirm functionality and install packages.
+https://docs.ros.org/en/foxy/Tutorials/Turtlesim/Introducing-Turtlesim.html
+
+
+Install colcon:
+sudo apt install python3-colcon-common-extensions
+
+
+NOTES (not steps per say, but may be needed/understood in the future):
+
+Source ROS on new terminal if bashrc is not set:
+source /opt/ros/foxy/setup.bash
+
+Check ROS environment:
+printenv | grep -i ROS
+Check installed packages:
+sudo apt list --installed
+sudo apt list --installed | grep screen
+
+Set ID:
+export ROS_DOMAIN_ID=<your_domain_id>
+echo "export ROS_DOMAIN_ID=<your_domain_id>" >> ~/.bashrc
+
+VERIFY SETUP OR MODIFICATIONS:
+cat ~/.bashrc
+nano ~/.bashrc
+
+CREATE PACKAGE: 
+(with hello world exe)
+(inside workspace/src/)
+For C++:
+ros2 pkg create quad_interfaces
+ros2 pkg create --build-type ament_cmake --node-name my_node my_package
+For python:ros
+ros2 pkg create --build-type ament_python --node-name my_node my_package
+
+package.xml contains package info such as dependancies
+
+
+BUILD:
+colcon build (from the workspace directory)
+colcon build --packages-select quad
+
+EXECUTE:
+(from workspace directory)
+
+Source:
+source /opt/ros/foxy/setup.bash
+source install/setup.bash
+ros2 run quad quad
+
+
+ROS2 commands:
+
+
+NOTES:
+ros2 node list
+ros2 node info <node_name>
+
+TOPICS:
+ros2 topic list
+ros2 topic list -t
+See topic data:
+ros2 topic echo <topic_name>
+Show msg info:
+ros2 interface show <type>.msg
+Publish topic data:
+ros2 topic pub <topic_name> <msg_type> '<args>'
+Ex: ros2 topic pub --once /turtle1/cmd_vel geometry_msgs/msg/Twist "{linear: {x: 2.0, y: 0.0, z: 0.0}, angular: {x: 0.0, y: 0.0, z: 1.8}}"
+Ex2: ros2 topic pub --rate 1 /turtle1/cmd_vel geometry_msgs/msg/Twist "{linear: {x: 2.0, y: 0.0, z: 0.0}, angular: {x: 0.0, y: 0.0, z: 1.8}}"
+
+SERVICES:
+ros2 service list
+ros2 service list -t
+ros2 service type <service_name>
+ros2 interface show <type_name>.srv
+ros2 service call <service_name> <service_type> <arguments>
+Ex: ros2 service call /spawn turtlesim/srv/Spawn "{x: 2, y: 2, theta: 0.2, name: ''}"
+
+PARAMETERS:
+ros2 param list
+ros2 param get <node_name> <parameter_name>
+Ex: ros2 param get /turtlesim background_g
+ros2 param set <node_name> <parameter_name> <value>
+Ex: ros2 param set /turtlesim background_r 150
+Save params:
+ros2 param dump <node_name>
+Load node with params:
+ros2 run <package_name> <executable_name> --ros-args --params-file <file_name>
+Ex: ros2 run turtlesim turtlesim_node --ros-args --params-file ./turtlesim.yaml
+
+ACTIONS:
+ros2 action list
+ros2 action list -t
+ros2 action info <action_name>
+ros2 interface show turtlesim/action/RotateAbsolute
+ros2 action send_goal <action_name> <action_type> <values>
+Ex: ros2 action send_goal /turtle1/rotate_absolute turtlesim/action/RotateAbsolute "{theta: 1.57}"
+Ex2 (feedback): ros2 action send_goal /turtle1/rotate_absolute turtlesim/action/RotateAbsolute "{theta: -1.57}" --feedback
+
+
+BUIDL
+colcon build --packages-select quad
+
+
+
+
+RQT CONSOLE:
+ros2 run rqt_console rqt_console
+Set log severity level: 
+ros2 run turtlesim turtlesim_node --ros-args --log-level WARN
+
+ROS2 GRAPH VISUALIZER:
+rqt_graph
+
+LAUNCH:
+ros2 launch turtlesim_mimic_launch.py
+
+RECORD:
+ros2 bag record <topic_name>
+
+
+
+SPECIFIC SOFTWARE:
+
+Joystick:
+sudo apt-get install ros-foxy-joy-linux
+Install diagnostic updater:
+sudo apt-get install ros-foxy-diagnostic-updater
+
+NOTES:
+Joy stick runs from the ros directory as the node is not contained our workspace.
+
+
+
+
+SCRATCH PAD:
+
+<exec_depend>quad_interfaces</exec_depend>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

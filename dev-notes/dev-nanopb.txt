@@ -1,0 +1,5 @@
+https://grpc.io/docs/protoc-installation/
+
+
+generator/nanopb_generator.py examples/simple/simple.proto
+

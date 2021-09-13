@@ -1,0 +1,25 @@
+str_text: "string TEST!!!!!!!!!!!!!!!!!"     
+FL:
+    hip: {negative_thirty_degrees_pulsewidth: 1000, thirty_degrees_pulsewidth: 2000}
+    upper_leg: {zero_degrees_pulsewidth: 1000, ninty_degrees_pulsewidth: 2000}
+    lower_leg: {negative_ninty_degrees_pulsewidth: 1000, zero_degrees_pulsewidth: 2000}
+FR:
+    hip: {negative_thirty_degrees_pulsewidth: 1000, thirty_degrees_pulsewidth: 2000}
+    upper_leg: {zero_degrees_pulsewidth: 1000, ninty_degrees_pulsewidth: 2000}
+    lower_leg: {negative_ninty_degrees_pulsewidth: 1000, zero_degrees_pulsewidth: 2000}
+BL:
+    hip: {negative_thirty_degrees_pulsewidth: 1000, thirty_degrees_pulsewidth: 2000}
+    upper_leg: {zero_degrees_pulsewidth: 1000, ninty_degrees_pulsewidth: 2000}
+    lower_leg: {negative_ninty_degrees_pulsewidth: 1000, zero_degrees_pulsewidth: 2000}
+BR:
+    hip: {negative_thirty_degrees_pulsewidth: 1000, thirty_degrees_pulsewidth: 2000}
+    upper_leg: {zero_degrees_pulsewidth: 1000, ninty_degrees_pulsewidth: 2000}
+    lower_leg: {negative_ninty_degrees_pulsewidth: 1000, zero_degrees_pulsewidth: 2000}
+
+                
+offset: [0,45,45,0,45,45,0,45,45,0,45,45] 
+zero_degree_pulsewidth: [1500,1500,1500,1500,1500,1500,1500,1500,1500,1500,1500,1500]       
+in_position_degree_pulsewidth: [1500,1500,1500,1500,1500,1500,1500,1500,1500,1500,1500,1500]    
+
+    
+    

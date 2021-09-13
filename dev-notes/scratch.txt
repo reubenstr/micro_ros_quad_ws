@@ -1,0 +1,72 @@
+
+
+usb-Teensyduino_USB_Serial_6584060-if00 
+
+
+# Converts joystick input into teleop commands.
+
+
+import rclpy
+from rclpy.node import Node
+
+# Contained in ROS2
+from std_msgs.msg import String
+from sensor_msgs.msg import Joy
+
+# Quad project created
+from quad_interfaces.msg import Teleop
+
+
+class JoystickSubscriber(Node):
+
+    def __init__(self):
+        super().__init__('joystick_subscriber')
+        self.subscription = self.create_subscription(Joy,' joy', self.listener_callback,10)
+        # self.subscription  # prevent unused variable warning
+
+    def listener_callback(self, msg):
+        self.get_logger().info('joystick_subscriber heard: "%s"' % msg.buttons)
+        
+        
+        
+
+class TeleoPublisher(Node):
+
+    def __init__(self):
+        super().__init__('teleop_publisher')
+        self.get_logger().info('Teleop note starting up.')   
+        self.publisher_ = self.create_publisher(Teleop, 'teleop', 10)
+        timer_period = 2  # seconds
+        self.timer = self.create_timer(timer_period, self.timer_callback)
+        self.i = 0.0
+
+    def timer_callback(self):
+        msg = Teleop()
+        msg.yaw = self.i
+        self.publisher_.publish(msg)
+        self.get_logger().info('Publishing: "%s"' % msg.yaw)
+        self.i += 1        
+
+
+def main(args=None):
+	
+	
+	rclpy.init(args=args)
+
+	teleop_publisher = TeleoPublisher()
+	joystick_subscriber = JoystickSubscriber()
+	
+	while True:	
+		rclpy.spin_once(teleop_publisher)	
+		rclpy.spin_once(joystick_subscriber)
+
+	# Destroy the node explicitly
+	# (optional - otherwise it will be done automatically
+	# when the garbage collector destroys the node object)
+	teleop_publisher.destroy_node()
+	rclpy.shutdown()
+
+
+if __name__ == '__main__':	
+    main()
+

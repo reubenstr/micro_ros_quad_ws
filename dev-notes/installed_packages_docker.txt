@@ -1,0 +1,512 @@
+Desired=Unknown/Install/Remove/Purge/Hold
+| Status=Not/Inst/Conf-files/Unpacked/halF-conf/Half-inst/trig-aWait/Trig-pend
+|/ Err?=(none)/Reinst-required (Status,Err: uppercase=bad)
+||/ Name                                            Version                              Architecture Description
++++-===============================================-====================================-============-==================================================================================================================================================================
+ii  adduser                                         3.118ubuntu2                         all          add and remove users and groups
+ii  apt                                             2.0.6                                amd64        commandline package manager
+ii  base-files                                      11ubuntu5.3                          amd64        Debian base system miscellaneous files
+ii  base-passwd                                     3.5.47                               amd64        Debian base system master password and group files
+ii  bash                                            5.0-6ubuntu1.1                       amd64        GNU Bourne Again SHell
+ii  binutils                                        2.34-6ubuntu1.1                      amd64        GNU assembler, linker and binary utilities
+ii  binutils-common:amd64                           2.34-6ubuntu1.1                      amd64        Common files for the GNU assembler, linker and binary utilities
+ii  binutils-x86-64-linux-gnu                       2.34-6ubuntu1.1                      amd64        GNU binary utilities, for x86-64-linux-gnu target
+ii  bsdutils                                        1:2.34-0.1ubuntu9.1                  amd64        basic utilities from 4.4BSD-Lite
+ii  build-essential                                 12.8ubuntu1.1                        amd64        Informational list of build-essential packages
+ii  bzip2                                           1.0.8-2                              amd64        high-quality block-sorting file compressor - utilities
+ii  ca-certificates                                 20210119~20.04.1                     all          Common CA certificates
+ii  cmake                                           3.16.3-1ubuntu1                      amd64        cross-platform, open-source make system
+ii  cmake-data                                      3.16.3-1ubuntu1                      all          CMake data files (modules, templates and documentation)
+ii  coreutils                                       8.30-3ubuntu2                        amd64        GNU core utilities
+ii  cpp                                             4:9.3.0-1ubuntu2                     amd64        GNU C preprocessor (cpp)
+ii  cpp-9                                           9.3.0-17ubuntu1~20.04                amd64        GNU C preprocessor
+ii  cppcheck                                        1.90-4build1                         amd64        tool for static C/C++ code analysis (CLI)
+ii  dash                                            0.5.10.2-6                           amd64        POSIX-compliant shell
+ii  debconf                                         1.5.73                               all          Debian configuration management system
+ii  debianutils                                     4.9.1                                amd64        Miscellaneous utilities specific to Debian
+ii  diffutils                                       1:3.7-3                              amd64        File comparison utilities
+ii  dirmngr                                         2.2.19-3ubuntu2.1                    amd64        GNU privacy guard - network certificate management service
+ii  distro-info-data                                0.43ubuntu1.5                        all          information about the distributions' releases (data files)
+ii  docutils-common                                 0.16+dfsg-2                          all          text processing system for reStructuredText - common data
+ii  dpkg                                            1.19.7ubuntu3                        amd64        Debian package management system
+ii  dpkg-dev                                        1.19.7ubuntu3                        all          Debian package development tools
+ii  e2fsprogs                                       1.45.5-2ubuntu1                      amd64        ext2/ext3/ext4 file system utilities
+ii  fdisk                                           2.34-0.1ubuntu9.1                    amd64        collection of partitioning utilities
+ii  findutils                                       4.7.0-1ubuntu1                       amd64        utilities for finding files--find, xargs
+ii  g++                                             4:9.3.0-1ubuntu2                     amd64        GNU C++ compiler
+ii  g++-9                                           9.3.0-17ubuntu1~20.04                amd64        GNU C++ compiler
+ii  gcc                                             4:9.3.0-1ubuntu2                     amd64        GNU C compiler
+ii  gcc-10-base:amd64                               10.3.0-1ubuntu1~20.04                amd64        GCC, the GNU Compiler Collection (base package)
+ii  gcc-9                                           9.3.0-17ubuntu1~20.04                amd64        GNU C compiler
+ii  gcc-9-base:amd64                                9.3.0-17ubuntu1~20.04                amd64        GCC, the GNU Compiler Collection (base package)
+ii  git                                             1:2.25.1-1ubuntu3.1                  amd64        fast, scalable, distributed revision control system
+ii  git-man                                         1:2.25.1-1ubuntu3.1                  all          fast, scalable, distributed revision control system (manual pages)
+ii  gnupg                                           2.2.19-3ubuntu2.1                    all          GNU privacy guard - a free PGP replacement
+ii  gnupg-l10n                                      2.2.19-3ubuntu2.1                    all          GNU privacy guard - localization files
+ii  gnupg-utils                                     2.2.19-3ubuntu2.1                    amd64        GNU privacy guard - utility programs
+ii  gnupg2                                          2.2.19-3ubuntu2.1                    all          GNU privacy guard - a free PGP replacement (dummy transitional package)
+ii  google-mock:amd64                               1.10.0-2                             amd64        Google's framework for writing and using C++ mock classes
+ii  googletest                                      1.10.0-2                             all          Google's C++ test framework sources
+ii  gpg                                             2.2.19-3ubuntu2.1                    amd64        GNU Privacy Guard -- minimalist public key operations
+ii  gpg-agent                                       2.2.19-3ubuntu2.1                    amd64        GNU privacy guard - cryptographic agent
+ii  gpg-wks-client                                  2.2.19-3ubuntu2.1                    amd64        GNU privacy guard - Web Key Service client
+ii  gpg-wks-server                                  2.2.19-3ubuntu2.1                    amd64        GNU privacy guard - Web Key Service server
+ii  gpgconf                                         2.2.19-3ubuntu2.1                    amd64        GNU privacy guard - core configuration utilities
+ii  gpgsm                                           2.2.19-3ubuntu2.1                    amd64        GNU privacy guard - S/MIME version
+ii  gpgv                                            2.2.19-3ubuntu2.1                    amd64        GNU privacy guard - signature verification tool
+ii  grep                                            3.4-1                                amd64        GNU grep, egrep and fgrep
+ii  gzip                                            1.10-0ubuntu4                        amd64        GNU compression utilities
+ii  hostname                                        3.23                                 amd64        utility to set/show the host name or domain name
+ii  init-system-helpers                             1.57                                 all          helper tools for all init systems
+ii  libacl1:amd64                                   2.2.53-6                             amd64        access control list - shared library
+ii  libapt-pkg6.0:amd64                             2.0.6                                amd64        package management runtime library
+ii  libarchive13:amd64                              3.4.0-2ubuntu1                       amd64        Multi-format archive and compression library (shared library)
+ii  libasan5:amd64                                  9.3.0-17ubuntu1~20.04                amd64        AddressSanitizer -- a fast memory error detector
+ii  libasn1-8-heimdal:amd64                         7.7.0+dfsg-1ubuntu1                  amd64        Heimdal Kerberos - ASN.1 library
+ii  libassuan0:amd64                                2.5.3-7ubuntu2                       amd64        IPC library for the GnuPG components
+ii  libatomic1:amd64                                10.3.0-1ubuntu1~20.04                amd64        support library providing __atomic built-in functions
+ii  libattr1:amd64                                  1:2.4.48-5                           amd64        extended attribute handling - shared library
+ii  libaudit-common                                 1:2.8.5-2ubuntu6                     all          Dynamic library for security auditing - common files
+ii  libaudit1:amd64                                 1:2.8.5-2ubuntu6                     amd64        Dynamic library for security auditing
+ii  libbinutils:amd64                               2.34-6ubuntu1.1                      amd64        GNU binary utilities (private shared library)
+ii  libblas3:amd64                                  3.9.0-1build1                        amd64        Basic Linear Algebra Reference implementations, shared library
+ii  libblkid1:amd64                                 2.34-0.1ubuntu9.1                    amd64        block device ID library
+ii  libbrotli1:amd64                                1.0.7-6ubuntu0.1                     amd64        library implementing brotli encoder and decoder (shared libraries)
+ii  libbullet-dev:amd64                             2.88+dfsg-2build2                    amd64        professional 3D Game Multiphysics Library -- development files
+ii  libbullet2.88:amd64                             2.88+dfsg-2build2                    amd64        professional 3D Game Multiphysics Library
+ii  libbz2-1.0:amd64                                1.0.8-2                              amd64        high-quality block-sorting file compressor library - runtime
+ii  libc-bin                                        2.31-0ubuntu9.2                      amd64        GNU C Library: Binaries
+ii  libc-dev-bin                                    2.31-0ubuntu9.2                      amd64        GNU C Library: Development binaries
+ii  libc6:amd64                                     2.31-0ubuntu9.2                      amd64        GNU C Library: Shared libraries
+ii  libc6-dev:amd64                                 2.31-0ubuntu9.2                      amd64        GNU C Library: Development Libraries and Header Files
+ii  libcap-ng0:amd64                                0.7.9-2.1build1                      amd64        An alternate POSIX capabilities library
+ii  libcc1-0:amd64                                  10.3.0-1ubuntu1~20.04                amd64        GCC cc1 plugin for GDB
+ii  libcom-err2:amd64                               1.45.5-2ubuntu1                      amd64        common error description library
+ii  libconsole-bridge-dev:amd64                     0.4.4+dfsg-1build1                   amd64        console bridge - development files
+ii  libconsole-bridge0.4:amd64                      0.4.4+dfsg-1build1                   amd64        console bridge - library
+ii  libcrypt-dev:amd64                              1:4.4.10-10ubuntu4                   amd64        libcrypt development files
+ii  libcrypt1:amd64                                 1:4.4.10-10ubuntu4                   amd64        libcrypt shared library
+ii  libctf-nobfd0:amd64                             2.34-6ubuntu1.1                      amd64        Compact C Type Format library (runtime, no BFD dependency)
+ii  libctf0:amd64                                   2.34-6ubuntu1.1                      amd64        Compact C Type Format library (runtime, BFD dependency)
+ii  libcurl3-gnutls:amd64                           7.68.0-1ubuntu2.5                    amd64        easy-to-use client-side URL transfer library (GnuTLS flavour)
+ii  libcurl4:amd64                                  7.68.0-1ubuntu2.5                    amd64        easy-to-use client-side URL transfer library (OpenSSL flavour)
+ii  libdb5.3:amd64                                  5.3.28+dfsg1-0.6ubuntu2              amd64        Berkeley v5.3 Database Libraries [runtime]
+ii  libdbus-1-3:amd64                               1.12.16-2ubuntu2.1                   amd64        simple interprocess messaging system (library)
+ii  libdebconfclient0:amd64                         0.251ubuntu1                         amd64        Debian Configuration Management System (C-implementation library)
+ii  libdpkg-perl                                    1.19.7ubuntu3                        all          Dpkg perl modules
+ii  libeigen3-dev                                   3.3.7-2                              all          lightweight C++ template library for linear algebra
+ii  liberror-perl                                   0.17029-1                            all          Perl module for error/exception handling in an OO-ish way
+ii  libexpat1:amd64                                 2.2.9-1build1                        amd64        XML parsing C library - runtime library
+ii  libexpat1-dev:amd64                             2.2.9-1build1                        amd64        XML parsing C library - development kit
+ii  libext2fs2:amd64                                1.45.5-2ubuntu1                      amd64        ext2/ext3/ext4 file system libraries
+ii  libfdisk1:amd64                                 2.34-0.1ubuntu9.1                    amd64        fdisk partitioning library
+ii  libffi7:amd64                                   3.3-4                                amd64        Foreign Function Interface library runtime
+ii  libgcc-9-dev:amd64                              9.3.0-17ubuntu1~20.04                amd64        GCC support library (development files)
+ii  libgcc-s1:amd64                                 10.3.0-1ubuntu1~20.04                amd64        GCC support library
+ii  libgcrypt20:amd64                               1.8.5-5ubuntu1                       amd64        LGPL Crypto library - runtime library
+ii  libgdbm-compat4:amd64                           1.18.1-5                             amd64        GNU dbm database routines (legacy support runtime version) 
+ii  libgdbm6:amd64                                  1.18.1-5                             amd64        GNU dbm database routines (runtime version) 
+ii  libgfortran5:amd64                              10.3.0-1ubuntu1~20.04                amd64        Runtime library for GNU Fortran applications
+ii  libglib2.0-0:amd64                              2.64.6-1~ubuntu20.04.3               amd64        GLib library of C routines
+ii  libgmp10:amd64                                  2:6.2.0+dfsg-4                       amd64        Multiprecision arithmetic library
+ii  libgnutls30:amd64                               3.6.13-2ubuntu1.3                    amd64        GNU TLS library - main runtime library
+ii  libgomp1:amd64                                  10.3.0-1ubuntu1~20.04                amd64        GCC OpenMP (GOMP) support library
+ii  libgpg-error0:amd64                             1.37-1                               amd64        GnuPG development runtime library
+ii  libgssapi-krb5-2:amd64                          1.17-6ubuntu4.1                      amd64        MIT Kerberos runtime libraries - krb5 GSS-API Mechanism
+ii  libgssapi3-heimdal:amd64                        7.7.0+dfsg-1ubuntu1                  amd64        Heimdal Kerberos - GSSAPI support library
+ii  libgtest-dev:amd64                              1.10.0-2                             amd64        Google's framework for writing C++ tests
+ii  libhcrypto4-heimdal:amd64                       7.7.0+dfsg-1ubuntu1                  amd64        Heimdal Kerberos - crypto library
+ii  libheimbase1-heimdal:amd64                      7.7.0+dfsg-1ubuntu1                  amd64        Heimdal Kerberos - Base library
+ii  libheimntlm0-heimdal:amd64                      7.7.0+dfsg-1ubuntu1                  amd64        Heimdal Kerberos - NTLM support library
+ii  libhogweed5:amd64                               3.5.1+really3.5.1-2ubuntu0.2         amd64        low level cryptographic library (public-key cryptos)
+ii  libhx509-5-heimdal:amd64                        7.7.0+dfsg-1ubuntu1                  amd64        Heimdal Kerberos - X509 support library
+ii  libicu66:amd64                                  66.1-2ubuntu2                        amd64        International Components for Unicode
+ii  libidn2-0:amd64                                 2.2.0-2                              amd64        Internationalized domain names (IDNA2008/TR46) library
+ii  libisl22:amd64                                  0.22.1-1                             amd64        manipulating sets and relations of integer points bounded by linear constraints
+ii  libitm1:amd64                                   10.3.0-1ubuntu1~20.04                amd64        GNU Transactional Memory Library
+ii  libjs-jquery                                    3.3.1~dfsg-3                         all          JavaScript library for dynamic web applications
+ii  libjs-jquery-hotkeys                            0~20130707+git2d51e3a9+dfsg-2ubuntu1 all          easily add and remove handlers for keyboard events anywhere in your code
+ii  libjs-jquery-isonscreen                         1.2.0-1                              all          detects if an element is visible within the users current view pane
+ii  libjs-jquery-metadata                           12-1.1                               all          jQuery plugin for parsing metadata from elements
+ii  libjs-jquery-tablesorter                        1:2.31.1+dfsg1-1                     all          jQuery flexible client-side table sorting plugin
+ii  libjs-jquery-throttle-debounce                  1.1+dfsg.1-1                         all          library of rate-limit wrappers for functions
+ii  libjsoncpp1:amd64                               1.7.4-3.1ubuntu2                     amd64        library for reading and writing JSON for C++
+ii  libk5crypto3:amd64                              1.17-6ubuntu4.1                      amd64        MIT Kerberos runtime libraries - Crypto Library
+ii  libkeyutils1:amd64                              1.6-6ubuntu1                         amd64        Linux Key Management Utilities (library)
+ii  libkrb5-26-heimdal:amd64                        7.7.0+dfsg-1ubuntu1                  amd64        Heimdal Kerberos - libraries
+ii  libkrb5-3:amd64                                 1.17-6ubuntu4.1                      amd64        MIT Kerberos runtime libraries
+ii  libkrb5support0:amd64                           1.17-6ubuntu4.1                      amd64        MIT Kerberos runtime libraries - Support library
+ii  libksba8:amd64                                  1.3.5-2                              amd64        X.509 and CMS support library
+ii  liblapack3:amd64                                3.9.0-1build1                        amd64        Library of linear algebra routines 3 - shared version
+ii  libldap-2.4-2:amd64                             2.4.49+dfsg-2ubuntu1.8               amd64        OpenLDAP libraries
+ii  libldap-common                                  2.4.49+dfsg-2ubuntu1.8               all          OpenLDAP common files for libraries
+ii  liblsan0:amd64                                  10.3.0-1ubuntu1~20.04                amd64        LeakSanitizer -- a memory leak detector (runtime)
+ii  liblz4-1:amd64                                  1.9.2-2ubuntu0.20.04.1               amd64        Fast LZ compression algorithm library - runtime
+ii  liblzma5:amd64                                  5.2.4-1ubuntu1                       amd64        XZ-format compression library
+ii  libmount1:amd64                                 2.34-0.1ubuntu9.1                    amd64        device mounting library
+ii  libmpc3:amd64                                   1.1.0-1                              amd64        multiple precision complex floating-point library
+ii  libmpdec2:amd64                                 2.4.2-3                              amd64        library for decimal floating point arithmetic (runtime library)
+ii  libmpfr6:amd64                                  4.0.2-1                              amd64        multiple precision floating-point computation
+ii  libncurses6:amd64                               6.2-0ubuntu2                         amd64        shared libraries for terminal handling
+ii  libncursesw6:amd64                              6.2-0ubuntu2                         amd64        shared libraries for terminal handling (wide character support)
+ii  libnettle7:amd64                                3.5.1+really3.5.1-2ubuntu0.2         amd64        low level cryptographic library (symmetric and one-way cryptos)
+ii  libnghttp2-14:amd64                             1.40.0-1build1                       amd64        library implementing HTTP/2 protocol (shared library)
+ii  libnpth0:amd64                                  1.6-1                                amd64        replacement for GNU Pth using system threads
+ii  libp11-kit0:amd64                               0.23.20-1ubuntu0.1                   amd64        library for loading and coordinating access to PKCS#11 modules - runtime
+ii  libpam-modules:amd64                            1.3.1-5ubuntu4.2                     amd64        Pluggable Authentication Modules for PAM
+ii  libpam-modules-bin                              1.3.1-5ubuntu4.2                     amd64        Pluggable Authentication Modules for PAM - helper binaries
+ii  libpam-runtime                                  1.3.1-5ubuntu4.2                     all          Runtime support for the PAM library
+ii  libpam0g:amd64                                  1.3.1-5ubuntu4.2                     amd64        Pluggable Authentication Modules library
+ii  libpcre2-8-0:amd64                              10.34-7                              amd64        New Perl Compatible Regular Expression Library- 8 bit runtime files
+ii  libpcre3:amd64                                  2:8.39-12build1                      amd64        Old Perl 5 Compatible Regular Expression Library - runtime files
+ii  libperl5.30:amd64                               5.30.0-9ubuntu0.2                    amd64        shared Perl library
+ii  libprocps8:amd64                                2:3.3.16-1ubuntu2.2                  amd64        library for accessing process information from /proc
+ii  libpsl5:amd64                                   0.21.0-1ubuntu1                      amd64        Library for Public Suffix List (shared libraries)
+ii  libpython3-dev:amd64                            3.8.2-0ubuntu2                       amd64        header files and a static library for Python (default)
+ii  libpython3-stdlib:amd64                         3.8.2-0ubuntu2                       amd64        interactive high-level object-oriented language (default python3 version)
+ii  libpython3.8:amd64                              3.8.10-0ubuntu1~20.04                amd64        Shared Python runtime library (version 3.8)
+ii  libpython3.8-dev:amd64                          3.8.10-0ubuntu1~20.04                amd64        Header files and a static library for Python (v3.8)
+ii  libpython3.8-minimal:amd64                      3.8.10-0ubuntu1~20.04                amd64        Minimal subset of the Python language (version 3.8)
+ii  libpython3.8-stdlib:amd64                       3.8.10-0ubuntu1~20.04                amd64        Interactive high-level object-oriented language (standard library, version 3.8)
+ii  libquadmath0:amd64                              10.3.0-1ubuntu1~20.04                amd64        GCC Quad-Precision Math Library
+ii  libreadline8:amd64                              8.0-4                                amd64        GNU readline and history libraries, run-time libraries
+ii  librhash0:amd64                                 1.3.9-1                              amd64        shared library for hash functions computing
+ii  libroken18-heimdal:amd64                        7.7.0+dfsg-1ubuntu1                  amd64        Heimdal Kerberos - roken support library
+ii  librtmp1:amd64                                  2.4+20151223.gitfa8646d.1-2build1    amd64        toolkit for RTMP streams (shared library)
+ii  libsasl2-2:amd64                                2.1.27+dfsg-2                        amd64        Cyrus SASL - authentication abstraction library
+ii  libsasl2-modules-db:amd64                       2.1.27+dfsg-2                        amd64        Cyrus SASL - pluggable authentication modules (DB)
+ii  libseccomp2:amd64                               2.5.1-1ubuntu1~20.04.1               amd64        high level interface to Linux seccomp filter
+ii  libselinux1:amd64                               3.0-1build2                          amd64        SELinux runtime shared libraries
+ii  libsemanage-common                              3.0-1build2                          all          Common files for SELinux policy management libraries
+ii  libsemanage1:amd64                              3.0-1build2                          amd64        SELinux policy management library
+ii  libsepol1:amd64                                 3.0-1                                amd64        SELinux library for manipulating binary security policies
+ii  libsmartcols1:amd64                             2.34-0.1ubuntu9.1                    amd64        smart column output alignment library
+ii  libspdlog-dev                                   1:1.5.0-1                            amd64        Very fast, header only or compiled, C++ logging library
+ii  libspdlog1                                      1:1.5.0-1                            amd64        Very fast C++ logging library
+ii  libsqlite3-0:amd64                              3.31.1-4ubuntu0.2                    amd64        SQLite 3 shared library
+ii  libsqlite3-dev:amd64                            3.31.1-4ubuntu0.2                    amd64        SQLite 3 development files
+ii  libss2:amd64                                    1.45.5-2ubuntu1                      amd64        command-line interface parsing library
+ii  libssh-4:amd64                                  0.9.3-2ubuntu2.1                     amd64        tiny C SSH library (OpenSSL flavor)
+ii  libssl-dev:amd64                                1.1.1f-1ubuntu2.4                    amd64        Secure Sockets Layer toolkit - development files
+ii  libssl1.1:amd64                                 1.1.1f-1ubuntu2.4                    amd64        Secure Sockets Layer toolkit - shared libraries
+ii  libstdc++-9-dev:amd64                           9.3.0-17ubuntu1~20.04                amd64        GNU Standard C++ Library v3 (development files)
+ii  libstdc++6:amd64                                10.3.0-1ubuntu1~20.04                amd64        GNU Standard C++ Library v3
+ii  libsystemd0:amd64                               245.4-4ubuntu3.7                     amd64        systemd utility library
+ii  libtasn1-6:amd64                                4.16.0-2                             amd64        Manage ASN.1 structures (runtime)
+ii  libtinfo6:amd64                                 6.2-0ubuntu2                         amd64        shared low-level terminfo library for terminal handling
+ii  libtinyxml-dev:amd64                            2.6.2-4build1                        amd64        TinyXml library - header and static library
+ii  libtinyxml2-6a:amd64                            7.0.0+dfsg-1build1                   amd64        C++ XML parsing library
+ii  libtinyxml2-dev:amd64                           7.0.0+dfsg-1build1                   amd64        TinyXML2 library - header and static library
+ii  libtinyxml2.6.2v5:amd64                         2.6.2-4build1                        amd64        C++ XML parsing library
+ii  libtsan0:amd64                                  10.3.0-1ubuntu1~20.04                amd64        ThreadSanitizer -- a Valgrind-based detector of data races (runtime)
+ii  libubsan1:amd64                                 10.3.0-1ubuntu1~20.04                amd64        UBSan -- undefined behaviour sanitizer (runtime)
+ii  libudev1:amd64                                  245.4-4ubuntu3.7                     amd64        libudev shared library
+ii  libunistring2:amd64                             0.9.10-2                             amd64        Unicode string library for C
+ii  libuuid1:amd64                                  2.34-0.1ubuntu9.1                    amd64        Universally Unique ID library
+ii  libuv1:amd64                                    1.34.2-1ubuntu1.3                    amd64        asynchronous event notification library - runtime library
+ii  libwind0-heimdal:amd64                          7.7.0+dfsg-1ubuntu1                  amd64        Heimdal Kerberos - stringprep implementation
+ii  libxml2:amd64                                   2.9.10+dfsg-5ubuntu0.20.04.1         amd64        GNOME XML library
+ii  libxml2-utils                                   2.9.10+dfsg-5ubuntu0.20.04.1         amd64        XML utilities
+ii  libxslt1.1:amd64                                1.1.34-4                             amd64        XSLT 1.0 processing library - runtime library
+ii  libyaml-0-2:amd64                               0.2.2-1                              amd64        Fast YAML 1.1 parser and emitter library
+ii  libyaml-dev:amd64                               0.2.2-1                              amd64        Fast YAML 1.1 parser and emitter library (development)
+ii  libzstd-dev:amd64                               1.4.4+dfsg-3ubuntu0.1                amd64        fast lossless compression algorithm -- development files
+ii  libzstd1:amd64                                  1.4.4+dfsg-3ubuntu0.1                amd64        fast lossless compression algorithm
+ii  linux-libc-dev:amd64                            5.4.0-77.86                          amd64        Linux Kernel Headers for development
+ii  login                                           1:4.8.1-1ubuntu5.20.04               amd64        system login tools
+ii  logsave                                         1.45.5-2ubuntu1                      amd64        save the output of a command in a log file
+ii  lsb-base                                        11.1.0ubuntu2                        all          Linux Standard Base init script functionality
+ii  lsb-release                                     11.1.0ubuntu2                        all          Linux Standard Base version reporting utility
+ii  make                                            4.2.1-1.2                            amd64        utility for directing compilation
+ii  mawk                                            1.3.4.20200120-2                     amd64        Pattern scanning and text processing language
+ii  mime-support                                    3.64ubuntu1                          all          MIME files 'mime.types' & 'mailcap', and support programs
+ii  mount                                           2.34-0.1ubuntu9.1                    amd64        tools for mounting and manipulating filesystems
+ii  ncurses-base                                    6.2-0ubuntu2                         all          basic terminal type definitions
+ii  ncurses-bin                                     6.2-0ubuntu2                         amd64        terminal-related programs and man pages
+ii  net-tools                                       1.60+git20180626.aebd88e-1ubuntu1    amd64        NET-3 networking toolkit
+ii  openssl                                         1.1.1f-1ubuntu2.4                    amd64        Secure Sockets Layer toolkit - cryptographic utility
+ii  passwd                                          1:4.8.1-1ubuntu5.20.04               amd64        change and administer password and group data
+ii  patch                                           2.7.6-6                              amd64        Apply a diff file to an original
+ii  perl                                            5.30.0-9ubuntu0.2                    amd64        Larry Wall's Practical Extraction and Report Language
+ii  perl-base                                       5.30.0-9ubuntu0.2                    amd64        minimal Perl system
+ii  perl-modules-5.30                               5.30.0-9ubuntu0.2                    all          Core Perl modules
+ii  pinentry-curses                                 1.1.0-3build1                        amd64        curses-based PIN or pass-phrase entry dialog for GnuPG
+ii  pkg-config                                      0.29.1-0ubuntu4                      amd64        manage compile and link flags for libraries
+ii  procps                                          2:3.3.16-1ubuntu2.2                  amd64        /proc file system utilities
+ii  pydocstyle                                      2.1.1-1                              all          Python docstring style checker (PEP-257 conventions)
+ii  python3                                         3.8.2-0ubuntu2                       amd64        interactive high-level object-oriented language (default python3 version)
+ii  python3-argcomplete                             1.8.1-1.3ubuntu1                     all          bash tab completion for argparse (for Python 3)
+ii  python3-atomicwrites                            1.1.5-2build1                        all          Atomic file writes - Python 3.x
+ii  python3-attr                                    19.3.0-2                             all          Attributes without boilerplate (Python 3)
+ii  python3-catkin-pkg                              0.4.23-100                           all          catkin package library
+ii  python3-catkin-pkg-modules                      0.4.23-1                             all          catkin package library
+ii  python3-cffi-backend                            1.14.0-1build1                       amd64        Foreign Function Interface for Python 3 calling C code - runtime
+ii  python3-colcon-argcomplete                      0.3.3-1                              all          Completion for colcon command lines using argcomplete.
+ii  python3-colcon-bash                             0.4.2-1                              all          Extension for colcon to provide Bash scripts.
+ii  python3-colcon-cd                               0.1.1-1                              all          A shell function for colcon to change the current working di
+ii  python3-colcon-cmake                            0.2.26-2                             all          Extension for colcon to support CMake packages.
+ii  python3-colcon-common-extensions                0.2.1-1                              all          Meta package aggregating colcon-core and common extensions.
+ii  python3-colcon-core                             0.6.1-2                              all          Command line tool to build sets of software packages.
+ii  python3-colcon-defaults                         0.2.5-1                              all          Extension for colcon to read defaults from a config file.
+ii  python3-colcon-devtools                         0.2.2-1                              all          Extension for colcon to provide information about all extens
+ii  python3-colcon-library-path                     0.2.1-1                              all          Extension for colcon adding an environment variable to find
+ii  python3-colcon-metadata                         0.2.5-1                              all          Extension for colcon to read package metadata from files.
+ii  python3-colcon-mixin                            0.2.0-1                              all          Extension for colcon to read CLI mixins from files.
+ii  python3-colcon-notification                     0.2.13-1                             all          Extension for colcon to provide status notifications.
+ii  python3-colcon-output                           0.2.12-2                             all          Extension for colcon to customize the output in various ways
+ii  python3-colcon-package-information              0.3.3-1                              all          Extension for colcon to output package information.
+ii  python3-colcon-package-selection                0.2.10-2                             all          Extension for colcon to select the packages to process.
+ii  python3-colcon-parallel-executor                0.2.4-1                              all          Extension for colcon to process packages in parallel.
+ii  python3-colcon-pkg-config                       0.1.0-1                              all          Extension for colcon adding an environment variable to find
+ii  python3-colcon-powershell                       0.3.6-1                              all          Extension for colcon to provide PowerShell scripts.
+ii  python3-colcon-python-setup-py                  0.2.7-2                              all          Extension for colcon to support Python packages with the met
+ii  python3-colcon-recursive-crawl                  0.2.1-1                              all          Extension for colcon to recursively crawl for packages.
+ii  python3-colcon-ros                              0.3.21-2                             all          Extension for colcon to support ROS packages.
+ii  python3-colcon-test-result                      0.3.8-1                              all          Extension for colcon to provide information about the test r
+ii  python3-colcon-zsh                              0.4.0-1                              all          Extension for colcon to provide Z shell scripts.
+ii  python3-cov-core                                1.15.0-3build1                       all          plugin core for use by pytest-cov, nose-cov and nose2-cov
+ii  python3-coverage                                4.5.2+dfsg.1-4ubuntu1                amd64        code coverage tool for Python 3
+ii  python3-cryptography                            2.8-3ubuntu0.1                       amd64        Python library exposing cryptographic recipes and primitives (Python 3)
+ii  python3-dateutil                                2.7.3-3ubuntu1                       all          powerful extensions to the standard Python 3 datetime module
+ii  python3-dbus                                    1.2.16-1build1                       amd64        simple interprocess messaging system (Python 3 interface)
+ii  python3-dev                                     3.8.2-0ubuntu2                       amd64        header files and a static library for Python (default)
+ii  python3-distlib                                 0.3.0-1                              all          low-level components of python distutils2/packaging
+ii  python3-distro                                  1.4.0-1                              all          Linux OS platform information API
+ii  python3-distutils                               3.8.10-0ubuntu1~20.04                all          distutils package for Python 3.x
+ii  python3-docutils                                0.16+dfsg-2                          all          text processing system for reStructuredText (implemented in Python 3)
+ii  python3-empy                                    3.3.2-5.1                            all          templating system for Python (Python 3)
+ii  python3-entrypoints                             0.3-2ubuntu1                         all          Discover and load entry points from installed packages (Python 3)
+ii  python3-flake8                                  3.7.9-2                              all          code checker using pycodestyle and pyflakes - Python 3.x
+ii  python3-ifcfg                                   0.18-2osrf~focal                     all          Python cross-platform network interface discovery (Python 3)
+ii  python3-importlib-metadata                      1.5.0-1                              all          library to access the metadata for a Python package - Python 3.x
+ii  python3-lark                                    0.8.1-1                              all          Parsing library for Python (Python 3)
+ii  python3-lib2to3                                 3.8.10-0ubuntu1~20.04                all          Interactive high-level object-oriented language (lib2to3)
+ii  python3-lxml:amd64                              4.5.0-1ubuntu0.3                     amd64        pythonic binding for the libxml2 and libxslt libraries
+ii  python3-mccabe                                  0.6.1-3                              all          Python code complexity checker (Python 3)
+ii  python3-minimal                                 3.8.2-0ubuntu2                       amd64        minimal subset of the Python language (default python3 version)
+ii  python3-mock                                    3.0.5-1build1                        all          Mocking and Testing Library (Python3 version)
+ii  python3-more-itertools                          4.2.0-1build1                        all          library with routines for operating on iterables, beyond itertools (Python 3)
+ii  python3-netifaces                               0.10.4-1ubuntu4                      amd64        portable network interface information - Python 3.x
+ii  python3-nose2                                   0.9.1-3ubuntu3                       all          Next generation of nicer testing for Python3
+ii  python3-notify2                                 0.3-4                                all          desktop notifications API for Python 3
+ii  python3-numpy                                   1:1.17.4-5ubuntu3                    amd64        Fast array facility to the Python 3 language
+ii  python3-packaging                               20.3-1                               all          core utilities for python3 packages
+ii  python3-pbr                                     5.4.5-0ubuntu1                       all          inject useful and sensible default behaviors into setuptools - Python 3.x
+ii  python3-pkg-resources                           45.2.0-1                             all          Package Discovery and Resource Access using pkg_resources
+ii  python3-pluggy                                  0.13.0-2                             all          plugin and hook calling mechanisms for Python - 3.x
+ii  python3-py                                      1.8.1-1                              all          Advanced Python development support library (Python 3)
+ii  python3-pycodestyle                             2.5.0-2                              all          Python style guide checker (formerly called pep8) - Python 3.x
+ii  python3-pydocstyle                              2.1.1-1                              all          Python docstring style checker (Python 3 library)
+ii  python3-pyflakes                                2.1.1-2                              all          passive checker of Python 3 programs - Python modules
+ii  python3-pygments                                2.3.1+dfsg-1ubuntu2.2                all          syntax highlighting package written in Python 3
+ii  python3-pyparsing                               2.4.6-1                              all          alternative to creating and executing simple grammars - Python 3.x
+ii  python3-pytest                                  4.6.9-1                              all          Simple, powerful testing in Python3
+ii  python3-pytest-cov                              2.8.1-1                              all          py.test plugin to produce coverage reports for Python3
+ii  python3-roman                                   2.0.0-3build1                        all          module for generating/analyzing Roman numerals for Python 3
+ii  python3-rosdep                                  0.21.0-1                             all          rosdep package manager abstraction tool for ROS
+ii  python3-rosdep-modules                          0.21.0-1                             all          rosdep package manager abstraction tool for ROS
+ii  python3-rosdistro                               0.8.3-100                            all          A tool to work with rosdistro files
+ii  python3-rosdistro-modules                       0.8.3-1                              all          A tool to work with rosdistro files
+ii  python3-rospkg                                  1.3.0-100                            all          ROS package library
+ii  python3-rospkg-modules                          1.3.0-1                              all          ROS package library
+ii  python3-setuptools                              45.2.0-1                             all          Python3 Distutils Enhancements
+ii  python3-six                                     1.14.0-2                             all          Python 2 and 3 compatibility library (Python 3 interface)
+ii  python3-snowballstemmer                         2.0.0-1                              all          Pure Python 3 Snowball stemming library
+ii  python3-vcstool                                 0.2.15-1                             all          vcstool provides a command line tool to invoke vcs commands
+ii  python3-wcwidth                                 0.1.8+dfsg1-3                        all          determine printable width of a string on a terminal (Python 3)
+ii  python3-yaml                                    5.3.1-1ubuntu0.1                     amd64        YAML parser and emitter for Python3
+ii  python3-zipp                                    1.0.0-1                              all          pathlib-compatible Zipfile object wrapper - Python 3.x
+ii  python3.8                                       3.8.10-0ubuntu1~20.04                amd64        Interactive high-level object-oriented language (version 3.8)
+ii  python3.8-dev                                   3.8.10-0ubuntu1~20.04                amd64        Header files and a static library for Python (v3.8)
+ii  python3.8-minimal                               3.8.10-0ubuntu1~20.04                amd64        Minimal subset of the Python language (version 3.8)
+ii  readline-common                                 8.0-4                                all          GNU readline and history libraries, common files
+ii  ros-foxy-action-msgs                            1.0.0-1focal.20210513.193840         amd64        Messages and service definitions common among all ROS actions.
+ii  ros-foxy-actionlib-msgs                         2.0.4-1focal.20210513.195731         amd64        A package containing some message definitions used in the implementation of ROS 1 actions.
+ii  ros-foxy-ament-cmake                            0.9.8-1focal.20210422.235339         amd64        The entry point package for the ament buildsystem in CMake.
+ii  ros-foxy-ament-cmake-auto                       0.9.8-1focal.20210422.235943         amd64        The auto-magic functions for ease to use of the ament buildsystem in CMake.
+ii  ros-foxy-ament-cmake-copyright                  0.9.6-1focal.20210423.000419         amd64        The CMake API for ament_copyright to check every source file contains copyright reference.
+ii  ros-foxy-ament-cmake-core                       0.9.8-1focal.20210422.232614         amd64        The core of the ament buildsystem in CMake.
+ii  ros-foxy-ament-cmake-cppcheck                   0.9.6-1focal.20210423.000613         amd64        The CMake API for ament_cppcheck to perform static code analysis on C/C++ code using Cppcheck.
+ii  ros-foxy-ament-cmake-cpplint                    0.9.6-1focal.20210423.000621         amd64        The CMake API for ament_cpplint to lint C / C++ code using cpplint.
+ii  ros-foxy-ament-cmake-export-definitions         0.9.8-1focal.20210422.235015         amd64        The ability to export definitions to downstream packages in the ament buildsystem.
+ii  ros-foxy-ament-cmake-export-dependencies        0.9.8-1focal.20210422.235221         amd64        The ability to export dependencies to downstream packages in the ament buildsystem in CMake.
+ii  ros-foxy-ament-cmake-export-include-directories 0.9.8-1focal.20210422.235055         amd64        The ability to export include directories to downstream packages in the ament buildsystem in CMake.
+ii  ros-foxy-ament-cmake-export-interfaces          0.9.8-1focal.20210422.234943         amd64        The ability to export interfaces to downstream packages in the ament buildsystem in CMake.
+ii  ros-foxy-ament-cmake-export-libraries           0.9.8-1focal.20210422.234912         amd64        The ability to export libraries to downstream packages in the ament buildsystem in CMake.
+ii  ros-foxy-ament-cmake-export-link-flags          0.9.8-1focal.20210422.234925         amd64        The ability to export link flags to downstream packages in the ament buildsystem.
+ii  ros-foxy-ament-cmake-export-targets             0.9.8-1focal.20210422.234944         amd64        The ability to export targets to downstream packages in the ament buildsystem in CMake.
+ii  ros-foxy-ament-cmake-flake8                     0.9.6-1focal.20210423.000613         amd64        The CMake API for ament_flake8 to check code syntax and style conventions with flake8.
+ii  ros-foxy-ament-cmake-gmock                      0.9.8-1focal.20210422.235216         amd64        The ability to add Google mock-based tests in the ament buildsystem in CMake.
+ii  ros-foxy-ament-cmake-gtest                      0.9.8-1focal.20210422.235150         amd64        The ability to add gtest-based tests in the ament buildsystem in CMake.
+ii  ros-foxy-ament-cmake-include-directories        0.9.8-1focal.20210422.234955         amd64        The functionality to order include directories according to a chain of prefixes in the ament buildsystem in CMake.
+ii  ros-foxy-ament-cmake-libraries                  0.9.8-1focal.20210422.235037         amd64        The functionality to deduplicate libraries in the ament buildsystem in CMake.
+ii  ros-foxy-ament-cmake-lint-cmake                 0.9.6-1focal.20210423.000151         amd64        The CMake API for ament_lint_cmake to lint CMake code using cmakelint.
+ii  ros-foxy-ament-cmake-pep257                     0.9.6-1focal.20210423.000449         amd64        The CMake API for ament_pep257 to check code against the style conventions in PEP 257.
+ii  ros-foxy-ament-cmake-pytest                     0.9.8-1focal.20210422.235150         amd64        The ability to run Python tests using pytest in the ament buildsystem in CMake.
+ii  ros-foxy-ament-cmake-python                     0.9.8-1focal.20210422.234959         amd64        The ability to use Python in the ament buildsystem in CMake.
+ii  ros-foxy-ament-cmake-ros                        0.9.2-1focal.20210513.191324         amd64        The ROS specific CMake bits in the ament buildsystem.
+ii  ros-foxy-ament-cmake-target-dependencies        0.9.8-1focal.20210422.235143         amd64        The ability to add definitions, include directories and libraries of a package to a target in the ament buildsystem in CMake.
+ii  ros-foxy-ament-cmake-test                       0.9.8-1focal.20210422.235049         amd64        The ability to add tests in the ament buildsystem in CMake.
+ii  ros-foxy-ament-cmake-uncrustify                 0.9.6-1focal.20210423.000612         amd64        The CMake API for ament_uncrustify to check code against styleconventions using uncrustify.
+ii  ros-foxy-ament-cmake-version                    0.9.8-1focal.20210422.235113         amd64        The ability to override the exported package version in the ament buildsystem.
+ii  ros-foxy-ament-cmake-xmllint                    0.9.6-1focal.20210423.000602         amd64        The CMake API for ament_xmllint to check XML file using xmmlint.
+ii  ros-foxy-ament-copyright                        0.9.6-1focal.20210422.235858         amd64        The ability to check source files for copyright and license information.
+ii  ros-foxy-ament-cppcheck                         0.9.6-1focal.20210422.235051         amd64        The ability to perform static code analysis on C/C++ code using Cppcheck and generate xUnit test result files.
+ii  ros-foxy-ament-cpplint                          0.9.6-1focal.20210423.000018         amd64        The ability to check code against the Google style conventions using cpplint and generate xUnit test result files.
+ii  ros-foxy-ament-flake8                           0.9.6-1focal.20210422.235145         amd64        The ability to check code for style and syntax conventions with flake8.
+ii  ros-foxy-ament-index-cpp                        1.0.2-1focal.20210423.000803         amd64        C++ API to access the ament resource index.
+ii  ros-foxy-ament-index-python                     1.0.2-1focal.20210423.000020         amd64        Python API to access the ament resource index.
+ii  ros-foxy-ament-lint                             0.9.6-1focal.20210422.235053         amd64        Providing common API for ament linter packages.
+ii  ros-foxy-ament-lint-auto                        0.9.6-1focal.20210422.235208         amd64        The auto-magic functions for ease to use of the ament linters in CMake.
+ii  ros-foxy-ament-lint-cmake                       0.9.6-1focal.20210423.000027         amd64        The ability to lint CMake code using cmakelint and generate xUnit test result files.
+ii  ros-foxy-ament-lint-common                      0.9.6-1focal.20210423.000649         amd64        The list of commonly used linters in the ament buildsytem in CMake.
+ii  ros-foxy-ament-package                          0.9.5-1focal.20210422.230933         amd64        The parser for the manifest files in the ament buildsystem.
+ii  ros-foxy-ament-pep257                           0.9.6-1focal.20210422.235213         amd64        The ability to check code against the style conventions in PEP 8 and generate xUnit test result files.
+ii  ros-foxy-ament-uncrustify                       0.9.6-1focal.20210422.235912         amd64        The ability to check code against style conventions using uncrustify and generate xUnit test result files.
+ii  ros-foxy-ament-xmllint                          0.9.6-1focal.20210423.000044         amd64        The ability to check XML files like the package manifest using xmllint and generate xUnit test result files.
+ii  ros-foxy-builtin-interfaces                     1.0.0-1focal.20210513.193743         amd64        A package containing message and service definitions for types defined in the OMG IDL Platform Specific Model.
+ii  ros-foxy-class-loader                           2.0.2-1focal.20210513.192106         amd64        The class_loader package is a ROS-independent package for loading plugins during runtime and the foundation of the higher level ROS &quot;pluginlib&quot; library.
+ii  ros-foxy-common-interfaces                      2.0.4-1focal.20210513.202624         amd64        common_interfaces contains messages and services that are widely used by other ROS packages.
+ii  ros-foxy-composition-interfaces                 1.0.0-1focal.20210513.195522         amd64        A package containing message and service definitions for managing composable nodes in a container process.
+ii  ros-foxy-console-bridge-vendor                  1.2.4-1focal.20210423.001315         amd64        Wrapper around console_bridge, providing nothing but a dependency on console_bridge, on some systems.
+ii  ros-foxy-diagnostic-msgs                        2.0.4-1focal.20210513.200853         amd64        A package containing some diagnostics related message and service definitions.
+ii  ros-foxy-domain-coordinator                     0.9.2-1focal.20210513.190923         amd64        A tool to coordinate unique ROS_DOMAIN_IDs across multiple processes
+ii  ros-foxy-eigen3-cmake-module                    0.1.1-1focal.20210423.000604         amd64        Exports a custom CMake module to find Eigen3.
+ii  ros-foxy-fastcdr                                1.0.13-1focal.20210422.234808        amd64        CDR serialization implementation.
+ii  ros-foxy-fastrtps                               2.0.2-2focal.20210423.001712         amd64        Implementation of RTPS standard.
+ii  ros-foxy-fastrtps-cmake-module                  1.0.3-1focal.20210423.000813         amd64        Provide CMake module to find eProsima FastRTPS.
+ii  ros-foxy-foonathan-memory-vendor                1.0.0-1focal.20210423.000634         amd64        Foonathan/memory vendor package for Fast-RTPS.
+ii  ros-foxy-geometry-msgs                          2.0.4-1focal.20210513.195109         amd64        A package containing some geometry related message definitions.
+ii  ros-foxy-geometry2                              0.13.10-1focal.20210513.212959       amd64        A metapackage to bring in the default packages second generation Transform Library in ros, tf2.
+ii  ros-foxy-gmock-vendor                           1.8.9000-1focal.20210422.234924      amd64        The package provides GoogleMock.
+ii  ros-foxy-gtest-vendor                           1.8.9000-1focal.20210422.234815      amd64        The package provides GoogleTest.
+ii  ros-foxy-kdl-parser                             2.4.1-2focal.20210513.191852         amd64        The Kinematics and Dynamics Library (KDL) defines a tree structure to represent the kinematic and dynamic parameters of a robot mechanism.
+ii  ros-foxy-launch                                 0.10.5-1focal.20210423.000156        amd64        The ROS launch tool.
+ii  ros-foxy-launch-ros                             0.11.2-1focal.20210513.203434        amd64        ROS specific extensions to the launch tool.
+ii  ros-foxy-launch-testing                         0.10.5-1focal.20210423.000311        amd64        A package to create tests which involve launch files and multiple processes.
+ii  ros-foxy-launch-testing-ament-cmake             0.10.5-1focal.20210423.001250        amd64        A package providing cmake functions for running launch tests from the build.
+ii  ros-foxy-launch-testing-ros                     0.11.2-1focal.20210513.203605        amd64        A package providing utilities for writing ROS2 enabled launch tests.
+ii  ros-foxy-launch-xml                             0.10.5-1focal.20210423.000316        amd64        XML frontend for the launch package.
+ii  ros-foxy-launch-yaml                            0.10.5-1focal.20210423.000331        amd64        YAML frontend for the launch package.
+ii  ros-foxy-libstatistics-collector                1.0.1-1focal.20210513.202511         amd64        Lightweight aggregation utilities to collect statistics and measure message metrics.
+ii  ros-foxy-libyaml-vendor                         1.0.4-1focal.20210513.192105         amd64        Wrapper around libyaml, provides the last version (1.8.0 rc) that ships with a CMake module
+ii  ros-foxy-lifecycle-msgs                         1.0.0-1focal.20210513.193956         amd64        A package containing some lifecycle related message and service definitions.
+ii  ros-foxy-message-filters                        3.2.5-1focal.20210513.210057         amd64        A set of ROS2 message filters which take in messages and may output those messages at a later time, based on the conditions that filter needs met.
+ii  ros-foxy-nav-msgs                               2.0.4-1focal.20210513.200856         amd64        A package containing some navigation related message and service definitions.
+ii  ros-foxy-orocos-kdl                             3.3.2-1focal.20210423.000710         amd64        This package contains a recent version of the Kinematics and Dynamics Library (KDL), distributed by the Orocos Project.
+ii  ros-foxy-osrf-pycommon                          0.1.10-1focal.20210422.234818        amd64        Commonly needed Python modules, used by Python software developed at OSRF.
+ii  ros-foxy-pluginlib                              2.5.3-1focal.20210513.192541         amd64        The pluginlib package provides tools for writing and dynamically loading plugins using the ROS build infrastructure.
+ii  ros-foxy-python-cmake-module                    0.8.1-1focal.20210423.001221         amd64        Provide CMake module with extra functionality for Python.
+ii  ros-foxy-rcl                                    1.1.11-1focal.20210513.201710        amd64        The ROS client library common implementation.
+ii  ros-foxy-rcl-action                             1.1.11-1focal.20210513.202504        amd64        Package containing a C-based ROS action implementation
+ii  ros-foxy-rcl-interfaces                         1.0.0-1focal.20210513.193843         amd64        The ROS client library common interfaces.
+ii  ros-foxy-rcl-lifecycle                          1.1.11-1focal.20210513.202523        amd64        Package containing a C-based lifecycle implementation
+ii  ros-foxy-rcl-logging-spdlog                     1.1.0-1focal.20210513.192104         amd64        Implementation of rcl_logging API for an spdlog backend.
+ii  ros-foxy-rcl-yaml-param-parser                  1.1.11-1focal.20210513.192303        amd64        Parse a YAML parameter file and populate the C data structure.
+ii  ros-foxy-rclcpp                                 2.3.1-1focal.20210513.202828         amd64        The ROS client library in C++.
+ii  ros-foxy-rclcpp-action                          2.3.1-1focal.20210513.210154         amd64        Adds action APIs for C++.
+ii  ros-foxy-rclcpp-components                      2.3.1-1focal.20210513.210230         amd64        Package containing tools for dynamically loadable components
+ii  ros-foxy-rclcpp-lifecycle                       2.3.1-1focal.20210513.210233         amd64        Package containing a prototype for lifecycle implementation
+ii  ros-foxy-rclpy                                  1.0.5-1focal.20210513.202841         amd64        Package containing the Python client.
+ii  ros-foxy-rcpputils                              1.3.1-1focal.20210513.191942         amd64        Package containing utility code for C++.
+ii  ros-foxy-rcutils                                1.1.3-1focal.20210513.191349         amd64        Package containing various utility types and functions for C
+ii  ros-foxy-rmw                                    1.0.3-1focal.20210513.192023         amd64        Contains the ROS middleware API.
+ii  ros-foxy-rmw-dds-common                         1.0.3-1focal.20210513.193919         amd64        Define a common interface between DDS implementations of ROS middleware.
+ii  ros-foxy-rmw-fastrtps-cpp                       1.2.5-1focal.20210513.200901         amd64        Implement the ROS middleware interface using eProsima FastRTPS static code generation in C++.
+ii  ros-foxy-rmw-fastrtps-shared-cpp                1.2.5-1focal.20210513.194350         amd64        Code shared on static and dynamic type support of rmw_fastrtps_cpp.
+ii  ros-foxy-rmw-implementation                     1.0.2-1focal.20210513.201411         amd64        The decision which ROS middleware implementation should be used for C++.
+ii  ros-foxy-rmw-implementation-cmake               1.0.3-1focal.20210423.001431         amd64        CMake functions which can discover and enumerate available implementations.
+ii  ros-foxy-robot-state-publisher                  2.4.2-1focal.20210513.211655         amd64        This package allows you to publish the state of a robot to tf2.
+ii  ros-foxy-ros-base                               0.9.2-1focal.20210513.214104         amd64        A package which extends 'ros_core' and includes other basic functionalities like tf2 and urdf.
+ii  ros-foxy-ros-core                               0.9.2-1focal.20210513.214031         amd64        A package to aggregate the packages required to use publish / subscribe, services, generate messages and other core ROS concepts.
+ii  ros-foxy-ros-environment                        2.5.0-1focal.20210422.235055         amd64        The package provides the environment variables `ROS_VERSION` and `ROS_DISTRO`.
+ii  ros-foxy-ros-workspace                          1.0.1-1focal.20210422.234610         amd64        Provides the prefix level environment files for ROS 2 packages.
+ii  ros-foxy-ros2action                             0.9.9-1focal.20210513.204041         amd64        The action command for ROS 2 command line tools.
+ii  ros-foxy-ros2bag                                0.3.7-1focal.20210513.213216         amd64        Entry point for rosbag in ROS 2
+ii  ros-foxy-ros2cli                                0.9.9-1focal.20210513.203309         amd64        Framework for ROS 2 command line tools.
+ii  ros-foxy-ros2component                          0.9.9-1focal.20210513.211536         amd64        The component command for ROS 2 command line tools.
+ii  ros-foxy-ros2doctor                             0.9.9-1focal.20210513.204048         amd64        A command line tool to check potential issues in a ROS 2 system
+ii  ros-foxy-ros2interface                          0.9.9-1focal.20210513.204104         amd64        The interface command for ROS 2 command line tools
+ii  ros-foxy-ros2launch                             0.11.2-1focal.20210513.204453        amd64        The launch command for ROS 2 command line tools.
+ii  ros-foxy-ros2lifecycle                          0.9.9-1focal.20210513.213725         amd64        The lifecycle command for ROS 2 command line tools.
+ii  ros-foxy-ros2multicast                          0.9.9-1focal.20210513.203544         amd64        The multicast command for ROS 2 command line tools.
+ii  ros-foxy-ros2node                               0.9.9-1focal.20210513.204115         amd64        The node command for ROS 2 command line tools.
+ii  ros-foxy-ros2param                              0.9.9-1focal.20210513.204458         amd64        The param command for ROS 2 command line tools.
+ii  ros-foxy-ros2pkg                                0.9.9-1focal.20210513.204125         amd64        The pkg command for ROS 2 command line tools.
+ii  ros-foxy-ros2run                                0.9.9-1focal.20210513.204437         amd64        The run command for ROS 2 command line tools.
+ii  ros-foxy-ros2service                            0.9.9-1focal.20210513.204115         amd64        The service command for ROS 2 command line tools.
+ii  ros-foxy-ros2topic                              0.9.9-1focal.20210513.204049         amd64        The topic command for ROS 2 command line tools.
+ii  ros-foxy-rosbag2                                0.3.7-1focal.20210513.213910         amd64        Meta package for rosbag2 related packages
+ii  ros-foxy-rosbag2-compression                    0.3.7-1focal.20210513.211223         amd64        Compression implementations for rosbag2 bags and messages.
+ii  ros-foxy-rosbag2-converter-default-plugins      0.3.7-1focal.20210513.211237         amd64        Package containing default plugins for format converters
+ii  ros-foxy-rosbag2-cpp                            0.3.7-1focal.20210513.210737         amd64        C++ ROSBag2 client library
+ii  ros-foxy-rosbag2-storage                        0.3.7-1focal.20210513.210430         amd64        ROS2 independent storage format to store serialized ROS2 messages
+ii  ros-foxy-rosbag2-storage-default-plugins        0.3.7-1focal.20210513.210742         amd64        ROSBag2 SQLite3 storage plugin
+ii  ros-foxy-rosbag2-transport                      0.3.7-1focal.20210513.211610         amd64        Layer encapsulating ROS middleware to allow rosbag2 to be used with or without middleware
+ii  ros-foxy-rosgraph-msgs                          1.0.0-1focal.20210513.193847         amd64        Messages relating to the ROS Computation Graph.
+ii  ros-foxy-rosidl-adapter                         1.2.1-1focal.20210423.001432         amd64        API and scripts to parse .msg/.srv/.action files and convert them to .idl.
+ii  ros-foxy-rosidl-cmake                           1.2.1-1focal.20210423.001729         amd64        The CMake functionality to invoke code generation for ROS interface files.
+ii  ros-foxy-rosidl-default-generators              1.0.1-1focal.20210513.193439         amd64        A configuration package defining the default ROS interface generators.
+ii  ros-foxy-rosidl-default-runtime                 1.0.1-1focal.20210513.193439         amd64        A configuration package defining the runtime for the ROS interfaces.
+ii  ros-foxy-rosidl-generator-c                     1.2.1-1focal.20210513.192025         amd64        Generate the ROS interfaces in C.
+ii  ros-foxy-rosidl-generator-cpp                   1.2.1-1focal.20210513.192145         amd64        Generate the ROS interfaces in C++.
+ii  ros-foxy-rosidl-generator-py                    0.9.4-1focal.20210513.192950         amd64        Generate the ROS interfaces in Python.
+ii  ros-foxy-rosidl-parser                          1.2.1-1focal.20210423.001559         amd64        The parser for ROS interface files.
+ii  ros-foxy-rosidl-runtime-c                       1.2.1-1focal.20210513.191928         amd64        Generate the ROS interfaces in C.
+ii  ros-foxy-rosidl-runtime-cpp                     1.2.1-1focal.20210423.001410         amd64        Generate the ROS interfaces in C++.
+ii  ros-foxy-rosidl-runtime-py                      0.9.1-1focal.20210513.201044         amd64        Runtime utilities for working with generated ROS interfaces in Python.
+ii  ros-foxy-rosidl-typesupport-c                   1.0.2-1focal.20210513.192701         amd64        Generate the type support for C messages.
+ii  ros-foxy-rosidl-typesupport-cpp                 1.0.2-1focal.20210513.192953         amd64        Generate the type support for C++ messages.
+ii  ros-foxy-rosidl-typesupport-fastrtps-c          1.0.3-1focal.20210513.192553         amd64        Generate the C interfaces for eProsima FastRTPS.
+ii  ros-foxy-rosidl-typesupport-fastrtps-cpp        1.0.3-1focal.20210513.192414         amd64        Generate the C++ interfaces for eProsima FastRTPS.
+ii  ros-foxy-rosidl-typesupport-interface           1.2.1-1focal.20210423.001439         amd64        The interface for rosidl typesupport packages.
+ii  ros-foxy-rosidl-typesupport-introspection-c     1.2.1-1focal.20210513.192029         amd64        Generate the message type support for dynamic message construction in C.
+ii  ros-foxy-rosidl-typesupport-introspection-cpp   1.2.1-1focal.20210513.192304         amd64        Generate the message type support for dynamic message construction in C++.
+ii  ros-foxy-rpyutils                               0.2.0-1focal.20210423.000210         amd64        Package containing various utility types and functions for Python
+ii  ros-foxy-sensor-msgs                            2.0.4-1focal.20210513.200136         amd64        A package containing some sensor data related message and service definitions.
+ii  ros-foxy-shape-msgs                             2.0.4-1focal.20210513.200555         amd64        A package containing some message definitions which describe geometric shapes.
+ii  ros-foxy-shared-queues-vendor                   0.3.7-1focal.20210422.235623         amd64        Vendor package for concurrent queues from moodycamel
+ii  ros-foxy-spdlog-vendor                          1.1.3-1focal.20210423.001634         amd64        Wrapper around spdlog, providing nothing but a dependency on spdlog, on some systems.
+ii  ros-foxy-sqlite3-vendor                         0.3.7-1focal.20210422.235649         amd64        SQLite 3 vendor package
+ii  ros-foxy-sros2                                  0.9.4-1focal.20210513.203452         amd64        Command line tools for managing SROS2 keys
+ii  ros-foxy-sros2-cmake                            0.9.4-1focal.20210513.203729         amd64        CMake macros to configure security
+ii  ros-foxy-statistics-msgs                        1.0.0-1focal.20210513.193845         amd64        Message definitions for reporting statistics for topics and system resources.
+ii  ros-foxy-std-msgs                               2.0.4-1focal.20210513.193852         amd64        A package containing some standard message definitions.
+ii  ros-foxy-std-srvs                               2.0.4-1focal.20210513.193828         amd64        A package containing some standard service definitions.
+ii  ros-foxy-stereo-msgs                            2.0.4-1focal.20210513.202322         amd64        A package containing some stereo camera related message definitions.
+ii  ros-foxy-tf2                                    0.13.10-1focal.20210513.201213       amd64        tf2 is the second generation of the transform library, which lets the user keep track of multiple coordinate frames over time.
+ii  ros-foxy-tf2-bullet                             0.13.10-1focal.20210513.212144       amd64        tf2_bullet
+ii  ros-foxy-tf2-eigen                              0.13.10-1focal.20210513.212149       amd64        tf2_eigen
+ii  ros-foxy-tf2-geometry-msgs                      0.13.10-1focal.20210513.212219       amd64        tf2_geometry_msgs
+ii  ros-foxy-tf2-kdl                                0.13.10-1focal.20210513.211733       amd64        KDL binding for tf2
+ii  ros-foxy-tf2-msgs                               0.13.10-1focal.20210513.200746       amd64        tf2_msgs
+ii  ros-foxy-tf2-py                                 0.13.10-1focal.20210513.203524       amd64        The tf2_py package
+ii  ros-foxy-tf2-ros                                0.13.10-1focal.20210513.211159       amd64        This package contains the ROS bindings for the tf2 library, for both Python and C++.
+ii  ros-foxy-tf2-sensor-msgs                        0.13.10-1focal.20210513.212307       amd64        Small lib to transform sensor_msgs with tf.
+ii  ros-foxy-tf2-tools                              0.13.10-1focal.20210513.212313       amd64        tf2_tools
+ii  ros-foxy-tinyxml-vendor                         0.8.2-1focal.20210422.235743         amd64        CMake shim over the tinxml library.
+ii  ros-foxy-tinyxml2-vendor                        0.7.4-1focal.20210422.235740         amd64        Wrapper around tinyxml2, providing nothing but a dependency on tinyxml2, on some systems.
+ii  ros-foxy-tracetools                             1.0.5-2focal.20210513.191513         amd64        Tracing wrapper for ROS 2.
+ii  ros-foxy-trajectory-msgs                        2.0.4-1focal.20210513.200557         amd64        A package containing some robot trajectory message definitions.
+ii  ros-foxy-uncrustify-vendor                      1.4.0-1focal.20210422.235800         amd64        Wrapper around uncrustify, providing nothing but a dependency on uncrustify, on some systems.
+ii  ros-foxy-unique-identifier-msgs                 2.1.3-1focal.20210513.193745         amd64        ROS messages for universally unique identifiers.
+ii  ros-foxy-urdf                                   2.4.0-2focal.20210513.191500         amd64        This package contains a C++ parser for the Unified Robot Description Format (URDF), which is an XML format for representing a robot model.
+ii  ros-foxy-urdfdom                                2.3.3-1focal.20210423.001516         amd64        A library to access URDFs using the DOM model.
+ii  ros-foxy-urdfdom-headers                        1.0.5-1focal.20210422.234845         amd64        C++ headers for URDF.
+ii  ros-foxy-visualization-msgs                     2.0.4-1focal.20210513.200609         amd64        A package containing some visualization and interaction related message definitions.
+ii  ros-foxy-yaml-cpp-vendor                        7.0.2-1focal.20210422.235827         amd64        Wrapper around yaml-cpp, it provides a fixed CMake module and an ExternalProject build of it.
+ii  ros-foxy-zstd-vendor                            0.3.7-1focal.20210422.235839         amd64        Zstd compression vendor package, providing a dependency for Zstd.
+ii  sed                                             4.7-1                                amd64        GNU stream editor for filtering/transforming text
+ii  sensible-utils                                  0.0.12+nmu1                          all          Utilities for sensible alternative selection
+ii  sgml-base                                       1.29.1                               all          SGML infrastructure and SGML catalog file support
+ii  sudo                                            1.8.31-1ubuntu1.2                    amd64        Provide limited super user privileges to specific users
+ii  sysvinit-utils                                  2.96-2.1ubuntu1                      amd64        System-V-like utilities
+ii  tar                                             1.30+dfsg-7ubuntu0.20.04.1           amd64        GNU version of the tar archiving utility
+ii  tzdata                                          2021a-0ubuntu0.20.04                 all          time zone and daylight-saving time data
+ii  ubuntu-keyring                                  2020.02.11.4                         all          GnuPG keys of the Ubuntu archive
+ii  uncrustify                                      0.69.0+dfsg1-1build1                 amd64        C, C++, ObjectiveC, C#, D, Java, Pawn and VALA source code beautifier
+ii  util-linux                                      2.34-0.1ubuntu9.1                    amd64        miscellaneous system utilities
+ii  xml-core                                        0.18+nmu1                            all          XML infrastructure and XML catalog file support
+ii  xz-utils                                        5.2.4-1ubuntu1                       amd64        XZ-format compression utilities
+ii  zlib1g:amd64                                    1:1.2.11.dfsg-2ubuntu1.2             amd64        compression library - runtime
+ii  zlib1g-dev:amd64                                1:1.2.11.dfsg-2ubuntu1.2             amd64        compression library - development

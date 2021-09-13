@@ -1,0 +1,74 @@
+Install Ubuntu 20.04
+
+Setup ROS2
+https://docs.ros.org/en/foxy/Installation/Ubuntu-Install-Binary.html
+
+Install colon
+https://docs.ros.org/en/foxy/Tutorials/Colcon-Tutorial.html
+
+Setup micro-ros-agent
+https://micro.ros.org/docs/tutorials/core/first_application_linux/
+
+
+
+
+
+source ~/ros2_foxy/ros2-linux/setup.bash
+source /opt/ros/$ROS_DISTRO/setup.bash
+
+inside microros_ws workspace
+source install/local_setup.bash
+
+
+
+CREATE PACKAGE FOR MESSAGE
+https://docs.ros.org/en/foxy/Tutorials/Custom-ROS2-Interfaces.html
+inside quad_ws/src
+ros2 pkg create --build-type ament_cmake quad_interfaces
+
+CREATE NEW MESSAGE (PACKAGE (ADD TO PACKAGE))
+https://docs.ros.org/en/foxy/Tutorials/Custom-ROS2-Interfaces.html
+
+colcon build
+
+
+
+_________________________________________________________________________
+
+BUILD FIRMWARE (AFTER CREATING NEW MESSAGE)
+This creates libmicro.a required for teensy firware.
+Use the docker.
+
+Add custom message package to micro_ros_arduino library...
+FOUND: https://github.com/micro-ROS/micro_ros_arduino/tree/foxy
+Add message package (quad_interfaces) to: /home/devpc/Downloads/micro_ros_arduino-foxy/extras/library_generation/extra_packages
+this is where the firmware builder looks for extra packages to build.
+
+
+DELETE? (or compile errors): examples at microros_ws/src/uros/micro-ROS-demos
+
+INSIDE the micro_ros_arduino package...
+docker pull microros/micro_ros_static_library_builder:foxy
+docker run -it --rm -v $(pwd):/project --env MICROROS_LIBRARY_FOLDER=extras microros/micro_ros_static_library_builder:foxy
+
+https://micro.ros.org/docs/tutorials/core/first_application_linux/
+
+_________________________________________________________________________
+
+docker run -it --net=host -v /dev:/dev --privileged ros:foxy
+
+
+touch installed_packages.txt
+sudo dpkg -l | more > installed_packages.txt
+
+sudo docker ps
+sudo docker cp ecstatic_volhard:/installed_packages.txt .
+
+_________________________________________________________________________
+
+
+
+
+
+
+
