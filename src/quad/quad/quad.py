@@ -49,15 +49,15 @@ class QuadPublisher(Node):
     def set_enables(self, enables):
         self.enables = enables
 
-    def set_joint_pulse_widths(self, joint_pulse_widths):
-        self.joint_pulse_widths = joint_pulse_widths
+    def set_servo_pulse_widths(self, servo_pulse_widths):
+        self.servo_pulse_widths = servo_pulse_widths
 
     def timer_callback(self):
         msg = MotionServos()
 
         for i in range(12):
             msg.enable[i] = self.enables[i]
-            msg.pulse_width[i] = self.joint_pulse_widths[i]     
+            msg.pulse_width[i] = self.servo_pulse_widths[i]     
 
         self.publisher_.publish(msg)
 
@@ -90,11 +90,8 @@ def main(args=None):
 
     while rclpy.ok():
         motion_parameters = joystick_subscriber.get_motion_parameters()
-        joint_pulse_widths = quad_commander.tick(motion_parameters)             
-        
-        # TODO: convert joint angles to pulse widths
-        
-        quad_publisher.set_joint_pulse_widths(joint_pulse_widths)
+        servo_pulse_widths = quad_commander.tick(motion_parameters)              
+        quad_publisher.set_servo_pulse_widths(servo_pulse_widths)
         executor.spin_once()
     
     executor.shutdown()
