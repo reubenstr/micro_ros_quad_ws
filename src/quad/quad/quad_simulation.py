@@ -105,4 +105,4 @@ class QuadCommander():
         # step simulation
         state, reward, done, _ = self.env.step(self.action)
 
-        return joint_angles, servo_pulse_widths
+        return servo_pulse_widths
