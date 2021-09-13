@@ -24,6 +24,8 @@ from os import path, read
 import sys
 import tty
 import os
+import signal
+from pynput.keyboard import Key, Listener
 
 
 def show_exception_and_exit(exc_type, exc_value, tb):
@@ -63,7 +65,12 @@ class QuadPublisher(Node):
         self.publisher_.publish(msg)
 
 
-def print_screen(selected_servo, joint_pulse_widths, parameters):
+def save_parameters(motion_servo_parameters_path, parameters):
+    with io.open(motion_servo_parameters_path, 'w', encoding='utf8') as outfile:
+        yaml.dump(parameters, outfile, default_flow_style=False, allow_unicode=True)
+
+
+def print_screen(motion_servo_parameters_path, selected_servo, joint_pulse_widths, parameters):
 
     servo_index_to_name = {
         0: "front left hip",
@@ -81,27 +88,26 @@ def print_screen(selected_servo, joint_pulse_widths, parameters):
 
     os.system('clear')
     print("Motion Servo Calibration")
-    # print("________________________")
-    print()
-    # print(BOLD + "Selected servo: {} ({})".format(selected_servo,servo_index_to_name.get(0)))
-
-    print ("SERVO [CUR PULSE WIDTH] : CENTER ANGLE, ZERO PULSE WIDTH, PULSE WIDTH PER DEGREE")
+    print(motion_servo_parameters_path)
+    print(
+        "SERVO [PULSE WIDTH] : CENTER ANGLE, ZERO PULSE WIDTH, PULSE WIDTH PER DEGREE")
     for i in range(12):
         text_format = '\033[34m' if selected_servo == i else '\033[0m'
-        print(text_format + "{:>2} [{:>4}]: {:>3} {:>4} {:>5} ({})".format(i,
-              joint_pulse_widths[i],
+        cur_pulse_width = "[{:>4}]".format(
+            joint_pulse_widths[i]) if selected_servo == i else ""
+        print(text_format + "{:>2} {:>6}: {:>3} {:>4} {:>5} ({})".format(i,
+              cur_pulse_width,
               parameters['degrees_at_center_pulse_width'][i],
               parameters['zero_degrees_pulse_width'][i],
               parameters['pulse_width_per_degree'][i],
               servo_index_to_name.get(i)))
-
-    print()
-    print("Commands:")
-    print("  activate * \tservo number: 0-11, example: activate 5")
-    print("  pulse * \tcurrent pulse width : 500-2500, example: pulse 1500")
-    print("  zero * \tpulse width at zero degrees: 500-2500, example: zero 1500")
-    print("  ratio * \tpulses per degree: 0-50, example: ratio 11.15")
+    text_format = '\033[0m'
+    print(text_format + "  select * \tselect servo: 0-11, example: select 5")
+    print("  * \t\tset current pulse width : 500-2500, example: 1500")
+    print("  zero * \tset pulse width at zero degrees: 500-2500, example: zero 1500")
+    print("  ratio * \tset pulses per degree: 0-50, example: ratio 11.15")
     print("  save\t\tsaves pulse width and ratio values of selected servo")
+    print("  CTRL+C\texit")
     print()
 
 
@@ -134,52 +140,60 @@ def main(args=None):
 
     selected_servo = 0
     joint_pulse_widths = np.full(12, 1500)
+
+    # default parameters
     parameters = {"degrees_at_center_pulse_width": [0, 45, -45, 0, 45, -45, 0, 45, -45, 0, 45, -45],
                   "zero_degrees_pulse_width": [1500, 1500, 1500, 1500, 1500, 1500, 1500, 1500, 1500, 1500, 1500, 1500],
                   "pulse_width_per_degree": [10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10]}
 
-    # if path.exists(motion_servo_parameters_path):
-    # with open(motion_servo_parameters_path, 'r') as stream:
-    #   parameters = yaml.safe_load(stream)
-
-    rclpy.logging._root_logger.log(
-        "****************************************************", LoggingSeverity.INFO)
-    rclpy.logging._root_logger.log(str(parameters), LoggingSeverity.INFO)
-    rclpy.logging._root_logger.log(
-        "****************************************************", LoggingSeverity.INFO)
-
-    # with io.open(motion_servo_parameters_path, 'w', encoding='utf8') as outfile:
-    #    yaml.dump(parameters, outfile, default_flow_style=False, allow_unicode=True)
+    if path.exists(motion_servo_parameters_path):
+        with open(motion_servo_parameters_path, 'r') as stream:
+            parameters = yaml.safe_load(stream)      
 
     executor = SingleThreadedExecutor()
     executor.add_node(quad_publisher)
-
+    
     while rclpy.ok():
 
-        print_screen(selected_servo, joint_pulse_widths, parameters)
+        print_screen(motion_servo_parameters_path, selected_servo, joint_pulse_widths, parameters)
 
         read_line = sys.stdin.readline()
         read_line_split = read_line.split()
 
         if len(read_line_split) > 0:
             command = read_line_split[0]
-
             if command == "save":
-                pass
+                save_parameters(motion_servo_parameters_path, parameters)
+            if command.isnumeric():
+                val = int(read_line_split[0])
+                if val < 500:
+                    val = 500
+                if val > 2500:
+                    val = 2500
+                joint_pulse_widths[selected_servo] = val
 
             if len(read_line_split) > 1:
-                value = read_line_split[1]
-
-                if command == "activate":
-                    selected_servo = int(value)
-                elif command == "pulse":
-                    joint_pulse_widths[selected_servo] = int(value)
+                if command == "select":
+                    val = int(read_line_split[1])
+                    if val < 0:
+                        val = 0
+                    if val > 11:
+                        val = 11
+                    selected_servo = val
                 elif command == "zero":
-                    parameters['zero_degrees_pulse_width'][selected_servo] = int(
-                        value)
+                    val = int(read_line_split[1])
+                    if val < 500:
+                        val = 500
+                    if val > 2500:
+                        val = 2500
+                    parameters['zero_degrees_pulse_width'][selected_servo] = val
                 elif command == "ratio":
-                    parameters['pulse_width_per_degree'][selected_servo] = float(
-                        value)
+                    val = float(read_line_split[1])
+                    if val < 0:
+                        val = 0
+                    if val > 100:
+                        val = 100
+                    parameters['pulse_width_per_degree'][selected_servo] = val
 
         enables = np.full(12, False, dtype=bool)
         enables[selected_servo] = True
