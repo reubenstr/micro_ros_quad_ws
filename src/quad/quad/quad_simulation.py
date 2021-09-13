@@ -78,37 +78,31 @@ class QuadCommander():
         if self.temp == 25:
             self.temp = 0
 
-        """ print ("**************************")
+        """ 
+        print ("**************************")
         print (pos)
         print (orn)T_bf
         print (ClearanceHeight)
         print (PenetrationDepth)
-  """
+        """
 
         # get foot poses
         # self.T_bf = self.bezier_gait.GenerateTrajectory(
         #    StepLength, LateralFraction, YawRate, StepVelocity, self.T_bf0, self.T_bf, ClearanceHeight, PenetrationDepth, contacts)
-
        
         self.T_bf = self.bezier_gait.GenerateTrajectory(
             StepLength, LateralFraction, YawRate, StepVelocity, self.kinematics.WorldToFoot, ClearanceHeight, PenetrationDepth, contacts)
 
-        # print(self.T_bf )
-        
-
+        # print(self.T_bf )   
         # self.T_bf_temp = copy.deepcopy(self.kinematics.WorldToFoot)
 
-        joint_angles = self.kinematics.inverse_kinematics(orn, pos, self.T_bf).flatten()
-        #joint_angles = self.kinematics.InverseKinematics(orn, pos, self.T_bf_temp)
-
-        
-     
-
-        
+        joint_angles = self.kinematics.inverse_kinematics(orn, pos, self.T_bf)
+        servo_pulse_widths = self.kinematics.get_servo_pulse_widths_linked_legs(joint_angles)
+   
         self.env.pass_joint_angles(joint_angles)
         # pass parameters into the model as external observations (for machine learning)
         # env.spot.GetExternalObservations(self.bezier_gait, self.bezier_stepper)
         # step simulation
         state, reward, done, _ = self.env.step(self.action)
 
-        return joint_angles
+        return joint_angles, servo_pulse_widths
