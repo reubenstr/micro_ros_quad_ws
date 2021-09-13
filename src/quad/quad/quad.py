@@ -18,7 +18,6 @@ from rclpy.logging import LoggingSeverity
 from rclpy.parameter import Parameter
 
 class JoystickSubscriber(Node):
-
     def __init__(self):
         super().__init__('joy_subscriber_node')
         self.subscription = self.create_subscription(
@@ -37,7 +36,6 @@ class JoystickSubscriber(Node):
 
 
 class QuadPublisher(Node):
-
     def __init__(self):
         super().__init__('quad_publisher_node')
         self.publisher_ = self.create_publisher(
@@ -58,92 +56,51 @@ class QuadPublisher(Node):
         msg = MotionServos()
 
         for i in range(12):
-            msg.enable[i] = True
-            msg.pulse_width[i] = 1500#self.joint_pulse_widths[i]
-
-        # rclpy.logging._root_logger.log(str(msg.angle[0]), LoggingSeverity.INFO)
+            msg.enable[i] = self.enables[i]
+            msg.pulse_width[i] = self.joint_pulse_widths[i]     
 
         self.publisher_.publish(msg)
 
 
 def main(args=None):
     rclpy.init(args=args)
-
     rclpy.logging._root_logger.log("QUAD STARTED", LoggingSeverity.INFO)
 
-
     quad_publisher = QuadPublisher()
-    joystick_subscriber = JoystickSubscriber()
-
-    
-
-    
+    joystick_subscriber = JoystickSubscriber()     
 
     parameters = quad_publisher.declare_parameters(
             namespace='',
             parameters=[
                 ('motion_servo_parameters_path', None), 
-                #('frame.shoulder_length', None),   
-                #('motion_servo_calibration', None),              
-                #('motion_servo_calibration.FL.hip.negative_thirty_degrees_pulsewidth', None), 
-                      
-                # ('param_file_path', None),    
-                #  ('servo.offset', None),    
-                # ('servo', None),    
-                #  ('servo.in_position_degree_pulsewidth', None),          
-            ])
-    
-    #param_str = Parameter('str_text', Parameter.Type.STRING, 'Set from code')   
-    #quad_publisher.set_parameters([param_str])
-    
-    rclpy.logging._root_logger.log("****************************************************", LoggingSeverity.INFO)
-    #rclpy.logging._root_logger.log(str(quad_publisher.get_parameter('ros__parameters')), LoggingSeverity.INFO)
-    #rclpy.logging._root_logger.log(str(quad_publisher._parameters), LoggingSeverity.INFO)
+                ('frame_parameters_path', None)])    
+      
+    rclpy.logging._root_logger.log("****************************************************", LoggingSeverity.INFO) 
     rclpy.logging._root_logger.log(quad_publisher.get_parameter('motion_servo_parameters_path').get_parameter_value().string_value, LoggingSeverity.INFO)
     rclpy.logging._root_logger.log("****************************************************", LoggingSeverity.INFO)
 
-
     motion_servo_parameters_path = quad_publisher.get_parameter('motion_servo_parameters_path').get_parameter_value().string_value
+    frame_parameters_path = quad_publisher.get_parameter('frame_parameters_path').get_parameter_value().string_value
 
-    quad_commander = QuadCommander(motion_servo_parameters_path)
+    quad_commander = QuadCommander(motion_servo_parameters_path, frame_parameters_path)
 
     executor = SingleThreadedExecutor()
-
     executor.add_node(quad_publisher)
     executor.add_node(joystick_subscriber)
 
     while rclpy.ok():
         motion_parameters = joystick_subscriber.get_motion_parameters()
-        joint_pulse_widths = quad_commander.tick(motion_parameters)
+        joint_pulse_widths = quad_commander.tick(motion_parameters)             
         
-        
-        # flat = joint_pulse_widths.flatten()
-
-        # convert the joint angles into the linkage mechanical space.
-        
-
-        #rclpy.logging._root_logger.log("shoulder  : " + str(flat[3] * 180/np.pi), LoggingSeverity.INFO)  
-        #rclpy.logging._root_logger.log("upper leg : " + str(flat[4] * 180/np.pi), LoggingSeverity.INFO)  
-        #rclpy.logging._root_logger.log("lower leg : " + str(flat[5] * 180/np.pi), LoggingSeverity.INFO)  
-
-        #rclpy.logging._root_logger.log("legnth : " + str(motion_parameters.step_length), LoggingSeverity.INFO)  
-        #rclpy.logging._root_logger.log("yaw : " + str(motion_parameters.yaw_rate), LoggingSeverity.INFO)
-        #sleep(.1)
-        
-        
+        # TODO: convert joint angles to pulse widths
         
         quad_publisher.set_joint_pulse_widths(joint_pulse_widths)
         executor.spin_once()
-
-    try:
-        executor.spin()
-    finally:
-        executor.shutdown()
-        quad_publisher.destroy_node()
-        joystick_subscriber.destroy_node()
-
+    
+    executor.shutdown()
+    quad_publisher.destroy_node()
+    joystick_subscriber.destroy_node()
     rclpy.shutdown()
-
 
 if __name__ == '__main__':
     main()
