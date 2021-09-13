@@ -44,21 +44,21 @@ class QuadPublisher(Node):
             MotionServos, 'motion_servos', 10)
         timer_period = 0.025
         self.timer = self.create_timer(timer_period, self.timer_callback)
-        self.joint_pulse_widths = np.zeros(12)
+        self.servo_pulse_widths = np.zeros(12)
         self.enables = np.full(12, False, dtype=bool)
 
     def set_enables(self, enables):
         self.enables = enables
 
-    def set_joint_pulse_widths(self, joint_pulse_widths):
-        self.joint_pulse_widths = joint_pulse_widths
+    def set_servo_pulse_widths(self, servo_pulse_widths):
+        self.servo_pulse_widths = servo_pulse_widths
 
     def timer_callback(self):
         msg = MotionServos()
 
         for i in range(12):
             msg.enable[i] = True
-            msg.pulse_width[i] = self.joint_pulse_widths[i]
+            msg.pulse_width[i] = self.servo_pulse_widths[i]
 
         # rclpy.logging._root_logger.log(str(msg.angle[0]), LoggingSeverity.INFO)
 
@@ -139,7 +139,7 @@ def main(args=None):
         'motion_servo_parameters_path').get_parameter_value().string_value
 
     selected_servo = 0
-    joint_pulse_widths = np.full(12, 1500)
+    servo_pulse_widths = np.full(12, 1500)
 
     # default parameters
     parameters = {"degrees_at_center_pulse_width": [0, 45, -45, 0, 45, -45, 0, 45, -45, 0, 45, -45],
@@ -198,7 +198,7 @@ def main(args=None):
         enables = np.full(12, False, dtype=bool)
         enables[selected_servo] = True
         quad_publisher.set_enables(enables)
-        quad_publisher.set_joint_pulse_widths(joint_pulse_widths)
+        quad_publisher.set_servo_pulse_widths(servo_pulse_widths)
 
         executor.spin_once()
 
