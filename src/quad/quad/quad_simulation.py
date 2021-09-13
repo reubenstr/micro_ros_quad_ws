@@ -21,9 +21,10 @@ from src.env_randomizer import EnvRandomizer
 
 class QuadCommander():
 
-    def __init__(self, motion_servo_parameters_path):
+    def __init__(self, motion_servo_parameters_path, frame_parameters_path):
 
         self.motion_servo_parameters_path = motion_servo_parameters_path
+        self.frame_parameters_path = frame_parameters_path
 
         if 1:
             # env
