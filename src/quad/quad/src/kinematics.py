@@ -22,6 +22,12 @@ class Kinematics:
                  upper_leg_angle_max=np.pi / 2,
                  lower_leg_angle_min=-np.pi,
                  lower_leg_angle_max=np.pi):
+       
+        
+        self.frame_parameters_path = "temp" #frame_parameters_path
+    
+
+        
         """
         Kinematics
         """
@@ -245,6 +251,16 @@ class Kinematics:
 
         return joint_angles.flatten()
     
-    def get_servo_pulse_widths_linked_legs(self, joint_angles)
-        pass
-        # TODO CONVERT JOINTS TO PULSES
+    def get_joint_angles_linked_legs(self, joint_angles)
+        joint_angles_linked_leg = np.array(12) 
+        
+        # Convert joint angles into joint angles for linked legs
+        for i in range(12):           
+            if joint % 0: # Hip
+                joint_angles_linked_leg[i] = joint_angles[i]
+            if joint % 1: # Upper leg
+                joint_angles_linked_leg[i] = joint_angles[i]
+            if joint % 2: # Lower leg
+                joint_angles_linked_leg[i] = joint_angles[i]     
+        
+        return joint_angles_linked_leg  
