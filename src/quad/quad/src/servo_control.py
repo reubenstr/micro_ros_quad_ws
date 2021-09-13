@@ -3,10 +3,9 @@ import numpy as np
 
 class ServoControl():
   
-   def __init__(self, motion_servo_parameters_path):
-      
-      self.motion_servo_parameters_path = motion_servo_parameters_path  
-    
+   def __init__(self, motion_servo_parameters):
+                   
+   self.motion_servo_parameters = motion_servo_parameters
     
    def convert_joint_angles_to_pulse_widths(joint_angles):
       servo_pulse_widths = np.array(12)
@@ -18,8 +17,8 @@ class ServoControl():
                   "pulse_width_per_degree": [10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10]}        
      
         for i in range(12):
-            zero_degrees_pulse_width = motion_servo_parameters['zero_degrees_pulse_width'][i]
-            pulse_width_per_degree = motion_servo_parameters['pulse_width_per_degree'][i]
+            zero_degrees_pulse_width = self.motion_servo_parameters['zero_degrees_pulse_width'][i]
+            pulse_width_per_degree = self.motion_servo_parameters['pulse_width_per_degree'][i]
             servo_pulse_widths[i] = joint_angles_linked_leg[i]
 
       return servo_pulse_widths
