@@ -6,6 +6,7 @@ from src.bezier_gait import BezierGait
 from src.beizer_stepper import BezierStepper
 # from src.motion_parameters import MotionParameters
 from src.beizer_stepper import BezierStepper
+from src.servo_control import ServoControl
 import copy
 import time
 
@@ -44,9 +45,10 @@ class QuadCommander():
             self.bezier_gait = BezierGait(dt=0.01)
 
         self.kinematics = Kinematics()   
-
         self.bezier_stepper = BezierStepper()
-
+        self.servo_control = ServoControl()
+        
+        
         self.temp = 0
 
     def tick(self, motion_parameters):
@@ -96,13 +98,15 @@ class QuadCommander():
         # print(self.T_bf )   
         # self.T_bf_temp = copy.deepcopy(self.kinematics.WorldToFoot)
 
-        joint_angles = self.kinematics.inverse_kinematics(orn, pos, self.T_bf)
-        servo_pulse_widths = self.kinematics.get_servo_pulse_widths_linked_legs(joint_angles)
+        joint_angles = self.kinematics.inverse_kinematics(orn, pos, self.T_bf)       
    
         self.env.pass_joint_angles(joint_angles)
         # pass parameters into the model as external observations (for machine learning)
         # env.spot.GetExternalObservations(self.bezier_gait, self.bezier_stepper)
         # step simulation
         state, reward, done, _ = self.env.step(self.action)
+        
+        joint_angles_linked_leg = self.kinematics.get_joint_angles_linked_legs(joint_angles)
+        servo_pulse_widths = self.servo_control.convert_joint_angles_to_pulse_widths(joint_angles_linked_leg) 
 
         return servo_pulse_widths
