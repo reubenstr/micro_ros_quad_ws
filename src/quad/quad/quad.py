@@ -78,11 +78,20 @@ def main(args=None):
     rclpy.logging._root_logger.log("****************************************************", LoggingSeverity.INFO) 
     rclpy.logging._root_logger.log(quad_publisher.get_parameter('motion_servo_parameters_path').get_parameter_value().string_value, LoggingSeverity.INFO)
     rclpy.logging._root_logger.log("****************************************************", LoggingSeverity.INFO)
-
+  
+    # TODO handle exceptions
     motion_servo_parameters_path = quad_publisher.get_parameter('motion_servo_parameters_path').get_parameter_value().string_value
+    if path.exists(motion_servo_parameters_path):
+        with open(motion_servo_parameters_path, 'r') as stream:
+            motion_servo_parameters = yaml.safe_load(stream) 
+            
     frame_parameters_path = quad_publisher.get_parameter('frame_parameters_path').get_parameter_value().string_value
-
-    quad_commander = QuadCommander(motion_servo_parameters_path, frame_parameters_path)
+    if path.exists(frame_parameters_path):
+        with open(frame_parameters_path, 'r') as stream:
+            frame_parameters = yaml.safe_load(stream)  
+    
+    
+    quad_commander = QuadCommander(motion_servo_parameters, frame_parameters)
 
     executor = SingleThreadedExecutor()
     executor.add_node(quad_publisher)
