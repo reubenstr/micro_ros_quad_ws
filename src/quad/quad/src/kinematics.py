@@ -251,16 +251,16 @@ class Kinematics:
 
         return joint_angles.flatten()
     
-    def get_joint_angles_linked_legs(self, joint_angles)
-        joint_angles_linked_leg = np.array(12) 
+    def get_joint_angles_linked_legs(self, joint_angles):
+        joint_angles_linked_leg = np.empty(12)   
         
         # Convert joint angles into joint angles for linked legs
-        for i in range(12):           
-            if joint % 0: # Hip
+        for i in range(12):   
+            if i % 3 == 0: # Hip
                 joint_angles_linked_leg[i] = joint_angles[i]
-            if joint % 1: # Upper leg
+            if i % 3 == 1: # Upper leg
                 joint_angles_linked_leg[i] = joint_angles[i]
-            if joint % 2: # Lower leg
+            if i % 3 == 2: # Lower leg
                 joint_angles_linked_leg[i] = joint_angles[i]     
         
         return joint_angles_linked_leg  

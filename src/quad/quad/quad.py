@@ -6,6 +6,9 @@ import rclpy
 from rclpy.node import Node
 import numpy as np
 import copy
+import yaml
+import io
+from os import path, read
 from sensor_msgs.msg import Joy
 
 from rclpy.executors import SingleThreadedExecutor
@@ -58,10 +61,7 @@ class QuadPublisher(Node):
         for i in range(12):
             msg.enable[i] = self.enables[i]
             msg.pulse_width[i] = self.servo_pulse_widths[i]     
-
-        self.publisher_.publish(msg)
-
-
+read
 def main(args=None):
     rclpy.init(args=args)
     rclpy.logging._root_logger.log("QUAD STARTED", LoggingSeverity.INFO)
@@ -83,8 +83,9 @@ def main(args=None):
     motion_servo_parameters_path = quad_publisher.get_parameter('motion_servo_parameters_path').get_parameter_value().string_value
     if path.exists(motion_servo_parameters_path):
         with open(motion_servo_parameters_path, 'r') as stream:
-            motion_servo_parameters = yaml.safe_load(stream) 
-            
+            motion_servo_parameters = yaml.safe_load(stream)
+
+    frame_parameters = {} # temp init     
     frame_parameters_path = quad_publisher.get_parameter('frame_parameters_path').get_parameter_value().string_value
     if path.exists(frame_parameters_path):
         with open(frame_parameters_path, 'r') as stream:

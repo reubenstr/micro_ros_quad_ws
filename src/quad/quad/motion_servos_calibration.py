@@ -155,7 +155,7 @@ def main(args=None):
     
     while rclpy.ok():
 
-        print_screen(motion_servo_parameters_path, selected_servo, joint_pulse_widths, parameters)
+        print_screen(motion_servo_parameters_path, selected_servo, servo_pulse_widths, parameters)
 
         read_line = sys.stdin.readline()
         read_line_split = read_line.split()
@@ -170,7 +170,7 @@ def main(args=None):
                     val = 500
                 if val > 2500:
                     val = 2500
-                joint_pulse_widths[selected_servo] = val
+                servo_pulse_widths[selected_servo] = val
 
             if len(read_line_split) > 1:
                 if command == "select":
