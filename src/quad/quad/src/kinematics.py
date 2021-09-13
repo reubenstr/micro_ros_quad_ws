@@ -243,7 +243,7 @@ class Kinematics:
             # Step 3, compute joint angles from T_hf for each leg
             joint_angles[i, :] = self._solve_joint_angles(p_hf, key)
 
-        return joint_angles
+        return joint_angles.flatten()
     
     def get_servo_pulse_widths_linked_legs(self, joint_angles)
         pass
