@@ -45,8 +45,6 @@ LAUNCH:
 	LAUNCH WITH PARAMETERS:
 	ros2 run quad quad --ros-args --params-file src/quad/config/quad_params.yaml
 	colcon build --packages-select quad; ros2 launch quad quad.launch.py
-	
-	colcon build --packages-select quad; ros2 launch quad motion.py
 	colcon build --packages-select quad; ros2 launch quad motion_servos_calibration.launch.py 
 
 

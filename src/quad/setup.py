@@ -13,7 +13,7 @@ setup(
         ('share/' + package_name, ['package.xml']),
         
         (os.path.join('share', package_name), glob('launch/*.launch.py')),
-        # (os.path.join('share', package_name, 'config'), glob('config/*.yaml')),      
+        (os.path.join('share', package_name, 'config'), glob('config/*.yaml')),      
         (os.path.join('share', package_name, 'urdf'), glob('quad/src/urdf/*.urdf')),
         (os.path.join('share', package_name, 'stl'), glob('quad/src/stl/*.stl')),
         
@@ -33,7 +33,7 @@ setup(
     entry_points={
         'console_scripts': [
             'quad = quad.quad:main',
-            'motion_servos_calibration = quad.motion_servos_calibration:main'
+            'motion_servo_calibration = quad.motion_servo_calibration:main'
         ],
     },
 )

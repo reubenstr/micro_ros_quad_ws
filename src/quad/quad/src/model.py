@@ -167,7 +167,7 @@ class Model(object):
         that its walking gait is clearer to visualize.
     """
         # SPOT MODEL
-        self.spot = Kinematics()
+        # self.spot = Kinematics()
         # Whether to include contact sensing
         self.contacts = contacts
         # Control Inputs

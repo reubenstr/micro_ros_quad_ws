@@ -20,6 +20,7 @@ from .joystick_interpreter import JoystickInterpreter
 from rclpy.logging import LoggingSeverity
 from rclpy.parameter import Parameter
 
+
 class JoystickSubscriber(Node):
     def __init__(self):
         super().__init__('joy_subscriber_node')
@@ -48,7 +49,7 @@ class QuadPublisher(Node):
 
         self.joint_pulse_widths = np.zeros(12)
         self.enables = np.full(12, False, dtype=bool)
-        
+
     def set_enables(self, enables):
         self.enables = enables
 
@@ -60,39 +61,56 @@ class QuadPublisher(Node):
 
         for i in range(12):
             msg.enable[i] = self.enables[i]
-            msg.pulse_width[i] = self.servo_pulse_widths[i]     
+            msg.pulse_width[i] = self.servo_pulse_widths[i]
+
+
 read
+
+
 def main(args=None):
     rclpy.init(args=args)
     rclpy.logging._root_logger.log("QUAD STARTED", LoggingSeverity.INFO)
 
     quad_publisher = QuadPublisher()
-    joystick_subscriber = JoystickSubscriber()     
+    joystick_subscriber = JoystickSubscriber()
 
     parameters = quad_publisher.declare_parameters(
-            namespace='',
-            parameters=[
-                ('motion_servo_parameters_path', None), 
-                ('frame_parameters_path', None)])    
-      
-    rclpy.logging._root_logger.log("****************************************************", LoggingSeverity.INFO) 
-    rclpy.logging._root_logger.log(quad_publisher.get_parameter('motion_servo_parameters_path').get_parameter_value().string_value, LoggingSeverity.INFO)
-    rclpy.logging._root_logger.log("****************************************************", LoggingSeverity.INFO)
-  
-    # TODO handle exceptions
-    motion_servo_parameters_path = quad_publisher.get_parameter('motion_servo_parameters_path').get_parameter_value().string_value
+        namespace='',
+        parameters=[
+            ('motion_servo_parameters_path', None),
+            ('frame_parameters_path', None),
+            ('linked_leg_parameters_path', None)])
+
+    #rclpy.logging._root_logger.log("****************************************************", LoggingSeverity.INFO)
+
+    motion_servo_parameters_path = quad_publisher.get_parameter(
+        'motion_servo_parameters_path').get_parameter_value().string_value
+    frame_parameters_path = quad_publisher.get_parameter(
+        'frame_parameters_path').get_parameter_value().string_value
+    linked_leg_parameters_path = quad_publisher.get_parameter(
+        'linked_leg_parameters_path').get_parameter_value().string_value
+
+    rclpy.logging._root_logger.log(
+        "motion_servo_parameters_path: " + motion_servo_parameters_path, LoggingSeverity.INFO)
+    rclpy.logging._root_logger.log(
+        "frame_parameters_path: " + frame_parameters_path, LoggingSeverity.INFO)
+    rclpy.logging._root_logger.log(
+        "linked_leg_parameters_path: " + linked_leg_parameters_path, LoggingSeverity.INFO)
+
     if path.exists(motion_servo_parameters_path):
         with open(motion_servo_parameters_path, 'r') as stream:
             motion_servo_parameters = yaml.safe_load(stream)
 
-    frame_parameters = {} # temp init     
-    frame_parameters_path = quad_publisher.get_parameter('frame_parameters_path').get_parameter_value().string_value
     if path.exists(frame_parameters_path):
         with open(frame_parameters_path, 'r') as stream:
-            frame_parameters = yaml.safe_load(stream)  
-    
-    
-    quad_commander = QuadCommander(motion_servo_parameters, frame_parameters)
+            frame_parameters = yaml.safe_load(stream)
+
+    if path.exists(linked_leg_parameters_path):
+        with open(linked_leg_parameters_path, 'r') as stream:
+            linked_leg_parameters = yaml.safe_load(stream)
+
+    quad_commander = QuadCommander(
+        motion_servo_parameters, frame_parameters, linked_leg_parameters)
 
     executor = SingleThreadedExecutor()
     executor.add_node(quad_publisher)
@@ -100,14 +118,15 @@ def main(args=None):
 
     while rclpy.ok():
         motion_parameters = joystick_subscriber.get_motion_parameters()
-        servo_pulse_widths = quad_commander.tick(motion_parameters)              
+        servo_pulse_widths = quad_commander.tick(motion_parameters)
         quad_publisher.set_servo_pulse_widths(servo_pulse_widths)
         executor.spin_once()
-    
+
     executor.shutdown()
     quad_publisher.destroy_node()
     joystick_subscriber.destroy_node()
     rclpy.shutdown()
+
 
 if __name__ == '__main__':
     main()

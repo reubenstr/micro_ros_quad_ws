@@ -22,10 +22,11 @@ from src.env_randomizer import EnvRandomizer
 
 class QuadCommander():
 
-    def __init__(self, motion_servo_parameters, frame_parameters):
+    def __init__(self, motion_servo_parameters, frame_parameters, linked_leg_parameters):
 
-        self.motion_servo_parameters = motion_servo_parameters
-        self.frame_parameters = frame_parameters
+        #self.motion_servo_parameters = motion_servo_parameters
+        #self.frame_parameters = frame_parameters
+        
 
         if 1:
             # env
@@ -44,7 +45,7 @@ class QuadCommander():
         else:
             self.bezier_gait = BezierGait(dt=0.01)
 
-        self.kinematics = Kinematics()   
+        self.kinematics = Kinematics(frame_parameters, linked_leg_parameters)   
         self.bezier_stepper = BezierStepper()
         self.servo_control = ServoControl(motion_servo_parameters)
               

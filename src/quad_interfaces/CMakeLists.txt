@@ -35,12 +35,9 @@ endif()
 find_package(rosidl_default_generators REQUIRED)
 
 set(msg_files
-    "msg/MotionServos.msg"
-    "msg/EmergencyStop.msg"
-    "msg/AuxServos.msg")
+    "msg/MotionServos.msg")
 
 rosidl_generate_interfaces(${PROJECT_NAME}
-  ${msg_files}
- )
+  ${msg_files})
 
 ament_package()

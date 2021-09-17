@@ -6,63 +6,31 @@ from collections import OrderedDict
 
 
 class Kinematics:
-    def __init__(self,
-                 shoulder_length=0.055,
-                 upper_leg_length=0.10652,
-                 lower_leg_length=0.145,
-                 hip_x=0.23,
-                 hip_y=0.075,
-                 foot_x=0.23,
-                 foot_y=0.185,
-                 height=0.20,
-                 com_offset=0.016,
-                 shoulder_angle_min=-0.5,
-                 shoulder_angle_max=0.5,
-                 upper_leg_angle_min=-0,
-                 upper_leg_angle_max=np.pi / 2,
-                 lower_leg_angle_min=-np.pi,
-                 lower_leg_angle_max=np.pi):
-       
-        
-        self.frame_parameters_path = "temp" #frame_parameters_path
-    
+    def __init__(self, frame_parameters, linked_leg_parameters):
 
-        
-        """
-        Kinematics
-        """
-        # COM offset in x direction
-        self.com_offset = com_offset
+        self.com_offset = frame_parameters['com_offset']
 
         # Leg Parameters
-        self.shoulder_length = shoulder_length
-        self.upper_leg_length = upper_leg_length
-        self.lower_leg_length = lower_leg_length
+        self.shoulder_length = frame_parameters['shoulder_length']
+        self.upper_leg_length = frame_parameters['upper_leg_length']
+        self.lower_leg_length = frame_parameters['lower_leg_length']
 
         # Leg Vector desired_positions
 
         # Distance Between Hips
         # Length
-        self.hip_x = hip_x
+        self.hip_x = frame_parameters['hip_x']
         # Width
-        self.hip_y = hip_y
+        self.hip_y = frame_parameters['hip_y']
 
         # Distance Between Feet
         # Length
-        self.foot_x = foot_x
+        self.foot_x = frame_parameters['foot_x']
         # Width
-        self.foot_y = foot_y
+        self.foot_y = frame_parameters['foot_y']
 
         # Body Height
-        self.height = height
-
-        # Joint Limits
-        self.shoulder_angle_min = shoulder_angle_min
-        self.shoulder_angle_max = shoulder_angle_max
-        self.upper_leg_angle_min = upper_leg_angle_min
-        self.upper_leg_angle_max = upper_leg_angle_max
-        self.lower_leg_angle_min = lower_leg_angle_min
-        self.lower_leg_angle_max = lower_leg_angle_max
+        self.height = frame_parameters['height']
 
         # Dictionary to store Hip and Foot Transforms
 
@@ -242,7 +210,7 @@ class Kinematics:
         # 4 legs, 3 joints per leg
         joint_angles = np.zeros((4, 3))
 
-        # Steps 1 and 2 of pipeline here
+        # Steps 1 and 2 of pipeline here110
         HipToFoot = self._hip_to_foot(orn, pos, T_bf)
 
         for i, (key, p_hf) in enumerate(HipToFoot.items()):
@@ -250,17 +218,17 @@ class Kinematics:
             joint_angles[i, :] = self._solve_joint_angles(p_hf, key)
 
         return joint_angles.flatten()
-    
+
     def get_joint_angles_linked_legs(self, joint_angles):
-        joint_angles_linked_leg = np.empty(12)   
-        
+        joint_angles_linked_leg = np.empty(12)
+
         # Convert joint angles into joint angles for linked legs
-        for i in range(12):   
-            if i % 3 == 0: # Hip
+        for i in range(12):
+            if i % 3 == 0:  # Hip
                 joint_angles_linked_leg[i] = joint_angles[i]
-            if i % 3 == 1: # Upper leg
+            if i % 3 == 1:  # Upper leg
                 joint_angles_linked_leg[i] = joint_angles[i]
-            if i % 3 == 2: # Lower leg
-                joint_angles_linked_leg[i] = joint_angles[i]     
-        
-        return joint_angles_linked_leg  
+            if i % 3 == 2:  # Lower leg
+                joint_angles_linked_leg[i] = joint_angles[i]
+
+        return joint_angles_linked_leg
