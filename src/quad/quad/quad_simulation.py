@@ -100,10 +100,8 @@ class QuadCommander():
         # env.spot.GetExternalObservations(self.bezier_gait, self.bezier_stepper)
         # step simulation
         state, reward, done, _ = self.env.step(self.action)
-        
-
-
-        joint_angles_linked_leg = self.kinematics.get_joint_angles_linked_legs(joint_angles)
+             
+        joint_angles_linked_leg = self.kinematics.get_joint_angles_linked_legs(joint_angles)  
         servo_pulse_widths = self.servo_control.convert_joint_angles_to_pulse_widths(joint_angles_linked_leg) 
 
         return servo_pulse_widths, joint_angles, joint_angles_linked_leg

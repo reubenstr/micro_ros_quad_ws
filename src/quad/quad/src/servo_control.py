@@ -10,11 +10,7 @@ class ServoControl():
 
     def convert_joint_angles_to_pulse_widths(self, joint_angles):
         servo_pulse_widths = np.empty(12)
-
-        # convert right leg angles to match physical system
-        for i in {4, 5, 10, 11}:
-            joint_angles[i] = joint_angles[i] * -1   
-
+        
         for i in range(12):
             zero_degrees_pulse_width = self.motion_servo_parameters['zero_degrees_pulse_width'][i]
             pulse_width_per_degree = self.motion_servo_parameters['pulse_width_per_degree'][i]
@@ -27,7 +23,10 @@ class ServoControl():
             if joint_angle_degrees < min:
                 joint_angle_degrees = min
 
-            servo_pulse_widths[i] = joint_angle_degrees * \
-                pulse_width_per_degree + zero_degrees_pulse_width
+             # match physical system    
+            if i in {4, 5, 10, 11}:
+                servo_pulse_widths[i] = zero_degrees_pulse_width - joint_angle_degrees *  pulse_width_per_degree
+            else:
+                servo_pulse_widths[i] = joint_angle_degrees *  pulse_width_per_degree + zero_degrees_pulse_width           
 
         return servo_pulse_widths

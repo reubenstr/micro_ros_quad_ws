@@ -8,6 +8,9 @@ from collections import OrderedDict
 class Kinematics:
     def __init__(self, frame_parameters, linked_leg_parameters):
 
+        self.linked_leg_parameters = linked_leg_parameters
+
+
         self.com_offset = frame_parameters['com_offset']
 
         # Leg Parameters
@@ -31,6 +34,8 @@ class Kinematics:
 
         # Body Height
         self.height = frame_parameters['height']
+
+        
 
         # Dictionary to store Hip and Foot Transforms
 
@@ -214,10 +219,10 @@ class Kinematics:
                 joint_angles_linked_leg[i] = joint_angles[i]
             if i % 3 == 2:  # Lower leg
                 # convert joint angles into linked leg kinematics orientation
-                upper_leg_angle = joint_angles[i - 1] - np.pi/2
-                # lower leg angle is relative to upper leg
+                upper_leg_angle = joint_angles[i - 1] - np.pi/2              
                 lower_leg_angle = np.pi - joint_angles[i]
-
+                
+                """
                 # Lower leg servo origin.
                 Ax = -21
                 Ay = -20
@@ -227,15 +232,30 @@ class Kinematics:
                 Dy = 0
 
                 # Link lengths
+              
                 L2 = 23
                 L3 = 31
                 L4 = 24
-                L5 = 22
-                L6 = 24
+                L5 = 28
+                L6 = 29
                 L7 = 105
                 L8 = 100
                 L9 = 23
-
+                
+                """
+                Ax = self.linked_leg_parameters['A']['x'] 
+                Ay = self.linked_leg_parameters['A']['y']    
+                Dx = self.linked_leg_parameters['D']['x'] 
+                Dy = self.linked_leg_parameters['D']['y'] 
+                L2 = self.linked_leg_parameters['L2']
+                L3 = self.linked_leg_parameters['L3']       
+                L4 = self.linked_leg_parameters['L4']
+                L5 = self.linked_leg_parameters['L5']      
+                L6 = self.linked_leg_parameters['L6'] 
+                L7 = self.linked_leg_parameters['L7']   
+                L8 = self.linked_leg_parameters['L8']
+                L9 = self.linked_leg_parameters['L9']
+                
                 L1 = np.sqrt(np.square(Dx - Ax) + np.square(Dy - Ay))
                 theta1 = np.arcsin((Dy - Ay) / L1)
                 beta2 = lower_leg_angle
@@ -267,5 +287,5 @@ class Kinematics:
 
                 # rotate final angle into a the servo calibration orientation
                 joint_angles_linked_leg[i] = theta2 - np.pi / 2
-
+                      
         return joint_angles_linked_leg
