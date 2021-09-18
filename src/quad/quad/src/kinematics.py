@@ -228,7 +228,57 @@ class Kinematics:
                 joint_angles_linked_leg[i] = joint_angles[i]
             if i % 3 == 1:  # Upper leg
                 joint_angles_linked_leg[i] = joint_angles[i]
-            if i % 3 == 2:  # Lower leg
-                joint_angles_linked_leg[i] = joint_angles[i]
+            if i % 3 == 2:  # Lower leg                
+                
+                # convert joint angles into linked leg kinematics orientation
+                upper_leg_angle = joint_angles[i - 1] - np.pi/2                
+                # lower leg angle is relative to upper leg
+                lower_leg_angle = np.pi - joint_angles[i] 
+                
+                # Lower leg servo origin.
+                Ax = -21
+                Ay = -20
+
+                # Upper leg servo crank arm origin.
+                Dx = 0
+                Dy = 0
+
+                # Link lengths
+                L2 = 23
+                L3 = 31
+                L4 = 24
+                L5 = 22
+                L6 = 24
+                L7 = 105
+                L8 = 100
+                L9 = 23             
+ 
+                L1 = np.sqrt(np.square(Dx - Ax) + np.square(Dy - Ay))              
+                theta1 = np.arcsin((Dy - Ay) / L1)                
+                beta2 = lower_leg_angle  
+                theta4 = upper_leg_angle  
+                beta3 = np.pi - beta2
+                DF = np.sqrt(np.square(L8) + np.square(L9) - 2 * L8 * L9 * np.cos(beta3))
+                beta5 = np.arccos((np.square(DF) + np.square(L8) - np.square(L9)) / (2 * DF * L8))
+                
+                beta6_vars = (np.square(L6) + np.square(DF) - np.square(L7)) / (2 * L6 * DF)
+                if beta6_vars > 1:
+                    beta6_vars = 1
+                if beta6_vars < -1:
+                    beta6_vars = -1	
+                beta6 = np.arccos(beta6_vars)                
+                
+                theta5 = beta6 + beta5 + theta4
+                beta4 = np.arccos((np.square(L4) + np.square(L6) - np.square(L5)) / (2 * L4 * L6))
+                theta3 = beta4 + theta5
+                beta9 = np.pi - theta3 + theta1
+                AC = np.sqrt(np.square(L1) + np.square(L4) - 2 * L1 * L4 * np.cos(beta9))
+                beta7 = np.arccos((np.square(L2) + np.square(AC) - np.square(L3)) / (2 * L2 * AC))
+                beta8 = np.arccos((np.square(AC) + np.square(L1) - np.square(L4)) / (2 * AC * L1))
+                theta2 = theta1 + beta8 + beta7
+
+                # rotate final angle into a simpler orientation for servo calibration
+                joint_angles_linked_leg[i] = theta2 -np.pi / 2
+
 
         return joint_angles_linked_leg

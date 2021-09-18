@@ -26,12 +26,12 @@ class QuadCommander():
 
         #self.motion_servo_parameters = motion_servo_parameters
         #self.frame_parameters = frame_parameters
-        
+
 
         if 1:
             # env
             self.env = GymEnv(render=True,
-                              on_rack=False,
+                              on_rack=True,
                               height_field=False,
                               draw_foot_path=False,
                               env_randomizer=None)
@@ -101,10 +101,9 @@ class QuadCommander():
         # step simulation
         state, reward, done, _ = self.env.step(self.action)
         
-        
 
 
         joint_angles_linked_leg = self.kinematics.get_joint_angles_linked_legs(joint_angles)
         servo_pulse_widths = self.servo_control.convert_joint_angles_to_pulse_widths(joint_angles_linked_leg) 
 
-        return servo_pulse_widths
+        return servo_pulse_widths, joint_angles, joint_angles_linked_leg

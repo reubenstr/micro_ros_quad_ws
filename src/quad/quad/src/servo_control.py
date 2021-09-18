@@ -3,7 +3,7 @@
 import numpy as np
 
 class ServoControl():
-  
+
     def __init__(self, motion_servo_parameters):
 
         self.motion_servo_parameters = motion_servo_parameters
@@ -23,6 +23,7 @@ class ServoControl():
             if joint_angle_degrees < min:
                 joint_angle_degrees = min
 
-            servo_pulse_widths[i] = joint_angle_degrees  * pulse_width_per_degree + zero_degrees_pulse_width
+            servo_pulse_widths[i] = joint_angle_degrees * \
+                pulse_width_per_degree + zero_degrees_pulse_width
 
         return servo_pulse_widths
