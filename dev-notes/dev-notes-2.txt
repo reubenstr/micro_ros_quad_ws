@@ -67,7 +67,7 @@ sudo docker cp ecstatic_volhard:/installed_packages.txt .
 _________________________________________________________________________
 
 
-
+sudo pip install transforms3d
 
 
 

@@ -123,10 +123,11 @@ def main(args=None):
         servo_pulse_widths, joint_angles, joint_angles_linked_leg = quad_commander.tick(motion_parameters)
         quad_publisher.set_servo_pulse_widths(servo_pulse_widths)
         
-
+        """
         temp = temp + 1
-        if temp > 5:
+        if temp > 10:
             temp = 0
+            rclpy.logging._root_logger.log("", LoggingSeverity.INFO)    
             rclpy.logging._root_logger.log("servo_pulse_widths[0] : " + str(servo_pulse_widths[0]), LoggingSeverity.INFO)
             rclpy.logging._root_logger.log("servo_pulse_widths[1] : " + str(servo_pulse_widths[1]), LoggingSeverity.INFO)
             rclpy.logging._root_logger.log("servo_pulse_widths[2] : " + str(servo_pulse_widths[2]), LoggingSeverity.INFO)
@@ -136,7 +137,7 @@ def main(args=None):
             rclpy.logging._root_logger.log("[L] FR-HIP [0]  : " + str(joint_angles_linked_leg[0] * 180/np.pi), LoggingSeverity.INFO)
             rclpy.logging._root_logger.log("[L] FR-ULEG [1] : " + str(joint_angles_linked_leg[1] * 180/np.pi), LoggingSeverity.INFO)
             rclpy.logging._root_logger.log("[L] FR-LLEG [2] : " + str(joint_angles_linked_leg[2] * 180/np.pi), LoggingSeverity.INFO)
-
+        """
 
 
 
