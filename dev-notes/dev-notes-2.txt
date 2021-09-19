@@ -1,3 +1,7 @@
+
+
+
+
 Install Ubuntu 20.04
 
 Setup ROS2
@@ -69,6 +73,10 @@ _________________________________________________________________________
 
 sudo pip install transforms3d
 
+_________________________________________________________________________
 
+when adjust parameters
+colcon build must be used so copy the updated file into the share directy
+building a single packages such as quad does not appear to copy the file as required for the new parameters to take effect
 
 
