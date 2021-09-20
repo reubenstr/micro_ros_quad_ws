@@ -1,0 +1,2 @@
+include linked leg kinematics into main kinematics
+this will help create angle limits that are pass through to the simulation
