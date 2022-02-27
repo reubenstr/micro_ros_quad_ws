@@ -1,11 +1,11 @@
-# quad_ws
+# micro_ros_quad_ws
 ROS2 workspace for Zuko, a robot dog! 
 
 ### Status
 
 Inactive.
 
-For the active workspace visit: https://github.com/reubenstr/rpi_quad_ws
+For the active workspace visit: https://github.com/reubenstr/quad_ws
 
 ### Notes
 
