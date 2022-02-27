@@ -1,4 +1,14 @@
 # quad_ws
-Quadruped Robot for ROS2 
+ROS2 workspace Zuko, a robot dog! 
 
-This is a workspace for upgrading the OpenQuadruped into the ROS2 framework. A goal is simplifying and drying the original source code and removing experiemental code. Work in progress. 
+### Status
+
+Inactive.
+
+For the active workspace visit: https://github.com/reubenstr/rpi_quad_ws
+
+### Notes
+
+This workspace uses ROS2 Teensy 4.0 with micro-ros to drive a robot dog. Although this workspace is inactive, the code base is a working example of ROS2 and micro-ros interaction.
+
+See the main project for Zuko's CAD files, PCB's, media, and more, https://github.com/reubenstr/Zuko 
